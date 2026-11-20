@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "start_method": "spawn",
+  "custom_output_honored": true,
+  "source_task": "META64_problem_009816",
+  "converged_step": 181,
+  "no_default_output_pollution": true
+}

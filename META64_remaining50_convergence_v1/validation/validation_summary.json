@@ -13,5 +13,7 @@
   "task_overlap": 0,
   "return_manifest_roundtrip_passed": true,
   "new_API_calls": 0,
-  "unix": 1795146523.289888
+  "unix": 1795146523.289888,
+  "spawn_custom_output_verified": true,
+  "spawn_converged_step": 181
 }

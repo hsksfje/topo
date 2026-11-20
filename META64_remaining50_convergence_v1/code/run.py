@@ -110,7 +110,10 @@ def preflight(cfg):
     print('PREFLIGHT', json.dumps(rows), flush=True)
 
 
-def run_one(record, method, cfg):
+def run_one(record, method, cfg, output=None):
+    global OUT
+    if output is not None:
+        OUT=Path(output)
     task = record['task_id']; folder = OUT/'tasks'/task/method
     folder.mkdir(parents=True, exist_ok=True)
     if (folder/'result.json').exists():
@@ -378,7 +381,7 @@ def main():
         jobs=[(r,m) for r,m in jobs if not (OUT/'tasks'/r['task_id']/m/'result.json').exists()]
         try:
             with ProcessPoolExecutor(max_workers=workers) as pool:
-                pending={pool.submit(run_one,r,m,cfg) for r,m in jobs}
+                pending={pool.submit(run_one,r,m,cfg,str(OUT)) for r,m in jobs}
                 while pending:
                     done,pending=wait(pending,timeout=15,return_when=FIRST_COMPLETED)
                     for future in done:
