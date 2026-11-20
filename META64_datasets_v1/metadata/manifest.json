@@ -1,0 +1,81 @@
+{
+  "schema": "meta-neural-raw-stratified-v1",
+  "status": "complete",
+  "source_record": "https://zenodo.org/records/21893871",
+  "source_root": "/public/home/cairn/topo/Meta_neural_TO_dataset",
+  "source_statistics_sha256": "1e2953e47c6c785828b8f48d1e75aecb5533a265ee1d33cdb3bb0296b9d9a21b",
+  "train": 3000,
+  "validation": 300,
+  "tests": {
+    "test_id": 1000,
+    "test_ood": 1000,
+    "test_cr": 1000
+  },
+  "preliminary": {
+    "train": 1000,
+    "validation": 100,
+    "tests": {
+      "test_id": 300,
+      "test_ood": 300,
+      "test_cr": 300
+    }
+  },
+  "unique_tasks": 6300,
+  "npy_files": 37800,
+  "bytes": 3533076000,
+  "seeds": {
+    "valid300": 2026111901,
+    "train3000": 2026111902,
+    "train1000": 2026111903,
+    "valid100": 2026111904,
+    "test_id300": 2026111905,
+    "test_ood300": 2026111906,
+    "test_cr300": 2026111907,
+    "train100": 2026111908
+  },
+  "group_schema": "meta-square256-D4-global-sign-L2-scale-round10-free-load-no-vf-v1",
+  "manifest_sha256": {
+    "train3000.jsonl": "9cc6cc02ebe222e063fb7b1585dd9dc6b84fac427ef2dae68b186db2e7569c51",
+    "valid300.jsonl": "6f755e4631ec070b1174689025fa0fe4e425ce3865ecb21b61ad2821a15b8988",
+    "train1000.jsonl": "72aa34a62b85a78a6f6f602275288fd58d3726a213606a5357ab70e4cca55e18",
+    "valid100.jsonl": "efbfd9af226461c60c1d93de4fe742cb1476d3e5b3069cce37afc6cb43394529",
+    "test_id1000.jsonl": "1dacf5ddfd66c1ca07b65c4a91c592dac7080e6bf3a54d3993912bc3fad59a52",
+    "test_id300.jsonl": "51a4bdd130d8f82c0da5ffcb566800d015a6671460ac489f909869b4674e55e8",
+    "test_ood1000.jsonl": "87a261f480db677e2b634fd3a54d6198f361eec0e6e5cb18d0023757dc3559c7",
+    "test_ood300.jsonl": "bc4f1248872c3b45a3cdee543de7a28b633e951626e361f5d395fc1596cbf855",
+    "test_cr1000.jsonl": "596cb41b67254830c7f2a0948cf8a9c83d641b9abeb2546fcd846f324fdaf995",
+    "test_cr300.jsonl": "7e4159c385c24ba8676c9ecfc3dd796ce0400a06f6cf1cb44220be1802282b0b",
+    "train100.jsonl": "0c7fad0214006d0b6dca44fd4825d19aeb922b1d44ded82d517bf5a25623e5c0"
+  },
+  "source_arrays_preserved": true,
+  "source_official_valid_copied": false,
+  "no_new_generation": true,
+  "no_training_started": true,
+  "layout": "Raw six-field arrays with manifests; not native initskill-isotropic-task-v1 task folders.",
+  "compatibility_notes": [
+    "OOD fixed-DOF loads preserved; explicit downstream treatment required.",
+    "CR original 256x256 grid and 64x64 physical domain preserved; no silent rescaling.",
+    "Historical full official tests are not all newly unseen."
+  ],
+  "physical_domain_xy": [
+    64,
+    64
+  ],
+  "element_size_by_resolution": {
+    "64": [
+      1.0,
+      1.0
+    ],
+    "256": [
+      0.25,
+      0.25
+    ]
+  },
+  "verification_audit": "audits/selection_verification.json",
+  "pilot100": {
+    "train": 100,
+    "parent": "train1000",
+    "manifest": "manifests/train100.jsonl",
+    "audit": "audits/train100_selection.json"
+  }
+}

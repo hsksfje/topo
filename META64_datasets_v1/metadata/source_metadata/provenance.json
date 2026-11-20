@@ -1,0 +1,48 @@
+[
+  {
+    "source": "Meta_neural_TO_dataset/download_manifest.json",
+    "copy": "download_manifest.json",
+    "sha256": "4e734c169ecd495332fb48540ce77a31f799d1af08d3791b093d03ba77d2a898"
+  },
+  {
+    "source": "Meta_neural_TO_dataset/archive_inventory.json",
+    "copy": "archive_inventory.json",
+    "sha256": "ad3edd071dcf0683c92d6a0fe643c1bf3681fbbf60479930b15438595bb55b7a"
+  },
+  {
+    "source": "Meta_neural_TO_dataset/analysis/dataset_statistics.json",
+    "copy": "dataset_statistics.json",
+    "sha256": "6ef87b95131779a1f048229476b662a5b8bfcf54159abcddf0de3e61f94b0483"
+  },
+  {
+    "source": "Meta_neural_TO_dataset/metadata/zenodo_record_21893871.json",
+    "copy": "zenodo_record_21893871.json",
+    "sha256": "b092fdd728b2bda1bb9b06bac426b5dacff6b904531a06e56a43c8b7dd2f94f8"
+  },
+  {
+    "source": "Meta_neural_TO_dataset/metadata/test_id.yaml",
+    "copy": "test_id.yaml",
+    "sha256": "ab57d8c44deac705a75fb87d1f077f9cb5f24c71d00d27b669e779aef2363c3d"
+  },
+  {
+    "source": "Meta_neural_TO_dataset/metadata/test_ood.yaml",
+    "copy": "test_ood.yaml",
+    "sha256": "e3b8a305d394a7e07e1336409d289eb68c38aab461be66e60e873c0028ffddf7"
+  },
+  {
+    "source": "Meta_neural_TO_dataset/metadata/test_cr.yaml",
+    "copy": "test_cr.yaml",
+    "sha256": "8360cc4f92be99f2bee1699172bf9d18d68514184b5ce853b52462b05f03f768"
+  },
+  {
+    "source": "Meta_neural_TO_dataset/metadata/valid.yaml",
+    "copy": "valid.yaml",
+    "sha256": "266bf084128de8a783733d2281da372d8ae8be176abe41aef97e43534b435a0f"
+  },
+  {
+    "source": "metatopia/data/to/train.yaml",
+    "copy": "author_repository_train.yaml",
+    "sha256": "c811ce9804d356bc9e114f123cc446ca0a68b69b4bd3a1eb9679437d2a17b987",
+    "note": "Author repository configuration, not a file published in Zenodo record."
+  }
+]

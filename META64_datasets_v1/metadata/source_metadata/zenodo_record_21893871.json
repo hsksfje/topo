@@ -1,0 +1,239 @@
+{
+  "created": "2026-08-11T19:47:05.034747+00:00",
+  "modified": "2026-08-11T19:47:05.473730+00:00",
+  "id": 21893871,
+  "conceptrecid": "15172933",
+  "doi": "10.5281/zenodo.21893871",
+  "conceptdoi": "10.5281/zenodo.15172933",
+  "doi_url": "https://doi.org/10.5281/zenodo.21893871",
+  "metadata": {
+    "title": "Meta-neural Topology Optimization: Knowledge Infusion with Meta-learning",
+    "doi": "10.5281/zenodo.21893871",
+    "publication_date": "2026-08-11",
+    "description": "<p>This is a dataset accompanying the publication \"Meta-neural Topology Optimization: Knowledge Infusion with Meta-learning\".</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Kuszczak, Igor",
+        "affiliation": "University College London"
+      },
+      {
+        "name": "Bessa, Miguel",
+        "affiliation": "Brown University",
+        "orcid": "0000-0002-6216-0355"
+      },
+      {
+        "name": "Kus, Gawel",
+        "affiliation": "Brown University",
+        "orcid": "0009-0000-1486-6399"
+      },
+      {
+        "name": "Bosi, Federico",
+        "affiliation": "University College London",
+        "orcid": "0000-0002-3638-5307"
+      }
+    ],
+    "language": "eng",
+    "custom": {
+      "code:codeRepository": "https://github.com/bessagroup/metatopia",
+      "code:programmingLanguage": [
+        {
+          "id": "python",
+          "title": {
+            "en": "Python"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "grants": [
+      {
+        "code": "956547",
+        "internal_id": "10.13039/501100000780::956547",
+        "funder": {
+          "name": "European Commission",
+          "doi": "10.13039/501100000780",
+          "acronym": "EC"
+        },
+        "title": "Ultralight membrane structures towards a sustainable environment",
+        "acronym": "LIGHTEN",
+        "program": "H2020-EU.1.3.",
+        "url": "https://cordis.europa.eu/projects/956547"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 1,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "15172933"
+          }
+        }
+      ]
+    }
+  },
+  "title": "Meta-neural Topology Optimization: Knowledge Infusion with Meta-learning",
+  "links": {
+    "self": "https://zenodo.org/api/records/21893871",
+    "self_html": "https://zenodo.org/records/21893871",
+    "preview_html": "https://zenodo.org/records/21893871?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.21893871",
+    "self_doi": "https://doi.org/10.5281/zenodo.21893871",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21893871",
+    "reserve_doi": "https://zenodo.org/api/records/21893871/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/15172933",
+    "parent_html": "https://zenodo.org/records/15172933",
+    "parent_doi": "https://doi.org/10.5281/zenodo.15172933",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15172933",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21893871/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21893871/sequence/default",
+    "files": "https://zenodo.org/api/records/21893871/files",
+    "media_files": "https://zenodo.org/api/records/21893871/media-files",
+    "latest": "https://zenodo.org/api/records/21893871/versions/latest",
+    "latest_html": "https://zenodo.org/records/21893871/latest",
+    "versions": "https://zenodo.org/api/records/21893871/versions",
+    "draft": "https://zenodo.org/api/records/21893871/draft",
+    "access_links": "https://zenodo.org/api/records/21893871/access/links",
+    "access_grants": "https://zenodo.org/api/records/21893871/access/grants",
+    "access_users": "https://zenodo.org/api/records/21893871/access/users",
+    "access_request": "https://zenodo.org/api/records/21893871/access/request",
+    "access": "https://zenodo.org/api/records/21893871/access",
+    "communities": "https://zenodo.org/api/records/21893871/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/21893871/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/21893871/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/21893871/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/21893871/quota-increase",
+    "requests": "https://zenodo.org/api/records/21893871/requests"
+  },
+  "updated": "2026-08-11T19:47:05.473730+00:00",
+  "recid": "21893871",
+  "revision": 4,
+  "files": [
+    {
+      "id": "19db93cd-8a9d-48bf-acdc-1414944a6760",
+      "key": "test_id.yaml",
+      "size": 98,
+      "checksum": "md5:2497f8bfaaba608a4b72c4475f659d2e",
+      "links": {
+        "self": "https://zenodo.org/api/records/21893871/files/test_id.yaml/content"
+      }
+    },
+    {
+      "id": "9c6bb941-cfae-4e80-9284-1ed137ce7657",
+      "key": "README.md",
+      "size": 1530,
+      "checksum": "md5:c77adbd7b146e46573f631cdfe8d683c",
+      "links": {
+        "self": "https://zenodo.org/api/records/21893871/files/README.md/content"
+      }
+    },
+    {
+      "id": "26202cba-e97a-4a95-87b8-167e223d375a",
+      "key": "valid.7z",
+      "size": 2873249,
+      "checksum": "md5:e507cc22b5454f48b1f35413fc89b5be",
+      "links": {
+        "self": "https://zenodo.org/api/records/21893871/files/valid.7z/content"
+      }
+    },
+    {
+      "id": "40b65fce-5a5a-4958-a639-8483c2a526bb",
+      "key": "test_ood.7z",
+      "size": 27843578,
+      "checksum": "md5:6137a1c7043c95eb9add3e9b55dbb826",
+      "links": {
+        "self": "https://zenodo.org/api/records/21893871/files/test_ood.7z/content"
+      }
+    },
+    {
+      "id": "45a86804-e3b5-4676-bcf5-c3a4cb33c966",
+      "key": "valid.yaml",
+      "size": 101,
+      "checksum": "md5:b7589b710316b81e42081f16f82c5e62",
+      "links": {
+        "self": "https://zenodo.org/api/records/21893871/files/valid.yaml/content"
+      }
+    },
+    {
+      "id": "035f7185-af83-40c5-8a57-063600376de4",
+      "key": "test_ood.yaml",
+      "size": 99,
+      "checksum": "md5:82c91041a0fad27fb87c63ad7f6ed219",
+      "links": {
+        "self": "https://zenodo.org/api/records/21893871/files/test_ood.yaml/content"
+      }
+    },
+    {
+      "id": "abbf1bb3-85f5-4555-9551-8b1c89282a3f",
+      "key": "train.7z",
+      "size": 843787371,
+      "checksum": "md5:9ca8d59345f023a983ebd1b9bd7dee65",
+      "links": {
+        "self": "https://zenodo.org/api/records/21893871/files/train.7z/content"
+      }
+    },
+    {
+      "id": "ebf1f0fe-2ad5-4eac-bc2c-d877b4949b85",
+      "key": "test_cr.7z",
+      "size": 413496356,
+      "checksum": "md5:e391f55bdf7eb7ab8513b6c8ef6a6b94",
+      "links": {
+        "self": "https://zenodo.org/api/records/21893871/files/test_cr.7z/content"
+      }
+    },
+    {
+      "id": "5e33a593-7119-4dd0-9634-0bcdc5e3091c",
+      "key": "checkpoints.7z",
+      "size": 1996756,
+      "checksum": "md5:322c5b7564e779e5e316d3256bda5406",
+      "links": {
+        "self": "https://zenodo.org/api/records/21893871/files/checkpoints.7z/content"
+      }
+    },
+    {
+      "id": "489f417a-b4f6-4bae-8aa8-3824a84ca2a6",
+      "key": "test_cr.yaml",
+      "size": 100,
+      "checksum": "md5:a272cfdd65d33016ec3b3dab5fdbf70e",
+      "links": {
+        "self": "https://zenodo.org/api/records/21893871/files/test_cr.yaml/content"
+      }
+    },
+    {
+      "id": "f742ad09-b707-451d-8bec-9d4f955e4b6c",
+      "key": "test_id.7z",
+      "size": 28119729,
+      "checksum": "md5:8176dc172e63e33335cdb527f8001de5",
+      "links": {
+        "self": "https://zenodo.org/api/records/21893871/files/test_id.7z/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1297445"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 266,
+    "unique_downloads": 264,
+    "views": 191,
+    "unique_views": 180,
+    "version_downloads": 122,
+    "version_unique_downloads": 120,
+    "version_unique_views": 36,
+    "version_views": 38
+  },
+  "state": "done",
+  "submitted": true
+}

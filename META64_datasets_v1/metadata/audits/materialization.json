@@ -1,0 +1,9 @@
+{
+  "tasks": 6300,
+  "npy_files": 37800,
+  "bytes": 3533076000,
+  "per_file_source_sha256_recorded": true,
+  "per_write_length_checked": true,
+  "destination_sample_sha256_checks": 90,
+  "native_solver_conversion_performed": false
+}

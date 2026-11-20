@@ -1,0 +1,26 @@
+{
+  "group_schema": "meta-square256-D4-global-sign-L2-scale-round10-free-load-no-vf-v1",
+  "comparison_lattice": 256,
+  "force_round_decimals": 10,
+  "domain_xy": [
+    64,
+    64
+  ],
+  "volume_excluded_from_group": true,
+  "source_train_excluded_for_test_equivalence": [],
+  "duplicate_train_representatives_dropped": [],
+  "train_valid_group_overlap": 0,
+  "train_test_group_overlap": 0,
+  "valid_test_group_overlap": 0,
+  "source_split_groups": {
+    "test_id": 1000,
+    "test_ood": 1000,
+    "test_cr": 1000
+  },
+  "test_test_group_overlaps": {
+    "test_id__test_ood": 0,
+    "test_id__test_cr": 0,
+    "test_ood__test_cr": 0
+  },
+  "guarantees": "Disjoint under declared canonical equality, not an exhaustive fuzzy-neighbour or arbitrary physical-equivalence proof."
+}

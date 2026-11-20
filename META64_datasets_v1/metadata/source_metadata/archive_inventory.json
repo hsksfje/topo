@@ -1,0 +1,37 @@
+[
+  {
+    "archive": "test_cr.7z",
+    "tasks": 1000,
+    "npy_files": 6000,
+    "all_tasks_have_six_fields": true,
+    "archive_bytes": 413496356
+  },
+  {
+    "archive": "test_id.7z",
+    "tasks": 1000,
+    "npy_files": 6000,
+    "all_tasks_have_six_fields": true,
+    "archive_bytes": 28119729
+  },
+  {
+    "archive": "test_ood.7z",
+    "tasks": 1000,
+    "npy_files": 6000,
+    "all_tasks_have_six_fields": true,
+    "archive_bytes": 27843578
+  },
+  {
+    "archive": "train.7z",
+    "tasks": 30000,
+    "npy_files": 180000,
+    "all_tasks_have_six_fields": true,
+    "archive_bytes": 843787371
+  },
+  {
+    "archive": "valid.7z",
+    "tasks": 100,
+    "npy_files": 600,
+    "all_tasks_have_six_fields": true,
+    "archive_bytes": 2873249
+  }
+]

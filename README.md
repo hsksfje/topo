@@ -15,3 +15,10 @@ python -u code/run.py --stage run
 ```
 
 完整环境、Windows后台运行、暂停恢复、输出回传和100任务合并见运行包README。
+
+## 完整数据与新100任务
+
+- [META64完整分层数据包：训练3000、验证300、三类测试各1000](META64_datasets_v1/README.md)
+- [新100任务：Conda环境、原始数据到38种初始化及收敛](META64_fresh_tasks_v1/README.md)
+
+新100从train1000排除原100条及等价物理组后抽取，体积分数十档各10条。原始3.53 GB数据分片压缩约660 MB；只运行本次100条需准备约32.4 MB的训练分片。

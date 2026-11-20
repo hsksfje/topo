@@ -1,0 +1,574 @@
+{
+  "scope": "Only existing data/META64_tasks_v1 index and provenance. Not an exhaustive project/chat/LLM exposure scan.",
+  "known_source_tasks": [
+    {
+      "source_key": "train/problem_000000",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_27fa117bd72f3228/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000001",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_92c2219148d43855/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000002",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_9d21b66ef13c138b/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000003",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_c4e0ec4bde1a058c/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000004",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_f4a48a57612737c8/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000005",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_20d8722601877e49/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000006",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_130fa35273cc1546/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000007",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_41cc307d8904063b/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000008",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_8f7724438251043b/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000009",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_155a0786bfe4824a/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000010",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_bce4636013b3d75c/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000011",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_365e4703985f9d23/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000012",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_92d407e79a6c6825/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000013",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_4e757555aa484ef9/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000014",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_200bda7daba9fdd5/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000015",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_507621773f8db1f4/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000016",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_bf1241513f36f148/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000017",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_0cf58bef4f1c49a9/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000018",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_d8af6f9f4919cb11/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000019",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_85094469e31f063d/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000020",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_00071a2f9dd0b8bd/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000021",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_ec2acdc5e8b2e570/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000022",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_635dbefee78dcb63/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000023",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_74474dfc5bcf1524/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000024",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_c200a81f03d2f3c0/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000025",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_49280c87803730f0/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000026",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_1de89298259edf01/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000027",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_e89acd4247fe7bbc/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000028",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_315682b0d5bb24e9/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000029",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_442dc11e9551f139/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000030",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_191d35496ea78c01/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000031",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_7866a2b5bc1f6a4a/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000032",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_f668c0a161767741/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000033",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_75b8f0b28584b23d/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000034",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_218a51cd17e2c2ee/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000035",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_c7ab2295e66ff3ac/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000036",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_81eb6a324643b4f3/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000037",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_f318cb0ace2e7e7d/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000038",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_7bfed6d7b273a9f2/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000039",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_67d9d8ea53813345/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000040",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_e2bda7ea893cbb3d/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000041",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_a4a70f1148a7a8ed/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000042",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_1ae8657a95ff279a/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000043",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_cdf5430ab2c296c3/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000044",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_8bd5b700337fba46/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000045",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_3eb61fc30846e3e3/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000046",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_deaeb843ef1f3394/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000047",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_253b2c742741929d/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000048",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_ff8c533a5f69e206/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000049",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_46085bd2dea31362/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000050",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_f8cae9854a6ee3b8/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000051",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_c20a79dbc56d1fb8/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000052",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_65330afbdb2849d2/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000053",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_f0df2a8ec3191f05/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000054",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_53f64f3217b201d3/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000055",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_2a8ddd40a0b7da53/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000056",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_003934c48e9d529c/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000057",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_9eb58d456a899aa7/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000058",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_ce78a0cca285f8e2/source_input.json"
+    },
+    {
+      "source_key": "train/problem_000059",
+      "historical_split": "train",
+      "evidence": "data/META64_tasks_v1/tasks/META64_cbf4798b2e6bdffa/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030000",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_f3336a844de66648/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030001",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_7ec0f53790ba369b/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030002",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_e32c4bbd9232b81f/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030003",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_793612f09550e45c/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030004",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_3c726c613aec200a/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030005",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_fd3706710aff8c14/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030006",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_0fb993d7a2b38e21/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030007",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_390850bcfa0245a4/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030008",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_7e7ecad78e18fb91/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030009",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_3039e94823ace383/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030010",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_0839ee0ea27df479/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030011",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_4003fb6123908354/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030012",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_45d4252c23d205b1/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030013",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_727474d3f43c684d/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030014",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_5ea10070164c8442/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030015",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_1ff96a47b054a0f1/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030016",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_6642e9ae14925877/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030017",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_3aee2af62d9fda87/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030018",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_6e975bf9cdd700fd/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030019",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_39668a5a2900ceb9/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030020",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_b4bd22dddfc7481d/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030021",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_a9eeb987a86edafe/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030022",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_489e580833365140/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030023",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_bb1cdbe8387db282/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030024",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_7bb35fc48a8138ef/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030025",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_fd81e6b5d41f6dfa/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030026",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_8fd2f018d8c8a577/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030027",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_d50007e9a7554ea0/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030028",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_54751e29b51b118f/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030029",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_21ba63e27ab0df4b/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030030",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_33733eec8b290487/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030031",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_3ec25c3d79862ff6/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030032",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_725d37e1372848ad/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030033",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_26f07d6579fefb5c/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030034",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_e8079f8b6fb371eb/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030035",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_52d82f27be07368d/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030036",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_a72519eda8ba2e72/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030037",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_e8ffce556cd63f86/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030038",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_d31321e0983f557b/source_input.json"
+    },
+    {
+      "source_key": "test_id/problem_030039",
+      "historical_split": "test",
+      "evidence": "data/META64_tasks_v1/tasks/META64_0eb046f37162cfed/source_input.json"
+    }
+  ],
+  "known_exposed_in_splits": {
+    "train3000": [
+      "train/problem_000008",
+      "train/problem_000012",
+      "train/problem_000018",
+      "train/problem_000022",
+      "train/problem_000035",
+      "train/problem_000044",
+      "train/problem_000049",
+      "train/problem_000053"
+    ],
+    "valid300": [],
+    "train1000": [
+      "train/problem_000008",
+      "train/problem_000035"
+    ],
+    "valid100": [],
+    "test_id1000": [
+      "test_id/problem_030000",
+      "test_id/problem_030001",
+      "test_id/problem_030002",
+      "test_id/problem_030003",
+      "test_id/problem_030004",
+      "test_id/problem_030005",
+      "test_id/problem_030006",
+      "test_id/problem_030007",
+      "test_id/problem_030008",
+      "test_id/problem_030009",
+      "test_id/problem_030010",
+      "test_id/problem_030011",
+      "test_id/problem_030012",
+      "test_id/problem_030013",
+      "test_id/problem_030014",
+      "test_id/problem_030015",
+      "test_id/problem_030016",
+      "test_id/problem_030017",
+      "test_id/problem_030018",
+      "test_id/problem_030019",
+      "test_id/problem_030020",
+      "test_id/problem_030021",
+      "test_id/problem_030022",
+      "test_id/problem_030023",
+      "test_id/problem_030024",
+      "test_id/problem_030025",
+      "test_id/problem_030026",
+      "test_id/problem_030027",
+      "test_id/problem_030028",
+      "test_id/problem_030029",
+      "test_id/problem_030030",
+      "test_id/problem_030031",
+      "test_id/problem_030032",
+      "test_id/problem_030033",
+      "test_id/problem_030034",
+      "test_id/problem_030035",
+      "test_id/problem_030036",
+      "test_id/problem_030037",
+      "test_id/problem_030038",
+      "test_id/problem_030039"
+    ],
+    "test_id300": [],
+    "test_ood1000": [],
+    "test_ood300": [],
+    "test_cr1000": [],
+    "test_cr300": [],
+    "train100": [
+      "train/problem_000008"
+    ]
+  },
+  "policy": "New validation and preliminary tests exclude known groups; official full test sets remain unchanged."
+}

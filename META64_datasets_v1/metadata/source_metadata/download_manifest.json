@@ -1,0 +1,78 @@
+{
+  "record": "https://zenodo.org/records/21893871",
+  "excluded": [
+    "checkpoints.7z"
+  ],
+  "files": [
+    {
+      "file": "metadata/test_id.yaml",
+      "bytes": 98,
+      "md5": "2497f8bfaaba608a4b72c4475f659d2e",
+      "source": "https://zenodo.org/api/records/21893871/files/test_id.yaml/content",
+      "verified": true
+    },
+    {
+      "file": "metadata/README.md",
+      "bytes": 1530,
+      "md5": "c77adbd7b146e46573f631cdfe8d683c",
+      "source": "https://zenodo.org/api/records/21893871/files/README.md/content",
+      "verified": true
+    },
+    {
+      "file": "archives/valid.7z",
+      "bytes": 2873249,
+      "md5": "e507cc22b5454f48b1f35413fc89b5be",
+      "source": "https://zenodo.org/api/records/21893871/files/valid.7z/content",
+      "verified": true
+    },
+    {
+      "file": "archives/test_ood.7z",
+      "bytes": 27843578,
+      "md5": "6137a1c7043c95eb9add3e9b55dbb826",
+      "source": "https://zenodo.org/api/records/21893871/files/test_ood.7z/content",
+      "verified": true
+    },
+    {
+      "file": "metadata/valid.yaml",
+      "bytes": 101,
+      "md5": "b7589b710316b81e42081f16f82c5e62",
+      "source": "https://zenodo.org/api/records/21893871/files/valid.yaml/content",
+      "verified": true
+    },
+    {
+      "file": "metadata/test_ood.yaml",
+      "bytes": 99,
+      "md5": "82c91041a0fad27fb87c63ad7f6ed219",
+      "source": "https://zenodo.org/api/records/21893871/files/test_ood.yaml/content",
+      "verified": true
+    },
+    {
+      "file": "archives/train.7z",
+      "bytes": 843787371,
+      "md5": "9ca8d59345f023a983ebd1b9bd7dee65",
+      "source": "https://zenodo.org/api/records/21893871/files/train.7z/content",
+      "verified": true
+    },
+    {
+      "file": "archives/test_cr.7z",
+      "bytes": 413496356,
+      "md5": "e391f55bdf7eb7ab8513b6c8ef6a6b94",
+      "source": "https://zenodo.org/api/records/21893871/files/test_cr.7z/content",
+      "verified": true
+    },
+    {
+      "file": "metadata/test_cr.yaml",
+      "bytes": 100,
+      "md5": "a272cfdd65d33016ec3b3dab5fdbf70e",
+      "source": "https://zenodo.org/api/records/21893871/files/test_cr.yaml/content",
+      "verified": true
+    },
+    {
+      "file": "archives/test_id.7z",
+      "bytes": 28119729,
+      "md5": "8176dc172e63e33335cdb527f8001de5",
+      "source": "https://zenodo.org/api/records/21893871/files/test_id.7z/content",
+      "verified": true
+    }
+  ]
+}

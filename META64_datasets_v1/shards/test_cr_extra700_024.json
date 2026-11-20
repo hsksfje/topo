@@ -1,0 +1,33 @@
+{
+  "name": "test_cr_extra700_024",
+  "path": "shards/test_cr_extra700_024.zip",
+  "sha256": "fc76aae489c6483cd2153efa4ebdb00e433096b2822f76dbfe6b7c2db0c8889c",
+  "bytes": 1959266,
+  "tasks": 4,
+  "members": [
+    "raw/test_cr/problem_000996_forces.npy",
+    "raw/test_cr/problem_000996_id.npy",
+    "raw/test_cr/problem_000996_normals.npy",
+    "raw/test_cr/problem_000996_reference_compliance.npy",
+    "raw/test_cr/problem_000996_strain_energy.npy",
+    "raw/test_cr/problem_000996_target_vf.npy",
+    "raw/test_cr/problem_000997_forces.npy",
+    "raw/test_cr/problem_000997_id.npy",
+    "raw/test_cr/problem_000997_normals.npy",
+    "raw/test_cr/problem_000997_reference_compliance.npy",
+    "raw/test_cr/problem_000997_strain_energy.npy",
+    "raw/test_cr/problem_000997_target_vf.npy",
+    "raw/test_cr/problem_000998_forces.npy",
+    "raw/test_cr/problem_000998_id.npy",
+    "raw/test_cr/problem_000998_normals.npy",
+    "raw/test_cr/problem_000998_reference_compliance.npy",
+    "raw/test_cr/problem_000998_strain_energy.npy",
+    "raw/test_cr/problem_000998_target_vf.npy",
+    "raw/test_cr/problem_000999_forces.npy",
+    "raw/test_cr/problem_000999_id.npy",
+    "raw/test_cr/problem_000999_normals.npy",
+    "raw/test_cr/problem_000999_reference_compliance.npy",
+    "raw/test_cr/problem_000999_strain_energy.npy",
+    "raw/test_cr/problem_000999_target_vf.npy"
+  ]
+}

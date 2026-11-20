@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "counts": {
+    "train3000": 3000,
+    "train1000": 1000,
+    "valid300": 300,
+    "valid100": 100,
+    "test_id1000": 1000,
+    "test_id300": 300,
+    "test_ood1000": 1000,
+    "test_ood300": 300,
+    "test_cr1000": 1000,
+    "test_cr300": 300,
+    "train100": 100
+  },
+  "nested_subsets_checked": true,
+  "quota_bins_checked": true,
+  "all_manifest_sha256_checked": true,
+  "train_valid_test_group_intersections": 0,
+  "five_role_array_reading_examples_checked": true,
+  "independent_copies_checked": true,
+  "note": "No FE solves, optimizer steps, LLM calls or training performed.",
+  "train100_additional_audit": "audits/train100_selection.json"
+}
