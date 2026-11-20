@@ -1,0 +1,28 @@
+{
+  "source_hashes": {
+    "vendor/physics.py": "3b2d643b2098cdbe5832aefb579b3cc7414df39c9f44ab63fd86f35b6b709ee2",
+    "vendor/io.py": "8d74bf7cb47544f3fc6bb4a119938eb1b5f792b47e04a3773291c77adc155ef1",
+    "vendor/initializers.py": "b85c96ab21beea78cc5162c3afb02e143f67ef58b7b33ead3ad6742ab9397a63",
+    "vendor/sensitivity_initializers.py": "3221544d4e7f6196bad390af21af6c84e50fdcd9137da7fa9882957327bbed10",
+    "vendor/literature_initializers.py": "19bcfcaa74621acd5afe734aa062fed2eb03d80b7e21a4458f30576f97e058c9",
+    "vendor/methods/trajectory_skill50_v1/geometry.py": "3093754cdb850d44360d79109cab137d62a06ef8ad26cee3eb3056a3a3c8ef62",
+    "vendor/methods/trajectory_skill50_v1/evaluator.py": "3966c7747be183882afb2a9fd7cf4a10ca550fa56a310d73867a94335a5699fa",
+    "six_LLM_source": "8f6122bc3d675f9ca3c99faebf62ceafd91b3e881ee905c931c604a6e14893d9",
+    "extensions_source": "205fb3535bc488d97d7a06d37cd3d9a409e6bccb3fe733afcc5e943f9e7e6b9c",
+    "task_protocol_source": "1e63cbae09f243f1ecec8293a9052584d5d8cea6015958d3a8b69918d1acb01a",
+    "extra_initializers_source": "9b80e7211c86257904aa12baa2efb275ad1f680e99197968ae679b15621c8ae6",
+    "extra50_source": "8e10aec9aea67bcac51b33fe325e086f5a775754a195040ad3d242d99fba1e21",
+    "code_execution_source": "7180492f86d6c6b87e8dc1f47f1e9d7e0caba96835a8c956003a0a2ebed688e3",
+    "API_protocol_source": "0120584bfd553085f02f398f4e5e6ef48ca1335e7d10e767a715d0b048214428"
+  },
+  "patches": [
+    "standalone relative paths",
+    "extracted only required protocol definitions",
+    "Windows file locking and child resource limits",
+    "64x64 observation coarsening matching original META64",
+    "token-only API ledger; no tariff estimate",
+    "CPU available minus one",
+    "Explicit UTF-8 text IO and UTF-8-BOM-compatible local credentials for Windows"
+  ],
+  "mathematical_solver_or_initializer_changes": false
+}

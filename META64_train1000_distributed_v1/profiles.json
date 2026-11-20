@@ -1,0 +1,29 @@
+{
+  "local200": {
+    "manifest": "manifests/local200.jsonl",
+    "tasks": 200,
+    "max_api_calls": 2200,
+    "output_subdir": "local200_run01",
+    "first_source_task": "problem_000088",
+    "last_source_task": "problem_007709",
+    "manifest_sha256": "093615b75b0469a007513a525708abae96672938f00fdab564549a3ba80beb4b"
+  },
+  "deviceA300": {
+    "manifest": "manifests/deviceA300.jsonl",
+    "tasks": 300,
+    "max_api_calls": 3300,
+    "output_subdir": "deviceA300_run01",
+    "first_source_task": "problem_007726",
+    "last_source_task": "problem_018425",
+    "manifest_sha256": "f7bc3128184b60acf061d1419c7d206921ff44bedfc3086e19f7adb004f8f60c"
+  },
+  "deviceB300": {
+    "manifest": "manifests/deviceB300.jsonl",
+    "tasks": 300,
+    "max_api_calls": 3300,
+    "output_subdir": "deviceB300_run01",
+    "first_source_task": "problem_018439",
+    "last_source_task": "problem_029991",
+    "manifest_sha256": "e53f98472f4e00dec2c591b9c0ebd3b1cd479d79ed936e528badafd1e2247860"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "source_package": "/public/home/cairn/topo/InitSkill-Lab/portable/META64_fresh_tasks_v1",
+  "source_package_identity": {
+    "sha256": "22c9d50771a5b35469bdb5dcce15cfb1bba96f8b687d49544da504c2b9a78441"
+  },
+  "change_scope": "Task assignment, profile-aware caps, output routing only. Same38 methods, model and convergence settings."
+}

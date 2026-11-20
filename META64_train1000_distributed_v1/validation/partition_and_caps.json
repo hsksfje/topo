@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "profiles": {
+    "local200": {
+      "tasks": 200,
+      "max_api_calls": 2200
+    },
+    "deviceA300": {
+      "tasks": 300,
+      "max_api_calls": 3300
+    },
+    "deviceB300": {
+      "tasks": 300,
+      "max_api_calls": 3300
+    }
+  },
+  "all_remaining_tasks": 800,
+  "all_unique_groups": 800,
+  "source_goal_tasks": 1000,
+  "task_overlap": [],
+  "group_overlap": [],
+  "over_cap_rejected": true,
+  "no_sampling": true,
+  "actual_external_API_calls": 0,
+  "unix": 1795166688.8534102
+}

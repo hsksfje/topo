@@ -1,0 +1,8 @@
+{
+  "source_runtime_package_identity": {
+    "sha256": "c711d581876f1b2c03c834a62cb865f356b60e35a9214a21ea902c3d563b8a4f"
+  },
+  "publication_changes": "README CPU observation only: current local host has6 available CPUs and uses5 workers; runtime code and task manifests identical.",
+  "all_code_and_task_files_identical": true,
+  "unix": 1795167021.4107957
+}

@@ -1,5 +1,12 @@
 # META64 数据与拓扑优化初始化实验
 
+## 最新：跑完train1000，剩余按200＋300＋300分设备
+
+[三设备分配清单、独立启动脚本与README](META64_train1000_distributed_v1/README.md)。排除最早100和另一设备正在跑的新增100，剩余800按原train1000清单顺序分为本机200、设备A300、设备B300；不抽样、不重叠，总计覆盖1000。
+
+设备A：`python -u run_deviceA300.py`；设备B：`python -u run_deviceB300.py`。先按该目录README激活环境、准备train1000数据并配置本地API密钥。三批API上限2200/3300/3300，已获得用户明确的外部数据发送及付费调用授权。
+
+
 ## 本次：新100任务，从头运行全部38种方法
 
 [完整运行说明与Conda环境](META64_fresh_tasks_v1/README.md)
