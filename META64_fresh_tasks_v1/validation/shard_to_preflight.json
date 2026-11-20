@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "subset": "train100_new100",
+  "required_arrays": 600,
+  "source": "ZIP shards extracted into independent /tmp directory",
+  "code_preflight_passed": true,
+  "actual_external_API_calls": 0
+}
