@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "method": "U",
+      "re_evaluated_C50_relative_error": 0.0,
+      "C55": 16.537396087109773,
+      "six_FE_seconds": 1.3627387918531895,
+      "resume50_plus5_equals_fresh55": true
+    },
+    {
+      "method": "A1",
+      "re_evaluated_C50_relative_error": 0.0,
+      "C55": 17.791370126750074,
+      "six_FE_seconds": 1.2467077374458313
+    },
+    {
+      "method": "COARSE80_MPC",
+      "re_evaluated_C50_relative_error": 0.0,
+      "C55": 16.522994873792506,
+      "six_FE_seconds": 1.197680139914155
+    }
+  ],
+  "additional_FE": 74,
+  "unix": 1795146441.1810222,
+  "new_API_calls": 0
+}

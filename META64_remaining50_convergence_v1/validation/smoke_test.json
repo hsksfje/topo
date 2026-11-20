@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "result": {
+    "task_id": "META64_problem_009816",
+    "method": "U",
+    "status": "converged",
+    "step": 181,
+    "C50": 16.540202954294195,
+    "Cend": 16.51346483078919,
+    "additional_OC": 131,
+    "end_density_change": 0.00667288721960535,
+    "end_relative_compliance_change": 2.2873843916182893e-06,
+    "cost": {
+      "attempted_FE": 132,
+      "recovery_FE": 1,
+      "update_FE": 131,
+      "continuation_seconds": 21.135883567854762,
+      "pending": false
+    },
+    "source": "data/trajectories/META64_problem_009816/U",
+    "completed_unix": 1795146464.8543198
+  },
+  "unix": 1795146464.8548713
+}

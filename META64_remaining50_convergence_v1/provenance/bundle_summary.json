@@ -1,0 +1,16 @@
+{
+  "tasks": 50,
+  "methods": 38,
+  "planned": 1900,
+  "source_statuses": {
+    "complete": 1891,
+    "invalid": 9
+  },
+  "no_API": true,
+  "no_credentials_packaged": true,
+  "default_workers": "available logical CPUs minus one",
+  "per_worker_numeric_threads": 1,
+  "standalone_runtime": true,
+  "tests_pending": false,
+  "validation": "validation/validation_summary.json"
+}

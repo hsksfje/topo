@@ -1,0 +1,10 @@
+{
+  "status": "invalid",
+  "C0": null,
+  "C50": null,
+  "error": {
+    "status": "invalid",
+    "error_type": "ValueError",
+    "error": "Only allowlisted NumPy calls permitted"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "task_id": "META64_problem_018866",
+  "method": "OC5_PREOPT",
+  "status": "complete",
+  "C0": 27.909661738446164,
+  "C50": 19.764809181442693,
+  "updates": 50,
+  "cost": {
+    "attempted_fine_FE": 57,
+    "initialization_fine_FE": 6,
+    "attempted_coarse_FE": 0,
+    "pending_fine": false
+  },
+  "seconds": 5.644934831187129,
+  "max_residual": 1.0107953016686889e-13
+}

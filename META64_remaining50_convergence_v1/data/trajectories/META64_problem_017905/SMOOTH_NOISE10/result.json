@@ -1,0 +1,16 @@
+{
+  "task_id": "META64_problem_017905",
+  "method": "SMOOTH_NOISE10",
+  "status": "complete",
+  "C0": 6646.98796774227,
+  "C50": 114.25785608663845,
+  "updates": 50,
+  "cost": {
+    "attempted_fine_FE": 51,
+    "initialization_fine_FE": 0,
+    "attempted_coarse_FE": 0,
+    "pending_fine": false
+  },
+  "seconds": 5.862094193696976,
+  "max_residual": 9.914358326157916e-13
+}

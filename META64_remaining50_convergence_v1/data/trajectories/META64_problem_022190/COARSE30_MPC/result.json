@@ -1,0 +1,17 @@
+{
+  "task_id": "META64_problem_022190",
+  "method": "COARSE30_MPC",
+  "status": "complete",
+  "C0": 35.45554143909581,
+  "C50": 30.279327570088466,
+  "updates": 50,
+  "cost": {
+    "attempted_fine_FE": 51,
+    "initialization_fine_FE": 0,
+    "attempted_coarse_FE": 31,
+    "pending_coarse": false,
+    "pending_fine": false
+  },
+  "seconds": 5.9640593733638525,
+  "max_residual": 9.422938483952475e-14
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "initskill-isotropic-task-v1",
+  "task_id": "META64_problem_022190",
+  "family": "META64",
+  "split": "train",
+  "group_id": "5ece878fed126a49a62b027c9bc18a1fe6fccfb925a79d8a270d6753894a1de9",
+  "elements_xy": [
+    64,
+    64
+  ],
+  "volume_fraction": 0.17244948285147993,
+  "source_key": "train/problem_022190",
+  "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+  "source_optimization_results_used": false
+}

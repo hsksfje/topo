@@ -1,0 +1,16 @@
+{
+  "task_id": "META64_problem_014400",
+  "method": "STRESS_TRAJ_B025",
+  "status": "complete",
+  "C0": 111.71774626829185,
+  "C50": 11.644787310742268,
+  "updates": 50,
+  "cost": {
+    "attempted_fine_FE": 52,
+    "initialization_fine_FE": 1,
+    "attempted_coarse_FE": 0,
+    "pending_fine": false
+  },
+  "seconds": 7.159665860235691,
+  "max_residual": 3.0149017262740575e-13
+}

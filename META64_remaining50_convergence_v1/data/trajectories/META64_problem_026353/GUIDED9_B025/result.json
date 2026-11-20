@@ -1,0 +1,16 @@
+{
+  "task_id": "META64_problem_026353",
+  "method": "GUIDED9_B025",
+  "status": "complete",
+  "C0": 4216.741932012582,
+  "C50": 116.97767654348267,
+  "updates": 50,
+  "cost": {
+    "attempted_fine_FE": 52,
+    "initialization_fine_FE": 1,
+    "attempted_coarse_FE": 0,
+    "pending_fine": false
+  },
+  "seconds": 7.833824483677745,
+  "max_residual": 7.599313963032798e-13
+}

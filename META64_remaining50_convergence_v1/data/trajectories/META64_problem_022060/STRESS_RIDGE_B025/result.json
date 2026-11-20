@@ -1,0 +1,16 @@
+{
+  "task_id": "META64_problem_022060",
+  "method": "STRESS_RIDGE_B025",
+  "status": "complete",
+  "C0": 121.67279127824241,
+  "C50": 13.504380724342525,
+  "updates": 50,
+  "cost": {
+    "attempted_fine_FE": 52,
+    "initialization_fine_FE": 1,
+    "attempted_coarse_FE": 0,
+    "pending_fine": false
+  },
+  "seconds": 5.4812051597982645,
+  "max_residual": 6.187401812707025e-14
+}

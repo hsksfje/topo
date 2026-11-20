@@ -1,0 +1,16 @@
+{
+  "task_id": "META64_problem_017905",
+  "method": "PLSM15",
+  "status": "complete",
+  "C0": 25811343.15697187,
+  "C50": 247.38318834067022,
+  "updates": 50,
+  "cost": {
+    "attempted_fine_FE": 51,
+    "initialization_fine_FE": 0,
+    "attempted_coarse_FE": 0,
+    "pending_fine": false
+  },
+  "seconds": 5.625971691682935,
+  "max_residual": 5.592229852600106e-08
+}

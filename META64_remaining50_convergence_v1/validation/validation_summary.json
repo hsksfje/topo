@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "relocated_outside_original_project": true,
+  "platform_tested": "Linux Python 3.11",
+  "windows_runtime_not_executed": true,
+  "all_package_hashes_verified": true,
+  "preflight_three_C50_equal": true,
+  "Uniform50_plus5_equals_fresh55": true,
+  "smoke_task": "META64_problem_009816",
+  "smoke_converged_step": 181,
+  "partial_merge_tasks": 100,
+  "partial_merge_rows": 489,
+  "task_overlap": 0,
+  "return_manifest_roundtrip_passed": true,
+  "new_API_calls": 0,
+  "unix": 1795146523.289888
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "initskill-isotropic-task-v1",
+  "task_id": "META64_problem_023581",
+  "family": "META64",
+  "split": "train",
+  "group_id": "b4b65ec96fc67e89a1f2f737f71f1d045542a5c1e58685bcab8bee95862d5542",
+  "elements_xy": [
+    64,
+    64
+  ],
+  "volume_fraction": 0.3433469254896514,
+  "source_key": "train/problem_023581",
+  "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+  "source_optimization_results_used": false,
+  "fixed_dofs": [
+    120,
+    121,
+    6760
+  ],
+  "forces_sparse": [
+    [
+      2,
+      -0.9211734055945088
+    ],
+    [
+      3,
+      0.3891523568288064
+    ],
+    [
+      7538,
+      0.9976123262946645
+    ],
+    [
+      7539,
+      -0.0690626268320859
+    ]
+  ]
+}

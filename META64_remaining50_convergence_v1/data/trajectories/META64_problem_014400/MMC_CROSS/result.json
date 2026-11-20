@@ -1,0 +1,16 @@
+{
+  "task_id": "META64_problem_014400",
+  "method": "MMC_CROSS",
+  "status": "complete",
+  "C0": 6428.620972606061,
+  "C50": 12.776777710624458,
+  "updates": 50,
+  "cost": {
+    "attempted_fine_FE": 51,
+    "initialization_fine_FE": 0,
+    "attempted_coarse_FE": 0,
+    "pending_fine": false
+  },
+  "seconds": 5.890695083886385,
+  "max_residual": 3.68284153867484e-11
+}
