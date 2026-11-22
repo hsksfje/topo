@@ -1,0 +1,14 @@
+{
+  "run.py": "c36fbdaf9cfbaf8e5dec6a62a78b5f0f5fa359d210297b899dd0691dd3b79dfa",
+  "tests/test_experiment.py": "fd52caec08e80de31a6dee2f089d72b1e893fc62ba5ff61bd873f48febcaa2f8",
+  "code/solver.py": "51c0f3797508076c07c1ecd06f382e003902232006817e27feae6ca9e1da9d2a",
+  "code/analyze.py": "207562a32cc987e4decaa3b434417fc98a868771068a9cb5cd74112dc9bd8dc5",
+  "code/experiment.py": "8f8fcee68b38c8a9f844c673226163aed5bd91b31034dab7a5803c41b2e3bec4",
+  "code/physics.py": "3b2d643b2098cdbe5832aefb579b3cc7414df39c9f44ab63fd86f35b6b709ee2",
+  "code/export_results.py": "55f53e9e2b59afd7878b17e6c7a029963e022108184de79d452e92c94020073c",
+  "code/run.py": "9e5350b204969dd3f3c906e64f11dc498907de3665defed22422ac7807b910f9",
+  "code/storage.py": "8d74bf7cb47544f3fc6bb4a119938eb1b5f792b47e04a3773291c77adc155ef1",
+  "protocol.json": "937ff777661aa58fa7fd3fd1ad3c51249bd148365a38a5f6bbf308cc4b33503b",
+  "data/tasks.json": "edf5032d3479a7e8eea0ef1a1ef36112b4dc8a92cfd5a3f29b732be48092db8a",
+  "data/initialization_results.csv": "83e06c3823a9615305dd815de7e637afd5900d09e00285d94b9286da9b08f3bb"
+}

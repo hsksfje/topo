@@ -1,0 +1,510 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "task_id": "META64_problem_000008",
+      "relative_C0_error": 0.0,
+      "residual": 3.5805302564941277e-13
+    },
+    {
+      "task_id": "META64_problem_000436",
+      "relative_C0_error": 0.0,
+      "residual": 9.940046870398566e-14
+    },
+    {
+      "task_id": "META64_problem_000822",
+      "relative_C0_error": 0.0,
+      "residual": 6.214210480387542e-13
+    },
+    {
+      "task_id": "META64_problem_000945",
+      "relative_C0_error": 0.0,
+      "residual": 3.09648800408614e-11
+    },
+    {
+      "task_id": "META64_problem_001216",
+      "relative_C0_error": 0.0,
+      "residual": 1.8548143347248042e-13
+    },
+    {
+      "task_id": "META64_problem_001336",
+      "relative_C0_error": 0.0,
+      "residual": 2.494790061400416e-12
+    },
+    {
+      "task_id": "META64_problem_001611",
+      "relative_C0_error": 0.0,
+      "residual": 8.511871814167176e-14
+    },
+    {
+      "task_id": "META64_problem_001689",
+      "relative_C0_error": 0.0,
+      "residual": 5.5974301674587616e-12
+    },
+    {
+      "task_id": "META64_problem_001826",
+      "relative_C0_error": 0.0,
+      "residual": 1.2859400447633463e-13
+    },
+    {
+      "task_id": "META64_problem_001828",
+      "relative_C0_error": 0.0,
+      "residual": 1.7524320014992753e-12
+    },
+    {
+      "task_id": "META64_problem_002385",
+      "relative_C0_error": 0.0,
+      "residual": 5.882871723232315e-13
+    },
+    {
+      "task_id": "META64_problem_002842",
+      "relative_C0_error": 0.0,
+      "residual": 1.4207027756028188e-14
+    },
+    {
+      "task_id": "META64_problem_002901",
+      "relative_C0_error": 0.0,
+      "residual": 4.5266559024410146e-14
+    },
+    {
+      "task_id": "META64_problem_002922",
+      "relative_C0_error": 0.0,
+      "residual": 2.1238827230587144e-13
+    },
+    {
+      "task_id": "META64_problem_003213",
+      "relative_C0_error": 0.0,
+      "residual": 1.592177088378889e-13
+    },
+    {
+      "task_id": "META64_problem_003599",
+      "relative_C0_error": 0.0,
+      "residual": 1.1846224864419356e-11
+    },
+    {
+      "task_id": "META64_problem_003894",
+      "relative_C0_error": 0.0,
+      "residual": 1.1670665988112175e-13
+    },
+    {
+      "task_id": "META64_problem_004204",
+      "relative_C0_error": 0.0,
+      "residual": 6.950201569438086e-14
+    },
+    {
+      "task_id": "META64_problem_004515",
+      "relative_C0_error": 0.0,
+      "residual": 2.2137095469878232e-13
+    },
+    {
+      "task_id": "META64_problem_004789",
+      "relative_C0_error": 0.0,
+      "residual": 4.41868776788961e-14
+    },
+    {
+      "task_id": "META64_problem_005528",
+      "relative_C0_error": 0.0,
+      "residual": 8.865388616894378e-14
+    },
+    {
+      "task_id": "META64_problem_005623",
+      "relative_C0_error": 0.0,
+      "residual": 2.1619924487769183e-13
+    },
+    {
+      "task_id": "META64_problem_005668",
+      "relative_C0_error": 0.0,
+      "residual": 8.70733545511016e-14
+    },
+    {
+      "task_id": "META64_problem_005810",
+      "relative_C0_error": 0.0,
+      "residual": 1.7792088500387122e-13
+    },
+    {
+      "task_id": "META64_problem_006131",
+      "relative_C0_error": 0.0,
+      "residual": 1.062248439432682e-13
+    },
+    {
+      "task_id": "META64_problem_006141",
+      "relative_C0_error": 0.0,
+      "residual": 9.379693975980494e-13
+    },
+    {
+      "task_id": "META64_problem_006906",
+      "relative_C0_error": 0.0,
+      "residual": 5.881350778015477e-14
+    },
+    {
+      "task_id": "META64_problem_006937",
+      "relative_C0_error": 0.0,
+      "residual": 1.2137899572840024e-12
+    },
+    {
+      "task_id": "META64_problem_007087",
+      "relative_C0_error": 0.0,
+      "residual": 1.9266804126258695e-11
+    },
+    {
+      "task_id": "META64_problem_007919",
+      "relative_C0_error": 0.0,
+      "residual": 1.6945634663504485e-13
+    },
+    {
+      "task_id": "META64_problem_008189",
+      "relative_C0_error": 0.0,
+      "residual": 2.207715671599577e-13
+    },
+    {
+      "task_id": "META64_problem_008468",
+      "relative_C0_error": 0.0,
+      "residual": 7.23076454540729e-13
+    },
+    {
+      "task_id": "META64_problem_008591",
+      "relative_C0_error": 0.0,
+      "residual": 7.081223271278168e-13
+    },
+    {
+      "task_id": "META64_problem_009106",
+      "relative_C0_error": 0.0,
+      "residual": 1.4329023339311371e-13
+    },
+    {
+      "task_id": "META64_problem_009297",
+      "relative_C0_error": 0.0,
+      "residual": 5.358476496915854e-14
+    },
+    {
+      "task_id": "META64_problem_009762",
+      "relative_C0_error": 0.0,
+      "residual": 2.950305672226703e-13
+    },
+    {
+      "task_id": "META64_problem_009816",
+      "relative_C0_error": 0.0,
+      "residual": 2.0810868557016734e-13
+    },
+    {
+      "task_id": "META64_problem_010095",
+      "relative_C0_error": 0.0,
+      "residual": 9.36221490125492e-11
+    },
+    {
+      "task_id": "META64_problem_010245",
+      "relative_C0_error": 0.0,
+      "residual": 6.354614203248087e-14
+    },
+    {
+      "task_id": "META64_problem_010621",
+      "relative_C0_error": 0.0,
+      "residual": 1.6646871580530996e-13
+    },
+    {
+      "task_id": "META64_problem_011871",
+      "relative_C0_error": 0.0,
+      "residual": 5.354529341110323e-13
+    },
+    {
+      "task_id": "META64_problem_013258",
+      "relative_C0_error": 0.0,
+      "residual": 9.148931409749962e-14
+    },
+    {
+      "task_id": "META64_problem_013393",
+      "relative_C0_error": 0.0,
+      "residual": 4.274998970737202e-13
+    },
+    {
+      "task_id": "META64_problem_013643",
+      "relative_C0_error": 0.0,
+      "residual": 9.94660593742984e-13
+    },
+    {
+      "task_id": "META64_problem_013650",
+      "relative_C0_error": 0.0,
+      "residual": 1.0207800921548945e-13
+    },
+    {
+      "task_id": "META64_problem_014400",
+      "relative_C0_error": 0.0,
+      "residual": 1.536651555668514e-13
+    },
+    {
+      "task_id": "META64_problem_015140",
+      "relative_C0_error": 0.0,
+      "residual": 1.5663033428771069e-13
+    },
+    {
+      "task_id": "META64_problem_016344",
+      "relative_C0_error": 0.0,
+      "residual": 2.85496356185695e-13
+    },
+    {
+      "task_id": "META64_problem_016461",
+      "relative_C0_error": 0.0,
+      "residual": 2.0320304236490838e-13
+    },
+    {
+      "task_id": "META64_problem_016738",
+      "relative_C0_error": 0.0,
+      "residual": 3.0365289211073813e-13
+    },
+    {
+      "task_id": "META64_problem_017490",
+      "relative_C0_error": 0.0,
+      "residual": 2.403815662633772e-13
+    },
+    {
+      "task_id": "META64_problem_017511",
+      "relative_C0_error": 0.0,
+      "residual": 9.682020817848437e-14
+    },
+    {
+      "task_id": "META64_problem_017905",
+      "relative_C0_error": 0.0,
+      "residual": 3.7428132477205227e-13
+    },
+    {
+      "task_id": "META64_problem_017956",
+      "relative_C0_error": 0.0,
+      "residual": 4.536690813952479e-14
+    },
+    {
+      "task_id": "META64_problem_018461",
+      "relative_C0_error": 0.0,
+      "residual": 1.1689207585033126e-12
+    },
+    {
+      "task_id": "META64_problem_018544",
+      "relative_C0_error": 0.0,
+      "residual": 4.666722735037486e-13
+    },
+    {
+      "task_id": "META64_problem_018648",
+      "relative_C0_error": 0.0,
+      "residual": 1.4172133438316807e-13
+    },
+    {
+      "task_id": "META64_problem_018680",
+      "relative_C0_error": 0.0,
+      "residual": 4.896387714944614e-13
+    },
+    {
+      "task_id": "META64_problem_018866",
+      "relative_C0_error": 0.0,
+      "residual": 8.22515726864296e-14
+    },
+    {
+      "task_id": "META64_problem_019190",
+      "relative_C0_error": 0.0,
+      "residual": 7.200218996618333e-14
+    },
+    {
+      "task_id": "META64_problem_019457",
+      "relative_C0_error": 0.0,
+      "residual": 3.914585954948794e-13
+    },
+    {
+      "task_id": "META64_problem_019469",
+      "relative_C0_error": 0.0,
+      "residual": 1.555374354087466e-13
+    },
+    {
+      "task_id": "META64_problem_019842",
+      "relative_C0_error": 0.0,
+      "residual": 2.927703751563769e-13
+    },
+    {
+      "task_id": "META64_problem_020943",
+      "relative_C0_error": 0.0,
+      "residual": 3.6447124188162794e-14
+    },
+    {
+      "task_id": "META64_problem_021085",
+      "relative_C0_error": 0.0,
+      "residual": 6.624936544357021e-13
+    },
+    {
+      "task_id": "META64_problem_021150",
+      "relative_C0_error": 0.0,
+      "residual": 1.560737028979367e-13
+    },
+    {
+      "task_id": "META64_problem_021309",
+      "relative_C0_error": 0.0,
+      "residual": 3.960741764105204e-13
+    },
+    {
+      "task_id": "META64_problem_021520",
+      "relative_C0_error": 0.0,
+      "residual": 3.142600956350636e-13
+    },
+    {
+      "task_id": "META64_problem_021874",
+      "relative_C0_error": 0.0,
+      "residual": 5.195603854321971e-14
+    },
+    {
+      "task_id": "META64_problem_021921",
+      "relative_C0_error": 0.0,
+      "residual": 1.757960291889444e-13
+    },
+    {
+      "task_id": "META64_problem_021928",
+      "relative_C0_error": 0.0,
+      "residual": 2.6423144968089486e-14
+    },
+    {
+      "task_id": "META64_problem_022060",
+      "relative_C0_error": 0.0,
+      "residual": 7.079283450754962e-14
+    },
+    {
+      "task_id": "META64_problem_022122",
+      "relative_C0_error": 0.0,
+      "residual": 2.3111609854352573e-13
+    },
+    {
+      "task_id": "META64_problem_022190",
+      "relative_C0_error": 0.0,
+      "residual": 6.369749230287777e-14
+    },
+    {
+      "task_id": "META64_problem_022220",
+      "relative_C0_error": 0.0,
+      "residual": 3.3992281743939254e-14
+    },
+    {
+      "task_id": "META64_problem_022265",
+      "relative_C0_error": 0.0,
+      "residual": 5.426652003626766e-14
+    },
+    {
+      "task_id": "META64_problem_022372",
+      "relative_C0_error": 0.0,
+      "residual": 6.520841764354901e-14
+    },
+    {
+      "task_id": "META64_problem_022985",
+      "relative_C0_error": 0.0,
+      "residual": 2.024935333159513e-13
+    },
+    {
+      "task_id": "META64_problem_023009",
+      "relative_C0_error": 0.0,
+      "residual": 1.8452120103930962e-13
+    },
+    {
+      "task_id": "META64_problem_023581",
+      "relative_C0_error": 0.0,
+      "residual": 1.7947480634430156e-13
+    },
+    {
+      "task_id": "META64_problem_023707",
+      "relative_C0_error": 0.0,
+      "residual": 2.341829973558011e-13
+    },
+    {
+      "task_id": "META64_problem_024228",
+      "relative_C0_error": 0.0,
+      "residual": 1.6033478589610817e-13
+    },
+    {
+      "task_id": "META64_problem_024608",
+      "relative_C0_error": 0.0,
+      "residual": 2.409795346883981e-13
+    },
+    {
+      "task_id": "META64_problem_024615",
+      "relative_C0_error": 0.0,
+      "residual": 4.2813319298628797e-13
+    },
+    {
+      "task_id": "META64_problem_025201",
+      "relative_C0_error": 0.0,
+      "residual": 2.5613071375368585e-12
+    },
+    {
+      "task_id": "META64_problem_025523",
+      "relative_C0_error": 0.0,
+      "residual": 9.014144061821464e-14
+    },
+    {
+      "task_id": "META64_problem_025589",
+      "relative_C0_error": 0.0,
+      "residual": 8.898008963435341e-13
+    },
+    {
+      "task_id": "META64_problem_026056",
+      "relative_C0_error": 0.0,
+      "residual": 5.6838066583696334e-12
+    },
+    {
+      "task_id": "META64_problem_026288",
+      "relative_C0_error": 0.0,
+      "residual": 5.07863232385226e-14
+    },
+    {
+      "task_id": "META64_problem_026353",
+      "relative_C0_error": 0.0,
+      "residual": 3.574554071140732e-13
+    },
+    {
+      "task_id": "META64_problem_026375",
+      "relative_C0_error": 0.0,
+      "residual": 3.453242416526375e-13
+    },
+    {
+      "task_id": "META64_problem_026453",
+      "relative_C0_error": 0.0,
+      "residual": 3.5604546165020348e-12
+    },
+    {
+      "task_id": "META64_problem_026802",
+      "relative_C0_error": 0.0,
+      "residual": 4.0804292006877204e-13
+    },
+    {
+      "task_id": "META64_problem_026982",
+      "relative_C0_error": 0.0,
+      "residual": 9.303966915041292e-14
+    },
+    {
+      "task_id": "META64_problem_027190",
+      "relative_C0_error": 0.0,
+      "residual": 9.924312379039956e-11
+    },
+    {
+      "task_id": "META64_problem_027304",
+      "relative_C0_error": 0.0,
+      "residual": 9.80049098316536e-13
+    },
+    {
+      "task_id": "META64_problem_027331",
+      "relative_C0_error": 0.0,
+      "residual": 1.687781539133118e-11
+    },
+    {
+      "task_id": "META64_problem_028522",
+      "relative_C0_error": 0.0,
+      "residual": 3.769411196234894e-11
+    },
+    {
+      "task_id": "META64_problem_028757",
+      "relative_C0_error": 0.0,
+      "residual": 1.3584022706626838e-13
+    },
+    {
+      "task_id": "META64_problem_028992",
+      "relative_C0_error": 0.0,
+      "residual": 7.775092749636713e-14
+    }
+  ],
+  "Uniform50_relative_error": 0.0,
+  "attempted_FE": 151,
+  "cost_scope": "preflight only, separate from experiment trajectories",
+  "new_API_calls": 0,
+  "note": "Physics/input validation; preliminary package identity excluded because release adds validation evidence."
+}

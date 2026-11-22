@@ -1,0 +1,396 @@
+{
+  "schema": "META64-parameter60-v1",
+  "name": "parameter60_train100_run01",
+  "profiles": [
+    {
+      "id": "P01",
+      "penal": 2.0,
+      "rmin": 1.5,
+      "move": 0.05
+    },
+    {
+      "id": "P02",
+      "penal": 2.0,
+      "rmin": 1.5,
+      "move": 0.1
+    },
+    {
+      "id": "P03",
+      "penal": 2.0,
+      "rmin": 1.5,
+      "move": 0.15
+    },
+    {
+      "id": "P04",
+      "penal": 2.0,
+      "rmin": 1.5,
+      "move": 0.2
+    },
+    {
+      "id": "P05",
+      "penal": 2.0,
+      "rmin": 1.5,
+      "move": 0.3
+    },
+    {
+      "id": "P06",
+      "penal": 2.0,
+      "rmin": 2.0,
+      "move": 0.05
+    },
+    {
+      "id": "P07",
+      "penal": 2.0,
+      "rmin": 2.0,
+      "move": 0.1
+    },
+    {
+      "id": "P08",
+      "penal": 2.0,
+      "rmin": 2.0,
+      "move": 0.15
+    },
+    {
+      "id": "P09",
+      "penal": 2.0,
+      "rmin": 2.0,
+      "move": 0.2
+    },
+    {
+      "id": "P10",
+      "penal": 2.0,
+      "rmin": 2.0,
+      "move": 0.3
+    },
+    {
+      "id": "P11",
+      "penal": 2.0,
+      "rmin": 2.5,
+      "move": 0.05
+    },
+    {
+      "id": "P12",
+      "penal": 2.0,
+      "rmin": 2.5,
+      "move": 0.1
+    },
+    {
+      "id": "P13",
+      "penal": 2.0,
+      "rmin": 2.5,
+      "move": 0.15
+    },
+    {
+      "id": "P14",
+      "penal": 2.0,
+      "rmin": 2.5,
+      "move": 0.2
+    },
+    {
+      "id": "P15",
+      "penal": 2.0,
+      "rmin": 2.5,
+      "move": 0.3
+    },
+    {
+      "id": "P16",
+      "penal": 2.0,
+      "rmin": 3.0,
+      "move": 0.05
+    },
+    {
+      "id": "P17",
+      "penal": 2.0,
+      "rmin": 3.0,
+      "move": 0.1
+    },
+    {
+      "id": "P18",
+      "penal": 2.0,
+      "rmin": 3.0,
+      "move": 0.15
+    },
+    {
+      "id": "P19",
+      "penal": 2.0,
+      "rmin": 3.0,
+      "move": 0.2
+    },
+    {
+      "id": "P20",
+      "penal": 2.0,
+      "rmin": 3.0,
+      "move": 0.3
+    },
+    {
+      "id": "P21",
+      "penal": 3.0,
+      "rmin": 1.5,
+      "move": 0.05
+    },
+    {
+      "id": "P22",
+      "penal": 3.0,
+      "rmin": 1.5,
+      "move": 0.1
+    },
+    {
+      "id": "P23",
+      "penal": 3.0,
+      "rmin": 1.5,
+      "move": 0.15
+    },
+    {
+      "id": "P24",
+      "penal": 3.0,
+      "rmin": 1.5,
+      "move": 0.2
+    },
+    {
+      "id": "P25",
+      "penal": 3.0,
+      "rmin": 1.5,
+      "move": 0.3
+    },
+    {
+      "id": "P26",
+      "penal": 3.0,
+      "rmin": 2.0,
+      "move": 0.05
+    },
+    {
+      "id": "P27",
+      "penal": 3.0,
+      "rmin": 2.0,
+      "move": 0.1
+    },
+    {
+      "id": "P28",
+      "penal": 3.0,
+      "rmin": 2.0,
+      "move": 0.15
+    },
+    {
+      "id": "P29",
+      "penal": 3.0,
+      "rmin": 2.0,
+      "move": 0.2
+    },
+    {
+      "id": "P30",
+      "penal": 3.0,
+      "rmin": 2.0,
+      "move": 0.3
+    },
+    {
+      "id": "P31",
+      "penal": 3.0,
+      "rmin": 2.5,
+      "move": 0.05
+    },
+    {
+      "id": "P32",
+      "penal": 3.0,
+      "rmin": 2.5,
+      "move": 0.1
+    },
+    {
+      "id": "P33",
+      "penal": 3.0,
+      "rmin": 2.5,
+      "move": 0.15
+    },
+    {
+      "id": "P34",
+      "penal": 3.0,
+      "rmin": 2.5,
+      "move": 0.2
+    },
+    {
+      "id": "P35",
+      "penal": 3.0,
+      "rmin": 2.5,
+      "move": 0.3
+    },
+    {
+      "id": "P36",
+      "penal": 3.0,
+      "rmin": 3.0,
+      "move": 0.05
+    },
+    {
+      "id": "P37",
+      "penal": 3.0,
+      "rmin": 3.0,
+      "move": 0.1
+    },
+    {
+      "id": "P38",
+      "penal": 3.0,
+      "rmin": 3.0,
+      "move": 0.15
+    },
+    {
+      "id": "P39",
+      "penal": 3.0,
+      "rmin": 3.0,
+      "move": 0.2
+    },
+    {
+      "id": "P40",
+      "penal": 3.0,
+      "rmin": 3.0,
+      "move": 0.3
+    },
+    {
+      "id": "P41",
+      "penal": 4.0,
+      "rmin": 1.5,
+      "move": 0.05
+    },
+    {
+      "id": "P42",
+      "penal": 4.0,
+      "rmin": 1.5,
+      "move": 0.1
+    },
+    {
+      "id": "P43",
+      "penal": 4.0,
+      "rmin": 1.5,
+      "move": 0.15
+    },
+    {
+      "id": "P44",
+      "penal": 4.0,
+      "rmin": 1.5,
+      "move": 0.2
+    },
+    {
+      "id": "P45",
+      "penal": 4.0,
+      "rmin": 1.5,
+      "move": 0.3
+    },
+    {
+      "id": "P46",
+      "penal": 4.0,
+      "rmin": 2.0,
+      "move": 0.05
+    },
+    {
+      "id": "P47",
+      "penal": 4.0,
+      "rmin": 2.0,
+      "move": 0.1
+    },
+    {
+      "id": "P48",
+      "penal": 4.0,
+      "rmin": 2.0,
+      "move": 0.15
+    },
+    {
+      "id": "P49",
+      "penal": 4.0,
+      "rmin": 2.0,
+      "move": 0.2
+    },
+    {
+      "id": "P50",
+      "penal": 4.0,
+      "rmin": 2.0,
+      "move": 0.3
+    },
+    {
+      "id": "P51",
+      "penal": 4.0,
+      "rmin": 2.5,
+      "move": 0.05
+    },
+    {
+      "id": "P52",
+      "penal": 4.0,
+      "rmin": 2.5,
+      "move": 0.1
+    },
+    {
+      "id": "P53",
+      "penal": 4.0,
+      "rmin": 2.5,
+      "move": 0.15
+    },
+    {
+      "id": "P54",
+      "penal": 4.0,
+      "rmin": 2.5,
+      "move": 0.2
+    },
+    {
+      "id": "P55",
+      "penal": 4.0,
+      "rmin": 2.5,
+      "move": 0.3
+    },
+    {
+      "id": "P56",
+      "penal": 4.0,
+      "rmin": 3.0,
+      "move": 0.05
+    },
+    {
+      "id": "P57",
+      "penal": 4.0,
+      "rmin": 3.0,
+      "move": 0.1
+    },
+    {
+      "id": "P58",
+      "penal": 4.0,
+      "rmin": 3.0,
+      "move": 0.15
+    },
+    {
+      "id": "P59",
+      "penal": 4.0,
+      "rmin": 3.0,
+      "move": 0.2
+    },
+    {
+      "id": "P60",
+      "penal": 4.0,
+      "rmin": 3.0,
+      "move": 0.3
+    }
+  ],
+  "baseline_profile": "P34",
+  "launch_updates": 50,
+  "max_step": 2000,
+  "earliest_certifiable_step": 60,
+  "solver": {
+    "rmin": 2.5,
+    "penal": 3.0,
+    "move": 0.2,
+    "xmin": 1e-06,
+    "emin": 1e-09,
+    "emax": 1.0,
+    "nu": 0.3,
+    "residual_tolerance": 1e-06
+  },
+  "convergence": {
+    "window": 10,
+    "max_design_change": 0.01,
+    "max_relative_compliance_change": 0.0001,
+    "relative_compliance_span": 0.0005,
+    "volume_tolerance": 1e-08,
+    "residual_tolerance": 1e-06
+  },
+  "switch_volume_repair": {
+    "method": "uniform additive shift with clipping; skip if already within1e-8",
+    "repair_tolerance": 1e-11
+  },
+  "new_API_calls": 0,
+  "selection": "Exact original train100; no new100 or local200 tasks",
+  "design": "Uniform;50 OC updates under fixed launch triple;switch to common p3/rmin2.5/move0.2;continue to common convergence",
+  "trajectory_count": 6000
+}

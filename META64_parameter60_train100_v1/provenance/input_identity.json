@@ -1,0 +1,1237 @@
+{
+  "original_train100_config_sha256": "10400715adc05a0fcfa7b087f35a2fd2687bd6ff872ca255d554eb95199af65c",
+  "train100_manifest_sha256": "0c7fad0214006d0b6dca44fd4825d19aeb922b1d44ded82d517bf5a25623e5c0",
+  "merged_results_sha256": "6095753e55e2121c85607ae4606d2b1353a98df54d6b38389cfeb8cd2496a499",
+  "merged_audit": {
+    "local": "/public/home/cairn/topo/InitSkill-Lab/outputs/meta64_convergence50_v1/run01",
+    "remote": "/public/home/cairn/topo/InitSkill-Lab/outputs/meta64_convergence_remaining50_remote_v1/run01",
+    "overlap": [],
+    "tasks": 100,
+    "rows": 3800,
+    "expected": 3800,
+    "remote_return_hashes_verified": true,
+    "partial": false,
+    "source_table_hashes": {
+      "/public/home/cairn/topo/InitSkill-Lab/outputs/meta64_convergence50_v1/run01/reports/results.csv": "747994932cb28dbb48d030db5857d1c1fc942d77c0f0cb358b6e93a6147362ed",
+      "/public/home/cairn/topo/InitSkill-Lab/outputs/meta64_convergence_remaining50_remote_v1/run01/reports/results.csv": "923dfdfd353dfbbbd03ad43a075355760eadfb6ff81cb40151300c77de7be001"
+    },
+    "unix": 1795175274.2851272
+  },
+  "tasks": 100,
+  "groups": 100,
+  "rows": 3800,
+  "vf_bin_counts": {
+    "2": 10,
+    "0": 10,
+    "5": 10,
+    "3": 10,
+    "7": 10,
+    "9": 10,
+    "8": 10,
+    "4": 10,
+    "6": 10,
+    "1": 10
+  },
+  "original_input_assets": [
+    {
+      "task_id": "META64_problem_000008",
+      "source_relative_directory": "inputs/META64_problem_000008",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "6bd1d739ccc5eb694db6446a745ca447cda9805b9407da8b8d134a9cac6c038a",
+        "initial_state.npz": "a0e7b251bd1426d8bfe9ac41ae61bc7c5850c4a05d9549e9baf0ce87e2ed2c0d",
+        "task.json": "7fa5af041ec02200260ddeffab339dfe99be38967e1b313da9369fd408072229",
+        "physical_input.json": "24a8295d1440bb9c016f90143819780413ff12815f082e66e08b05d52cb8ee4a",
+        "task_input.json": "9df33059f73a86cbe87a4be559f358911cc1fa46f6e11de6d3398a7e132e04ef"
+      }
+    },
+    {
+      "task_id": "META64_problem_000436",
+      "source_relative_directory": "inputs/META64_problem_000436",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "fbccee927125738f22cdbd1370829744ff3e491ba35dc981337b4f3f1afb1a10",
+        "initial_state.npz": "cd886c3abf160b1c0dfebb4ff6be3e1f484fb56ab5e7f175b121a68453c4e3db",
+        "task.json": "23c24fcf3347ee0691cafadabb9404b9b2c744319a54bdd13587c50bd8409131",
+        "physical_input.json": "230c7a1bb08dabf08aadf3abee10b836f756ff3f309131f8ac0a1f7a17cfb9a5",
+        "task_input.json": "6ef9dd5cce1473b6e79dc1d55d55c9cc749596965e9f43be32d717f7d5aab9dd"
+      }
+    },
+    {
+      "task_id": "META64_problem_000822",
+      "source_relative_directory": "inputs/META64_problem_000822",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "6b893c8ab98048dba0747043bfeb2eb6e25134dd6fed949ea956b09c38913b5d",
+        "initial_state.npz": "ca7ddb45fc641eda290917152af48b03a6a6b895ec14ee61ae361ae7144e85a7",
+        "task.json": "4d54380715503b9c0380593ece191a5c6fe96c246035094674834118ae396a97",
+        "physical_input.json": "b6fd6cfa96bdc103ebc24764044f368c23a931ae5e782f58b4ff5618b572dd5d",
+        "task_input.json": "52cc95f04e673b477245d23aeecfeb7fd70da162170b6d2eddfbad747d68fa26"
+      }
+    },
+    {
+      "task_id": "META64_problem_000945",
+      "source_relative_directory": "inputs/META64_problem_000945",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "35d2ac22ee12d75ff98b6503de825bf298f14ef2f5730556928106559d7890c5",
+        "initial_state.npz": "1bc01214cbe00817beb89e81827664d93151a961954b3c6acfa4a94deae3eb37",
+        "task.json": "5f04782c3de55c2e099acd877af86c9b73321468f376fa49ba22200ede7389b9",
+        "physical_input.json": "df42e5f9641c93a66036c3bb17efad24c419d37a4f44d693cfb7113056eaa934",
+        "task_input.json": "7fb9adf9096cd76cba5934d2342d7174e76e1bbf1363b1681ae222985709fa37"
+      }
+    },
+    {
+      "task_id": "META64_problem_001216",
+      "source_relative_directory": "inputs/META64_problem_001216",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "fca734bfb63f6507b1846333b2ccb430650a0b5e432e044620030fedc2ffacac",
+        "initial_state.npz": "1304f00d3eeca9bd2dddb6d243f6551ed50af7ab189645684c8449bef0233362",
+        "task.json": "ff38d497564d22a3acbd5a479fe6c125f3dc2dcdfe7a7098d9444acde6442e41",
+        "physical_input.json": "c3295018638cbb4e62fb6af5e94c043c6f1fd946961f6e0b9a322e74bd43ae57",
+        "task_input.json": "70137fca76740fa25059c02b6e0713ce4fe0f9942f2f0aa9db63e069d28f6b9c"
+      }
+    },
+    {
+      "task_id": "META64_problem_001336",
+      "source_relative_directory": "inputs/META64_problem_001336",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "340dafe2c8784b782e66db5eb0be17b984392e186482b497e7c559e2d852a7db",
+        "initial_state.npz": "bacba3b13cc29de796e4520e0c632fc6afc0d0a7359b47847d38b770e783bd8b",
+        "task.json": "5b6465cd1769e21821411bccda95d1f4dc66c60f377186246a7a4a37bd00e199",
+        "physical_input.json": "a86fd251f8617172323f24469df89e18dda4d43ab4899301356c841da6074a82",
+        "task_input.json": "01d0d69c466217517da65cd4753598e72c16283cf8a4ac5342956b2c61a60b00"
+      }
+    },
+    {
+      "task_id": "META64_problem_001611",
+      "source_relative_directory": "inputs/META64_problem_001611",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "56d75b377ba6da29ec9050eafb2beca29007c7433d0f3f860bf10a173b76fa86",
+        "initial_state.npz": "00e1c51c2fb34f29e9d148d9d680448644aa299da65d90c71878e531c34b75d8",
+        "task.json": "1a99e9555a9f97b55efef9518c4034d5f71fd2643a297d0592c68c7964d19534",
+        "physical_input.json": "64940cfde3d0d5029807e2c060a291ec6b1d71abcd20c1845a439e873877eeb9",
+        "task_input.json": "3700425d8f67b0028d0949250f372ecf45efd952ccf5965bf3217a02a956639b"
+      }
+    },
+    {
+      "task_id": "META64_problem_001689",
+      "source_relative_directory": "inputs/META64_problem_001689",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "fa66b31ae160cc472b879be0ad81d984b11b292e4a1a2843a5500194274a2f47",
+        "initial_state.npz": "1ccc7b78d66f1728cfd29ff84bd379353897c5e7a9d6069349b0833e344521a9",
+        "task.json": "d28f03c36704ec64424aaf4eaad9f5bc50a4ac4e47f0a6f486e0822abe385772",
+        "physical_input.json": "e4bee386d640e406e8a6f1a3e9f8c7e8f9aafcc09bd12fe50af59fa6167a63eb",
+        "task_input.json": "9c337dd612a1d461db3fc83ecd530e0e6a7203270f1929e518933bb93425e31b"
+      }
+    },
+    {
+      "task_id": "META64_problem_001826",
+      "source_relative_directory": "inputs/META64_problem_001826",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "e5ef0e87b209d6b88d81e2505bf114b3843ea16ac5c5b69a59a611639ab37f9e",
+        "initial_state.npz": "37bee327828424874519d9b3b2afa24a06cc25fa87c9777aeae11563fb906011",
+        "task.json": "08fc5cfec85a10e003d942d26ad9011741d63bbe80dc2d2c03cf7ea4c992efd2",
+        "physical_input.json": "47566d8491f1b3356695db84c2f5d612236f60d43fa20853e01339bf03882e92",
+        "task_input.json": "8f7f2ae4f5c4fcfea790d25a8327215833971c0997beec0e67b549c7e2d6b213"
+      }
+    },
+    {
+      "task_id": "META64_problem_001828",
+      "source_relative_directory": "inputs/META64_problem_001828",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "a25b7d28128800aeb227e2a1c36aca934fee38e286181f5ada83c98d7ec61683",
+        "initial_state.npz": "6a34130257bae503fcc5a4e0b4ce667ee26734141ae4ed333497813b6cea79e5",
+        "task.json": "74181c0f8ed2082aee4ee5175cd2bbfe9b76de21e45d02096fd8f359401618f6",
+        "physical_input.json": "0e30006ee0f4e53cbb4f18286e48176a70145f412065a44bdadc72841967bc35",
+        "task_input.json": "febf3d009eff2bb7974a76eadb0f947d4f821e4b64b012bbe52ede8a125aa80b"
+      }
+    },
+    {
+      "task_id": "META64_problem_002385",
+      "source_relative_directory": "inputs/META64_problem_002385",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "6aaebcc89cae18c07f9830d427229d314ab293072ef05f6cd8e9be49a90f7c2d",
+        "initial_state.npz": "6e7205cc6a9b3496444ba8bdeef4797d0bc88837c5ceb53d195652cc166c5ae5",
+        "task.json": "56a9c76dd77174d9974d00c4d2b3d2c122e6fa54f681e832c254bb35a8d2c37d",
+        "physical_input.json": "70c76aed02643de7df498732a546216cb699d0a6c4b83581cf94ae4a0802421f",
+        "task_input.json": "a0d9a7428f547161dffa22ebf7f933de86c3db1a22f1a7076c51fda49429ee60"
+      }
+    },
+    {
+      "task_id": "META64_problem_002842",
+      "source_relative_directory": "inputs/META64_problem_002842",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "3557c67f1d88f564ce4cd308fed5e73242b824d1817a83769c5657193858f766",
+        "initial_state.npz": "47dc193fd50b02702209871f6969fbc94e41f51059703bf4deda12736fc142bd",
+        "task.json": "c6631eff390e9ecb1492008bbfdf957bb89964de91da6e467e97ddff971dc15d",
+        "physical_input.json": "b0056fa782c572ac66a9e383209f663500347befce1a9b64360080e1c27511e6",
+        "task_input.json": "2d2e80276becdb1d251df6706fe68b23562ca52733e25ade1a4cc584ae6bbf1d"
+      }
+    },
+    {
+      "task_id": "META64_problem_002901",
+      "source_relative_directory": "inputs/META64_problem_002901",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "7b2a162f44744717ab3d774cfd67b5cbc0299338e3fecfd66ee4e9fc8998329c",
+        "initial_state.npz": "d1b4db6f57e716f84674700e56f4556ec7f199b21ec5b27ec8d4a4e88e3472ad",
+        "task.json": "2260a70d51036824d9c72c243105264d546866c6efffd6340a6cfa786b1fc2c1",
+        "physical_input.json": "5200fc47e511dc5e322dd1b8fbc9b7a6ddcb97952fc24992a39597a0c94f3151",
+        "task_input.json": "4e54303938911cc9bbd11e6b93ad563a52df8341fe28b5165d3c5088c59794e1"
+      }
+    },
+    {
+      "task_id": "META64_problem_002922",
+      "source_relative_directory": "inputs/META64_problem_002922",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "b269f7532bc89d26f400f3e8f8c9abd2fac9814439b99b99cbe4276fb01a6d1e",
+        "initial_state.npz": "315435f548fce57045151b62e6db8b338583a733caaa73c5addf2e5a5026bf16",
+        "task.json": "643239c3822a10f0f732b8805e2734ab3bfc0ef1d64b1ef8f499364edcd8e812",
+        "physical_input.json": "a076343c2f613a9428eadeb4a1080fa9df790e1a2e9b8e1477cc16fadcff1484",
+        "task_input.json": "4e619ad763c8ee3fad23d6c4726ec51184aa475265ad0da1595f1a62bea1a105"
+      }
+    },
+    {
+      "task_id": "META64_problem_003213",
+      "source_relative_directory": "inputs/META64_problem_003213",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "2b4e4d1e98d04ae6bf70919a9bcebca90af2da4e35fadb3c8d2896d364c67aa5",
+        "initial_state.npz": "b242b8a2d15623f149866bd8eaa291858cbb0dabaa00ee189f0a7985b30ad6ce",
+        "task.json": "012408f81ebd7cb9b00a248427d767bc74bb9bc8105d4f9de01fb981fe5e32d3",
+        "physical_input.json": "5963877755c30bf57ef3f65c99343c4e405db1add880515c93937914daf24001",
+        "task_input.json": "a7d92be6ae59a2991c9b7db47bcf19397f88193042e679917b6743f5187a97ef"
+      }
+    },
+    {
+      "task_id": "META64_problem_003599",
+      "source_relative_directory": "inputs/META64_problem_003599",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "c85f1080af5f7f737eab1be31a006a6f4c2a6b7466907279b40fe3d9c5929a74",
+        "initial_state.npz": "852912d545ef066b27753f13418d54989bf5ff5a101f6800635c899d536d24ca",
+        "task.json": "027ecc95ffe592d34927fbc7c46000a4b001b2aba6583002321f92d744098eef",
+        "physical_input.json": "2c060aa56e4984dc028efb89cabeea15e3fe6b9f31a9badc51df770e30a79b33",
+        "task_input.json": "e9dad0233ed9d086e8eac96973072d034b3ce799ac9832793464c7c015a82593"
+      }
+    },
+    {
+      "task_id": "META64_problem_003894",
+      "source_relative_directory": "inputs/META64_problem_003894",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "9e9effc11c0dce6003a0ae2c5d928a22916c1c3f1c5641b67e61c9ccd2a05326",
+        "initial_state.npz": "438017bdebe770514d52d3274688ccd9e6d6793264f851007498040d3f6575c7",
+        "task.json": "af75778d43ed7bd464b74901e635cd3f4e0227f73cf279e94cc1b9358d840442",
+        "physical_input.json": "9c4861359ffb8d2e3b3f0b246215f24778a275ada3dd088a3566562eb7b29b97",
+        "task_input.json": "fdc15584f6b61779e5adb175948b971250ffb6cbcec364c7b80c0b0e86c5c545"
+      }
+    },
+    {
+      "task_id": "META64_problem_004204",
+      "source_relative_directory": "inputs/META64_problem_004204",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "9d0eeac8b8b1d520602bee8adab0b1b01a011fe7540285c8b58f99e20cd8c58d",
+        "initial_state.npz": "47374badbff7583ffaff16068e0fd1cba6fc8ef1eb88f5f1083c800749998a48",
+        "task.json": "3e5c5da3d25beb7244ee54231bed827884a10af6d230e0dd6204532a2b3edf76",
+        "physical_input.json": "5addb620e577db3663b2772cbbbb6cd7e0fdf8692d47b96764274a80b8ceb23f",
+        "task_input.json": "2bb8490c15222a2b7c3b941f1b59dbfc8df23afd38124a465a1b368c91aee0c3"
+      }
+    },
+    {
+      "task_id": "META64_problem_004515",
+      "source_relative_directory": "inputs/META64_problem_004515",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "bfd59a72607987459d4128a5c43992f09653d76f56d757bd94818c01de04be48",
+        "initial_state.npz": "4787ad8ad2e5a2eb084189adba53b96fb52740b96d3eecde8791e9df88e293fd",
+        "task.json": "2732104ebdcc536366419fafd0925a7bb7b2e3d53d9fbc1bfc203336ed6efa68",
+        "physical_input.json": "a336f6b1ae19d84251d93b2caa8aba3ab13ce1f982f67738a6dd6ebe471a3e47",
+        "task_input.json": "90180e955aece346157dafc7f64d24a2db300fc092ac646529314d9ee5b0d7d9"
+      }
+    },
+    {
+      "task_id": "META64_problem_004789",
+      "source_relative_directory": "inputs/META64_problem_004789",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "51dd47a2e6933212899aa0d8f189a4118f66aa05dd4ab84609f1889ae98c22ba",
+        "initial_state.npz": "4204d9afb7c31db8e89da9b08398294d69876cbfea750b32dea0b08fb5abf5df",
+        "task.json": "c84c16d95a554d47dce8effc85cee507c5ee6e503cd8617d0bdb76790698122f",
+        "physical_input.json": "f88a33ecd63d4de3b185f1a10dc3fc08e4ddde123c5da1c1a6e5eeaa99cf9ae8",
+        "task_input.json": "5184c0d1c4c4a00549a8bcf72ed746b7e0b4b4bc73cc22ba871493cfa5af11cd"
+      }
+    },
+    {
+      "task_id": "META64_problem_005528",
+      "source_relative_directory": "inputs/META64_problem_005528",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "aa051fd6351b584dae502b53dc49eab45c88f0f213188bd9f2f5bf0fe7653244",
+        "initial_state.npz": "a86fe9c30a2ed845c15c61d4339634453d47a1de277c5558d428eb022128114f",
+        "task.json": "e39f1cfe48b426806ef0c8008e18f0402c14ab87ee144ee6e7373e3d61dbc336",
+        "physical_input.json": "211c0194667e041e084c7ee3f1ba1b0fc90362fa1b519fe763a8d915c2350d0a",
+        "task_input.json": "77cbe2cadeb954b2e931454a39f5910c3f1a468aa39fa8774429573bdbebc91c"
+      }
+    },
+    {
+      "task_id": "META64_problem_005623",
+      "source_relative_directory": "inputs/META64_problem_005623",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "2ed7cf8b228cece1b4d978fc1ef4a587bf68766e955876d713e309bd8f8e4395",
+        "initial_state.npz": "c0d53d46b9af6f5e17f6097f0e87366a29872c33e7768c4f63bf8696fe7cc14c",
+        "task.json": "742268d36702a745d795fde06dc2e9e6c1b97c7d5fe3682794ab2cf45e02bac0",
+        "physical_input.json": "72c143d6d2373651464f053c2e69e8cde598bc2bca62f0e87afb9e11bdb2cef1",
+        "task_input.json": "6ac7b97adb67e6eb153d24bfa2209cad0a3c1630806679f6bd275bfb6adc0ad9"
+      }
+    },
+    {
+      "task_id": "META64_problem_005668",
+      "source_relative_directory": "inputs/META64_problem_005668",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "aa3872dace926068bdeffabb171edc777edba832be30a9e048d57462529334da",
+        "initial_state.npz": "1748d2121fb9da21e5ca6e65ee9bb9e5e81eeb46643720d6d49cec9d50c3bd5b",
+        "task.json": "6ae39700fdf7f122c620b72eb189b310442d3df3450ff0586d89332702e5b096",
+        "physical_input.json": "9af3a5f55ae4751c7ba5c75ef2e566d0930a68765a2d8525639942062bc78bef",
+        "task_input.json": "9fb305a82c8e9a48948ed02f466f981470cdda912e97625adf7e13a6b201a2f5"
+      }
+    },
+    {
+      "task_id": "META64_problem_005810",
+      "source_relative_directory": "inputs/META64_problem_005810",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "4f73b575664656bd1eac4a0f7198b9c0c57348217227595774eab49aa7f56f47",
+        "initial_state.npz": "17f8ffa48529e7e0347749b57c39c45ef3c5532246939a28eebbb68ed5fe6b9a",
+        "task.json": "cc2db7f50975b5c3e42d10a7e8aa0719a7c6877680e06a22e8e3f6f80c341b29",
+        "physical_input.json": "10b23d8776a672c0a2d8073352157fff1e708f5f53ba0e1cc2877817721a4499",
+        "task_input.json": "457afa4d4d1374f34368c52bb03458fd0afdcbcee5334906a99bef812c7bf708"
+      }
+    },
+    {
+      "task_id": "META64_problem_006131",
+      "source_relative_directory": "inputs/META64_problem_006131",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "c20be6c152e9fe4567bab55d0eac6b0ab2fd0aba0756b746b114a9f2538b698b",
+        "initial_state.npz": "569139e400a0b4477daa1fa9489bf8863c5c12d4d244f52d83f16cc4eba2a47f",
+        "task.json": "fa4bd55fc215ad02fad90a0ba10e52ee705899d0b9b7c72dcb3948f15d075c44",
+        "physical_input.json": "8d45643bc19c0831c1d8dc635ffc8e1a30d88aa0370378d6c3e2e2cfecebdc2e",
+        "task_input.json": "05f961153e74aaab6f65c9a56b78166dc3ca5ec6e4ce0d02de906e4441f16356"
+      }
+    },
+    {
+      "task_id": "META64_problem_006141",
+      "source_relative_directory": "inputs/META64_problem_006141",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "2e27532814d18f77d8bad9feb4d7ef640bd636bed3a671fa584fb8f5c43a0022",
+        "initial_state.npz": "379b65ef247b5656857a51958795b602d61004771556389e31d85239b6c167c0",
+        "task.json": "ebc0833c343b5fadaf7ae541183527bf8baaeb487b6d0dacd7032765891578d5",
+        "physical_input.json": "66f7bf7e9109ee229dba77d0169d984449258e0f0cedcbd44cb5031d20439ca3",
+        "task_input.json": "a06aa696b65dd5cc6cc4c2a140f781aa9d9879f8ad8f565bff9705c015a593ec"
+      }
+    },
+    {
+      "task_id": "META64_problem_006906",
+      "source_relative_directory": "inputs/META64_problem_006906",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "93ed6c479399016f4e4f00e8d183c1068be3ec42a3047d01ecacb86ef539563a",
+        "initial_state.npz": "7ca8127ec2d2909b5a0a882b07f8eb88a62f7b6661e3745e14e2f4229862d8c3",
+        "task.json": "36a51b7a2c4cf58ce8104abb86392790382686e5fa5f98d71e4fa6363c735679",
+        "physical_input.json": "a9f86085aa3cb0332950281b31bbf3f6ef194e817ca56263c25292bae6c71baf",
+        "task_input.json": "c9d5d61e38b9555613f996fe44b98e26284bb7d25607a326f9754449ae5346d5"
+      }
+    },
+    {
+      "task_id": "META64_problem_006937",
+      "source_relative_directory": "inputs/META64_problem_006937",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "be68f84b1cf13a4609b41c31064eb057c9536c56ffd3e6c9cbd4224cb7daa67b",
+        "initial_state.npz": "0f2d8e6a0f9f105726f91786fd39af09cc33129c55120e42550517250ebe9b8d",
+        "task.json": "4e83bce32cb772158ab21db9765c20c5d15712ae2bce12f2be3d206c548ab3a0",
+        "physical_input.json": "58f0b494462f09a0c419d27423f3dc3e778cf419e637ca198a7875d59671f646",
+        "task_input.json": "058ad94f55258be3309c4137f1bc7efc448ef2a271f51c85914544ca6f85a435"
+      }
+    },
+    {
+      "task_id": "META64_problem_007087",
+      "source_relative_directory": "inputs/META64_problem_007087",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "5d940bebf86fac8af2888748d0932fb237d9f37b535229325c719d29cf88de63",
+        "initial_state.npz": "ecc2851277cc336744f46dcebf44d6b57778eb0024b32b91edb8f20fb3d15c95",
+        "task.json": "510f8a8465fd41f3c85ec9206616966771c8e0e373f6f371a148090892043dc2",
+        "physical_input.json": "46b027a631bc83c6e627fe655730a257c27bdd96344f9afa60da7ccd4421aa33",
+        "task_input.json": "50b01c2ff35e5dbb6d842c1466bb687127fe5c5e8b96c931529f8200c56e718c"
+      }
+    },
+    {
+      "task_id": "META64_problem_007919",
+      "source_relative_directory": "inputs/META64_problem_007919",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "9aebdcdea34d37335baf85195c56d85eb0af5e27c501925419a85264b49ae544",
+        "initial_state.npz": "98f772e16cec6951e024224ba5b933c428c1516f7330fecc6d6231dba2253fcf",
+        "task.json": "58fc24f060fce8a94063bc356dd4d75f7cb465051eb1c59d5f74e1a34e305601",
+        "physical_input.json": "f6311cd86c9795f2ab00a57da58f9ddcf4fda1385645580438fcc0fd3e70455d",
+        "task_input.json": "2d141461d7310541eeeb5631eeef307186ac8b3a28e072180332bf834a45a41f"
+      }
+    },
+    {
+      "task_id": "META64_problem_008189",
+      "source_relative_directory": "inputs/META64_problem_008189",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "65e4384a8b6066bb063c379b30b8c7269c7d1b0a62f8ea59f440b5efdbd3c798",
+        "initial_state.npz": "26b1f1f27cc4ba5aa3568fb6cb8db4c536aae9455200e8c384579a6f6ff9fba7",
+        "task.json": "0de8d7935e5505f3995980ecf3da8ea7fd45bdc8c30773179c487622a047db67",
+        "physical_input.json": "8487a86e274d4edebc7f95965685d02d9eb554080967cdbb170deda65f1c437e",
+        "task_input.json": "d4f23ead0e483aa541ab3a0d1bed77214ad3e2f4f606185897abd00522a8fa4c"
+      }
+    },
+    {
+      "task_id": "META64_problem_008468",
+      "source_relative_directory": "inputs/META64_problem_008468",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "6b7c2c38f43ab5352156ddbb79e2350c3968543cb0b2b092a7fd9903792b10ea",
+        "initial_state.npz": "e7a748c83acfdf3ed610e4ead05477d9861f25b34c9483a6ac7d8891942f69b5",
+        "task.json": "92274a3c3665fb68023ef800c12a9c79ac3746f71502ebaa5b0357ad5b93261e",
+        "physical_input.json": "a167733256d6457865d5d12b1681abac7757ae475d19af5a1d81e826a90a44f6",
+        "task_input.json": "3ef076c6283d679daaa001d55cf94f8e63875b905dcb8de51481d67667d3c53e"
+      }
+    },
+    {
+      "task_id": "META64_problem_008591",
+      "source_relative_directory": "inputs/META64_problem_008591",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "8985d0a14b2799b937f2fd7e5ac5a5344609a56b203009ec09738c8124b375bb",
+        "initial_state.npz": "539319e3bdb8177235ac519b5d928313de7b2f51c0638ad4f2caac1647609b74",
+        "task.json": "6b6f89e4215696b93a697d4673599229789d533302fbd222af3cf56a473594a5",
+        "physical_input.json": "ee2f2d83ac6ffd7b7b233ecb3548fa2d7ac921821196eb9983322c8c37a81791",
+        "task_input.json": "fb99ac52a60411dc58de1caa1f065b6e7c0d1248c8a0b8c2ddfbc773fe1506f3"
+      }
+    },
+    {
+      "task_id": "META64_problem_009106",
+      "source_relative_directory": "inputs/META64_problem_009106",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "886bc293b2cb25973b6f44afcb27bed646c6697b365dd6d993e9d3af906ac89e",
+        "initial_state.npz": "fb2b5b3ab8de6ab56e753978838b47ac58aae144cc7e401976fc7dc83c8536db",
+        "task.json": "840690e226249c0d854eb3af8fcbd6c7b9858411e42440f8d55cd1671a699e96",
+        "physical_input.json": "ff1c57abc59bd664828377647ddbf40654d737947c33b2c0baab4d03449ab839",
+        "task_input.json": "3ca836eaf67ebf27f85e803c6a149ce864d362da4110977b672ee5bc57314db3"
+      }
+    },
+    {
+      "task_id": "META64_problem_009297",
+      "source_relative_directory": "inputs/META64_problem_009297",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "41417d16a6ed8826dfa6a4ff14724ab7de93ed593c5997a2902a4c5a1da2ef43",
+        "initial_state.npz": "a897bcbd77d7eb78c4a0203b58d9b74cfdacf8c3fb20499021e06f78b9e329c7",
+        "task.json": "81c35b925993561ef70b42304fffd9cb8e484dc2017c14a3eab7ed630668c2a2",
+        "physical_input.json": "b04fe663ad4e45ee55b00a4fab9e392cb02d19ca8c9a74b3cfd9d80d0086033f",
+        "task_input.json": "6fca587663131bfd63ca6444c610e11084b912eb6a798b7121075e40b5f71754"
+      }
+    },
+    {
+      "task_id": "META64_problem_009762",
+      "source_relative_directory": "inputs/META64_problem_009762",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "37919d6258003d2cd31fbaaaf8d63fb91f1af81f378a7ff4570e931c70930e07",
+        "initial_state.npz": "da6ff09eb6151e828df822396b1fb5c1f4b71cab83900c6ebff3ef1408e9a85e",
+        "task.json": "92931be44c8c418d043ee0fb122363cad739bbb9ec89c557b71c75e6d2051092",
+        "physical_input.json": "a83632acf9a0ae2c7b3e21a3e48f24061e9a535d25fc04d844afa9eb4e904891",
+        "task_input.json": "55f972eeb025f6b470aab21a31bc522c5c5fca104cd831aa6d5fa260389bb3c0"
+      }
+    },
+    {
+      "task_id": "META64_problem_009816",
+      "source_relative_directory": "inputs/META64_problem_009816",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "55c4e227903015c1101bbd577c7788790b0bc256c1edcfaf505e4d182eba21bb",
+        "initial_state.npz": "c9ae04ec66d897b80f416139d0d18370471b23567f9ae3b88ed8b3583e620cdf",
+        "task.json": "3981ca43425672cf3ea32be6034c9077e810a011f4d04ea90540767d26431e46",
+        "physical_input.json": "323c86d8bb662bb10ebb0b725b65e767a38cb238e5b93b67f74391693a4e73d1",
+        "task_input.json": "0dc851274d691417e19074a085e583a17ac86a432a60c6db44afb5416b72a65a"
+      }
+    },
+    {
+      "task_id": "META64_problem_010095",
+      "source_relative_directory": "inputs/META64_problem_010095",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "0ef9acddb317e39a3acd17c611e542061281da2195eb26a53265696e390cedef",
+        "initial_state.npz": "4ab9b3a5cd029d81230fb856d51c7916785de96c4c706b5e9d87b6578173d1f7",
+        "task.json": "96b168748d6a71db54319f9f338a435f02937df1db9bedc23355ad60e083f504",
+        "physical_input.json": "b6a384a86e3ee68b3b672412c6227317b70aa24628e597475fbe72ce29bd79ff",
+        "task_input.json": "7a39e4eba87c8bfe2da8fd077ad60989201ef6581554a1d3239ab0072a2edb32"
+      }
+    },
+    {
+      "task_id": "META64_problem_010245",
+      "source_relative_directory": "inputs/META64_problem_010245",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "f716ab5c827aa2d43bbcd8b5dafb16fa9adfb7b66172c4c5c7de990e23ced669",
+        "initial_state.npz": "b4f2403f0cd944bf0f853d46146d13e93ed4a879e7cc59402c1974a437194ca7",
+        "task.json": "c51f7225435d9e1f661aa4f0eacbf2da1b05ff5113af1073e4bf83782371b313",
+        "physical_input.json": "bd37800c4974177dbde6705761dbc8041932025bc3d61ecdd26838dea51043fc",
+        "task_input.json": "3ad80c0e335d61dd29adbbc4b35f65cdf77691a01250b81c0ccaa8a4a702bace"
+      }
+    },
+    {
+      "task_id": "META64_problem_010621",
+      "source_relative_directory": "inputs/META64_problem_010621",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "3fe843ed0c8cee8a29020c98d104ec9affa7be3f67eeff1d58e330a18c768196",
+        "initial_state.npz": "6eb0266a9cd62dbba91d2efd618324a34da03a2099917911b1b339116d7dbf0d",
+        "task.json": "13fa5b2761d8b102111f96ba2f21e8e21aaf61c893b5d47af9221c776c62e18e",
+        "physical_input.json": "294a2746f8c55b83c5905787c3a6a916511c2a4bd8f6bda292aa32b34b5c4680",
+        "task_input.json": "88bd29151718a463dd7fe1cdf813846b45104c8bcbfe6f726ef5d108adb56812"
+      }
+    },
+    {
+      "task_id": "META64_problem_011871",
+      "source_relative_directory": "inputs/META64_problem_011871",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "1505bc0da2fd151d67cdf93b83f3966fb2a5b604ef00e6a974b9b44a7d168fa9",
+        "initial_state.npz": "b32ac942563a440f4577da99c6cac1407655e9963196d13c55a76a977a7854ce",
+        "task.json": "d2002a9e9f65249c38197879fd3b8e0faf2960c322cf78fce7a2bd125eaf8a09",
+        "physical_input.json": "a89802bfd9c704c376294eb28c13b961eb9c0a4f85c5e8643d44c2fbbeb30a35",
+        "task_input.json": "810d1b8bceab8d7934c0ae123e018516518e000c010d9a4dec10ec5a3904f2af"
+      }
+    },
+    {
+      "task_id": "META64_problem_013258",
+      "source_relative_directory": "inputs/META64_problem_013258",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "c8c3437a3c66dfb6626f4c1bb47b4b5dbc73c45f3231ce4738d7134a81620ebe",
+        "initial_state.npz": "241119455ff47d623ead03e2aa05ad6762ccb9682f311205ab50614e96047cab",
+        "task.json": "14f3443795dd46c270bdaefbaf4d6e079ee3846cc254277f00cddfa3ef864852",
+        "physical_input.json": "f28f282cb223b67955d8827e7c8cdeab917bf410bb89bbf654142965e213f471",
+        "task_input.json": "28ac99da39555c5a79e5073117fa7a290243c0c8f70f7b5a4fda73f260c0a55f"
+      }
+    },
+    {
+      "task_id": "META64_problem_013393",
+      "source_relative_directory": "inputs/META64_problem_013393",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "db0c9b9aaacbad821ea8c5fa61a6e1bb73aa30368c137796ae827b08434ee17a",
+        "initial_state.npz": "b15fe7a5ec7d5bcc61fe14187da3f68d937cf583fd3381a4e50fe17bcd429573",
+        "task.json": "51e126c749ecc6a41a85fc2277aaf50096ff8dab7303398777fed1ce59618a99",
+        "physical_input.json": "e5d2f877055a7f0ac78cefd5ed06ac5b4d01461bc6dabcc6ba7a994697091307",
+        "task_input.json": "52d523dab665922527e418008e9e5572708a38c1afeaa7823adaa3231da0d45a"
+      }
+    },
+    {
+      "task_id": "META64_problem_013643",
+      "source_relative_directory": "inputs/META64_problem_013643",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "a53429614621543858e4c713ae3e7a639b32a0dca89a05dc474676e34d102fec",
+        "initial_state.npz": "cd9cfe08b95c74fa6d33b7ac123161845c3469294b42516b9aa6c3291088271a",
+        "task.json": "6b8823afa58c318a1fa827c4b414d9b0bae65b0b42c0d8512428b609c66cb887",
+        "physical_input.json": "bab4d93a3906dd69b91b6025aea65e4ffdc854ce910df1d05f33204458be847f",
+        "task_input.json": "9c717fbbbb32f198a1e2452ce5b060355b847130761a35e69b1124f47ceab5ec"
+      }
+    },
+    {
+      "task_id": "META64_problem_013650",
+      "source_relative_directory": "inputs/META64_problem_013650",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "c7d8ec406e6c597e62e335d2156c0a70b22e8ce6dbc8812b6d4e29d83e051b81",
+        "initial_state.npz": "3b825865aeabbdc788bc48ec20941f30b36b05d9266e873a165bd97c08aa7efd",
+        "task.json": "562faa1e1a4f37ad3857c3b5398b65d888add58d43fa1056052b84e1b1c7e913",
+        "physical_input.json": "c680ce83dc866980eb6d0094664183a5a08c99f159b3cfdd07dc17e9941112a4",
+        "task_input.json": "ffdbcbc9f89f2093097beae848b273c4d14099294da6e51dd2352fabbf60e8c0"
+      }
+    },
+    {
+      "task_id": "META64_problem_014400",
+      "source_relative_directory": "inputs/META64_problem_014400",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "5802ddbf7a28db94a677b31a5451e160cc2a2aea3c08abec5b74f9574d767260",
+        "initial_state.npz": "9950c71c9bc22a9b4d3022b12e0c0e34a77d67ebc2226467e1aec552e988a66c",
+        "task.json": "a235a83358348e394a5e8fc8649395d10286713c74ed1ff0da5e27bc097f67f6",
+        "physical_input.json": "1bc2821e8b5fd7a49ab437641a7177ea2adf813c089f7b244702931f141dbe0a",
+        "task_input.json": "d33a96bdde4fbf8bd1728c6e1ab33b2dbb960aeb1bed80138ab2acbb775d876c"
+      }
+    },
+    {
+      "task_id": "META64_problem_015140",
+      "source_relative_directory": "inputs/META64_problem_015140",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "49f74cf7cd36035e02739ae3ea6b53fca15402911dbe57935de71c152e89c7b8",
+        "initial_state.npz": "6b3994926ec15d4b657988dba2d78ee7d1adef063856c1e783cbdd39d9bac52c",
+        "task.json": "2e54ca48d53fc643009b4029bb46103e83d6257ac7778d052bdcc6061db0d3c8",
+        "physical_input.json": "cae3e6873aeacb32da74e94505eb5cd65546c74f414131e34fc3e311e277d118",
+        "task_input.json": "c935445226dd07c8301ff80f38c2a02de1cf82585c30ac29e4593506f31c8f79"
+      }
+    },
+    {
+      "task_id": "META64_problem_016344",
+      "source_relative_directory": "inputs/META64_problem_016344",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "9c3fb7f43e626b6997f1a21589fcf32573ef47106f19353e0eb5c0b394adae60",
+        "initial_state.npz": "de72c82a2c360cc96572d3734e5778e3084bd742072a17607d500f4be187fd46",
+        "task.json": "87020b022c26069f292ff3c2bb4798dc3c956610c178f1a6cf8df15ffd2ad5e6",
+        "physical_input.json": "a49132436f617fafd704fd86e1999a91339ca7114d8ceb5df1dd6674e0568153",
+        "task_input.json": "7aaff775d9320554c2b1a7e9ff4333a1326672638c96214108b5e5d15371fbcd"
+      }
+    },
+    {
+      "task_id": "META64_problem_016461",
+      "source_relative_directory": "inputs/META64_problem_016461",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "df4a197cbd63ef106ef5dd839bd4b9859fa619f3106ff060991e053e52e5c4d0",
+        "initial_state.npz": "8a685c20363cc91ba97d05eaa3e5b9d385a4c0132e27d79197e587ff69125df5",
+        "task.json": "217db6674225954ae99f959a591c0b5d4b7e83fb4301c92beb54dcf4e5bb357e",
+        "physical_input.json": "9ab0fa4be60f2d3d91091e3fdfec55e70b89ab9fd9f42ad9c0b493a1a8c58d88",
+        "task_input.json": "9b0fb38d7e8e8b7571e7374c8d576aa2f4f009ca555957affedd68f82e18182c"
+      }
+    },
+    {
+      "task_id": "META64_problem_016738",
+      "source_relative_directory": "inputs/META64_problem_016738",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "5abf546167d792179d1dd0d51dbc71dbd00dfb4ad9c0bc62bad8c8be2c53e794",
+        "initial_state.npz": "cf3f1fdcde79d8dd712047652f89242aa2adb9dece344758436993c18ef0a045",
+        "task.json": "c40fbfe09cc1f2581cdfe952ea750184c58643877455b632dfb9285940725dc0",
+        "physical_input.json": "01f94d930f9b7ab687200e051e79c40be5339117b7fe1743bb9230b22b13fb01",
+        "task_input.json": "2babdf70eafb6f03965f726922d05fa9fcfb36499a31d0539e65a30a712495b1"
+      }
+    },
+    {
+      "task_id": "META64_problem_017490",
+      "source_relative_directory": "inputs/META64_problem_017490",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "a9edd9643fedfe474f5db0ba7ba926ed81e2b7e194d5b645f9540ee7485c5bd0",
+        "initial_state.npz": "b5942882ac024059a60f816754e9c8025fb1812a7491acff9c92f4cffd4fe760",
+        "task.json": "0dcb325274f308e89b3144f0f3952f3a0ff1fa90599542785cb2e494b250ef9c",
+        "physical_input.json": "67459a642008d1247774a212716d1e7b372427a01fdc3333f3dd03bedd4a3b58",
+        "task_input.json": "b940137fba570c7d577966bc1743b8242fee5c34353613d6c215218af5725746"
+      }
+    },
+    {
+      "task_id": "META64_problem_017511",
+      "source_relative_directory": "inputs/META64_problem_017511",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "d3b2d3b67d09734f9321cf3bdc11fd293a665c69abc1bb5e53e11f22639f350e",
+        "initial_state.npz": "12274e63ccb2fc6087aaceec426039574f998d3f6b3ada5df7abd4c606b09813",
+        "task.json": "d21a86ee34472eda5875f09a47ceade735048273f0ef6581768e4975fb6d3e58",
+        "physical_input.json": "659ad37aec436839a61e34b22e268f5ab7a79b3378a69a7edcc706ec1268eabc",
+        "task_input.json": "a5559ee94292ad0a73015afff46cd54094fb2691cfdf7f244959dd2266d9ddb7"
+      }
+    },
+    {
+      "task_id": "META64_problem_017905",
+      "source_relative_directory": "inputs/META64_problem_017905",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "aceca0c0bd1a3d5054d520ba79b359ef3f3258f5a793f62f1a515d5354f76965",
+        "initial_state.npz": "c79874dfeb9b12243583d56985b2bdb29e0c7de752590c785edcaa976fccb305",
+        "task.json": "6de63b6c15ee39eedf38653221a34f3951aa18e48064d55a038e880d3de60bea",
+        "physical_input.json": "007a3b962393dd183d3ea5b9810fdc49fca2df71a19dc730e32e5440e761419a",
+        "task_input.json": "f9796d61115312075c36e7b003f41c3b7182f5d2c794eb2b87a37bb6df687a4a"
+      }
+    },
+    {
+      "task_id": "META64_problem_017956",
+      "source_relative_directory": "inputs/META64_problem_017956",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "ef77791f14b1e16ba0862e129c6a76378204c697cadaa19d31f3454a431d2d7d",
+        "initial_state.npz": "ce5eb93b19f58f1b9cd86218ddf97dff1c7229d9d07ea6ac1079dba5ca727697",
+        "task.json": "4629898d79cb61b924896b8fc29ea2f04185850959cb6d2bcb565c0a1acf754f",
+        "physical_input.json": "2f8d60c87e3f4270f4ba65af6d26615e7995e8364753c7559a7eebd55a0277a7",
+        "task_input.json": "59e024e2b8dc83c7db2d5b2dafae4a6192818449a9022944d06c61c5e919da39"
+      }
+    },
+    {
+      "task_id": "META64_problem_018461",
+      "source_relative_directory": "inputs/META64_problem_018461",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "1cc7d63de9a2ac0c316e05174ccd88dc613c285f71892b327bdb5c51edceacd6",
+        "initial_state.npz": "b40bbc88d6d67e52b37db264f26f084a3a247bed22001ab395dab8bd6e3a66b2",
+        "task.json": "3ae98996d8096342d5946670fa71a9abeba2a04e033cf930b98ec2eac787be8f",
+        "physical_input.json": "bb3673f5abcf65087d0bcaa8e3a47f4a336ed15c95a6c4f876d6274e817d4216",
+        "task_input.json": "3c984155b1c5920f1e697bdc4623e8b25b29494225b5b6999703768646006068"
+      }
+    },
+    {
+      "task_id": "META64_problem_018544",
+      "source_relative_directory": "inputs/META64_problem_018544",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "099169d59a58d13e17333ac30db198d0d3f4e6c80b965d827704241d4260d442",
+        "initial_state.npz": "d8c4ce911ed9daefece097f5e527917dbbb4032ca174668adf0a9f104e841d53",
+        "task.json": "c1a04baa045b54fb1354b4e8d92cb781f1b165e1f294e19a8f1db8a9d06ce1c9",
+        "physical_input.json": "140585f9fe9f3bb6dcd34848e70422d951626959f9375e592c96ec01f0c63107",
+        "task_input.json": "e55d4f867b702a8b00405a704ab375e005b60e9b6052c212c748503603e86973"
+      }
+    },
+    {
+      "task_id": "META64_problem_018648",
+      "source_relative_directory": "inputs/META64_problem_018648",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "f0f8c00fbe12238b668b17aa2a123dc037223aa4ac0676032a64efca7aa74e83",
+        "initial_state.npz": "aae3522925e17d7e68147559069ce735bece5cbdc0d32d6a7bfd1a3a18bb4e2d",
+        "task.json": "bc25585e6bc3ccc83170e6109a8c6e963bd1bce3bd37300d3652cd37efdd5ddb",
+        "physical_input.json": "e416aa1505e1c7db46c98239136771088a1c569f2d28230a59689c2dce7dabb9",
+        "task_input.json": "7f75eeffc27e58ecad5b36da9c210aebd761242ffaa949250c2be30409105aef"
+      }
+    },
+    {
+      "task_id": "META64_problem_018680",
+      "source_relative_directory": "inputs/META64_problem_018680",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "bd6ec0e06a62ef07a31454468b1feff85db18772e9df0fc4b903d1950a194533",
+        "initial_state.npz": "e87cfe5c6e4d74f9810a93bbf22921e6f0f69cfdbdfaed1c91dc8ff67eb50b1c",
+        "task.json": "edd9624121aa06831d9a7149c2fd26705ed3ef8f3d24553408261fff09a728f9",
+        "physical_input.json": "a6a0fc965a5c11e6d1d0486d2dbee60ecce31e4aeb10fd62e10364978a5a5676",
+        "task_input.json": "fac2ac4ada11581690935cfceb34dd05c8e74a9ed48eba552ce9d9f7df920512"
+      }
+    },
+    {
+      "task_id": "META64_problem_018866",
+      "source_relative_directory": "inputs/META64_problem_018866",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "b797154cb124af42c3829901966b8f776a2d9df330eb841c7813850bc7369f73",
+        "initial_state.npz": "c8f8834c878256f9a7328e4fc852357faacafdbddbee3c0dedd4017fea80bc64",
+        "task.json": "d238699579c1f14a5cd2830c3e3a7e88b43448a29ba370ff84860806f5f74921",
+        "physical_input.json": "bb91c2ac15dcff5904170a595ad01698817848aadaa0abe421295457e367d195",
+        "task_input.json": "68ee0d8b76f8cc2d088fe77e1a096309aa68d67d5a5cedbd6e43e48d9b44c697"
+      }
+    },
+    {
+      "task_id": "META64_problem_019190",
+      "source_relative_directory": "inputs/META64_problem_019190",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "7918e089803775888fbbe964cf72a55bcf4dcfef8d85d6ba2c066f75e42ce992",
+        "initial_state.npz": "ec8ee9b49dbf73ec79c25bea9593ce86a3696ffb0881d3df4bd75a060fa89684",
+        "task.json": "ef645438f1e6b4e44723ac0b36b61a16e7f84b5caa77e4fda3bf06fd1448f841",
+        "physical_input.json": "17872a59e5aec9f390d62c8e27569ba8840e8cbd5bdd18a25ae377d84f440c26",
+        "task_input.json": "4b5e4721e4a4387c23e57ed5d4ea3d6e347bef4a1e75ad1230b247fa733ddd40"
+      }
+    },
+    {
+      "task_id": "META64_problem_019457",
+      "source_relative_directory": "inputs/META64_problem_019457",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "702c1609fe0db54f2dcdd5794c6567b7312ee4bdb41d73927d425aa24747d85b",
+        "initial_state.npz": "e1e2f66dfeefa7fd7e789556feb3867f1215d716f3c9ffc62f2b7971eb633fec",
+        "task.json": "e665abe7a61761116efc5952c2e6d029c66ccfdc97025ce6c14b12d3bc217284",
+        "physical_input.json": "26370d2289fbd57e699afc9f9880b37253bbcb595f52a44ebf85409eab3bccbd",
+        "task_input.json": "8329681bdc144df5a42defb15dc776ee683027ef8e3004f6ad97fea2883867ef"
+      }
+    },
+    {
+      "task_id": "META64_problem_019469",
+      "source_relative_directory": "inputs/META64_problem_019469",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "e5c0abd899d205be9d15bcc6cac777a553adec91327bfc3d908ed3cf070e98d0",
+        "initial_state.npz": "91d2ddb5ef93698daade41e7e7d72e0730aa5c353c1c6b98577e9adf4f98dcf9",
+        "task.json": "642524d2e46cc0f1253d337027d4615d26114284c4faeafd226003217074c05f",
+        "physical_input.json": "23bf6a3e479d8953b0190eb764b3bd0f1c45ed38c23325ec6c4c0fce73b5cff6",
+        "task_input.json": "658f60c2c3bec084d6afaa62fe33b4bdb9654588b512c4bbdccd18a7baa777d5"
+      }
+    },
+    {
+      "task_id": "META64_problem_019842",
+      "source_relative_directory": "inputs/META64_problem_019842",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "74e713b8967d3f70d99e27f108a38f0bc9e46383f9d18f93b6e6ac610071d5a2",
+        "initial_state.npz": "f9aca80e02e023de5483ad1714e2ee4b08dc968eb97d33ee458bd087c338c847",
+        "task.json": "bda986e3926a52ed3fb39df06b4f77de556afc9a80a141a24c2f363bf47040ee",
+        "physical_input.json": "d8bb937dd35a04d49d7b66c72e2ec0718a8a3c2157198f310179b4f8e5c2393d",
+        "task_input.json": "b9ee762aa39cff31f0473d4f705216b5ea5d32839769da5315f728a3b108a546"
+      }
+    },
+    {
+      "task_id": "META64_problem_020943",
+      "source_relative_directory": "inputs/META64_problem_020943",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "4952ea58ed06b407800d7df0b8ea546c29b5a80a70237938b0c3e9af3acd3fde",
+        "initial_state.npz": "3720c3b6449bc4c58157557c73cdaca89284e7c7e8895183d09d21d241b0d457",
+        "task.json": "304ef1ab124294b012e1390103327f6a2daf5c9ebb77456519f568b89203bad9",
+        "physical_input.json": "ce1186ea74453e36320b3a0ca08f982264431fab34027842a5828a9a02f63c02",
+        "task_input.json": "bf9fa7565928417b2811db970f284e76835ec68de3de87f8e5244a6dd598b363"
+      }
+    },
+    {
+      "task_id": "META64_problem_021085",
+      "source_relative_directory": "inputs/META64_problem_021085",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "89f288c2e074d4893df601e34102a00f4d943e65d4e0c95a678f5d3b061274f1",
+        "initial_state.npz": "d8448b07238ff8294cf3ec7fe4a1c5573158938a9e4530b48afc1413af2e0be5",
+        "task.json": "d9191ad832d9769876da41de283f85963eb638ec262e2705d8f0b7da670555a5",
+        "physical_input.json": "9abed22abeb5dbe05acb235ba30d50bf2f4a50d751e204fd4ec5a04970aac3f7",
+        "task_input.json": "316add0527a8e729324d7796a940c09716c5304fe08f7b8fb6468a61a2239a96"
+      }
+    },
+    {
+      "task_id": "META64_problem_021150",
+      "source_relative_directory": "inputs/META64_problem_021150",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "1d934aa4a368dfe21330b65db8dfddf308633c14ff68276f9066229a04bc78cd",
+        "initial_state.npz": "6e8278f126cad03d82387d28e2ca19815a65ee5992e8878c9e0c3ea623d37823",
+        "task.json": "67d1934b95e3dc424e539f6f3524eae92d3297de6de17a911fec727a44ab92da",
+        "physical_input.json": "2ee3dd3957e0edd1b2f3a5ced269e2d138b374cefc3c38a2c64eed5686e5ae69",
+        "task_input.json": "74dce8dd2e06c3dc7a2ae958230c5954d6d8ddd2d329968647b227fc5dc0da25"
+      }
+    },
+    {
+      "task_id": "META64_problem_021309",
+      "source_relative_directory": "inputs/META64_problem_021309",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "0829d433f8e5e6a2b2a679af4cf0a115e92e4aef234cae55db2d06d9d62788b5",
+        "initial_state.npz": "409b81172a7a859e7ae7854c274a0d0a1703633c96e23d39082f384a3f5aef00",
+        "task.json": "a2b27d0672f9b3cf9ed3e14478d1623dae277557c62e161af8b364ac5cf3ec0c",
+        "physical_input.json": "2f2b4d8bee40844298561451fe0da549ea861c272e2c562c302758acfc26eeb5",
+        "task_input.json": "9d7b5b9ccb35341fa5a5c3d18c204be2e960b16a6f53f9afd51768b7f9747a50"
+      }
+    },
+    {
+      "task_id": "META64_problem_021520",
+      "source_relative_directory": "inputs/META64_problem_021520",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "c5b80923caeb36528eb1145152eb251c881fc0dd340cb04d70783da81f6533c9",
+        "initial_state.npz": "637487eb3193d3bb785609e92badf0df83e95ffebc368716a1ad335e49bc4816",
+        "task.json": "3e94f8a5bebba3bf564d39ba3933ecb2da9f4bec9b9dbab96f683aeb2a802d2e",
+        "physical_input.json": "177bee4881ce7ca707a8549c68d374916fb338f8db88839f3b79063744f5f2ed",
+        "task_input.json": "284bf7d831abbd52f7ef45704265b4fbe9fcd29b496fc541f8a0814587e39c58"
+      }
+    },
+    {
+      "task_id": "META64_problem_021874",
+      "source_relative_directory": "inputs/META64_problem_021874",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "c9a5c7fcfcab5242aa272188fc40ad536fbc17f17ca07c3853ed1daec3376dcb",
+        "initial_state.npz": "8480e50f5228c3ba99c94bb950835420db30413b66e77847bafc406eb264f9c7",
+        "task.json": "f0526caa5bb6c13d2ac7d36f9d3966c0e725e59b2f4ea4a29f5eb4507575d691",
+        "physical_input.json": "1ccfc37f315fc6b73025b16a030428f1a527037ced69a66903963b570cf8bf54",
+        "task_input.json": "00371630e56de0777a1be259c3594c921cc849828981d4b910a36855b39ac48f"
+      }
+    },
+    {
+      "task_id": "META64_problem_021921",
+      "source_relative_directory": "inputs/META64_problem_021921",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "b533801a78a67d997e3f2723e391b9398198ec7a0c4ea074e34d5856d10b4915",
+        "initial_state.npz": "973fb109d566bda5dd20643c59fb81e578828008d297857faa0b425c398fa175",
+        "task.json": "5628a3446427bcee4beba35167f3032620fed6c0ce5486c0e20524ee6d083d4b",
+        "physical_input.json": "ae8242e9f7ff6de08604ca91075cf7d2014745d615db989752b6a93a4c2a3a37",
+        "task_input.json": "a2c9b48dec828294350ea423acc0ca1de7f0b50441b769348b4b91c1b06fd46c"
+      }
+    },
+    {
+      "task_id": "META64_problem_021928",
+      "source_relative_directory": "inputs/META64_problem_021928",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "a733c93fd46d5b9aeb32f1dba86709565d5ef661a0e96269f92e0489a22c5992",
+        "initial_state.npz": "856ec24751c5c38fce4d5a2663b497609702ff0a68e4670ab9f4561b0a9aba7c",
+        "task.json": "8d2994812e6b1cde8d027204640da95b87592bda589684abcd965d609ed0cd85",
+        "physical_input.json": "d0d2f88ab4b51b0a2daca1d6b0e44d1d3b5ccbe46b37cdac0a222913252de24f",
+        "task_input.json": "d7ebe799e2f9e7f1a7163f4c2cbc3e600001b56e159e64c994e2699930f8afa7"
+      }
+    },
+    {
+      "task_id": "META64_problem_022060",
+      "source_relative_directory": "inputs/META64_problem_022060",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "cda5eb41ab21ba593691eec772aba9ca5677139b6daae6d5534cdf0f734b04ee",
+        "initial_state.npz": "61a0c6ba08f33bc09373b0f1257e547afcdf27b0eb22135085b93b947e5a9d79",
+        "task.json": "3a03e5e01cc84e68f546fbde266a01571ee9a9b438f43302d692464a6e294551",
+        "physical_input.json": "e5d89579cdb9410a36e1cd38668d46077763a4b3edfc2a4e304e7f3577c2cc35",
+        "task_input.json": "79604a102592ebdfb9834f68ce34bdeabcb08169465bf6e562315206637f715d"
+      }
+    },
+    {
+      "task_id": "META64_problem_022122",
+      "source_relative_directory": "inputs/META64_problem_022122",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "4d3795bf5bb2ed768befcc2f5297a3513d20ca2f500f7a66f8a82d5ec14cf7f0",
+        "initial_state.npz": "7b7abaf617a0df80b730b5894e0a7b010dcb37a9450e376347cfd9a233b9b017",
+        "task.json": "8ddcda79852a22df230854894f8b2cb4d24c7607d6619104997324a42b01c5c3",
+        "physical_input.json": "9fd5013679956037d63454bb6fa16959d1fb08e9cfe2ce06f1c5b9bf7d9fcb70",
+        "task_input.json": "a010d7b441689cf9ee60e5ab365cfd54f0abaaed3774a13b59886cf9fa86f05e"
+      }
+    },
+    {
+      "task_id": "META64_problem_022190",
+      "source_relative_directory": "inputs/META64_problem_022190",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "b4b7f1d20fbdd0a2d742b31b02ac9bd2c943bcec9e13eab8cad9a09961b55b35",
+        "initial_state.npz": "caa21bcf8f394d5f5700737eb966d086e07ff7dddc17d7fffd0ceb3fbba4d77b",
+        "task.json": "c203563b81b3917190ee769139da548fdf787f186d0c39dda7f243102931ad63",
+        "physical_input.json": "81b4b3e5a297aa466b463b74bf0ed157f77809e4ded796920d815577c4733dfd",
+        "task_input.json": "83423c4f3d8f76c9d105264266373fb977a02ed6e7d01de1d465963f6e4b4314"
+      }
+    },
+    {
+      "task_id": "META64_problem_022220",
+      "source_relative_directory": "inputs/META64_problem_022220",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "0a5c50164049ae3ea8fd5e205b458d18ecbe3c23680bba50eed486664af440d7",
+        "initial_state.npz": "3520b12a919d50c7aefe91b7ead686684ec45cff562df8a577dc72aaca41d231",
+        "task.json": "97cc6a9c6d04e7894fb0f4f3d6743c79d024323e78fb12074ac4e239a0590e34",
+        "physical_input.json": "c40841764e2d626f5468b2b8f7153473cbed558b39aa580229707d6122510d54",
+        "task_input.json": "373796b746545f817412be55a09a397c7c73ae8f0a695291d8190828d1b3f28c"
+      }
+    },
+    {
+      "task_id": "META64_problem_022265",
+      "source_relative_directory": "inputs/META64_problem_022265",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "1edd16fc6d86a04c2531feb0b9eb4210aebf21ada0f4533bb0285b1a493d0e33",
+        "initial_state.npz": "8f130c74c0f0815357ad89daf602511aeb3d34a7535af508fd1e7cd86af46753",
+        "task.json": "f8cebb69eb22e67fd72795f0e91fe1c21d35f17b2ccc0e72dbdfe1277b86d6cc",
+        "physical_input.json": "d3477a8dd552837a2e3a4952c738c7ef2d3b22b3285fe20c8710be401f5d6f9e",
+        "task_input.json": "0a4a1ed858a796968ec704a8f85a8f4cfe6969c200970b340e9e06e69a739f71"
+      }
+    },
+    {
+      "task_id": "META64_problem_022372",
+      "source_relative_directory": "inputs/META64_problem_022372",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "2cda29a5fb658ce74a30df1f44ee46dee54c4b7453bba0d8aa53eac14a45784c",
+        "initial_state.npz": "5fafe77f63bc7f39940a41df719ddfe1e1bf962f64a3f3aef3a8eb80de2231e6",
+        "task.json": "191fe3ff4f39affd89c51f769b48f1eb5f482c144e0ecfa9692834a852f0a60b",
+        "physical_input.json": "da90c6f6f0e7be08b87215dbffdf87d68bdfe94449ecb800a9827a80b2644ece",
+        "task_input.json": "8f2319fbd8db8b0c5db71a44e0affeca8503a19549097288a88a98ddc9d5fc53"
+      }
+    },
+    {
+      "task_id": "META64_problem_022985",
+      "source_relative_directory": "inputs/META64_problem_022985",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "9e474e3e0aa69c15c1c08ab16560329a04db74f1a825bdf891d7892f446f0273",
+        "initial_state.npz": "e705461004181ce3ada1e01a2f1400720078ba3e1c92301a8df44aff65afd7cf",
+        "task.json": "327d654316610be76370c95b431cbe3d97a88b142b8fefb9502b81974dc04369",
+        "physical_input.json": "299627d94b0acfa9a53162023f63f1f0fd7d50e96c929a3b881ab47982a534d0",
+        "task_input.json": "713ef3bf4659eb91a7b9f5a1216094b8868d8e21217e69daeb2a8e333356e8fa"
+      }
+    },
+    {
+      "task_id": "META64_problem_023009",
+      "source_relative_directory": "inputs/META64_problem_023009",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "7d990953c28abbde87839ef9e3ab460614f250c4f37eeec0d6bc0a1a5cfebd31",
+        "initial_state.npz": "59da77229ce72a7bc286811d5c68503dbfc5bbf825b69207ccd08a58ba8ef7c0",
+        "task.json": "2b7f32eb50418ef6e837e487e463d45ba734b57d1fa9699f4abb1876f1169bfb",
+        "physical_input.json": "5e90dfb38e84ad140308dbad2295028d08e5fef2e6807a9a8c5783268f16a181",
+        "task_input.json": "16b8f9cbfc2caa5894a9dfd1c763e3ef98070faae4479ed10c3236789fb53024"
+      }
+    },
+    {
+      "task_id": "META64_problem_023581",
+      "source_relative_directory": "inputs/META64_problem_023581",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "029dcb13ed66d2c14d125a84822b5e79c9b143a04c20fcd15c22510d65124637",
+        "initial_state.npz": "2ddb87c641dd5a033cb4ac4682e3f1ee3bb7d0581a6074bbfa6ae731653f3493",
+        "task.json": "105c9cbdee0f987c2e14565d4623139ca05482eeb795cf040a0b0d42edf7c7f7",
+        "physical_input.json": "d8a00b9d09680a640b1a1d69d051c02400c3a3b630f081d83cb1a7bb2e09e256",
+        "task_input.json": "fec2653702c9f275004cb22b189b548a313c7882c828466c6f309a84f2c02593"
+      }
+    },
+    {
+      "task_id": "META64_problem_023707",
+      "source_relative_directory": "inputs/META64_problem_023707",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "1403f8d19a1f98167b10d1a53aecd9baf4a4dfcba717668c2e4e15b6251b0bbf",
+        "initial_state.npz": "4e9caad00f945e4de5f9f7ebe955956038e366efeae88eb98bb43e1055cc39bc",
+        "task.json": "b83d1ab44cab7b5ba040c02517a5ad24914c10cbabee2d11f22e2998761c1a13",
+        "physical_input.json": "3a29febc015f48d7fbcace1ae1315a8023d04efca9a66825665c88edbfe05dcf",
+        "task_input.json": "82aa13458bab7deb488d90472845d7e56e14fb22363f0ac7225c0b3d0d614cb3"
+      }
+    },
+    {
+      "task_id": "META64_problem_024228",
+      "source_relative_directory": "inputs/META64_problem_024228",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "266384a8f6fbe02606314544c04cb17f538fe7c9b64f284a7dd47dd6b26d9791",
+        "initial_state.npz": "dcbff4331ec066945299d1f047ccf082a69778f75c8da27d6df10e22676b94e7",
+        "task.json": "ba24097328b47064d6a8afaec017c0c35a43bf9b1030a012dea62752eeab4c23",
+        "physical_input.json": "07f06d42eb4e0d8c8e103a3b3aa5c666de03d7f4224237e30989582e51f67948",
+        "task_input.json": "1692c52bbe140597a413907d9c57a8893f5ad8419a7d4a361a4203ac49a76955"
+      }
+    },
+    {
+      "task_id": "META64_problem_024608",
+      "source_relative_directory": "inputs/META64_problem_024608",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "a23ae81b321b7b0288c5447ce3d66bf9552f6a97b844e8a8799bd6b89e9c2ecc",
+        "initial_state.npz": "3b48e9332970c85f1d108459cc3ef4cfd5ab75d84356998455395183f3ece438",
+        "task.json": "fe952fe03417bd92eba491e336f8553c3da124a03c17313d2646cc5029538f8d",
+        "physical_input.json": "0720b9af2208b9947e9f0b9eb85a5bb3d04d67c12298c5152a039ddf3a7f6a27",
+        "task_input.json": "75a660f3faf2b0ce413fc8427687668245f96306582e277e391df615cf103121"
+      }
+    },
+    {
+      "task_id": "META64_problem_024615",
+      "source_relative_directory": "inputs/META64_problem_024615",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "f59d0779e7c4b17f34def80023c53919d5af92ca94f68a0e668e368660ca14af",
+        "initial_state.npz": "fbf4fe6267485d5bb1f7024f08987ab2ed51197b3f555f6fe65e78f5aec9d5f0",
+        "task.json": "da2507af93fd1c2cc8d9ad296ef50ed8c85f62698cebb500899200ce88e01f17",
+        "physical_input.json": "730c014665dae4b87a8d9635bcc98c8349ac3cc9197b891d7a9482d021cbe406",
+        "task_input.json": "293ea47a48c98af3e6ea4947f6b29327cd6101c2342ba8a4f7cf63c74e179fd0"
+      }
+    },
+    {
+      "task_id": "META64_problem_025201",
+      "source_relative_directory": "inputs/META64_problem_025201",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "46c799e935d5c9d13d21989c646d7b95d427dd698013bac52da0d2e2f1e42a07",
+        "initial_state.npz": "1853cbe5f5a64c09051bbaf9421f0e7d2dee027c2019443e0188477c20926740",
+        "task.json": "48519b9e1eca38099d48a1fc5d7c6714958990ae8f0840a30c2c7c1cb3c77c42",
+        "physical_input.json": "db30feee8c95553b9cec92d85feded2a483427bac4b7fbb490fe6f21445acbe0",
+        "task_input.json": "7ef0c8ff56f70cc6867f67a1535eca08b6fe9fc05025efb9af407e3f84fdce28"
+      }
+    },
+    {
+      "task_id": "META64_problem_025523",
+      "source_relative_directory": "inputs/META64_problem_025523",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "334ea1f52d5c37761c3f4eff19c204897a16ecbf86560265db99b2567dbeb78b",
+        "initial_state.npz": "83f4b446eec545fe8710e7593e68f4f1d09e61e6e24053462e5f67be44ae195f",
+        "task.json": "7383ba617d61e7e8e181bad2fe0f118057fdec81735f250d0daa16a7ebd78f2f",
+        "physical_input.json": "849ff8dda7f6ec45902bcdfcafff51d866729742fa0fb196aeb6b9412f17260f",
+        "task_input.json": "7b5a21fac101ad2be4edbbe1a083854311f156b3981c6736bcf504ef5fb8df6e"
+      }
+    },
+    {
+      "task_id": "META64_problem_025589",
+      "source_relative_directory": "inputs/META64_problem_025589",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "9ad403675bcd9b4059a46bb3610eb75f41aa0c8e7c2141e8845c37f2d742eb72",
+        "initial_state.npz": "54e9e1da6c13678d1460adcdedcfeeba3b7e67f5518e4bdaed0e8b5c7292e178",
+        "task.json": "e8ac448cfa6e2bb3afde04c43648cc07785ffa15cfd2fee33db5eebfe51c4661",
+        "physical_input.json": "03df275f63c77b314a83ad3db52799b2bfccd305ccacee68ad1c3c13aad6d0c4",
+        "task_input.json": "ffecac15b6be9176e853e5bf3042158d9e47bec2a20176e340a68d3dd4eb8052"
+      }
+    },
+    {
+      "task_id": "META64_problem_026056",
+      "source_relative_directory": "inputs/META64_problem_026056",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "e4af187f449a12b51c74c205ee24c460b2a2d57f19cac27f21d1c7de871715d8",
+        "initial_state.npz": "6c4bf97fc1d590e41572c2308e513bd9ecf7c290e0835e0074d27572fb9623e7",
+        "task.json": "8a0770dc967786d6ad720d530a05270f327c3de4420e3d0388e60a581453c400",
+        "physical_input.json": "d5ad4dee9ce4e430280dd0fc63e7c3daf2ed98a3889c7605815594f0b3e45630",
+        "task_input.json": "688c515d61ffe53310c6f4123e702a3ed83e0d2580dd4a65a4f718c5c6ebad4d"
+      }
+    },
+    {
+      "task_id": "META64_problem_026288",
+      "source_relative_directory": "inputs/META64_problem_026288",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "5cb5855a9261afbbc48757a8dda7ea785d2f37390a519d27d4bc7b61d2e15997",
+        "initial_state.npz": "b12936b4ba1ec6d1010948b31c6c0cbd9751641344f4bf13ae4c8457f2a470f0",
+        "task.json": "e77c89bd46b58f916c5e6fce9e7b7f1271f5449cac010873319e93bd6c61e382",
+        "physical_input.json": "0bb88e2928ceea1bf28bd0bdc897e5449d6adf80e2d35c2815e094c669dc16c9",
+        "task_input.json": "9790eaba1e4ade301fbc0f1f9c70974d9dc021cf45fc9e45988ef8aed6adfeb4"
+      }
+    },
+    {
+      "task_id": "META64_problem_026353",
+      "source_relative_directory": "inputs/META64_problem_026353",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "fdd0dda8e31dc973047b817d57d41d436179529854edf82d7a3b5113089a7c8d",
+        "initial_state.npz": "15afc6a4419e60a0e5c5300c973161f848edb7247f6bdac275a230a2207a7bf6",
+        "task.json": "d82c31ba036c26c4598b8127ed057e6589254822e77c6b3343f9aea1083ddc09",
+        "physical_input.json": "66482a61bf320348479adbe0e34676fbb917a6ea5bea8aaebb62cd359ba4179a",
+        "task_input.json": "a6dce5b0dcf5d03421c6decd2a8ebf1abb3158a08b19ec33195c267e39528af7"
+      }
+    },
+    {
+      "task_id": "META64_problem_026375",
+      "source_relative_directory": "inputs/META64_problem_026375",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "f46f523a1f55750376cf515e90e4e048d21e8b3b1f1f16867a8d347ced7b81ad",
+        "initial_state.npz": "50898b1eafb4caea39b5503cfac8fe05aa1d613cf618ec287a3283c879e5dac6",
+        "task.json": "634895471fd43160fb49c3a0fec15032e8489e5e4b5abc06cbba6267ef3d3773",
+        "physical_input.json": "ed941c59e5b41bb0451b9631cb570637118d82db6e4d1d7560c9dc28bdeb09b1",
+        "task_input.json": "a7b7d4846ee7e2093e547a301b7d0df5a577272b8209e692370134dea370c928"
+      }
+    },
+    {
+      "task_id": "META64_problem_026453",
+      "source_relative_directory": "inputs/META64_problem_026453",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "58304b8f15579531b72ea2045075c5f9ff5a37c179d38afb36eb1668307b8dcd",
+        "initial_state.npz": "894d6768c1de1c12dd9e58f045e949bac4de3ef6113d345b56e7dd8923d5baf0",
+        "task.json": "b025c2460bbe8b3ca36336208bd12e76acbb965e137ee39d2f8c2dd12848fc91",
+        "physical_input.json": "818c51d42d78e70ee507296efb817d709030096a432eb3c015d168c9e2a7743e",
+        "task_input.json": "a8632ec7c624c577c77cb4d3613297d9e63b3c7f72fdf66d47cbe566016565e1"
+      }
+    },
+    {
+      "task_id": "META64_problem_026802",
+      "source_relative_directory": "inputs/META64_problem_026802",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "f133d5aa708bcef0df9e3b6e34e951e1bdcf3b0e7e9e41857d9db1aeaf60d15f",
+        "initial_state.npz": "db926c3bcad5cce6372d209c0803c04b4456f8b15ac86ed0ecf01880b851fe5f",
+        "task.json": "220af455438771992c0fb757240079c85fd7385fc5011fc94d7c01302d9b0b0a",
+        "physical_input.json": "4c1b18d43d7fd5f782232bc353ecbece2b275eff9e108c061c3875f411b6af57",
+        "task_input.json": "ffaeba8f146253697c83f666a42331dc2e31476510741e8e9412b19e72f203d3"
+      }
+    },
+    {
+      "task_id": "META64_problem_026982",
+      "source_relative_directory": "inputs/META64_problem_026982",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "476b7fccb5b899885da8a4d52622ca1b686677aee4abc217f034f5608fbae872",
+        "initial_state.npz": "e7f66893697080c7a6a41b841f183779a22bbab44ef6a39d83abe76af4c3055f",
+        "task.json": "88b38ae0df6066151747b14c63d354bf635d4f418b52217ff0593bf094899036",
+        "physical_input.json": "fa1dfda3b9253610951022dbcc8484ef716ae02e063918543765f249248dc298",
+        "task_input.json": "c191643505fbb4557a01b7a19e4ea4f1947c44575482f0661c578b06cf2927a9"
+      }
+    },
+    {
+      "task_id": "META64_problem_027190",
+      "source_relative_directory": "inputs/META64_problem_027190",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "8376b6112107d7fb99a816ef34e9994adf244c047e5e4b4cf04da39d2ffc1f87",
+        "initial_state.npz": "09035346f34c3ccb26ff9a1b5b36cda2a630df998d0ffa96a4f7d342dc49c021",
+        "task.json": "b5261429ab8030a0afc74780fa9d2123a27d21300f42011bcab7b70e8aaa68e5",
+        "physical_input.json": "1bb358ce177ba4225fe59599101df750ebc06ad53e138ca9c68eea06e9214763",
+        "task_input.json": "381d53120e8f3f422939aaf6055474c1a43c158c775f7d26e123164c07d66502"
+      }
+    },
+    {
+      "task_id": "META64_problem_027304",
+      "source_relative_directory": "inputs/META64_problem_027304",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "2face04223edb23000255770ab9e2192146eacb63763b468d5d33f1a3cc17f30",
+        "initial_state.npz": "364bdd00b0d35b3df8c9d8f62a57d653b74c424f553af9fab91866228326fa35",
+        "task.json": "f60b3481b07a7ceef6ac9500b44e0bd5cf343065d6acf097a8418621b218225f",
+        "physical_input.json": "4901463d1ea505717649fc74faf57f4c8118eefae9173d1fcd15fe653b5923f6",
+        "task_input.json": "b86dea6227b5b7c57e0de6e375cc06203229cfafb42b05c59c938aa3aaef7b50"
+      }
+    },
+    {
+      "task_id": "META64_problem_027331",
+      "source_relative_directory": "inputs/META64_problem_027331",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "fa6c9a888321082446323e65e1a4feced98afd0a15732ee1d1819b7225215170",
+        "initial_state.npz": "d37e7f8f09fa7b3dbe75fb0d3dde07cf99422b57390176e9f5faf6acb43e1be1",
+        "task.json": "c0f57bfc2d27ab743f32dffbec62e7b097649d03cb7b41843436b19e20e5bd6b",
+        "physical_input.json": "7f10aabed987f542b51d699d19ee11dfc75202992c11460bbdb38aacd7cf8df7",
+        "task_input.json": "4ce799300e7a0f2b63773cfefc532527e6bd100aadd84850893f8ac0c26f3fa8"
+      }
+    },
+    {
+      "task_id": "META64_problem_028522",
+      "source_relative_directory": "inputs/META64_problem_028522",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "fc47f655eba80b698700e6b472049007ec6a0a04cf8571862d9f63afdf8b7eb3",
+        "initial_state.npz": "dd4a02d26a0c128bc195fe56fd44c46ac1a79cda9c3c8de86c74dafceb74aba5",
+        "task.json": "522f73e98d2ace7a79de0c1839ec21b95b47de7ea96f88b406520eb20792f966",
+        "physical_input.json": "dadc5c6f47b87aa81a9a993c5843b8a114938f5b69e7d5ae5bb7ef4eac4a26a1",
+        "task_input.json": "b80432bba7ab0c144dd4fd8023b00601433d67650b1ff51aede2f9b84db397b3"
+      }
+    },
+    {
+      "task_id": "META64_problem_028757",
+      "source_relative_directory": "inputs/META64_problem_028757",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "e00bf13583e9850408f3e9a228d4c81e29403d3caaa2f3c36bfbfb8d9dff3ec3",
+        "initial_state.npz": "21744081251e35115b0799d3baf0164bbdff5f3505c1ea17ccc7bf4a6117895f",
+        "task.json": "3770f7cf01a7ada910338737c9bf0acc797d1b7295b268a3b2c5fdafe6a3c417",
+        "physical_input.json": "55628b66244677b829fa8b0b7db93bfb946b22b8dc0539b71bf5ce692a961be7",
+        "task_input.json": "9f2da36e4a17eb6c2c7c32a4a775f64c4ecd89519247689a239f76697949353d"
+      }
+    },
+    {
+      "task_id": "META64_problem_028992",
+      "source_relative_directory": "inputs/META64_problem_028992",
+      "assets": {
+        "domain.npz": "4915d3475d6177c48a37584732b5d44f861d8350d2db644f2ad85991ecd6e4b3",
+        "boundary_conditions.npz": "0f6f7628ce1259471090cd98c7bf07f455c06613d74b29dd31ad951f6f6d5a5e",
+        "initial_state.npz": "f2047d2bf902f4846051814218d8d580da56182086a63ba25efb23fbe3cfee3a",
+        "task.json": "0808a1278f90a7c52d42d1d7111f78e614150195b28c9d00fa073a9266322064",
+        "physical_input.json": "fcf5c33b61ba53e02d14499585f4b2066953bf2730ffe9171e979d804af92add",
+        "task_input.json": "4cb55af88b963f0d991771a5920b07fd4efc62891272139b5886a025f28fd725"
+      }
+    }
+  ]
+}

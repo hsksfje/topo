@@ -1,0 +1,5639 @@
+[
+  {
+    "task_id": "META64_problem_000008",
+    "group_id": "4f6733003545640d4e178dbcb284d3d8c1c7ecc6a0b7b16da38dc039c8163df9",
+    "vf_bin": 2,
+    "source_key": "train/problem_000008",
+    "volume_fraction": 0.21393619775098704,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_000008",
+      "family": "META64",
+      "split": "train",
+      "group_id": "4f6733003545640d4e178dbcb284d3d8c1c7ecc6a0b7b16da38dc039c8163df9",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.21393619775098704,
+      "source_key": "train/problem_000008",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_000008",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.21393619775098704,
+      "fixed_dofs": [
+        914,
+        915,
+        8367
+      ],
+      "forces_sparse": [
+        [
+          518,
+          0.9959382626324577
+        ],
+        [
+          519,
+          -0.09003875290474501
+        ]
+      ]
+    },
+    "uniform_C0": 1792.8443495857668,
+    "uniform_C50": 80.17467347023177
+  },
+  {
+    "task_id": "META64_problem_000436",
+    "group_id": "7e0b0cb2f6c6a077a7be8ba8028ad3da2e28493a45e0b935a27e3402257074b6",
+    "vf_bin": 0,
+    "source_key": "train/problem_000436",
+    "volume_fraction": 0.11502092802401825,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_000436",
+      "family": "META64",
+      "split": "train",
+      "group_id": "7e0b0cb2f6c6a077a7be8ba8028ad3da2e28493a45e0b935a27e3402257074b6",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.11502092802401825,
+      "source_key": "train/problem_000436",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_000436",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.11502092802401825,
+      "fixed_dofs": [
+        81,
+        5980,
+        5981
+      ],
+      "forces_sparse": [
+        [
+          100,
+          -0.5947726710797216
+        ],
+        [
+          101,
+          0.8038939418459957
+        ],
+        [
+          8320,
+          -0.9411075756954337
+        ],
+        [
+          8321,
+          0.33810727730805146
+        ],
+        [
+          8388,
+          0.7578048934730791
+        ],
+        [
+          8389,
+          0.6524812207475823
+        ]
+      ]
+    },
+    "uniform_C0": 17003.421917088544,
+    "uniform_C50": 208.9410000275442
+  },
+  {
+    "task_id": "META64_problem_000822",
+    "group_id": "c51730a7b94b3688fde00314ec1fb0fc518b4c988a26eef6a44bb288fd6d8599",
+    "vf_bin": 2,
+    "source_key": "train/problem_000822",
+    "volume_fraction": 0.21677198842922937,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_000822",
+      "family": "META64",
+      "split": "train",
+      "group_id": "c51730a7b94b3688fde00314ec1fb0fc518b4c988a26eef6a44bb288fd6d8599",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.21677198842922937,
+      "source_key": "train/problem_000822",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_000822",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.21677198842922937,
+      "fixed_dofs": [
+        779,
+        5331,
+        8190
+      ],
+      "forces_sparse": [
+        [
+          3248,
+          -0.6555712396840884
+        ],
+        [
+          3249,
+          0.7551333323983702
+        ],
+        [
+          7668,
+          0.19215140720620139
+        ],
+        [
+          7669,
+          -0.9813652921866947
+        ]
+      ]
+    },
+    "uniform_C0": 2964.0353792099486,
+    "uniform_C50": 82.69822284953776
+  },
+  {
+    "task_id": "META64_problem_000945",
+    "group_id": "cf48a5d8f866b2a4336c46f3107dc44cb7ddb0ea6cb9c5970c5bc1b258b1cc05",
+    "vf_bin": 2,
+    "source_key": "train/problem_000945",
+    "volume_fraction": 0.1950417987932104,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_000945",
+      "family": "META64",
+      "split": "train",
+      "group_id": "cf48a5d8f866b2a4336c46f3107dc44cb7ddb0ea6cb9c5970c5bc1b258b1cc05",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.1950417987932104,
+      "source_key": "train/problem_000945",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_000945",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.1950417987932104,
+      "fixed_dofs": [
+        102,
+        103,
+        8412
+      ],
+      "forces_sparse": [
+        [
+          4940,
+          -0.9233418717453274
+        ],
+        [
+          4941,
+          0.38397888989088347
+        ],
+        [
+          6378,
+          0.9158280970673005
+        ],
+        [
+          6379,
+          0.401570537542394
+        ],
+        [
+          8344,
+          -0.3346572941599816
+        ],
+        [
+          8345,
+          0.9423399044217111
+        ]
+      ]
+    },
+    "uniform_C0": 445084.1794092981,
+    "uniform_C50": 5284.31531583413
+  },
+  {
+    "task_id": "META64_problem_001216",
+    "group_id": "9dced0e02f8f78ace3f2b4c7c2ecade63c7a65a7244abfef3fbe94185a0155c2",
+    "vf_bin": 5,
+    "source_key": "train/problem_001216",
+    "volume_fraction": 0.33873128854609613,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_001216",
+      "family": "META64",
+      "split": "train",
+      "group_id": "9dced0e02f8f78ace3f2b4c7c2ecade63c7a65a7244abfef3fbe94185a0155c2",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.33873128854609613,
+      "source_key": "train/problem_001216",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_001216",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.33873128854609613,
+      "fixed_dofs": [
+        44,
+        2079,
+        3510
+      ],
+      "forces_sparse": [
+        [
+          28,
+          0.3676057753322321
+        ],
+        [
+          29,
+          0.929981716993613
+        ],
+        [
+          6238,
+          0.9947440046243698
+        ],
+        [
+          6239,
+          -0.10239318953852218
+        ],
+        [
+          6890,
+          0.8709273312113165
+        ],
+        [
+          6891,
+          -0.49141182703424396
+        ],
+        [
+          8392,
+          -0.9491846260616783
+        ],
+        [
+          8393,
+          0.3147197890952394
+        ],
+        [
+          8424,
+          0.8598998647208468
+        ],
+        [
+          8425,
+          -0.5104627534434509
+        ]
+      ]
+    },
+    "uniform_C0": 701.5582002705887,
+    "uniform_C50": 49.99225424842732
+  },
+  {
+    "task_id": "META64_problem_001336",
+    "group_id": "01e00e17a734b5edf2e7c06c22eedbe4f4a9f92958bd6cc82c07bcf3dc9b0bed",
+    "vf_bin": 3,
+    "source_key": "train/problem_001336",
+    "volume_fraction": 0.22789936049062565,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_001336",
+      "family": "META64",
+      "split": "train",
+      "group_id": "01e00e17a734b5edf2e7c06c22eedbe4f4a9f92958bd6cc82c07bcf3dc9b0bed",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.22789936049062565,
+      "source_key": "train/problem_001336",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_001336",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.22789936049062565,
+      "fixed_dofs": [
+        649,
+        2340,
+        8358
+      ],
+      "forces_sparse": [
+        [
+          8388,
+          0.3154133819293072
+        ],
+        [
+          8389,
+          0.9489543711369461
+        ]
+      ]
+    },
+    "uniform_C0": 7367.674516104531,
+    "uniform_C50": 153.57790711876345
+  },
+  {
+    "task_id": "META64_problem_001611",
+    "group_id": "e24aef6f4dad37d2fe083ee8f30d5a7a86e4e5e139c5d3ddd2fd2dc996cb9b70",
+    "vf_bin": 7,
+    "source_key": "train/problem_001611",
+    "volume_fraction": 0.380557106514429,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_001611",
+      "family": "META64",
+      "split": "train",
+      "group_id": "e24aef6f4dad37d2fe083ee8f30d5a7a86e4e5e139c5d3ddd2fd2dc996cb9b70",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.380557106514429,
+      "source_key": "train/problem_001611",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_001611",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.380557106514429,
+      "fixed_dofs": [
+        4159,
+        6368,
+        7670,
+        8411
+      ],
+      "forces_sparse": [
+        [
+          920,
+          0.7958736517480013
+        ],
+        [
+          921,
+          -0.6054627407638733
+        ]
+      ]
+    },
+    "uniform_C0": 75.11696006927929,
+    "uniform_C50": 7.008554733181803
+  },
+  {
+    "task_id": "META64_problem_001689",
+    "group_id": "182af9661872f230105eafa8e05a71ca0cd49bdab4676fb7979a2140d3c05559",
+    "vf_bin": 0,
+    "source_key": "train/problem_001689",
+    "volume_fraction": 0.13156481249685315,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_001689",
+      "family": "META64",
+      "split": "train",
+      "group_id": "182af9661872f230105eafa8e05a71ca0cd49bdab4676fb7979a2140d3c05559",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.13156481249685315,
+      "source_key": "train/problem_001689",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_001689",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.13156481249685315,
+      "fixed_dofs": [
+        42,
+        8380,
+        8445
+      ],
+      "forces_sparse": [
+        [
+          636,
+          0.9999607673609492
+        ],
+        [
+          637,
+          -0.008857976004796866
+        ],
+        [
+          5850,
+          0.06966470252125309
+        ],
+        [
+          5851,
+          -0.9975704632869927
+        ]
+      ]
+    },
+    "uniform_C0": 96609.25807043191,
+    "uniform_C50": 1065.2759833089112
+  },
+  {
+    "task_id": "META64_problem_001826",
+    "group_id": "cf1f867d4af9e2317d5d66c64657da5c44087d6a49f1b26c759e4b4913dd7981",
+    "vf_bin": 9,
+    "source_key": "train/problem_001826",
+    "volume_fraction": 0.4813849118924841,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_001826",
+      "family": "META64",
+      "split": "train",
+      "group_id": "cf1f867d4af9e2317d5d66c64657da5c44087d6a49f1b26c759e4b4913dd7981",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4813849118924841,
+      "source_key": "train/problem_001826",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_001826",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4813849118924841,
+      "fixed_dofs": [
+        3641,
+        5214,
+        8422
+      ],
+      "forces_sparse": [
+        [
+          1170,
+          -0.7941504789907908
+        ],
+        [
+          1171,
+          0.6077211669167839
+        ],
+        [
+          5590,
+          0.07557636530758437
+        ],
+        [
+          5591,
+          0.997140016751356
+        ],
+        [
+          8348,
+          0.9989157313874677
+        ],
+        [
+          8349,
+          0.04655493085206386
+        ]
+      ]
+    },
+    "uniform_C0": 160.95433959095894,
+    "uniform_C50": 19.127069846448684
+  },
+  {
+    "task_id": "META64_problem_001828",
+    "group_id": "a98847e049c150d4ac8ffa65e7efc5382cd4776de85f1e3f6c17fa8ae0f3fa0e",
+    "vf_bin": 5,
+    "source_key": "train/problem_001828",
+    "volume_fraction": 0.3225937465614056,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_001828",
+      "family": "META64",
+      "split": "train",
+      "group_id": "a98847e049c150d4ac8ffa65e7efc5382cd4776de85f1e3f6c17fa8ae0f3fa0e",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.3225937465614056,
+      "source_key": "train/problem_001828",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_001828",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.3225937465614056,
+      "fixed_dofs": [
+        4134,
+        4938,
+        8437
+      ],
+      "forces_sparse": [
+        [
+          8348,
+          0.7115921561194016
+        ],
+        [
+          8349,
+          0.7025927720588514
+        ]
+      ]
+    },
+    "uniform_C0": 900.1527980534248,
+    "uniform_C50": 34.7169065450572
+  },
+  {
+    "task_id": "META64_problem_002385",
+    "group_id": "8750851c6db11716fb1098ddae7db6d52ca20c64162f149a003e0b0d9f388fcc",
+    "vf_bin": 8,
+    "source_key": "train/problem_002385",
+    "volume_fraction": 0.4418909224380604,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_002385",
+      "family": "META64",
+      "split": "train",
+      "group_id": "8750851c6db11716fb1098ddae7db6d52ca20c64162f149a003e0b0d9f388fcc",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4418909224380604,
+      "source_key": "train/problem_002385",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_002385",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4418909224380604,
+      "fixed_dofs": [
+        21,
+        2642,
+        4159
+      ],
+      "forces_sparse": [
+        [
+          740,
+          -0.99901154110482
+        ],
+        [
+          741,
+          -0.04445155497136752
+        ],
+        [
+          4290,
+          0.4185130752308853
+        ],
+        [
+          4291,
+          0.9082107717158981
+        ],
+        [
+          5200,
+          0.544701266321745
+        ],
+        [
+          5201,
+          -0.8386301511795813
+        ],
+        [
+          8380,
+          -0.047297256000714154
+        ],
+        [
+          8381,
+          -0.9988808585486073
+        ]
+      ]
+    },
+    "uniform_C0": 1004.1917057696689,
+    "uniform_C50": 116.38336713182788
+  },
+  {
+    "task_id": "META64_problem_002842",
+    "group_id": "b3489d0fda11cf8d85a5c73be52bfc881bc8d14ab96b19142dde1f051b78edb6",
+    "vf_bin": 7,
+    "source_key": "train/problem_002842",
+    "volume_fraction": 0.3839725517731283,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_002842",
+      "family": "META64",
+      "split": "train",
+      "group_id": "b3489d0fda11cf8d85a5c73be52bfc881bc8d14ab96b19142dde1f051b78edb6",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.3839725517731283,
+      "source_key": "train/problem_002842",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_002842",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.3839725517731283,
+      "fixed_dofs": [
+        16,
+        17,
+        4942,
+        7348,
+        7349,
+        8354,
+        8355,
+        8384,
+        8385
+      ],
+      "forces_sparse": [
+        [
+          128,
+          -0.9945791827132813
+        ],
+        [
+          129,
+          0.10398196628926362
+        ],
+        [
+          2468,
+          0.9032257922131062
+        ],
+        [
+          2469,
+          -0.42916566531003697
+        ],
+        [
+          3900,
+          0.9958505602253884
+        ],
+        [
+          3901,
+          -0.09100363563495749
+        ]
+      ]
+    },
+    "uniform_C0": 263.5869248487736,
+    "uniform_C50": 16.354524970078696
+  },
+  {
+    "task_id": "META64_problem_002901",
+    "group_id": "f4f6b023018075828186f579dfcb4d2735eda1c3db0a1c7fd07f90ae1645a358",
+    "vf_bin": 4,
+    "source_key": "train/problem_002901",
+    "volume_fraction": 0.2837606770908246,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_002901",
+      "family": "META64",
+      "split": "train",
+      "group_id": "f4f6b023018075828186f579dfcb4d2735eda1c3db0a1c7fd07f90ae1645a358",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.2837606770908246,
+      "source_key": "train/problem_002901",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_002901",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.2837606770908246,
+      "fixed_dofs": [
+        2340,
+        4550,
+        4551,
+        6760,
+        6862,
+        8058,
+        8059,
+        8400,
+        8401
+      ],
+      "forces_sparse": [
+        [
+          260,
+          0.9928023814682857
+        ],
+        [
+          261,
+          0.1197640653572702
+        ],
+        [
+          1406,
+          0.9272728290469221
+        ],
+        [
+          1407,
+          -0.37438629850906335
+        ]
+      ]
+    },
+    "uniform_C0": 448.0064221928634,
+    "uniform_C50": 16.96096595343581
+  },
+  {
+    "task_id": "META64_problem_002922",
+    "group_id": "996ce98871828a1c3287cfc850d6857f959d1ec6892f74c75c2c9d7d5b3038ca",
+    "vf_bin": 4,
+    "source_key": "train/problem_002922",
+    "volume_fraction": 0.2831837961326934,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_002922",
+      "family": "META64",
+      "split": "train",
+      "group_id": "996ce98871828a1c3287cfc850d6857f959d1ec6892f74c75c2c9d7d5b3038ca",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.2831837961326934,
+      "source_key": "train/problem_002922",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_002922",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.2831837961326934,
+      "fixed_dofs": [
+        88,
+        7149,
+        8320
+      ],
+      "forces_sparse": [
+        [
+          778,
+          -0.6264839074297609
+        ],
+        [
+          779,
+          0.7794343549854207
+        ],
+        [
+          3768,
+          -0.6261518608971717
+        ],
+        [
+          3769,
+          -0.7797011267755158
+        ],
+        [
+          7188,
+          -0.6066970989880041
+        ],
+        [
+          7189,
+          -0.7949330978639271
+        ],
+        [
+          8402,
+          0.33759178535614937
+        ],
+        [
+          8403,
+          0.941292614684747
+        ]
+      ]
+    },
+    "uniform_C0": 1288.5099954556308,
+    "uniform_C50": 78.51399255273732
+  },
+  {
+    "task_id": "META64_problem_003213",
+    "group_id": "9bc60b5faf2a0628ea3cfb0cf247699013fcf8d701227b1285cb4dd5f857d2e5",
+    "vf_bin": 4,
+    "source_key": "train/problem_003213",
+    "volume_fraction": 0.2883036555640103,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_003213",
+      "family": "META64",
+      "split": "train",
+      "group_id": "9bc60b5faf2a0628ea3cfb0cf247699013fcf8d701227b1285cb4dd5f857d2e5",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.2883036555640103,
+      "source_key": "train/problem_003213",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_003213",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.2883036555640103,
+      "fixed_dofs": [
+        34,
+        35,
+        128,
+        129,
+        4941
+      ],
+      "forces_sparse": [
+        [
+          8058,
+          -0.9995880970060875
+        ],
+        [
+          8059,
+          0.028699064858431555
+        ]
+      ]
+    },
+    "uniform_C0": 485.05520827478335,
+    "uniform_C50": 15.956534694153254
+  },
+  {
+    "task_id": "META64_problem_003599",
+    "group_id": "580ca46a9c97201e472dd7babe5677dbfc45a79f5fd5b931e868b792ad75f65e",
+    "vf_bin": 5,
+    "source_key": "train/problem_003599",
+    "volume_fraction": 0.30324525481376763,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_003599",
+      "family": "META64",
+      "split": "train",
+      "group_id": "580ca46a9c97201e472dd7babe5677dbfc45a79f5fd5b931e868b792ad75f65e",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.30324525481376763,
+      "source_key": "train/problem_003599",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_003599",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.30324525481376763,
+      "fixed_dofs": [
+        84,
+        85,
+        8396
+      ],
+      "forces_sparse": [
+        [
+          16,
+          -0.5133766616626052
+        ],
+        [
+          17,
+          0.8581633896060581
+        ]
+      ]
+    },
+    "uniform_C0": 4239.328431346823,
+    "uniform_C50": 145.00540281968966
+  },
+  {
+    "task_id": "META64_problem_003894",
+    "group_id": "3f0a0c03eef1bfbaddfba0af993ef0633854177891542cd2591cbe8c63d1af99",
+    "vf_bin": 3,
+    "source_key": "train/problem_003894",
+    "volume_fraction": 0.2537918879362575,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_003894",
+      "family": "META64",
+      "split": "train",
+      "group_id": "3f0a0c03eef1bfbaddfba0af993ef0633854177891542cd2591cbe8c63d1af99",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.2537918879362575,
+      "source_key": "train/problem_003894",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_003894",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.2537918879362575,
+      "fixed_dofs": [
+        99,
+        8420,
+        8421
+      ],
+      "forces_sparse": [
+        [
+          8374,
+          0.06745112535803582
+        ],
+        [
+          8375,
+          -0.9977225795219503
+        ]
+      ]
+    },
+    "uniform_C0": 409.14394717634525,
+    "uniform_C50": 8.303720016740407
+  },
+  {
+    "task_id": "META64_problem_004204",
+    "group_id": "386fc66d838b22946be6a988ab451e280dcba51834bd8e47e8ec97292e0d4da7",
+    "vf_bin": 4,
+    "source_key": "train/problem_004204",
+    "volume_fraction": 0.2974293965189648,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_004204",
+      "family": "META64",
+      "split": "train",
+      "group_id": "386fc66d838b22946be6a988ab451e280dcba51834bd8e47e8ec97292e0d4da7",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.2974293965189648,
+      "source_key": "train/problem_004204",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_004204",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.2974293965189648,
+      "fixed_dofs": [
+        1300,
+        1301,
+        5201,
+        8396,
+        8397
+      ],
+      "forces_sparse": [
+        [
+          3640,
+          0.9615724042398913
+        ],
+        [
+          3641,
+          0.27455147314176803
+        ]
+      ]
+    },
+    "uniform_C0": 195.76452651643154,
+    "uniform_C50": 6.0305832944065845
+  },
+  {
+    "task_id": "META64_problem_004515",
+    "group_id": "8e8ea2c363c875b6feea7a1948b615117e39b8149385dabbbdc6f72f2d000206",
+    "vf_bin": 3,
+    "source_key": "train/problem_004515",
+    "volume_fraction": 0.24787716016506792,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_004515",
+      "family": "META64",
+      "split": "train",
+      "group_id": "8e8ea2c363c875b6feea7a1948b615117e39b8149385dabbbdc6f72f2d000206",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.24787716016506792,
+      "source_key": "train/problem_004515",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_004515",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.24787716016506792,
+      "fixed_dofs": [
+        19,
+        109,
+        1168,
+        8433
+      ],
+      "forces_sparse": [
+        [
+          1950,
+          0.6422188397510706
+        ],
+        [
+          1951,
+          -0.7665213381692572
+        ]
+      ]
+    },
+    "uniform_C0": 586.8175673323636,
+    "uniform_C50": 18.270761640673566
+  },
+  {
+    "task_id": "META64_problem_004789",
+    "group_id": "3661e5ab4425ef1179a88ba1c7ba3c99fc93847d6556804c723a089215522887",
+    "vf_bin": 6,
+    "source_key": "train/problem_004789",
+    "volume_fraction": 0.35278242279786765,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_004789",
+      "family": "META64",
+      "split": "train",
+      "group_id": "3661e5ab4425ef1179a88ba1c7ba3c99fc93847d6556804c723a089215522887",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.35278242279786765,
+      "source_key": "train/problem_004789",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_004789",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.35278242279786765,
+      "fixed_dofs": [
+        1039,
+        6888,
+        8356,
+        8399
+      ],
+      "forces_sparse": [
+        [
+          7798,
+          -0.9725649470784236
+        ],
+        [
+          7799,
+          0.23263151917645025
+        ]
+      ]
+    },
+    "uniform_C0": 102.00088316931922,
+    "uniform_C50": 4.8319536795852684
+  },
+  {
+    "task_id": "META64_problem_005528",
+    "group_id": "111c68cbf94de36969adac19f0e4b3bf40fb039ea1492f0437c842f0e6c06b90",
+    "vf_bin": 3,
+    "source_key": "train/problem_005528",
+    "volume_fraction": 0.25307461175238505,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_005528",
+      "family": "META64",
+      "split": "train",
+      "group_id": "111c68cbf94de36969adac19f0e4b3bf40fb039ea1492f0437c842f0e6c06b90",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.25307461175238505,
+      "source_key": "train/problem_005528",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_005528",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.25307461175238505,
+      "fixed_dofs": [
+        1716,
+        6064,
+        7411
+      ],
+      "forces_sparse": [
+        [
+          4678,
+          0.9996660902546535
+        ],
+        [
+          4679,
+          0.02584004634235408
+        ],
+        [
+          6758,
+          -0.7779156633576464
+        ],
+        [
+          6759,
+          0.6283686980609655
+        ],
+        [
+          8388,
+          0.7765725185842479
+        ],
+        [
+          8389,
+          0.6300278750815062
+        ]
+      ]
+    },
+    "uniform_C0": 999.7882489210488,
+    "uniform_C50": 22.49211591753619
+  },
+  {
+    "task_id": "META64_problem_005623",
+    "group_id": "94650047b4848917d3d3b029c6534923b7e59302dcf4069902b84d937c6e8fc6",
+    "vf_bin": 1,
+    "source_key": "train/problem_005623",
+    "volume_fraction": 0.1501549343624754,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_005623",
+      "family": "META64",
+      "split": "train",
+      "group_id": "94650047b4848917d3d3b029c6534923b7e59302dcf4069902b84d937c6e8fc6",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.1501549343624754,
+      "source_key": "train/problem_005623",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_005623",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.1501549343624754,
+      "fixed_dofs": [
+        121,
+        2990,
+        8375
+      ],
+      "forces_sparse": [
+        [
+          3680,
+          -0.8356998874942729
+        ],
+        [
+          3681,
+          0.5491863964466523
+        ]
+      ]
+    },
+    "uniform_C0": 1668.3391889245884,
+    "uniform_C50": 22.35570145489966
+  },
+  {
+    "task_id": "META64_problem_005668",
+    "group_id": "b3409101c452d2b1275e829cc5bf2d33edb204078ea95b37d67d40caff9ad665",
+    "vf_bin": 4,
+    "source_key": "train/problem_005668",
+    "volume_fraction": 0.28490628477891244,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_005668",
+      "family": "META64",
+      "split": "train",
+      "group_id": "b3409101c452d2b1275e829cc5bf2d33edb204078ea95b37d67d40caff9ad665",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.28490628477891244,
+      "source_key": "train/problem_005668",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_005668",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.28490628477891244,
+      "fixed_dofs": [
+        5316,
+        5317,
+        7290
+      ],
+      "forces_sparse": [
+        [
+          54,
+          0.9334503110931911
+        ],
+        [
+          55,
+          0.3587067280105361
+        ]
+      ]
+    },
+    "uniform_C0": 235.179299262308,
+    "uniform_C50": 9.252895557468218
+  },
+  {
+    "task_id": "META64_problem_005810",
+    "group_id": "7cf1be349f39809c32cf9d2bcaf0ba84448a78a6baa364d9c03b8c560d3fb2e1",
+    "vf_bin": 1,
+    "source_key": "train/problem_005810",
+    "volume_fraction": 0.1754968327965022,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_005810",
+      "family": "META64",
+      "split": "train",
+      "group_id": "7cf1be349f39809c32cf9d2bcaf0ba84448a78a6baa364d9c03b8c560d3fb2e1",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.1754968327965022,
+      "source_key": "train/problem_005810",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_005810",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.1754968327965022,
+      "fixed_dofs": [
+        16,
+        37,
+        4418
+      ],
+      "forces_sparse": [
+        [
+          7280,
+          -0.9990652494927204
+        ],
+        [
+          7281,
+          0.04322762144796228
+        ]
+      ]
+    },
+    "uniform_C0": 1843.8465011980336,
+    "uniform_C50": 25.354049094510714
+  },
+  {
+    "task_id": "META64_problem_006131",
+    "group_id": "cc7555bacb184e9627eb003b85662e5dcbfb5be04d055ad5d7353db60093f2fa",
+    "vf_bin": 0,
+    "source_key": "train/problem_006131",
+    "volume_fraction": 0.1211804920977429,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_006131",
+      "family": "META64",
+      "split": "train",
+      "group_id": "cc7555bacb184e9627eb003b85662e5dcbfb5be04d055ad5d7353db60093f2fa",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.1211804920977429,
+      "source_key": "train/problem_006131",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_006131",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.1211804920977429,
+      "fixed_dofs": [
+        49,
+        3675,
+        3898,
+        8332
+      ],
+      "forces_sparse": [
+        [
+          1068,
+          0.6781421635038534
+        ],
+        [
+          1069,
+          -0.7349307491718611
+        ],
+        [
+          7408,
+          0.8321628655709352
+        ],
+        [
+          7409,
+          0.5545313022407027
+        ],
+        [
+          8354,
+          -0.4766568535853868
+        ],
+        [
+          8355,
+          0.8790894402335175
+        ]
+      ]
+    },
+    "uniform_C0": 12825.941233830297,
+    "uniform_C50": 309.9154475616139
+  },
+  {
+    "task_id": "META64_problem_006141",
+    "group_id": "07f6e81ce727646434f925c30d00fad317c00c9e388118c37ca14dcc7b62b637",
+    "vf_bin": 7,
+    "source_key": "train/problem_006141",
+    "volume_fraction": 0.40887554679902427,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_006141",
+      "family": "META64",
+      "split": "train",
+      "group_id": "07f6e81ce727646434f925c30d00fad317c00c9e388118c37ca14dcc7b62b637",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.40887554679902427,
+      "source_key": "train/problem_006141",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_006141",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.40887554679902427,
+      "fixed_dofs": [
+        26,
+        90,
+        91
+      ],
+      "forces_sparse": [
+        [
+          8382,
+          0.15566175778398644
+        ],
+        [
+          8383,
+          -0.9878104155978512
+        ]
+      ]
+    },
+    "uniform_C0": 486.18314571509416,
+    "uniform_C50": 49.455086260940334
+  },
+  {
+    "task_id": "META64_problem_006906",
+    "group_id": "e3f50a676be9471cb55e9f1c5778b7607c1c2a543bbec5af4bc9ff4e3f9611ec",
+    "vf_bin": 3,
+    "source_key": "train/problem_006906",
+    "volume_fraction": 0.2549772085006275,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_006906",
+      "family": "META64",
+      "split": "train",
+      "group_id": "e3f50a676be9471cb55e9f1c5778b7607c1c2a543bbec5af4bc9ff4e3f9611ec",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.2549772085006275,
+      "source_key": "train/problem_006906",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_006906",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.2549772085006275,
+      "fixed_dofs": [
+        52,
+        53,
+        7929
+      ],
+      "forces_sparse": [
+        [
+          734,
+          0.3719273413526445
+        ],
+        [
+          735,
+          0.9282618449308112
+        ],
+        [
+          4940,
+          -0.6693827123736564
+        ],
+        [
+          4941,
+          0.7429177507472053
+        ],
+        [
+          7280,
+          0.7616934496828434
+        ],
+        [
+          7281,
+          -0.6479375654414936
+        ]
+      ]
+    },
+    "uniform_C0": 748.7832894826988,
+    "uniform_C50": 20.716350107411365
+  },
+  {
+    "task_id": "META64_problem_006937",
+    "group_id": "1f3b604ead13ea438c04384271eac87b48344aff08a3c9396e6f9ef7ed0d23bc",
+    "vf_bin": 5,
+    "source_key": "train/problem_006937",
+    "volume_fraction": 0.31492716438226875,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_006937",
+      "family": "META64",
+      "split": "train",
+      "group_id": "1f3b604ead13ea438c04384271eac87b48344aff08a3c9396e6f9ef7ed0d23bc",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.31492716438226875,
+      "source_key": "train/problem_006937",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_006937",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.31492716438226875,
+      "fixed_dofs": [
+        44,
+        45,
+        80
+      ],
+      "forces_sparse": [
+        [
+          5978,
+          0.8612467320799154
+        ],
+        [
+          5979,
+          0.5081870388761076
+        ],
+        [
+          8358,
+          -0.9927985431972662
+        ],
+        [
+          8359,
+          -0.11979587900001326
+        ]
+      ]
+    },
+    "uniform_C0": 2087.423159865827,
+    "uniform_C50": 109.74707461439073
+  },
+  {
+    "task_id": "META64_problem_007087",
+    "group_id": "bb3e59e344ee0c128c847628d608df77cce47c9ecdf859a79aad088bec7bf5cc",
+    "vf_bin": 7,
+    "source_key": "train/problem_007087",
+    "volume_fraction": 0.38594678606138144,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_007087",
+      "family": "META64",
+      "split": "train",
+      "group_id": "bb3e59e344ee0c128c847628d608df77cce47c9ecdf859a79aad088bec7bf5cc",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.38594678606138144,
+      "source_key": "train/problem_007087",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_007087",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.38594678606138144,
+      "fixed_dofs": [
+        10,
+        11,
+        1820
+      ],
+      "forces_sparse": [
+        [
+          3968,
+          -0.9248781911529744
+        ],
+        [
+          3969,
+          0.3802635027577615
+        ],
+        [
+          7800,
+          -0.9033440410534774
+        ],
+        [
+          7801,
+          0.4289167092725268
+        ],
+        [
+          8412,
+          0.8302098175717477
+        ],
+        [
+          8413,
+          0.5574510371391244
+        ]
+      ]
+    },
+    "uniform_C0": 23388.856851662516,
+    "uniform_C50": 1399.7368815344062
+  },
+  {
+    "task_id": "META64_problem_007919",
+    "group_id": "49b54c115915de8e3441b2b6d9857cb55c15f9c7e7779b538446e05e221b7cc0",
+    "vf_bin": 6,
+    "source_key": "train/problem_007919",
+    "volume_fraction": 0.37154071857722115,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_007919",
+      "family": "META64",
+      "split": "train",
+      "group_id": "49b54c115915de8e3441b2b6d9857cb55c15f9c7e7779b538446e05e221b7cc0",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.37154071857722115,
+      "source_key": "train/problem_007919",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_007919",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.37154071857722115,
+      "fixed_dofs": [
+        18,
+        19,
+        48,
+        49,
+        4517,
+        5460
+      ],
+      "forces_sparse": [
+        [
+          2208,
+          0.7392562445762267
+        ],
+        [
+          2209,
+          0.6734242383928974
+        ],
+        [
+          6108,
+          0.9805951123672453
+        ],
+        [
+          6109,
+          0.1960439379360394
+        ],
+        [
+          8378,
+          0.24130453038760977
+        ],
+        [
+          8379,
+          -0.9704494441311279
+        ]
+      ]
+    },
+    "uniform_C0": 458.58583493078464,
+    "uniform_C50": 39.58973769007496
+  },
+  {
+    "task_id": "META64_problem_008189",
+    "group_id": "aae3915fbccdc1efc93cec34ccfc55666f6eb63090bcad04d530a56c897a84e8",
+    "vf_bin": 0,
+    "source_key": "train/problem_008189",
+    "volume_fraction": 0.10728977592725011,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_008189",
+      "family": "META64",
+      "split": "train",
+      "group_id": "aae3915fbccdc1efc93cec34ccfc55666f6eb63090bcad04d530a56c897a84e8",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.10728977592725011,
+      "source_key": "train/problem_008189",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_008189",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.10728977592725011,
+      "fixed_dofs": [
+        19,
+        7800,
+        7801
+      ],
+      "forces_sparse": [
+        [
+          3380,
+          -0.9234355746439508
+        ],
+        [
+          3381,
+          -0.3837534879085744
+        ]
+      ]
+    },
+    "uniform_C0": 5992.399913539388,
+    "uniform_C50": 15.377157317629017
+  },
+  {
+    "task_id": "META64_problem_008468",
+    "group_id": "3ca761867f776ec6f5770805b4dec1388635b1594a8cd222c76db3637f24732f",
+    "vf_bin": 1,
+    "source_key": "train/problem_008468",
+    "volume_fraction": 0.15258005096280247,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_008468",
+      "family": "META64",
+      "split": "train",
+      "group_id": "3ca761867f776ec6f5770805b4dec1388635b1594a8cd222c76db3637f24732f",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.15258005096280247,
+      "source_key": "train/problem_008468",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_008468",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.15258005096280247,
+      "fixed_dofs": [
+        7112,
+        7113,
+        8321
+      ],
+      "forces_sparse": [
+        [
+          124,
+          -0.9457464521492162
+        ],
+        [
+          125,
+          0.3249055989778729
+        ],
+        [
+          2860,
+          -0.12535618304945018
+        ],
+        [
+          2861,
+          -0.9921118018506144
+        ]
+      ]
+    },
+    "uniform_C0": 4617.524428905095,
+    "uniform_C50": 107.618129944852
+  },
+  {
+    "task_id": "META64_problem_008591",
+    "group_id": "4f601f8558019bde6854bd307f4b74bf010d6c5d7f3a580d6008060e4b2ae669",
+    "vf_bin": 7,
+    "source_key": "train/problem_008591",
+    "volume_fraction": 0.40829878018042776,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_008591",
+      "family": "META64",
+      "split": "train",
+      "group_id": "4f601f8558019bde6854bd307f4b74bf010d6c5d7f3a580d6008060e4b2ae669",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.40829878018042776,
+      "source_key": "train/problem_008591",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_008591",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.40829878018042776,
+      "fixed_dofs": [
+        30,
+        31,
+        108
+      ],
+      "forces_sparse": [
+        [
+          3674,
+          -0.27809479061862613
+        ],
+        [
+          3675,
+          0.9605536358948326
+        ],
+        [
+          7018,
+          0.7502977576973214
+        ],
+        [
+          7019,
+          0.6611000490049684
+        ]
+      ]
+    },
+    "uniform_C0": 755.8958847219151,
+    "uniform_C50": 67.39812391780765
+  },
+  {
+    "task_id": "META64_problem_009106",
+    "group_id": "5caee618734b3eda395bcbf99542feaf00b281394b99142924e7f326d4db3e86",
+    "vf_bin": 0,
+    "source_key": "train/problem_009106",
+    "volume_fraction": 0.12860822791847673,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_009106",
+      "family": "META64",
+      "split": "train",
+      "group_id": "5caee618734b3eda395bcbf99542feaf00b281394b99142924e7f326d4db3e86",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.12860822791847673,
+      "source_key": "train/problem_009106",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_009106",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.12860822791847673,
+      "fixed_dofs": [
+        100,
+        650,
+        5201,
+        8365
+      ],
+      "forces_sparse": [
+        [
+          4418,
+          0.9988317353961228
+        ],
+        [
+          4419,
+          0.048323538421452955
+        ]
+      ]
+    },
+    "uniform_C0": 3503.3569597310816,
+    "uniform_C50": 39.47261581069854
+  },
+  {
+    "task_id": "META64_problem_009297",
+    "group_id": "b4868db40987f070e351602bd37e75074751b8aca89b1daae36ec94e2c833bee",
+    "vf_bin": 5,
+    "source_key": "train/problem_009297",
+    "volume_fraction": 0.3275904590127767,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_009297",
+      "family": "META64",
+      "split": "train",
+      "group_id": "b4868db40987f070e351602bd37e75074751b8aca89b1daae36ec94e2c833bee",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.3275904590127767,
+      "source_key": "train/problem_009297",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_009297",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.3275904590127767,
+      "fixed_dofs": [
+        37,
+        519,
+        2858,
+        4421,
+        6889,
+        7151,
+        8438
+      ],
+      "forces_sparse": [
+        [
+          10,
+          -0.7920977760567788
+        ],
+        [
+          11,
+          -0.6103942276643064
+        ],
+        [
+          650,
+          -0.06363967945973195
+        ],
+        [
+          651,
+          -0.9979729411152702
+        ],
+        [
+          1736,
+          -0.5077834393529455
+        ],
+        [
+          1737,
+          -0.8614847524587382
+        ],
+        [
+          5718,
+          -0.7534115995074948
+        ],
+        [
+          5719,
+          -0.6575492085977734
+        ],
+        [
+          6240,
+          0.46929549268292453
+        ],
+        [
+          6241,
+          0.8830411884773502
+        ],
+        [
+          8326,
+          0.8798481390205228
+        ],
+        [
+          8327,
+          0.4752549339692569
+        ]
+      ]
+    },
+    "uniform_C0": 824.0592692141422,
+    "uniform_C50": 40.0135286517271
+  },
+  {
+    "task_id": "META64_problem_009762",
+    "group_id": "93a2091b6c453b592d5986d2081bd4f591c733f6a649574e3ddff6cc08115843",
+    "vf_bin": 6,
+    "source_key": "train/problem_009762",
+    "volume_fraction": 0.34820005642630825,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_009762",
+      "family": "META64",
+      "split": "train",
+      "group_id": "93a2091b6c453b592d5986d2081bd4f591c733f6a649574e3ddff6cc08115843",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.34820005642630825,
+      "source_key": "train/problem_009762",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_009762",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.34820005642630825,
+      "fixed_dofs": [
+        51,
+        1544,
+        1545,
+        3898,
+        3899
+      ],
+      "forces_sparse": [
+        [
+          22,
+          -0.2864387511524984
+        ],
+        [
+          23,
+          -0.9580985553888478
+        ]
+      ]
+    },
+    "uniform_C0": 192.12855662474595,
+    "uniform_C50": 9.197623232797337
+  },
+  {
+    "task_id": "META64_problem_009816",
+    "group_id": "3af32c8a1ed1ef842527d33f6dee40ddd257b0608c6176384f50d73a9bd40ff0",
+    "vf_bin": 5,
+    "source_key": "train/problem_009816",
+    "volume_fraction": 0.3284007082879493,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_009816",
+      "family": "META64",
+      "split": "train",
+      "group_id": "3af32c8a1ed1ef842527d33f6dee40ddd257b0608c6176384f50d73a9bd40ff0",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.3284007082879493,
+      "source_key": "train/problem_009816",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_009816",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.3284007082879493,
+      "fixed_dofs": [
+        22,
+        6888,
+        6889,
+        7670,
+        7671
+      ],
+      "forces_sparse": [
+        [
+          76,
+          -0.2944875858381857
+        ],
+        [
+          77,
+          -0.9556553049019281
+        ]
+      ]
+    },
+    "uniform_C0": 266.79774990734404,
+    "uniform_C50": 16.540202954294195
+  },
+  {
+    "task_id": "META64_problem_010095",
+    "group_id": "273af4777d466ce827481446425b424b8ad79f531858e5c40efb7f55b213c3ff",
+    "vf_bin": 6,
+    "source_key": "train/problem_010095",
+    "volume_fraction": 0.34435319880662774,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_010095",
+      "family": "META64",
+      "split": "train",
+      "group_id": "273af4777d466ce827481446425b424b8ad79f531858e5c40efb7f55b213c3ff",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.34435319880662774,
+      "source_key": "train/problem_010095",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_010095",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.34435319880662774,
+      "fixed_dofs": [
+        6891,
+        7278,
+        7279
+      ],
+      "forces_sparse": [
+        [
+          70,
+          0.6240351477554099
+        ],
+        [
+          71,
+          -0.7813962723009905
+        ]
+      ]
+    },
+    "uniform_C0": 25433.704899517026,
+    "uniform_C50": 1180.4348621644615
+  },
+  {
+    "task_id": "META64_problem_010245",
+    "group_id": "3ae19d3e8bf27e7be59a956001c5bf174fb278da92c4c248ccbbfc95cb4215de",
+    "vf_bin": 4,
+    "source_key": "train/problem_010245",
+    "volume_fraction": 0.2715154078766453,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_010245",
+      "family": "META64",
+      "split": "train",
+      "group_id": "3ae19d3e8bf27e7be59a956001c5bf174fb278da92c4c248ccbbfc95cb4215de",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.2715154078766453,
+      "source_key": "train/problem_010245",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_010245",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.2715154078766453,
+      "fixed_dofs": [
+        37,
+        261,
+        2861,
+        6238,
+        6239
+      ],
+      "forces_sparse": [
+        [
+          12,
+          0.5147230527144482
+        ],
+        [
+          13,
+          0.8573565063637876
+        ],
+        [
+          1006,
+          0.464581477110854
+        ],
+        [
+          1007,
+          -0.8855303784317605
+        ],
+        [
+          8330,
+          -0.11799466954875677
+        ],
+        [
+          8331,
+          0.9930142284771551
+        ]
+      ]
+    },
+    "uniform_C0": 747.2817925659913,
+    "uniform_C50": 36.88545485876557
+  },
+  {
+    "task_id": "META64_problem_010621",
+    "group_id": "318702da7d63b9ca9d7c8b37100e53e083a6cf004ad3af9b91036295b1fc722c",
+    "vf_bin": 9,
+    "source_key": "train/problem_010621",
+    "volume_fraction": 0.4642639862895802,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_010621",
+      "family": "META64",
+      "split": "train",
+      "group_id": "318702da7d63b9ca9d7c8b37100e53e083a6cf004ad3af9b91036295b1fc722c",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4642639862895802,
+      "source_key": "train/problem_010621",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_010621",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4642639862895802,
+      "fixed_dofs": [
+        1316,
+        1317,
+        6888
+      ],
+      "forces_sparse": [
+        [
+          8,
+          -0.9250127181064094
+        ],
+        [
+          9,
+          0.3799361411361025
+        ],
+        [
+          2988,
+          0.36866474801422344
+        ],
+        [
+          2989,
+          0.929562425860474
+        ],
+        [
+          4288,
+          -0.9678059568610664
+        ],
+        [
+          4289,
+          -0.2516974967381194
+        ],
+        [
+          5980,
+          -0.5132117905541022
+        ],
+        [
+          5981,
+          0.8582619984807974
+        ],
+        [
+          8416,
+          0.9138604800333306
+        ],
+        [
+          8417,
+          0.4060283524992441
+        ]
+      ]
+    },
+    "uniform_C0": 363.89607155569496,
+    "uniform_C50": 53.864457844554885
+  },
+  {
+    "task_id": "META64_problem_011871",
+    "group_id": "36e323c017ae1907cb079a089bc9d317897775678646d5bee9a77e549f8040d9",
+    "vf_bin": 6,
+    "source_key": "train/problem_011871",
+    "volume_fraction": 0.3709316828670861,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_011871",
+      "family": "META64",
+      "split": "train",
+      "group_id": "36e323c017ae1907cb079a089bc9d317897775678646d5bee9a77e549f8040d9",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.3709316828670861,
+      "source_key": "train/problem_011871",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_011871",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.3709316828670861,
+      "fixed_dofs": [
+        6368,
+        8412,
+        8413
+      ],
+      "forces_sparse": [
+        [
+          1168,
+          0.2920078433894877
+        ],
+        [
+          1169,
+          -0.9564159238527036
+        ],
+        [
+          5116,
+          0.5627916515566174
+        ],
+        [
+          5117,
+          -0.8265987883720705
+        ],
+        [
+          7930,
+          0.7140089137522821
+        ],
+        [
+          7931,
+          -0.7001366088716445
+        ]
+      ]
+    },
+    "uniform_C0": 826.6923774191187,
+    "uniform_C50": 69.25992717962502
+  },
+  {
+    "task_id": "META64_problem_013258",
+    "group_id": "3740f22fb929ec3f8e5ac998cf26ba54abfbef7ad11b73be5aafadcdc538ab7f",
+    "vf_bin": 2,
+    "source_key": "train/problem_013258",
+    "volume_fraction": 0.19083870197107902,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_013258",
+      "family": "META64",
+      "split": "train",
+      "group_id": "3740f22fb929ec3f8e5ac998cf26ba54abfbef7ad11b73be5aafadcdc538ab7f",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.19083870197107902,
+      "source_key": "train/problem_013258",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_013258",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.19083870197107902,
+      "fixed_dofs": [
+        2341,
+        4811,
+        6758,
+        6760
+      ],
+      "forces_sparse": [
+        [
+          56,
+          -0.01134866260827016
+        ],
+        [
+          57,
+          -0.9999356018549412
+        ],
+        [
+          7706,
+          -0.9721657593458428
+        ],
+        [
+          7707,
+          0.23429412360432939
+        ]
+      ]
+    },
+    "uniform_C0": 1676.3519234448122,
+    "uniform_C50": 32.631006462912886
+  },
+  {
+    "task_id": "META64_problem_013393",
+    "group_id": "fc420728643141aa894b0232cbca0052b5345a6768ed6e3ee96405cda3742483",
+    "vf_bin": 7,
+    "source_key": "train/problem_013393",
+    "volume_fraction": 0.3902449031156434,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_013393",
+      "family": "META64",
+      "split": "train",
+      "group_id": "fc420728643141aa894b0232cbca0052b5345a6768ed6e3ee96405cda3742483",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.3902449031156434,
+      "source_key": "train/problem_013393",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_013393",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.3902449031156434,
+      "fixed_dofs": [
+        31,
+        54,
+        94,
+        117,
+        4640
+      ],
+      "forces_sparse": [
+        [
+          4030,
+          -0.8776823293033966
+        ],
+        [
+          4031,
+          0.4792428703993041
+        ],
+        [
+          8440,
+          -0.9968106772152052
+        ],
+        [
+          8441,
+          -0.07980271793469203
+        ]
+      ]
+    },
+    "uniform_C0": 341.762443511922,
+    "uniform_C50": 37.33161782633556
+  },
+  {
+    "task_id": "META64_problem_013643",
+    "group_id": "dc9a43346194096eebb1c5bfe5f4546e9c5e174279cd16360f9f4ea73186f90c",
+    "vf_bin": 4,
+    "source_key": "train/problem_013643",
+    "volume_fraction": 0.2875752407430129,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_013643",
+      "family": "META64",
+      "split": "train",
+      "group_id": "dc9a43346194096eebb1c5bfe5f4546e9c5e174279cd16360f9f4ea73186f90c",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.2875752407430129,
+      "source_key": "train/problem_013643",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_013643",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.2875752407430129,
+      "fixed_dofs": [
+        908,
+        909,
+        8414
+      ],
+      "forces_sparse": [
+        [
+          66,
+          -0.3085289992901453
+        ],
+        [
+          67,
+          -0.9512149371183264
+        ],
+        [
+          780,
+          0.28370976555349275
+        ],
+        [
+          781,
+          -0.9589101985741846
+        ],
+        [
+          8374,
+          -0.6296448088677149
+        ],
+        [
+          8375,
+          -0.7768831409330098
+        ]
+      ]
+    },
+    "uniform_C0": 2426.366051805418,
+    "uniform_C50": 89.90371211599201
+  },
+  {
+    "task_id": "META64_problem_013650",
+    "group_id": "b4b21dfc2c3baf802394f353ed80a420bdf49c81a9bd577759fa8643a7d1742a",
+    "vf_bin": 7,
+    "source_key": "train/problem_013650",
+    "volume_fraction": 0.397763349497252,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_013650",
+      "family": "META64",
+      "split": "train",
+      "group_id": "b4b21dfc2c3baf802394f353ed80a420bdf49c81a9bd577759fa8643a7d1742a",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.397763349497252,
+      "source_key": "train/problem_013650",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_013650",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.397763349497252,
+      "fixed_dofs": [
+        9,
+        8397,
+        8420,
+        8421
+      ],
+      "forces_sparse": [
+        [
+          3378,
+          0.15101596990235322
+        ],
+        [
+          3379,
+          0.9885313231427983
+        ]
+      ]
+    },
+    "uniform_C0": 91.00957764970158,
+    "uniform_C50": 8.93820635891418
+  },
+  {
+    "task_id": "META64_problem_014400",
+    "group_id": "ddcf242e0ab06e4c6b7a3d20d44b08825e946f9dba5d2ed6f47e627c023c5f27",
+    "vf_bin": 5,
+    "source_key": "train/problem_014400",
+    "volume_fraction": 0.33564254015944406,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_014400",
+      "family": "META64",
+      "split": "train",
+      "group_id": "ddcf242e0ab06e4c6b7a3d20d44b08825e946f9dba5d2ed6f47e627c023c5f27",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.33564254015944406,
+      "source_key": "train/problem_014400",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_014400",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.33564254015944406,
+      "fixed_dofs": [
+        47,
+        97,
+        122,
+        3898,
+        6241,
+        8434
+      ],
+      "forces_sparse": [
+        [
+          3900,
+          -0.6630560962448762
+        ],
+        [
+          3901,
+          -0.7485697116718693
+        ]
+      ]
+    },
+    "uniform_C0": 171.1485304132135,
+    "uniform_C50": 11.704767252142748
+  },
+  {
+    "task_id": "META64_problem_015140",
+    "group_id": "2254f5283b3a16f61035a908d826e28c11db9efe688de833fe55cefd66196510",
+    "vf_bin": 7,
+    "source_key": "train/problem_015140",
+    "volume_fraction": 0.3800853182371572,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_015140",
+      "family": "META64",
+      "split": "train",
+      "group_id": "2254f5283b3a16f61035a908d826e28c11db9efe688de833fe55cefd66196510",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.3800853182371572,
+      "source_key": "train/problem_015140",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_015140",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.3800853182371572,
+      "fixed_dofs": [
+        908,
+        5981,
+        7730
+      ],
+      "forces_sparse": [
+        [
+          1346,
+          -0.8217643114507079
+        ],
+        [
+          1347,
+          0.5698275321761347
+        ],
+        [
+          7670,
+          0.2334922867489615
+        ],
+        [
+          7671,
+          -0.9723586540103095
+        ],
+        [
+          8408,
+          -0.9997150437963696
+        ],
+        [
+          8409,
+          0.023871137535166922
+        ]
+      ]
+    },
+    "uniform_C0": 382.91532719377494,
+    "uniform_C50": 34.69377129026516
+  },
+  {
+    "task_id": "META64_problem_016344",
+    "group_id": "7550573a7564454af432e3adb7beb62e3744e258a6f1d33b80776d5904279fbb",
+    "vf_bin": 1,
+    "source_key": "train/problem_016344",
+    "volume_fraction": 0.17266003041403682,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_016344",
+      "family": "META64",
+      "split": "train",
+      "group_id": "7550573a7564454af432e3adb7beb62e3744e258a6f1d33b80776d5904279fbb",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.17266003041403682,
+      "source_key": "train/problem_016344",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_016344",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.17266003041403682,
+      "fixed_dofs": [
+        87,
+        2730,
+        6119
+      ],
+      "forces_sparse": [
+        [
+          12,
+          0.9724520005688132
+        ],
+        [
+          13,
+          0.23310321016603958
+        ],
+        [
+          1370,
+          0.8142179845833241
+        ],
+        [
+          1371,
+          -0.5805592765438081
+        ]
+      ]
+    },
+    "uniform_C0": 3318.0701636240483,
+    "uniform_C50": 34.877669301608265
+  },
+  {
+    "task_id": "META64_problem_016461",
+    "group_id": "6a15226a2d2a43a7210ce06662af8146994615800afb6cce43066d95ab125187",
+    "vf_bin": 1,
+    "source_key": "train/problem_016461",
+    "volume_fraction": 0.15438196665713774,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_016461",
+      "family": "META64",
+      "split": "train",
+      "group_id": "6a15226a2d2a43a7210ce06662af8146994615800afb6cce43066d95ab125187",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.15438196665713774,
+      "source_key": "train/problem_016461",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_016461",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.15438196665713774,
+      "fixed_dofs": [
+        4878,
+        4879,
+        6177,
+        6631,
+        7278,
+        7279,
+        8386
+      ],
+      "forces_sparse": [
+        [
+          68,
+          -0.7668148504450726
+        ],
+        [
+          69,
+          -0.6418683549894799
+        ]
+      ]
+    },
+    "uniform_C0": 2463.3422433651012,
+    "uniform_C50": 38.1119328713789
+  },
+  {
+    "task_id": "META64_problem_016738",
+    "group_id": "d688e320a7ecba0ff2ff7ef9896f4bd7a3d2ed68dc4ef4a987ab6512d4ece68f",
+    "vf_bin": 2,
+    "source_key": "train/problem_016738",
+    "volume_fraction": 0.20668098505629995,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_016738",
+      "family": "META64",
+      "split": "train",
+      "group_id": "d688e320a7ecba0ff2ff7ef9896f4bd7a3d2ed68dc4ef4a987ab6512d4ece68f",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.20668098505629995,
+      "source_key": "train/problem_016738",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_016738",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.20668098505629995,
+      "fixed_dofs": [
+        11,
+        1170,
+        7410,
+        7411,
+        8319
+      ],
+      "forces_sparse": [
+        [
+          1818,
+          0.9996655007516404
+        ],
+        [
+          1819,
+          -0.025862842205993542
+        ]
+      ]
+    },
+    "uniform_C0": 1554.3444988245628,
+    "uniform_C50": 62.89964273580891
+  },
+  {
+    "task_id": "META64_problem_017490",
+    "group_id": "d5cf668af4cb5ac9a4d708b1127cb5cd20387a8ab2a1175350100717edef90ae",
+    "vf_bin": 9,
+    "source_key": "train/problem_017490",
+    "volume_fraction": 0.4658195316738205,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_017490",
+      "family": "META64",
+      "split": "train",
+      "group_id": "d5cf668af4cb5ac9a4d708b1127cb5cd20387a8ab2a1175350100717edef90ae",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4658195316738205,
+      "source_key": "train/problem_017490",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_017490",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4658195316738205,
+      "fixed_dofs": [
+        46,
+        129,
+        4941,
+        6630
+      ],
+      "forces_sparse": [
+        [
+          1040,
+          -0.9928557986601362
+        ],
+        [
+          1041,
+          -0.11932042183525465
+        ],
+        [
+          5848,
+          0.7894680467689463
+        ],
+        [
+          5849,
+          -0.6137916610144071
+        ]
+      ]
+    },
+    "uniform_C0": 206.94149924507494,
+    "uniform_C50": 26.16723410631099
+  },
+  {
+    "task_id": "META64_problem_017511",
+    "group_id": "3c240e508643773de8720eff169a3edca0332bf1329236077200f4fa5e1922f3",
+    "vf_bin": 9,
+    "source_key": "train/problem_017511",
+    "volume_fraction": 0.4952845741795372,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_017511",
+      "family": "META64",
+      "split": "train",
+      "group_id": "3c240e508643773de8720eff169a3edca0332bf1329236077200f4fa5e1922f3",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4952845741795372,
+      "source_key": "train/problem_017511",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_017511",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4952845741795372,
+      "fixed_dofs": [
+        1040,
+        5198,
+        5199
+      ],
+      "forces_sparse": [
+        [
+          8376,
+          -0.9905134682718179
+        ],
+        [
+          8377,
+          0.13741568022658285
+        ]
+      ]
+    },
+    "uniform_C0": 47.096262457655456,
+    "uniform_C50": 7.3807798013034756
+  },
+  {
+    "task_id": "META64_problem_017905",
+    "group_id": "79b52c874049edd0f0f97ecabbea51a1847720f0c7a9d6b168d36dd592423f92",
+    "vf_bin": 0,
+    "source_key": "train/problem_017905",
+    "volume_fraction": 0.11064750979045442,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_017905",
+      "family": "META64",
+      "split": "train",
+      "group_id": "79b52c874049edd0f0f97ecabbea51a1847720f0c7a9d6b168d36dd592423f92",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.11064750979045442,
+      "source_key": "train/problem_017905",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_017905",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.11064750979045442,
+      "fixed_dofs": [
+        68,
+        6758,
+        8367
+      ],
+      "forces_sparse": [
+        [
+          114,
+          -0.9022718192449933
+        ],
+        [
+          115,
+          -0.4311676752683694
+        ]
+      ]
+    },
+    "uniform_C0": 6109.6087823860935,
+    "uniform_C50": 116.17692728983606
+  },
+  {
+    "task_id": "META64_problem_017956",
+    "group_id": "9dd1b6fd5d8f857e9023e70a9b00c2b51194bbd246cc14e14edd1902b8fe10f6",
+    "vf_bin": 4,
+    "source_key": "train/problem_017956",
+    "volume_fraction": 0.2858655657685649,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_017956",
+      "family": "META64",
+      "split": "train",
+      "group_id": "9dd1b6fd5d8f857e9023e70a9b00c2b51194bbd246cc14e14edd1902b8fe10f6",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.2858655657685649,
+      "source_key": "train/problem_017956",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_017956",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.2858655657685649,
+      "fixed_dofs": [
+        1168,
+        2730,
+        2731,
+        7018,
+        7019,
+        7947
+      ],
+      "forces_sparse": [
+        [
+          5068,
+          0.2966821541494224
+        ],
+        [
+          5069,
+          0.9549762821187018
+        ]
+      ]
+    },
+    "uniform_C0": 175.4359497281072,
+    "uniform_C50": 6.783027587608709
+  },
+  {
+    "task_id": "META64_problem_018461",
+    "group_id": "83ef31915a44e9ab22c74d880846f0cd5578ab8fed8eda96b1937cb6fef36d8a",
+    "vf_bin": 1,
+    "source_key": "train/problem_018461",
+    "volume_fraction": 0.1692164356633933,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_018461",
+      "family": "META64",
+      "split": "train",
+      "group_id": "83ef31915a44e9ab22c74d880846f0cd5578ab8fed8eda96b1937cb6fef36d8a",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.1692164356633933,
+      "source_key": "train/problem_018461",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_018461",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.1692164356633933,
+      "fixed_dofs": [
+        3,
+        3638,
+        3899
+      ],
+      "forces_sparse": [
+        [
+          4290,
+          0.6535251499350238
+        ],
+        [
+          4291,
+          -0.7569048014132324
+        ],
+        [
+          8336,
+          0.2416697898122646
+        ],
+        [
+          8337,
+          0.9703585485232229
+        ],
+        [
+          8402,
+          0.6873052600535892
+        ],
+        [
+          8403,
+          -0.726368693916986
+        ]
+      ]
+    },
+    "uniform_C0": 17044.418874497438,
+    "uniform_C50": 330.08211025309765
+  },
+  {
+    "task_id": "META64_problem_018544",
+    "group_id": "91e7e67e2636b7745a0dc55644e8b1c427af09593a16c06394441f68c6e17f01",
+    "vf_bin": 9,
+    "source_key": "train/problem_018544",
+    "volume_fraction": 0.4936678646642817,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_018544",
+      "family": "META64",
+      "split": "train",
+      "group_id": "91e7e67e2636b7745a0dc55644e8b1c427af09593a16c06394441f68c6e17f01",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4936678646642817,
+      "source_key": "train/problem_018544",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_018544",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4936678646642817,
+      "fixed_dofs": [
+        1017,
+        1560,
+        3119
+      ],
+      "forces_sparse": [
+        [
+          5370,
+          0.49423057212709837
+        ],
+        [
+          5371,
+          -0.8693308585198855
+        ]
+      ]
+    },
+    "uniform_C0": 62.11724868471758,
+    "uniform_C50": 8.134850011984682
+  },
+  {
+    "task_id": "META64_problem_018648",
+    "group_id": "6ea5be4896c9c215400353b630b397b63f008a22c2a8a8ed4d6c0a7aae9d2c63",
+    "vf_bin": 8,
+    "source_key": "train/problem_018648",
+    "volume_fraction": 0.4405677696283552,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_018648",
+      "family": "META64",
+      "split": "train",
+      "group_id": "6ea5be4896c9c215400353b630b397b63f008a22c2a8a8ed4d6c0a7aae9d2c63",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4405677696283552,
+      "source_key": "train/problem_018648",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_018648",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4405677696283552,
+      "fixed_dofs": [
+        3509,
+        4160,
+        8428
+      ],
+      "forces_sparse": [
+        [
+          94,
+          -0.26302929089861177
+        ],
+        [
+          95,
+          -0.964787848249227
+        ]
+      ]
+    },
+    "uniform_C0": 90.34665609535794,
+    "uniform_C50": 10.6847054989377
+  },
+  {
+    "task_id": "META64_problem_018680",
+    "group_id": "9776c591855abc7289217b427f0c458169d66a98246f6af895852b914855ba31",
+    "vf_bin": 2,
+    "source_key": "train/problem_018680",
+    "volume_fraction": 0.18702612233314506,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_018680",
+      "family": "META64",
+      "split": "train",
+      "group_id": "9776c591855abc7289217b427f0c458169d66a98246f6af895852b914855ba31",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.18702612233314506,
+      "source_key": "train/problem_018680",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_018680",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.18702612233314506,
+      "fixed_dofs": [
+        102,
+        2991,
+        8351
+      ],
+      "forces_sparse": [
+        [
+          84,
+          -0.11514952198760504
+        ],
+        [
+          85,
+          -0.9933481703743285
+        ],
+        [
+          6436,
+          -0.9994182848294935
+        ],
+        [
+          6437,
+          -0.03410413389126602
+        ],
+        [
+          8382,
+          -0.9172017118742632
+        ],
+        [
+          8383,
+          0.39842316666444105
+        ]
+      ]
+    },
+    "uniform_C0": 9587.250089879806,
+    "uniform_C50": 286.7799854797329
+  },
+  {
+    "task_id": "META64_problem_018866",
+    "group_id": "5621c675e000517b5c81f4ccf26fa91d566f35ca983f8c4d5ea5b8bb91b12cd2",
+    "vf_bin": 3,
+    "source_key": "train/problem_018866",
+    "volume_fraction": 0.2293010559142868,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_018866",
+      "family": "META64",
+      "split": "train",
+      "group_id": "5621c675e000517b5c81f4ccf26fa91d566f35ca983f8c4d5ea5b8bb91b12cd2",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.2293010559142868,
+      "source_key": "train/problem_018866",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_018866",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.2293010559142868,
+      "fixed_dofs": [
+        6,
+        78,
+        3251,
+        8366,
+        8423
+      ],
+      "forces_sparse": [
+        [
+          4808,
+          -0.42532252088760514
+        ],
+        [
+          4809,
+          -0.9050418516432335
+        ],
+        [
+          7668,
+          0.014030654975347029
+        ],
+        [
+          7669,
+          -0.9999015655158076
+        ]
+      ]
+    },
+    "uniform_C0": 997.5566012301697,
+    "uniform_C50": 19.765956306900264
+  },
+  {
+    "task_id": "META64_problem_019190",
+    "group_id": "b9c22ba34d4d973fd82c1a6447ba608faee56c1b8f06cc54cf854a287129e11c",
+    "vf_bin": 9,
+    "source_key": "train/problem_019190",
+    "volume_fraction": 0.48243927140014764,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_019190",
+      "family": "META64",
+      "split": "train",
+      "group_id": "b9c22ba34d4d973fd82c1a6447ba608faee56c1b8f06cc54cf854a287129e11c",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.48243927140014764,
+      "source_key": "train/problem_019190",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_019190",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.48243927140014764,
+      "fixed_dofs": [
+        1300,
+        1301,
+        1690,
+        5198,
+        8398,
+        8399,
+        8418
+      ],
+      "forces_sparse": [
+        [
+          3250,
+          0.5540477127906449
+        ],
+        [
+          3251,
+          0.832484913948268
+        ]
+      ]
+    },
+    "uniform_C0": 45.50549446003038,
+    "uniform_C50": 5.5038635224825985
+  },
+  {
+    "task_id": "META64_problem_019457",
+    "group_id": "c74c014cf2a7b67761a1226665d85cd935d3152e84d5e7e4fa8b15a696d032d2",
+    "vf_bin": 9,
+    "source_key": "train/problem_019457",
+    "volume_fraction": 0.4782407165689465,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_019457",
+      "family": "META64",
+      "split": "train",
+      "group_id": "c74c014cf2a7b67761a1226665d85cd935d3152e84d5e7e4fa8b15a696d032d2",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4782407165689465,
+      "source_key": "train/problem_019457",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_019457",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4782407165689465,
+      "fixed_dofs": [
+        5200,
+        5201,
+        8445
+      ],
+      "forces_sparse": [
+        [
+          10,
+          0.9995649335121135
+        ],
+        [
+          11,
+          -0.029494807897732872
+        ],
+        [
+          1578,
+          0.9901750770464649
+        ],
+        [
+          1579,
+          0.13983317487644775
+        ]
+      ]
+    },
+    "uniform_C0": 196.8842437549717,
+    "uniform_C50": 22.448054773765826
+  },
+  {
+    "task_id": "META64_problem_019469",
+    "group_id": "1ec1a8c446c1fa699be3efde579e954aa865510d1f633383087897fbb7ccb07a",
+    "vf_bin": 8,
+    "source_key": "train/problem_019469",
+    "volume_fraction": 0.4350393768099785,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_019469",
+      "family": "META64",
+      "split": "train",
+      "group_id": "1ec1a8c446c1fa699be3efde579e954aa865510d1f633383087897fbb7ccb07a",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4350393768099785,
+      "source_key": "train/problem_019469",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_019469",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4350393768099785,
+      "fixed_dofs": [
+        1301,
+        4808,
+        7410
+      ],
+      "forces_sparse": [
+        [
+          8334,
+          0.9358579234523203
+        ],
+        [
+          8335,
+          -0.3523775632918629
+        ]
+      ]
+    },
+    "uniform_C0": 74.77214613724095,
+    "uniform_C50": 6.969217369483098
+  },
+  {
+    "task_id": "META64_problem_019842",
+    "group_id": "f373656b8f1fc7ec9b04f3e3b47a7cfc36d88f28eba7367d793d775de180165e",
+    "vf_bin": 3,
+    "source_key": "train/problem_019842",
+    "volume_fraction": 0.227731185431793,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_019842",
+      "family": "META64",
+      "split": "train",
+      "group_id": "f373656b8f1fc7ec9b04f3e3b47a7cfc36d88f28eba7367d793d775de180165e",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.227731185431793,
+      "source_key": "train/problem_019842",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_019842",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.227731185431793,
+      "fixed_dofs": [
+        390,
+        391,
+        5589
+      ],
+      "forces_sparse": [
+        [
+          2598,
+          0.8830240626320123
+        ],
+        [
+          2599,
+          0.46932771579447125
+        ],
+        [
+          7150,
+          0.3481193207589321
+        ],
+        [
+          7151,
+          -0.9374502325533552
+        ]
+      ]
+    },
+    "uniform_C0": 1539.2580645483117,
+    "uniform_C50": 54.77900268601222
+  },
+  {
+    "task_id": "META64_problem_020943",
+    "group_id": "f34a38be541e7109354c7039735ff67d714ac7c83c96e1d4b0e8e6d28afa626c",
+    "vf_bin": 3,
+    "source_key": "train/problem_020943",
+    "volume_fraction": 0.23731122916065264,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_020943",
+      "family": "META64",
+      "split": "train",
+      "group_id": "f34a38be541e7109354c7039735ff67d714ac7c83c96e1d4b0e8e6d28afa626c",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.23731122916065264,
+      "source_key": "train/problem_020943",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_020943",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.23731122916065264,
+      "fixed_dofs": [
+        60,
+        99,
+        2990,
+        7811
+      ],
+      "forces_sparse": [
+        [
+          1298,
+          0.8677992960817132
+        ],
+        [
+          1299,
+          -0.49691486365380844
+        ],
+        [
+          4012,
+          0.5039924214460398
+        ],
+        [
+          4013,
+          0.8637080751764206
+        ],
+        [
+          5264,
+          0.9846259850497723
+        ],
+        [
+          5265,
+          0.17467589863734942
+        ],
+        [
+          8348,
+          -0.8863429587534242
+        ],
+        [
+          8349,
+          -0.46302932895036547
+        ],
+        [
+          8446,
+          -0.9668598682922613
+        ],
+        [
+          8447,
+          -0.2553076479188806
+        ]
+      ]
+    },
+    "uniform_C0": 1520.027318699896,
+    "uniform_C50": 44.62052209660981
+  },
+  {
+    "task_id": "META64_problem_021085",
+    "group_id": "5b6ba29b1e35fbe0879175aff26053c27401db4857a5760f4a9104dab7e276b4",
+    "vf_bin": 8,
+    "source_key": "train/problem_021085",
+    "volume_fraction": 0.43170134362004553,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_021085",
+      "family": "META64",
+      "split": "train",
+      "group_id": "5b6ba29b1e35fbe0879175aff26053c27401db4857a5760f4a9104dab7e276b4",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.43170134362004553,
+      "source_key": "train/problem_021085",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_021085",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.43170134362004553,
+      "fixed_dofs": [
+        1948,
+        1949,
+        5591
+      ],
+      "forces_sparse": [
+        [
+          48,
+          -0.9032116430696531
+        ],
+        [
+          49,
+          -0.4291954424541548
+        ],
+        [
+          1040,
+          0.19709683089028832
+        ],
+        [
+          1041,
+          0.980384026416692
+        ],
+        [
+          5588,
+          -0.566332038709519
+        ],
+        [
+          5589,
+          0.8241771787250117
+        ],
+        [
+          8408,
+          -0.6479778810148364
+        ],
+        [
+          8409,
+          0.7616591532408197
+        ]
+      ]
+    },
+    "uniform_C0": 876.2939636079809,
+    "uniform_C50": 94.70195484568555
+  },
+  {
+    "task_id": "META64_problem_021150",
+    "group_id": "a60a223ea20a775db76416cbb22ec7e7f167643bd322a9ca631a6c6c85b840d1",
+    "vf_bin": 8,
+    "source_key": "train/problem_021150",
+    "volume_fraction": 0.45431096103617974,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_021150",
+      "family": "META64",
+      "split": "train",
+      "group_id": "a60a223ea20a775db76416cbb22ec7e7f167643bd322a9ca631a6c6c85b840d1",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.45431096103617974,
+      "source_key": "train/problem_021150",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_021150",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.45431096103617974,
+      "fixed_dofs": [
+        2338,
+        5201,
+        6760
+      ],
+      "forces_sparse": [
+        [
+          8332,
+          -0.5039590763683127
+        ],
+        [
+          8333,
+          -0.8637275318906982
+        ],
+        [
+          8436,
+          0.6346965679588539
+        ],
+        [
+          8437,
+          -0.7727614551860438
+        ]
+      ]
+    },
+    "uniform_C0": 175.74936997733528,
+    "uniform_C50": 17.477735273772158
+  },
+  {
+    "task_id": "META64_problem_021309",
+    "group_id": "959726816ee3928a04411f09a1f6a5c87ef394c95ddb40a0335cdfb1d6584625",
+    "vf_bin": 0,
+    "source_key": "train/problem_021309",
+    "volume_fraction": 0.1397960225587267,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_021309",
+      "family": "META64",
+      "split": "train",
+      "group_id": "959726816ee3928a04411f09a1f6a5c87ef394c95ddb40a0335cdfb1d6584625",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.1397960225587267,
+      "source_key": "train/problem_021309",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_021309",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.1397960225587267,
+      "fixed_dofs": [
+        36,
+        66,
+        4810,
+        6631
+      ],
+      "forces_sparse": [
+        [
+          650,
+          0.820707689142306
+        ],
+        [
+          651,
+          -0.5713483079371953
+        ],
+        [
+          4678,
+          0.9257842849605574
+        ],
+        [
+          4679,
+          0.37805218914862715
+        ]
+      ]
+    },
+    "uniform_C0": 9723.129738219712,
+    "uniform_C50": 248.77485815383056
+  },
+  {
+    "task_id": "META64_problem_021520",
+    "group_id": "141d14a5fe5d75ec771c5eb84787db09609d0f5dcb510c0b252fa115d35d508c",
+    "vf_bin": 5,
+    "source_key": "train/problem_021520",
+    "volume_fraction": 0.3378287505512634,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_021520",
+      "family": "META64",
+      "split": "train",
+      "group_id": "141d14a5fe5d75ec771c5eb84787db09609d0f5dcb510c0b252fa115d35d508c",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.3378287505512634,
+      "source_key": "train/problem_021520",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_021520",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.3378287505512634,
+      "fixed_dofs": [
+        3059,
+        6581,
+        7670,
+        8320
+      ],
+      "forces_sparse": [
+        [
+          118,
+          -0.3290528797860628
+        ],
+        [
+          119,
+          -0.944311496437748
+        ],
+        [
+          8372,
+          -0.9782618020368371
+        ],
+        [
+          8373,
+          -0.2073736884844366
+        ]
+      ]
+    },
+    "uniform_C0": 510.64493095016246,
+    "uniform_C50": 33.40089904293738
+  },
+  {
+    "task_id": "META64_problem_021874",
+    "group_id": "c16e7545cf58c61ae871d3e491e36dd8d95ba1a3428c602b586e1669a229e8ff",
+    "vf_bin": 1,
+    "source_key": "train/problem_021874",
+    "volume_fraction": 0.14420747750092933,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_021874",
+      "family": "META64",
+      "split": "train",
+      "group_id": "c16e7545cf58c61ae871d3e491e36dd8d95ba1a3428c602b586e1669a229e8ff",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.14420747750092933,
+      "source_key": "train/problem_021874",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_021874",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.14420747750092933,
+      "fixed_dofs": [
+        1948,
+        1949,
+        3770,
+        3771,
+        5396,
+        5397,
+        8335
+      ],
+      "forces_sparse": [
+        [
+          88,
+          -0.2072972057691814
+        ],
+        [
+          89,
+          0.9782780118556738
+        ],
+        [
+          7280,
+          0.914224899611398
+        ],
+        [
+          7281,
+          -0.40520714817304165
+        ]
+      ]
+    },
+    "uniform_C0": 3583.422111916688,
+    "uniform_C50": 17.6968804458457
+  },
+  {
+    "task_id": "META64_problem_021921",
+    "group_id": "95b6750030e91295760c56a330dd2e0468c96cd86a4c951a5038586ba35426ef",
+    "vf_bin": 4,
+    "source_key": "train/problem_021921",
+    "volume_fraction": 0.2887216900276207,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_021921",
+      "family": "META64",
+      "split": "train",
+      "group_id": "95b6750030e91295760c56a330dd2e0468c96cd86a4c951a5038586ba35426ef",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.2887216900276207,
+      "source_key": "train/problem_021921",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_021921",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.2887216900276207,
+      "fixed_dofs": [
+        4809,
+        5070,
+        6758
+      ],
+      "forces_sparse": [
+        [
+          108,
+          -0.7179283013194944
+        ],
+        [
+          109,
+          -0.6961170549300637
+        ],
+        [
+          6890,
+          -0.3547648941246922
+        ],
+        [
+          6891,
+          -0.9349555443424548
+        ]
+      ]
+    },
+    "uniform_C0": 737.6067022056432,
+    "uniform_C50": 41.12541717842683
+  },
+  {
+    "task_id": "META64_problem_021928",
+    "group_id": "8b0f8cbb5b1f147400f01b16b9cb0442024674b0d47f4c39fb30bd9aad21db88",
+    "vf_bin": 4,
+    "source_key": "train/problem_021928",
+    "volume_fraction": 0.2920934204960134,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_021928",
+      "family": "META64",
+      "split": "train",
+      "group_id": "8b0f8cbb5b1f147400f01b16b9cb0442024674b0d47f4c39fb30bd9aad21db88",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.2920934204960134,
+      "source_key": "train/problem_021928",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_021928",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.2920934204960134,
+      "fixed_dofs": [
+        1177,
+        4526,
+        4527
+      ],
+      "forces_sparse": [
+        [
+          1948,
+          -0.07834412727108035
+        ],
+        [
+          1949,
+          -0.9969263752765962
+        ],
+        [
+          4290,
+          0.28812797245223715
+        ],
+        [
+          4291,
+          0.9575919128159777
+        ]
+      ]
+    },
+    "uniform_C0": 278.89773629061665,
+    "uniform_C50": 9.318804456336117
+  },
+  {
+    "task_id": "META64_problem_022060",
+    "group_id": "7eafe1dc922453e571d81309ffc886ae5f0fc5e31fe77a1a6ee713a25a56ca51",
+    "vf_bin": 5,
+    "source_key": "train/problem_022060",
+    "volume_fraction": 0.33514756589263706,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_022060",
+      "family": "META64",
+      "split": "train",
+      "group_id": "7eafe1dc922453e571d81309ffc886ae5f0fc5e31fe77a1a6ee713a25a56ca51",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.33514756589263706,
+      "source_key": "train/problem_022060",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_022060",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.33514756589263706,
+      "fixed_dofs": [
+        44,
+        45,
+        5978,
+        6890,
+        6891
+      ],
+      "forces_sparse": [
+        [
+          4940,
+          0.99965443627908
+        ],
+        [
+          4941,
+          0.026287031547032436
+        ],
+        [
+          7668,
+          -0.6496643212148497
+        ],
+        [
+          7669,
+          -0.7602211979025898
+        ]
+      ]
+    },
+    "uniform_C0": 325.27221431082535,
+    "uniform_C50": 13.49995389309576
+  },
+  {
+    "task_id": "META64_problem_022122",
+    "group_id": "b08484a73c9be1b00714732df1b597fa90568e049a31f027dc03041fffe97fbb",
+    "vf_bin": 2,
+    "source_key": "train/problem_022122",
+    "volume_fraction": 0.19387316006408303,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_022122",
+      "family": "META64",
+      "split": "train",
+      "group_id": "b08484a73c9be1b00714732df1b597fa90568e049a31f027dc03041fffe97fbb",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.19387316006408303,
+      "source_key": "train/problem_022122",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_022122",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.19387316006408303,
+      "fixed_dofs": [
+        4,
+        2599,
+        5459
+      ],
+      "forces_sparse": [
+        [
+          5070,
+          -0.8823683789002801
+        ],
+        [
+          5071,
+          -0.4705592884184646
+        ]
+      ]
+    },
+    "uniform_C0": 1027.1451411146281,
+    "uniform_C50": 12.030546987892604
+  },
+  {
+    "task_id": "META64_problem_022190",
+    "group_id": "5ece878fed126a49a62b027c9bc18a1fe6fccfb925a79d8a270d6753894a1de9",
+    "vf_bin": 1,
+    "source_key": "train/problem_022190",
+    "volume_fraction": 0.17244948285147993,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_022190",
+      "family": "META64",
+      "split": "train",
+      "group_id": "5ece878fed126a49a62b027c9bc18a1fe6fccfb925a79d8a270d6753894a1de9",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.17244948285147993,
+      "source_key": "train/problem_022190",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_022190",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.17244948285147993,
+      "fixed_dofs": [
+        1,
+        3638,
+        3952,
+        3953,
+        5720,
+        8446
+      ],
+      "forces_sparse": [
+        [
+          2080,
+          -0.06344270644083704
+        ],
+        [
+          2081,
+          0.997985482359068
+        ],
+        [
+          5718,
+          -0.7928083865619524
+        ],
+        [
+          5719,
+          0.6094709691175076
+        ],
+        [
+          6460,
+          -0.9808246459852413
+        ],
+        [
+          6461,
+          0.1948923134141672
+        ]
+      ]
+    },
+    "uniform_C0": 2607.411867022548,
+    "uniform_C50": 30.30028121548108
+  },
+  {
+    "task_id": "META64_problem_022220",
+    "group_id": "67474846b5571e4511c157d7bf7855127ee65b8918b55f28804d893596eabb6f",
+    "vf_bin": 2,
+    "source_key": "train/problem_022220",
+    "volume_fraction": 0.20613543138157486,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_022220",
+      "family": "META64",
+      "split": "train",
+      "group_id": "67474846b5571e4511c157d7bf7855127ee65b8918b55f28804d893596eabb6f",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.20613543138157486,
+      "source_key": "train/problem_022220",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_022220",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.20613543138157486,
+      "fixed_dofs": [
+        76,
+        2470,
+        4158,
+        7387,
+        8198
+      ],
+      "forces_sparse": [
+        [
+          3378,
+          0.1934614605854546
+        ],
+        [
+          3379,
+          0.981107875449047
+        ],
+        [
+          3640,
+          0.6893092179711122
+        ],
+        [
+          3641,
+          -0.7244672539321937
+        ],
+        [
+          3900,
+          -0.7569086066266303
+        ],
+        [
+          3901,
+          -0.6535207427576671
+        ],
+        [
+          8392,
+          -0.9942454708838082
+        ],
+        [
+          8393,
+          0.10712583081140875
+        ]
+      ]
+    },
+    "uniform_C0": 1568.043994228794,
+    "uniform_C50": 31.915566128056675
+  },
+  {
+    "task_id": "META64_problem_022265",
+    "group_id": "3c499ffe9f080e413e8689d26e6670a4a343d1dc9a8f7c73d3f7a8ff908f1a7f",
+    "vf_bin": 8,
+    "source_key": "train/problem_022265",
+    "volume_fraction": 0.45198651416639024,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_022265",
+      "family": "META64",
+      "split": "train",
+      "group_id": "3c499ffe9f080e413e8689d26e6670a4a343d1dc9a8f7c73d3f7a8ff908f1a7f",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.45198651416639024,
+      "source_key": "train/problem_022265",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_022265",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.45198651416639024,
+      "fixed_dofs": [
+        1153,
+        1820,
+        4810,
+        8401
+      ],
+      "forces_sparse": [
+        [
+          40,
+          0.6862390247776295
+        ],
+        [
+          41,
+          -0.7273761068884844
+        ],
+        [
+          4030,
+          0.47161744696975183
+        ],
+        [
+          4031,
+          0.8818032568060368
+        ],
+        [
+          5588,
+          -0.9997676335020419
+        ],
+        [
+          5589,
+          -0.021556414398662172
+        ]
+      ]
+    },
+    "uniform_C0": 124.6047626771755,
+    "uniform_C50": 15.20124828398962
+  },
+  {
+    "task_id": "META64_problem_022372",
+    "group_id": "a5d55270f9eb71a1341a9b155c2e8f0b9af0c5bd245db94a7a07ce15fe56b384",
+    "vf_bin": 8,
+    "source_key": "train/problem_022372",
+    "volume_fraction": 0.4310318519094922,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_022372",
+      "family": "META64",
+      "split": "train",
+      "group_id": "a5d55270f9eb71a1341a9b155c2e8f0b9af0c5bd245db94a7a07ce15fe56b384",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4310318519094922,
+      "source_key": "train/problem_022372",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_022372",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4310318519094922,
+      "fixed_dofs": [
+        11,
+        8432,
+        8433
+      ],
+      "forces_sparse": [
+        [
+          1250,
+          0.7968380053113321
+        ],
+        [
+          1251,
+          0.6041930099657372
+        ],
+        [
+          8392,
+          -0.8937315287181311
+        ],
+        [
+          8393,
+          -0.44860222310545045
+        ]
+      ]
+    },
+    "uniform_C0": 79.71346650057379,
+    "uniform_C50": 7.762461840924502
+  },
+  {
+    "task_id": "META64_problem_022985",
+    "group_id": "57c3eada3d7a7cabb7eb14e82fab4a42d5a449424bba8ecd736fd48d1c50786f",
+    "vf_bin": 7,
+    "source_key": "train/problem_022985",
+    "volume_fraction": 0.3978997902697595,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_022985",
+      "family": "META64",
+      "split": "train",
+      "group_id": "57c3eada3d7a7cabb7eb14e82fab4a42d5a449424bba8ecd736fd48d1c50786f",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.3978997902697595,
+      "source_key": "train/problem_022985",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_022985",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.3978997902697595,
+      "fixed_dofs": [
+        77,
+        1948,
+        8427
+      ],
+      "forces_sparse": [
+        [
+          518,
+          -0.7620183206121078
+        ],
+        [
+          519,
+          -0.6475554640735439
+        ],
+        [
+          7148,
+          -0.8549999773082522
+        ],
+        [
+          7149,
+          0.518628035110799
+        ]
+      ]
+    },
+    "uniform_C0": 260.01173130447637,
+    "uniform_C50": 17.97278029970411
+  },
+  {
+    "task_id": "META64_problem_023009",
+    "group_id": "b2d68feec476e207b3e1e1de20d69d77953c588c7816e19297f49b3bf97d7889",
+    "vf_bin": 8,
+    "source_key": "train/problem_023009",
+    "volume_fraction": 0.4255802289920365,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_023009",
+      "family": "META64",
+      "split": "train",
+      "group_id": "b2d68feec476e207b3e1e1de20d69d77953c588c7816e19297f49b3bf97d7889",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4255802289920365,
+      "source_key": "train/problem_023009",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_023009",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4255802289920365,
+      "fixed_dofs": [
+        107,
+        974,
+        4779,
+        8422
+      ],
+      "forces_sparse": [
+        [
+          910,
+          -0.5099426065131741
+        ],
+        [
+          911,
+          -0.8602084271050535
+        ]
+      ]
+    },
+    "uniform_C0": 145.5018827386335,
+    "uniform_C50": 14.312486079486858
+  },
+  {
+    "task_id": "META64_problem_023581",
+    "group_id": "b4b65ec96fc67e89a1f2f737f71f1d045542a5c1e58685bcab8bee95862d5542",
+    "vf_bin": 6,
+    "source_key": "train/problem_023581",
+    "volume_fraction": 0.3433469254896514,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_023581",
+      "family": "META64",
+      "split": "train",
+      "group_id": "b4b65ec96fc67e89a1f2f737f71f1d045542a5c1e58685bcab8bee95862d5542",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.3433469254896514,
+      "source_key": "train/problem_023581",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_023581",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.3433469254896514,
+      "fixed_dofs": [
+        120,
+        121,
+        6760
+      ],
+      "forces_sparse": [
+        [
+          2,
+          -0.9211734055945088
+        ],
+        [
+          3,
+          0.3891523568288064
+        ],
+        [
+          7538,
+          0.9976123262946645
+        ],
+        [
+          7539,
+          -0.0690626268320859
+        ]
+      ]
+    },
+    "uniform_C0": 392.3204532888593,
+    "uniform_C50": 24.054593169207244
+  },
+  {
+    "task_id": "META64_problem_023707",
+    "group_id": "056638cb1591c172930151877eab45aec24f7770408d677252164e17d0cece6d",
+    "vf_bin": 0,
+    "source_key": "train/problem_023707",
+    "volume_fraction": 0.10349262559922745,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_023707",
+      "family": "META64",
+      "split": "train",
+      "group_id": "056638cb1591c172930151877eab45aec24f7770408d677252164e17d0cece6d",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.10349262559922745,
+      "source_key": "train/problem_023707",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_023707",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.10349262559922745,
+      "fixed_dofs": [
+        1818,
+        2990,
+        8341
+      ],
+      "forces_sparse": [
+        [
+          2,
+          -0.28777376593929954
+        ],
+        [
+          3,
+          -0.957698417894231
+        ],
+        [
+          70,
+          -0.9858346409427021
+        ],
+        [
+          71,
+          0.16772018577790115
+        ],
+        [
+          3768,
+          -0.5539193997348255
+        ],
+        [
+          3769,
+          -0.8325702964899785
+        ],
+        [
+          8408,
+          0.880444916576673
+        ],
+        [
+          8409,
+          0.4741484460317205
+        ]
+      ]
+    },
+    "uniform_C0": 32038.437668154893,
+    "uniform_C50": 1188.4520951427228
+  },
+  {
+    "task_id": "META64_problem_024228",
+    "group_id": "a4ee9358c1ae96e82f2cd6c979d758d4dbcd75c12f43bd88a797520403cbb61d",
+    "vf_bin": 6,
+    "source_key": "train/problem_024228",
+    "volume_fraction": 0.36341563119476805,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_024228",
+      "family": "META64",
+      "split": "train",
+      "group_id": "a4ee9358c1ae96e82f2cd6c979d758d4dbcd75c12f43bd88a797520403cbb61d",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.36341563119476805,
+      "source_key": "train/problem_024228",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_024228",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.36341563119476805,
+      "fixed_dofs": [
+        104,
+        1301,
+        8431
+      ],
+      "forces_sparse": [
+        [
+          18,
+          -0.7190668553133462
+        ],
+        [
+          19,
+          0.694940902228222
+        ]
+      ]
+    },
+    "uniform_C0": 133.83596921231643,
+    "uniform_C50": 11.638158865580017
+  },
+  {
+    "task_id": "META64_problem_024608",
+    "group_id": "c508033993159e07e87b8cf77054f6c631256ee75178537e76fab5a63417517e",
+    "vf_bin": 1,
+    "source_key": "train/problem_024608",
+    "volume_fraction": 0.17173918842044827,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_024608",
+      "family": "META64",
+      "split": "train",
+      "group_id": "c508033993159e07e87b8cf77054f6c631256ee75178537e76fab5a63417517e",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.17173918842044827,
+      "source_key": "train/problem_024608",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_024608",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.17173918842044827,
+      "fixed_dofs": [
+        22,
+        6566,
+        6567
+      ],
+      "forces_sparse": [
+        [
+          4978,
+          0.015508022512825322
+        ],
+        [
+          4979,
+          0.9998797433880445
+        ]
+      ]
+    },
+    "uniform_C0": 866.5726182450363,
+    "uniform_C50": 6.54220723644525
+  },
+  {
+    "task_id": "META64_problem_024615",
+    "group_id": "62837ee6fcfa92338c8080f17e9d6c43eaddcd1c25f4ba433a816ea049f4350e",
+    "vf_bin": 9,
+    "source_key": "train/problem_024615",
+    "volume_fraction": 0.47624563158831,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_024615",
+      "family": "META64",
+      "split": "train",
+      "group_id": "62837ee6fcfa92338c8080f17e9d6c43eaddcd1c25f4ba433a816ea049f4350e",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.47624563158831,
+      "source_key": "train/problem_024615",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_024615",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.47624563158831,
+      "fixed_dofs": [
+        10,
+        5459,
+        8392
+      ],
+      "forces_sparse": [
+        [
+          112,
+          -0.030445105354769096
+        ],
+        [
+          113,
+          0.9995364403361875
+        ],
+        [
+          8190,
+          0.96701608167002
+        ],
+        [
+          8191,
+          0.254715326966324
+        ]
+      ]
+    },
+    "uniform_C0": 398.94658462459483,
+    "uniform_C50": 58.92364336491968
+  },
+  {
+    "task_id": "META64_problem_025201",
+    "group_id": "19174e44a5bde211f648b8fe03f8f9d91fa8d36ba481d29bd4300a34b8be8eb9",
+    "vf_bin": 8,
+    "source_key": "train/problem_025201",
+    "volume_fraction": 0.4361255180993894,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_025201",
+      "family": "META64",
+      "split": "train",
+      "group_id": "19174e44a5bde211f648b8fe03f8f9d91fa8d36ba481d29bd4300a34b8be8eb9",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4361255180993894,
+      "source_key": "train/problem_025201",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_025201",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4361255180993894,
+      "fixed_dofs": [
+        1408,
+        7380,
+        8319
+      ],
+      "forces_sparse": [
+        [
+          2730,
+          0.14836875340280667
+        ],
+        [
+          2731,
+          0.9889321073833619
+        ],
+        [
+          3248,
+          -0.39360738404690776
+        ],
+        [
+          3249,
+          -0.9192786450384617
+        ],
+        [
+          4092,
+          -0.9825091293381567
+        ],
+        [
+          4093,
+          -0.1862144214801238
+        ]
+      ]
+    },
+    "uniform_C0": 322.4712687005848,
+    "uniform_C50": 31.798535898321333
+  },
+  {
+    "task_id": "META64_problem_025523",
+    "group_id": "1e87b1e11e9276e41262647ea29c30c0e6fe096c854091466f62a7922ca52afe",
+    "vf_bin": 6,
+    "source_key": "train/problem_025523",
+    "volume_fraction": 0.3707786020308773,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_025523",
+      "family": "META64",
+      "split": "train",
+      "group_id": "1e87b1e11e9276e41262647ea29c30c0e6fe096c854091466f62a7922ca52afe",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.3707786020308773,
+      "source_key": "train/problem_025523",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_025523",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.3707786020308773,
+      "fixed_dofs": [
+        53,
+        5979,
+        8382
+      ],
+      "forces_sparse": [
+        [
+          1102,
+          -0.8974370238697899
+        ],
+        [
+          1103,
+          -0.4411425939395722
+        ],
+        [
+          5850,
+          0.9955796310391858
+        ],
+        [
+          5851,
+          -0.09392123433962452
+        ]
+      ]
+    },
+    "uniform_C0": 169.64634043030605,
+    "uniform_C50": 13.123905783569437
+  },
+  {
+    "task_id": "META64_problem_025589",
+    "group_id": "2f5b84b8540aae1087db1ef41f771ef7bb2ffd7074fadfb8da76bfeedf5b6bcf",
+    "vf_bin": 3,
+    "source_key": "train/problem_025589",
+    "volume_fraction": 0.23208704627225507,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_025589",
+      "family": "META64",
+      "split": "train",
+      "group_id": "2f5b84b8540aae1087db1ef41f771ef7bb2ffd7074fadfb8da76bfeedf5b6bcf",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.23208704627225507,
+      "source_key": "train/problem_025589",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_025589",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.23208704627225507,
+      "fixed_dofs": [
+        3770,
+        5589,
+        8325
+      ],
+      "forces_sparse": [
+        [
+          54,
+          -0.9844547136116764
+        ],
+        [
+          55,
+          0.17563859726083086
+        ],
+        [
+          7020,
+          0.8171627517843244
+        ],
+        [
+          7021,
+          0.5764070064600799
+        ]
+      ]
+    },
+    "uniform_C0": 2208.839663045696,
+    "uniform_C50": 61.917259186500765
+  },
+  {
+    "task_id": "META64_problem_026056",
+    "group_id": "21d8416db79d7d058293ffe80c3a7bb34278cc997ee6d015112c8ecfeb19c62e",
+    "vf_bin": 6,
+    "source_key": "train/problem_026056",
+    "volume_fraction": 0.36825993889655306,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_026056",
+      "family": "META64",
+      "split": "train",
+      "group_id": "21d8416db79d7d058293ffe80c3a7bb34278cc997ee6d015112c8ecfeb19c62e",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.36825993889655306,
+      "source_key": "train/problem_026056",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_026056",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.36825993889655306,
+      "fixed_dofs": [
+        90,
+        5199,
+        8394
+      ],
+      "forces_sparse": [
+        [
+          66,
+          -0.048395060737258674
+        ],
+        [
+          67,
+          -0.9988282725755399
+        ],
+        [
+          7144,
+          0.9169757967197865
+        ],
+        [
+          7145,
+          0.3989428382990636
+        ],
+        [
+          8188,
+          -0.37571645515903074
+        ],
+        [
+          8189,
+          0.9267346682426055
+        ]
+      ]
+    },
+    "uniform_C0": 12513.452861951851,
+    "uniform_C50": 717.5400331059736
+  },
+  {
+    "task_id": "META64_problem_026288",
+    "group_id": "ad796323797b2fac17d7a88f881bde7ccdace9724a97d35f9357feafafb42ba9",
+    "vf_bin": 6,
+    "source_key": "train/problem_026288",
+    "volume_fraction": 0.35852972149507967,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_026288",
+      "family": "META64",
+      "split": "train",
+      "group_id": "ad796323797b2fac17d7a88f881bde7ccdace9724a97d35f9357feafafb42ba9",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.35852972149507967,
+      "source_key": "train/problem_026288",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_026288",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.35852972149507967,
+      "fixed_dofs": [
+        72,
+        73,
+        100,
+        101,
+        1691,
+        3380,
+        3381,
+        8419
+      ],
+      "forces_sparse": [
+        [
+          14,
+          -0.7495405227047442
+        ],
+        [
+          15,
+          -0.6619584615544232
+        ],
+        [
+          8360,
+          0.024084136982163627
+        ],
+        [
+          8361,
+          -0.9997099351040902
+        ]
+      ]
+    },
+    "uniform_C0": 227.7409706802366,
+    "uniform_C50": 14.478127787215598
+  },
+  {
+    "task_id": "META64_problem_026353",
+    "group_id": "50664b1382c16c1a349df45cc3e76651256c09428fe21bb3f4c67afccb7508c8",
+    "vf_bin": 0,
+    "source_key": "train/problem_026353",
+    "volume_fraction": 0.13694109520938824,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_026353",
+      "family": "META64",
+      "split": "train",
+      "group_id": "50664b1382c16c1a349df45cc3e76651256c09428fe21bb3f4c67afccb7508c8",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.13694109520938824,
+      "source_key": "train/problem_026353",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_026353",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.13694109520938824,
+      "fixed_dofs": [
+        1170,
+        1171,
+        2079,
+        7930,
+        7931
+      ],
+      "forces_sparse": [
+        [
+          8442,
+          0.9992791787463995
+        ],
+        [
+          8443,
+          -0.03796212486046164
+        ]
+      ]
+    },
+    "uniform_C0": 5903.1546485515955,
+    "uniform_C50": 98.30749186089241
+  },
+  {
+    "task_id": "META64_problem_026375",
+    "group_id": "109d8020800c731f60ba8057574297f2d4eb547b03e4edeacfa63fe0404e02f6",
+    "vf_bin": 2,
+    "source_key": "train/problem_026375",
+    "volume_fraction": 0.18427634464578369,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_026375",
+      "family": "META64",
+      "split": "train",
+      "group_id": "109d8020800c731f60ba8057574297f2d4eb547b03e4edeacfa63fe0404e02f6",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.18427634464578369,
+      "source_key": "train/problem_026375",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_026375",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.18427634464578369,
+      "fixed_dofs": [
+        390,
+        4679,
+        8413
+      ],
+      "forces_sparse": [
+        [
+          8342,
+          0.9409779953947778
+        ],
+        [
+          8343,
+          -0.3384677417167337
+        ]
+      ]
+    },
+    "uniform_C0": 1560.4043898531395,
+    "uniform_C50": 21.702291643725818
+  },
+  {
+    "task_id": "META64_problem_026453",
+    "group_id": "0a738d7dd71af9d50ad679733a80f12b4538ded3455002a77551a48f6a56b243",
+    "vf_bin": 5,
+    "source_key": "train/problem_026453",
+    "volume_fraction": 0.30234729338485067,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_026453",
+      "family": "META64",
+      "split": "train",
+      "group_id": "0a738d7dd71af9d50ad679733a80f12b4538ded3455002a77551a48f6a56b243",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.30234729338485067,
+      "source_key": "train/problem_026453",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_026453",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.30234729338485067,
+      "fixed_dofs": [
+        8360,
+        8361,
+        8384
+      ],
+      "forces_sparse": [
+        [
+          114,
+          0.7401688883221142
+        ],
+        [
+          115,
+          -0.6724210115396496
+        ],
+        [
+          3578,
+          0.5308934702202022
+        ],
+        [
+          3579,
+          -0.8474385660787166
+        ],
+        [
+          4550,
+          0.9434301673510573
+        ],
+        [
+          4551,
+          -0.33157128846140466
+        ]
+      ]
+    },
+    "uniform_C0": 11640.973362411198,
+    "uniform_C50": 424.91066053760534
+  },
+  {
+    "task_id": "META64_problem_026802",
+    "group_id": "23b57dbfbac174de1e34b69589dfe6322bc04589b5bf1f40cfa9964a723fb884",
+    "vf_bin": 7,
+    "source_key": "train/problem_026802",
+    "volume_fraction": 0.40965324170717066,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_026802",
+      "family": "META64",
+      "split": "train",
+      "group_id": "23b57dbfbac174de1e34b69589dfe6322bc04589b5bf1f40cfa9964a723fb884",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.40965324170717066,
+      "source_key": "train/problem_026802",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_026802",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.40965324170717066,
+      "fixed_dofs": [
+        58,
+        5509,
+        8433
+      ],
+      "forces_sparse": [
+        [
+          8344,
+          0.7265263009982866
+        ],
+        [
+          8345,
+          -0.6871386570101751
+        ]
+      ]
+    },
+    "uniform_C0": 199.4905835632497,
+    "uniform_C50": 17.216206800060238
+  },
+  {
+    "task_id": "META64_problem_026982",
+    "group_id": "67c066b42f0502bec88c601afc1b7de834378fbdf5a4ac0df084757a75f1a0e2",
+    "vf_bin": 9,
+    "source_key": "train/problem_026982",
+    "volume_fraction": 0.47573267455272916,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_026982",
+      "family": "META64",
+      "split": "train",
+      "group_id": "67c066b42f0502bec88c601afc1b7de834378fbdf5a4ac0df084757a75f1a0e2",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.47573267455272916,
+      "source_key": "train/problem_026982",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_026982",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.47573267455272916,
+      "fixed_dofs": [
+        1772,
+        4811,
+        7931,
+        8350
+      ],
+      "forces_sparse": [
+        [
+          2,
+          -0.9537121833570211
+        ],
+        [
+          3,
+          -0.30072091931953077
+        ],
+        [
+          108,
+          0.23817478858696375
+        ],
+        [
+          109,
+          0.9712223072404974
+        ],
+        [
+          6240,
+          -0.91425109011755
+        ],
+        [
+          6241,
+          0.40514805222149536
+        ],
+        [
+          6710,
+          0.9996753048249974
+        ],
+        [
+          6711,
+          0.025481069896072368
+        ]
+      ]
+    },
+    "uniform_C0": 233.8683551784298,
+    "uniform_C50": 32.37251202270559
+  },
+  {
+    "task_id": "META64_problem_027190",
+    "group_id": "1bf8b93735a365c6220cd495d6c9d6bb9ad1f729e25808dc1a9d5e94e3c2cd58",
+    "vf_bin": 0,
+    "source_key": "train/problem_027190",
+    "volume_fraction": 0.13380095509580725,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_027190",
+      "family": "META64",
+      "split": "train",
+      "group_id": "1bf8b93735a365c6220cd495d6c9d6bb9ad1f729e25808dc1a9d5e94e3c2cd58",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.13380095509580725,
+      "source_key": "train/problem_027190",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_027190",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.13380095509580725,
+      "fixed_dofs": [
+        8058,
+        8059,
+        8401
+      ],
+      "forces_sparse": [
+        [
+          128,
+          0.04757484290172005
+        ],
+        [
+          129,
+          0.9988676760827115
+        ],
+        [
+          778,
+          -0.9050922164137751
+        ],
+        [
+          779,
+          0.42521533343377926
+        ]
+      ]
+    },
+    "uniform_C0": 2205813.786686554,
+    "uniform_C50": 8459.899655818199
+  },
+  {
+    "task_id": "META64_problem_027304",
+    "group_id": "12b540c8fb2cdcda0521e92cf24a55516e6a1914331a4066387f9f3ee181f137",
+    "vf_bin": 8,
+    "source_key": "train/problem_027304",
+    "volume_fraction": 0.4483200649169826,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_027304",
+      "family": "META64",
+      "split": "train",
+      "group_id": "12b540c8fb2cdcda0521e92cf24a55516e6a1914331a4066387f9f3ee181f137",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4483200649169826,
+      "source_key": "train/problem_027304",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_027304",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4483200649169826,
+      "fixed_dofs": [
+        38,
+        2210,
+        2211
+      ],
+      "forces_sparse": [
+        [
+          6240,
+          0.06203738740170091
+        ],
+        [
+          6241,
+          -0.99807382620945
+        ]
+      ]
+    },
+    "uniform_C0": 268.40437345024145,
+    "uniform_C50": 24.905614898716223
+  },
+  {
+    "task_id": "META64_problem_027331",
+    "group_id": "a70e3d20353c3939cc4ffb3018b8c3b6a54a3c2ebc6195d58ccee75915f0a608",
+    "vf_bin": 1,
+    "source_key": "train/problem_027331",
+    "volume_fraction": 0.1741135244009498,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_027331",
+      "family": "META64",
+      "split": "train",
+      "group_id": "a70e3d20353c3939cc4ffb3018b8c3b6a54a3c2ebc6195d58ccee75915f0a608",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.1741135244009498,
+      "source_key": "train/problem_027331",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_027331",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.1741135244009498,
+      "fixed_dofs": [
+        5646,
+        8386,
+        8387
+      ],
+      "forces_sparse": [
+        [
+          36,
+          -0.2946731868199278
+        ],
+        [
+          37,
+          -0.9555980917568787
+        ],
+        [
+          98,
+          0.9802471928993193
+        ],
+        [
+          99,
+          -0.19777623925286036
+        ],
+        [
+          4030,
+          -0.21038304117580453
+        ],
+        [
+          4031,
+          -0.9776190341772298
+        ],
+        [
+          7020,
+          0.9263980909617947
+        ],
+        [
+          7021,
+          -0.3765455843086496
+        ]
+      ]
+    },
+    "uniform_C0": 386041.22064105025,
+    "uniform_C50": 3029.851936496322
+  },
+  {
+    "task_id": "META64_problem_028522",
+    "group_id": "a533a89ff23a804ee5c269193ae88655d320cf544e607b75a0cbb605dea49ad6",
+    "vf_bin": 9,
+    "source_key": "train/problem_028522",
+    "volume_fraction": 0.4829820278065283,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_028522",
+      "family": "META64",
+      "split": "train",
+      "group_id": "a533a89ff23a804ee5c269193ae88655d320cf544e607b75a0cbb605dea49ad6",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4829820278065283,
+      "source_key": "train/problem_028522",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_028522",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.4829820278065283,
+      "fixed_dofs": [
+        655,
+        1429,
+        5718
+      ],
+      "forces_sparse": [
+        [
+          6240,
+          0.9914637758187332
+        ],
+        [
+          6241,
+          -0.13038244222003445
+        ]
+      ]
+    },
+    "uniform_C0": 11316.90731151725,
+    "uniform_C50": 1323.7182354477022
+  },
+  {
+    "task_id": "META64_problem_028757",
+    "group_id": "4fa7e3a7d25221d839a30132e3fa137105387604a330a98258d4339e5783d376",
+    "vf_bin": 3,
+    "source_key": "train/problem_028757",
+    "volume_fraction": 0.22158069294710483,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_028757",
+      "family": "META64",
+      "split": "train",
+      "group_id": "4fa7e3a7d25221d839a30132e3fa137105387604a330a98258d4339e5783d376",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.22158069294710483,
+      "source_key": "train/problem_028757",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_028757",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.22158069294710483,
+      "fixed_dofs": [
+        781,
+        4987,
+        8366
+      ],
+      "forces_sparse": [
+        [
+          2598,
+          0.4813777335161561
+        ],
+        [
+          2599,
+          0.8765132501422033
+        ]
+      ]
+    },
+    "uniform_C0": 509.3191342030363,
+    "uniform_C50": 9.88864774778051
+  },
+  {
+    "task_id": "META64_problem_028992",
+    "group_id": "a79ba2fb8c6e55357d6a231d42038ed4f69502a0de61828842c1e50c5fa11bb6",
+    "vf_bin": 2,
+    "source_key": "train/problem_028992",
+    "volume_fraction": 0.18262045343906,
+    "task": {
+      "schema": "initskill-isotropic-task-v1",
+      "task_id": "META64_problem_028992",
+      "family": "META64",
+      "split": "train",
+      "group_id": "a79ba2fb8c6e55357d6a231d42038ed4f69502a0de61828842c1e50c5fa11bb6",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.18262045343906,
+      "source_key": "train/problem_028992",
+      "coordinate_mapping": "author[x,y,axis] -> solver[x,64-y,axis]; physical fx,fy unchanged",
+      "source_optimization_results_used": false
+    },
+    "physical": {
+      "task_id": "META64_problem_028992",
+      "elements_xy": [
+        64,
+        64
+      ],
+      "volume_fraction": 0.18262045343906,
+      "fixed_dofs": [
+        2988,
+        8100,
+        8101
+      ],
+      "forces_sparse": [
+        [
+          8398,
+          0.9746435055607958
+        ],
+        [
+          8399,
+          0.22376335059201063
+        ],
+        [
+          8446,
+          -0.0008754465079123907
+        ],
+        [
+          8447,
+          0.9999996167966325
+        ]
+      ]
+    },
+    "uniform_C0": 2418.1522930817455,
+    "uniform_C50": 18.63383315628151
+  }
+]

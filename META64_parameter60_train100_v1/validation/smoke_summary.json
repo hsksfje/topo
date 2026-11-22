@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "planned": 4,
+  "settled": 4,
+  "converged": 0,
+  "max_steps": 4,
+  "failed": 0,
+  "tasks": 1,
+  "profiles": 4,
+  "updated_unix": 1795362945.0845697,
+  "new_API_calls": 0,
+  "note": "Intentional70-step smoke cap; not the2000-step experiment."
+}

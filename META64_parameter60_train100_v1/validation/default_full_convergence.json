@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "task_id": "META64_problem_000436",
+  "profile": "P34",
+  "stop_step": 123,
+  "historical_stop_step": 123,
+  "Cend": 207.74364997766384,
+  "relative_Cend_error": 0.0,
+  "attempted_FE": 124,
+  "switch_FE": 0,
+  "elapsed_seconds": 12.352072581648827
+}

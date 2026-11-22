@@ -1,0 +1,8 @@
+{
+  "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]",
+  "platform": "Linux-4.18.0-553.el8_10.x86_64-x86_64-with-glibc2.39",
+  "numpy": "1.26.4",
+  "scipy": "1.12.0",
+  "BLAS_threads": 1,
+  "new_API_calls": 0
+}

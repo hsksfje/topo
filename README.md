@@ -1,5 +1,21 @@
 # META64 数据与拓扑优化初始化实验
 
+## 原Train100新增：Uniform启动参数60组合收敛实验
+
+[独立运行包、环境和完整说明](META64_parameter60_train100_v1/README.md)。使用已完成38种初始化收敛比较的最早100个任务，不是新增100或local200。Uniform起点，p={2,3,4}、rmin={1.5,2,2.5,3}、move={0.05,0.10,0.15,0.20,0.30}全组合，共6000条轨迹；前50步使用该组参数，再回到p3/rmin2.5/move0.2至共同收敛或总2000步。
+
+包内自带物理输入和原3800条标量对照，无需下载完整数据集或API密钥。默认CPU进程数为可用逻辑核减一、BLAS单线程，支持暂停恢复和结果回传哈希。进入目录后：
+
+```bash
+conda env create -f environment.yml
+conda activate meta64-parameter60
+python run.py --stage verify
+python run.py --stage preflight
+python -u run.py
+```
+
+本机仅完成预检、代表轨迹与恢复验证，没有启动正式6000条队列。完整运行与回传说明见包内README。
+
 ## 最新：跑完train1000，剩余按200＋300＋300分设备
 
 [三设备分配清单、独立启动脚本与README](META64_train1000_distributed_v1/README.md)。排除最早100和另一设备正在跑的新增100，剩余800按原train1000清单顺序分为本机200、设备A300、设备B300；不抽样、不重叠，总计覆盖1000。

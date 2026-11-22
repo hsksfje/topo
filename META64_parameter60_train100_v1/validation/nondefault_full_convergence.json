@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "profile": "P60",
+  "task_id": "META64_problem_000436",
+  "stop_step": 247,
+  "Cend": 221.42506003230466,
+  "transition": {
+    "step": 50,
+    "launch_observation": {
+      "step": 50,
+      "phase": "launch",
+      "compliance": 863.1362206992868,
+      "volume": 0.11502092799909144,
+      "grayness": 0.23625892807058144,
+      "residual": 2.5744563656441327e-12,
+      "volume_error": 2.492681061561086e-11,
+      "max_design_change": 0.30000000000000004,
+      "relative_compliance_change": 0.020878508714785086
+    },
+    "volume_repair": {
+      "applied": true,
+      "old_volume": 0.11529706704344524,
+      "new_volume": 0.11502092801757002,
+      "max_design_change": 0.0011288205860182643,
+      "shift": -0.0011288205860182643
+    },
+    "common_compliance": 322.9463427221959,
+    "extra_FE": 1,
+    "x_before_sha256": "c672217f802c9d55f9236d37fe8f7741f5b0fa8d08aac520f5621e04e889be6b",
+    "x_after_sha256": "b4fe3982839ebcf21d3c1b053fdf285f110484a77d5df78e677ed4097cda145f"
+  },
+  "attempted_FE": 249,
+  "resumed_from_step49": true,
+  "max_volume_error": 6.406086217047857e-10,
+  "elapsed_seconds": 23.560507711023092
+}
