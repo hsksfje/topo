@@ -1,0 +1,11 @@
+{
+  "tasks": 200,
+  "total": 7600,
+  "remote": 6600,
+  "local": 1000,
+  "overlap": 0,
+  "remote_valid_LLM": 1000,
+  "remote_valid_trajectories": 6592,
+  "source_unavailable": 8,
+  "frozen_physics_and_solver_identical": true
+}

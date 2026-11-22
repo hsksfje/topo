@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "task_id": "META64_problem_000088",
+      "method": "U",
+      "C50_relative_error": 0.0,
+      "C55": 92.70138191818984,
+      "resume50_plus5_equals_fresh55": true
+    },
+    {
+      "task_id": "META64_problem_000088",
+      "method": "A1",
+      "C50_relative_error": 0.0,
+      "C55": 109.91892917952688
+    },
+    {
+      "task_id": "META64_problem_000088",
+      "method": "COARSE80_MPC",
+      "C50_relative_error": 0.0,
+      "C55": 92.45783143785538
+    }
+  ],
+  "additional_FE": 74,
+  "new_API_calls": 0,
+  "unix": 1795355164.236139
+}

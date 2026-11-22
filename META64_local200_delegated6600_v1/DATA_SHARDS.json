@@ -1,0 +1,67 @@
+{
+  "schema": "META64-delegated6600-data-v1",
+  "base_url": "https://raw.githubusercontent.com/hsksfje/topo/main/META64_local200_delegated6600_v1",
+  "shards": [
+    {
+      "path": "data_shards/part_001.zip",
+      "bytes": 55408394,
+      "sha256": "527605fbf0b3b5d38fd451475ad7535719cf563a4e9b3ac404e3fcad1617ad4b",
+      "files": 3074
+    },
+    {
+      "path": "data_shards/part_002.zip",
+      "bytes": 60026613,
+      "sha256": "7f72288952255b0a788d1827e7853622c0c90d18fc2476294e13c5667ac140f7",
+      "files": 2192
+    },
+    {
+      "path": "data_shards/part_003.zip",
+      "bytes": 60212585,
+      "sha256": "1208be77381df29834202c9b6d6f27cdea142d977883db26f15197ea1b8be59b",
+      "files": 2170
+    },
+    {
+      "path": "data_shards/part_004.zip",
+      "bytes": 60192931,
+      "sha256": "22cdf0424fdb595c60b3b57f9c8ef9b3d1a9ac32a9a10746517eaf700ecd6f60",
+      "files": 2152
+    },
+    {
+      "path": "data_shards/part_005.zip",
+      "bytes": 60160463,
+      "sha256": "b217e89fff0c3c1c345f15bd3d49e66bc09a1791dab388c09b61845f33a5446f",
+      "files": 2166
+    },
+    {
+      "path": "data_shards/part_006.zip",
+      "bytes": 59674213,
+      "sha256": "a9231c2a5e51a038f2f0fe6e03e5fd83c1a9df5f321c5dcfd77cdd4e63785a11",
+      "files": 2192
+    },
+    {
+      "path": "data_shards/part_007.zip",
+      "bytes": 59556080,
+      "sha256": "ec82aaf870aa15360a005ece1c6a6e08dbe4a715d64bb8673bfd6ed64bc29e42",
+      "files": 2113
+    },
+    {
+      "path": "data_shards/part_008.zip",
+      "bytes": 59499337,
+      "sha256": "aea8b8e109dfa2f9022b090d8ed189451689795c012e8baa587fbd9c0a59ef54",
+      "files": 2119
+    },
+    {
+      "path": "data_shards/part_009.zip",
+      "bytes": 59465776,
+      "sha256": "dfa4eff1963e1b2ee7092db85a1c8c5f24020ed4361255a859715bc1db6f1c1c",
+      "files": 2136
+    },
+    {
+      "path": "data_shards/part_010.zip",
+      "bytes": 18951659,
+      "sha256": "8a865b428cab4091c3ffdb427664c4a4138d140277242cb750b1ae32af9ad627",
+      "files": 671
+    }
+  ],
+  "total_compressed_bytes": 553148051
+}

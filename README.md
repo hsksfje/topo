@@ -45,3 +45,20 @@ python -u code/run.py --stage run --execute-api --env-file .env.local
 ## 此前：原100任务中另外50条的OC50续跑包
 
 [旧50任务独立运行包](META64_remaining50_convergence_v1/README.md)。该目录仍保留原任务、检查点、运行及回传说明，与本次新100任务不同。
+
+
+## 本机200任务：离线委托6600条OC50记录续跑（2026-11-22）
+
+运行包与完整使用指南：[META64_local200_delegated6600_v1](META64_local200_delegated6600_v1/README.md)。包含200任务全部28种固定初始化5600条，以及冻结时前1000条有效LLM OC50轨迹；原服务器只继续其余1000条LLM。分工清单互斥且覆盖本批200×38=7600条。
+
+数据分成10个ZIP分片（约553MB十进制，约528MiB），更新仓库后进入该目录，依次执行：
+
+```bash
+conda activate meta64-convergence
+python prepare_data.py
+python code/run.py --stage verify
+python code/run.py --stage preflight
+python -u code/run.py --stage run
+```
+
+已有meta64-fresh且核心数值包版本一致也可使用。不调用LLM，无需API密钥；默认保留一个逻辑CPU，其余并行。输出固定outputs/delegated6600_run01/，运行结束后用code/export_results.py打ZIP回传，详细路径见运行包README。
