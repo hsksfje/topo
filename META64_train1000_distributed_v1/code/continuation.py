@@ -142,7 +142,8 @@ def numerical_report(cfg, status='running'):
             histories[t,m] = read(OUT/'tasks'/t/m/'history.json')
     for r in cfg['records']:
         t = r['task_id']; u = results.get((t,'U'),{})
-        upath=source_folder(t,'U',cfg)/'result_50.json'
+        uname='result_50.json' if 'U' in cfg['fixed'] else 'result.json'
+        upath=source_folder(t,'U',cfg)/uname
         u50=read(upath).get('C50') if upath.exists() else None
         for m in cfg['methods']:
             v = results.get((t,m))

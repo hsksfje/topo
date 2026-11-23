@@ -35,7 +35,7 @@ class Client:
             # Provider max_tokens includes both reasoning and final answer.
             payload=dict(model=self.config['model'],messages=messages,temperature=.2,
                 max_tokens=self.config['reasoning_max_tokens'],response_format=response_format,
-                reasoning_effort='medium',extra_body={'thinking':{'type':'enabled'}})
+                reasoning_effort='low',extra_body={'thinking':{'type':'enabled'}})
             identity=digest(payload);folder=self.output/'requests'/job_id
             with (self.output/'.api.lock').open('a') as lock:
                 fcntl.flock(lock,fcntl.LOCK_EX)
@@ -51,19 +51,29 @@ class Client:
                 dump(folder/'request.json',payload)
                 dump(folder/'attempt.json',dict(identity=identity,started_unix=time.time(),reserved_completion_tokens=payload['max_tokens']))
             started=time.monotonic();raw={};parsed=None;error=None;status='transport_error'
+            _transient=('RateLimitError','APIConnectionError','APITimeoutError','ConnectError','ReadError','ConnectTimeout','ReadTimeout','ConnectionError','TimeoutError','RemoteProtocolError')
             try:
-                with self._backend_lock:
-                    if self.backend is None:
-                        from openai import OpenAI,DefaultHttpxClient
-                        c=read_credentials(self.env_file)
-                        if urlparse(c['MODEL_API_BASE_URL']).hostname!=self.config['provider_host']:raise ValueError('Provider changed')
-                        self.backend=OpenAI(api_key=c['MODEL_API_KEY'],base_url=c['MODEL_API_BASE_URL'],max_retries=0,
-                            timeout=600,http_client=DefaultHttpxClient(follow_redirects=False))
-                response=self.backend.chat.completions.create(**payload)
-                raw=response.model_dump(mode='json');dump(folder/'response.json',raw)
-                if raw.get('model')!=self.config['model'] or response.choices[0].finish_reason!='stop':raise ValueError('Model mismatch or truncated output')
-                def nonfinite(value):raise ValueError('Nonfinite JSON constant')
-                parsed=json.loads(response.choices[0].message.content or '',parse_constant=nonfinite);status='received'
+                for attempt in range(5):
+                    try:
+                        with self._backend_lock:
+                            if self.backend is None:
+                                from openai import OpenAI,DefaultHttpxClient
+                                c=read_credentials(self.env_file)
+                                if urlparse(c['MODEL_API_BASE_URL']).hostname!=self.config['provider_host']:raise ValueError('Provider changed')
+                                self.backend=OpenAI(api_key=c['MODEL_API_KEY'],base_url=c['MODEL_API_BASE_URL'],max_retries=0,
+                                    timeout=600,http_client=DefaultHttpxClient(follow_redirects=False))
+                        response=self.backend.chat.completions.create(**payload)
+                        raw=response.model_dump(mode='json');dump(folder/'response.json',raw)
+                        if raw.get('model')!=self.config['model'] or response.choices[0].finish_reason!='stop':raise ValueError('Model mismatch or truncated output')
+                        def nonfinite(value):raise ValueError('Nonfinite JSON constant')
+                        parsed=json.loads(response.choices[0].message.content or '',parse_constant=nonfinite);status='received'
+                        break
+                    except Exception as exc:
+                        code=getattr(exc,'status_code',None)
+                        if (code==429 or type(exc).__name__ in _transient) and attempt<4:
+                            time.sleep(30.0*(attempt+1))
+                            continue
+                        raise
             except Exception as exc:
                 code=getattr(exc,'status_code',None)
                 status='invalid_response' if raw else 'rejected' if code in (400,401,403,404,422,429) else 'transport_error'
@@ -72,7 +82,7 @@ class Client:
             dump(folder/'parsed.json',parsed)
             usage=raw.get('usage') or {};details=usage.get('completion_tokens_details') or {}
             dump(folder/'receipt.json',dict(status=status,error_type=error,usage=usage,reasoning_tokens=details.get('reasoning_tokens'),
-                requested_effort='medium',documented_provider_mapping='low',thinking='enabled',
+                requested_effort='low',documented_provider_mapping='low',thinking='enabled',
                 seconds=time.monotonic()-started,response_id=raw.get('id'),model=raw.get('model')))
             self.budget()
             if status in ('transport_error','rejected'):raise RuntimeError('API '+status+'; inspect receipt before continuing')

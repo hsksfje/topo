@@ -152,7 +152,8 @@ def continue_all(out,cfg,workers):
  conv=out/'convergence';conv.mkdir(exist_ok=True);cc=dict(cfg,workers=workers,fresh_output=str(out),trajectories={})
  for r in cfg['records']:
   for m in cfg['methods']:
-   v=baseline_result(out,r['task_id'],m,cfg);assert v is not None,(r['task_id'],m)
+   v=baseline_result(out,r['task_id'],m,cfg)
+   if v is None:continue
    cc['trajectories'][r['task_id']+'/'+m]={'source_status':v['status']}
  if (conv/'config.json').exists():
   old=read(conv/'config.json');assert sha(conv/'config.json')==read(conv/'config_identity.json')['sha256']

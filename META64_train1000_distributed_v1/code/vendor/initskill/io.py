@@ -3,6 +3,7 @@ import json
 import os
 from pathlib import Path
 import tempfile
+import time
 
 
 def canonical(value):
@@ -21,6 +22,20 @@ def sha(path):
     return h.hexdigest()
 
 
+def _replace(src, dst):
+    last = None
+    for attempt in range(20):
+        try:
+            os.replace(src, dst)
+            return
+        except OSError as exc:
+            if getattr(exc, 'winerror', None) not in (5, 32) and getattr(exc, 'errno', None) not in (13,):
+                raise
+            last = exc
+            time.sleep(0.05 * (attempt + 1))
+    raise last
+
+
 def dump(path, value):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -29,7 +44,7 @@ def dump(path, value):
         with os.fdopen(fd, 'w', encoding='utf-8') as f:
             json.dump(value, f, indent=2, ensure_ascii=False, allow_nan=False)
             f.write('\n')
-        os.replace(name, path)
+        _replace(name, path)
     finally:
         if os.path.exists(name):
             os.unlink(name)
@@ -43,7 +58,7 @@ def save_npz(path, **arrays):
     os.close(fd)
     try:
         np.savez_compressed(name, **arrays)
-        os.replace(name, path)
+        _replace(name, path)
     finally:
         if os.path.exists(name):
             os.unlink(name)

@@ -1,9 +1,9 @@
 {
-  "model": "deepseek-v4-pro-ga-260813",
+  "model": "deepseek-v4-1-flash-261017",
   "provider_host": "ark.cn-beijing.volces.com",
   "reasoning_max_tokens": 32768,
   "thinking": "enabled",
-  "reasoning_effort": "medium",
+  "reasoning_effort": "low",
   "max_input_bytes": 300000,
   "solver": {
     "rmin": 2.5,
