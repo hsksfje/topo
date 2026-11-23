@@ -1,0 +1,23 @@
+{
+  "captured_CST": "2026-11-23T19:48:05.186631+08:00",
+  "selected_tasks": 559,
+  "distinct_physical_groups": 559,
+  "source_counts": {
+    "original100": 100,
+    "local200": 166,
+    "deviceB300": 293
+  },
+  "expected_calls": 6149,
+  "default_max_api_calls": 7379,
+  "method_lineages": {
+    "pure_Pro": 5472,
+    "mixed_Pro_Flash": 3,
+    "other_or_incomplete": 115
+  },
+  "included_payload": "physical inputs only; scalar historical references for offline paired analysis",
+  "excluded": "API keys, request messages, responses, source optimum labels, source energy labels, old LLM initializers and old FE feedback",
+  "not_available": "DeviceA and separate new100 do not currently provide a verified complete per-request model receipt set; excluded rather than guessed as Pro",
+  "scope": "META64 train1000 only; historical D1 experiments excluded",
+  "physical_inputs_zip_sha256": "476a695e1e1aa03e424b4ef29cc16388f666c715d42a2a8e6c0d4e6c1f437ffd",
+  "physical_inputs_zip_bytes": 9071645
+}

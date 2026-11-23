@@ -1,5 +1,21 @@
 # META64 数据与拓扑优化初始化实验
 
+## 已确认Pro任务：Flash 4.1 low重新生成并跑到收敛
+
+[独立运行包、环境、运行与回传说明](META64_Pro_to_Flash_low_v1/README.md)。按成功模型回执确认559个META64任务（最早100＋本机166＋设备B293），不靠默认配置猜测。自带约9 MB物理输入；10种LLM全部以Flash 4.1 low重新生成，另新算Uniform/PG2/四孔，先50步再到共同收敛或2000步。默认CPU逻辑核减一、4路API，支持等待重试、断点恢复及自动回传打包。
+
+```bash
+cd META64_Pro_to_Flash_low_v1
+conda env create -f environment.yml
+conda activate meta64-flash-low
+python run.py --stage verify
+python run.py --stage preflight
+# 按包内README配置本地 .env.local 后，启动付费调用：
+python -u run.py --execute-api
+```
+
+实时查看：另开终端在包目录执行 `python monitor.py`。结果自动导出到 `exports/flash_low_all_run01_results.zip` 及其SHA256文件，复制回原设备 `InitSkill-Lab/outputs/exports/flash_low_rerun/` 即可。也可按README分成100/166/293三批，勿与all重复运行。
+
 ## 原Train20交叉实验：初始化在不同启动参数下是否仍有效
 
 [独立运行包与完整说明](META64_init_parameter_cross20_v1/README.md)。原100任务按体积分数十档各取前2条；PG1、L1_PG的实际初态分别与P39/P38/P20启动策略交叉，只新增120条轨迹。Uniform四策略及两种非Uniform初态的默认策略共120条历史对照随包提供，完整矩阵为20×3×4=240格。

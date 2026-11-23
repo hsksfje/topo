@@ -1,0 +1,6 @@
+outputs/
+exports/
+__pycache__/
+*.pyc
+.env*
+!.env.example
