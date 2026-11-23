@@ -1,0 +1,468 @@
+{
+  "original_train100_tasks_sha256": "edf5032d3479a7e8eea0ef1a1ef36112b4dc8a92cfd5a3f29b732be48092db8a",
+  "original_train100_manifest_sha256": "0c7fad0214006d0b6dca44fd4825d19aeb922b1d44ded82d517bf5a25623e5c0",
+  "selection": "First2 per VF bin, original order",
+  "task_ids": [
+    "META64_problem_000008",
+    "META64_problem_000436",
+    "META64_problem_000822",
+    "META64_problem_001216",
+    "META64_problem_001336",
+    "META64_problem_001611",
+    "META64_problem_001689",
+    "META64_problem_001826",
+    "META64_problem_001828",
+    "META64_problem_002385",
+    "META64_problem_002842",
+    "META64_problem_002901",
+    "META64_problem_002922",
+    "META64_problem_003894",
+    "META64_problem_004789",
+    "META64_problem_005623",
+    "META64_problem_005810",
+    "META64_problem_007919",
+    "META64_problem_010621",
+    "META64_problem_018648"
+  ],
+  "vf_bin_counts": {
+    "2": 2,
+    "0": 2,
+    "5": 2,
+    "3": 2,
+    "7": 2,
+    "9": 2,
+    "8": 2,
+    "4": 2,
+    "6": 2,
+    "1": 2
+  },
+  "source_initial_fields": [
+    {
+      "task_id": "META64_problem_000008",
+      "group_id": "4f6733003545640d4e178dbcb284d3d8c1c7ecc6a0b7b16da38dc039c8163df9",
+      "vf_bin": 2,
+      "starts": {
+        "PG1": {
+          "array_sha256": "19dc6bf8333ffd7713d92c32326fe258ec86c8c52b65062f5a7c4e805dd5b7b0",
+          "source_state_sha256": "1ede2d9d8d5e853df3a5158868af0554ce79a8919a34f05bdae8b41f08f30281",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/corpus/META64_problem_000008/PG1/state_0000.npz",
+          "default_C0": 1194.5063012517212,
+          "default_C50": 78.8551157626969
+        },
+        "L1_PG": {
+          "array_sha256": "ea9bd421309274930debf9cbcdbdb80d19d5b717a7d32f1aeed1ff7596806b57",
+          "source_state_sha256": "d31eb9cd26940656e1f311108b61d5cb751f750fba410e3a6d0b2b1be021c007",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/tasks/META64_problem_000008/L1_PG/state_0000.npz",
+          "default_C0": 1141.0486122075213,
+          "default_C50": 77.07849582365347
+        }
+      }
+    },
+    {
+      "task_id": "META64_problem_000436",
+      "group_id": "7e0b0cb2f6c6a077a7be8ba8028ad3da2e28493a45e0b935a27e3402257074b6",
+      "vf_bin": 0,
+      "starts": {
+        "PG1": {
+          "array_sha256": "436502b77f2a5811977d1c9f1ee7d8b0281022eb58cceeae1a40d0a7e70c9370",
+          "source_state_sha256": "6d689b77d1dbdda762d23449f3a041cdd5588be9667a949052bb63422a2c58b8",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/corpus/META64_problem_000436/PG1/state_0000.npz",
+          "default_C0": 8760.679708939464,
+          "default_C50": 217.48691463837042
+        },
+        "L1_PG": {
+          "array_sha256": "10dabde452a08f76ddb54a242432cde6f709e31a075165d265508ecebeddb14b",
+          "source_state_sha256": "11814f7dbe9dfd775b160de968d6b562756384cbb872114a9c81ab7812a312f3",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/tasks/META64_problem_000436/L1_PG/state_0000.npz",
+          "default_C0": 5249.3398775962905,
+          "default_C50": 240.64063947844176
+        }
+      }
+    },
+    {
+      "task_id": "META64_problem_000822",
+      "group_id": "c51730a7b94b3688fde00314ec1fb0fc518b4c988a26eef6a44bb288fd6d8599",
+      "vf_bin": 2,
+      "starts": {
+        "PG1": {
+          "array_sha256": "cafbe05c509ed50037dd0a45e9fa5423d3b9b165b7e58d8a42d9e67fc4007094",
+          "source_state_sha256": "aa9719609d975c816d0c4bf77162b16fd0b2185092ea0b321f3ab01b40f2bee4",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/corpus/META64_problem_000822/PG1/state_0000.npz",
+          "default_C0": 2338.3756002364808,
+          "default_C50": 82.14345547624492
+        },
+        "L1_PG": {
+          "array_sha256": "98ade59e68971a5a8df0e933fd94724f9f971a337737771f54b2afa4203e7fa0",
+          "source_state_sha256": "71b761ad261f89f5d7caf05b1c3f73bf2d6faf119c78f287496bc417fb333fc3",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/tasks/META64_problem_000822/L1_PG/state_0000.npz",
+          "default_C0": 3788.645035525813,
+          "default_C50": 84.41835303244116
+        }
+      }
+    },
+    {
+      "task_id": "META64_problem_001216",
+      "group_id": "9dced0e02f8f78ace3f2b4c7c2ecade63c7a65a7244abfef3fbe94185a0155c2",
+      "vf_bin": 5,
+      "starts": {
+        "PG1": {
+          "array_sha256": "0bd351b58d2c351a7826d32aeb7d09adc91c638b5e61a3b48b077bd813055f26",
+          "source_state_sha256": "e2c311cfeb1cf0820860ebd96e444e71cee3660cf736f8d755a334e65270b29a",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/corpus/META64_problem_001216/PG1/state_0000.npz",
+          "default_C0": 603.9699877805999,
+          "default_C50": 49.96011179777723
+        },
+        "L1_PG": {
+          "array_sha256": "51b666b472ec74a4fa3043074c06795093c12cc8317a1331a33f50d0958c2c5a",
+          "source_state_sha256": "ce4223693cbe1199c6ee97a03f81d71b804b7678c0385dab8ada65c375618fad",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/tasks/META64_problem_001216/L1_PG/state_0000.npz",
+          "default_C0": 684.8132065090219,
+          "default_C50": 49.95285060894642
+        }
+      }
+    },
+    {
+      "task_id": "META64_problem_001336",
+      "group_id": "01e00e17a734b5edf2e7c06c22eedbe4f4a9f92958bd6cc82c07bcf3dc9b0bed",
+      "vf_bin": 3,
+      "starts": {
+        "PG1": {
+          "array_sha256": "47b6757a9cea18b89ad38c4f3fb900ffa00aac77d54fb8b1c10b057cf8bb4035",
+          "source_state_sha256": "379bf985c5044f2be18d54e2cd90d15d6aebc0569f92c923424cb81d18e3d31f",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/corpus/META64_problem_001336/PG1/state_0000.npz",
+          "default_C0": 4602.737862071574,
+          "default_C50": 153.65767964031934
+        },
+        "L1_PG": {
+          "array_sha256": "068a202c56adba5ebb9d76a8b442bd9802736224da15736891f120d6eb70a5fb",
+          "source_state_sha256": "d5f4483a1fd563a1fe584c0abbee5315974fcf9f86394e62a8787a0e7fd1b2c1",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/tasks/META64_problem_001336/L1_PG/state_0000.npz",
+          "default_C0": 4309.341870193242,
+          "default_C50": 153.89821078340287
+        }
+      }
+    },
+    {
+      "task_id": "META64_problem_001611",
+      "group_id": "e24aef6f4dad37d2fe083ee8f30d5a7a86e4e5e139c5d3ddd2fd2dc996cb9b70",
+      "vf_bin": 7,
+      "starts": {
+        "PG1": {
+          "array_sha256": "546c5ba17858276460c06e5042d149ad7dd349e0c1a635623754681a8d217bac",
+          "source_state_sha256": "2b3b3004bbba6b7096f921d16208531afbfabf81b477ac2440547f1b05602e6d",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/corpus/META64_problem_001611/PG1/state_0000.npz",
+          "default_C0": 54.107035082219184,
+          "default_C50": 6.971570380963735
+        },
+        "L1_PG": {
+          "array_sha256": "97c01157844b83bc74b84ce832118abdbc40aa0a995648ff865766785154f050",
+          "source_state_sha256": "5a065cbcacc5ee7d685f62981ea9bca82e0cec1e68be1aede7dfd355dd7f9313",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/tasks/META64_problem_001611/L1_PG/state_0000.npz",
+          "default_C0": 38.28139678349058,
+          "default_C50": 6.9976214261815155
+        }
+      }
+    },
+    {
+      "task_id": "META64_problem_001689",
+      "group_id": "182af9661872f230105eafa8e05a71ca0cd49bdab4676fb7979a2140d3c05559",
+      "vf_bin": 0,
+      "starts": {
+        "PG1": {
+          "array_sha256": "cd16eb5f4b82950ed7e5fe45e4c5840d1e9f8c001949147250a5c803342d2645",
+          "source_state_sha256": "b9e0130b8329196a46eea13d223e70be3a51c7a305eee91c2dce5e4e26e99364",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/corpus/META64_problem_001689/PG1/state_0000.npz",
+          "default_C0": 68711.29591100832,
+          "default_C50": 1065.0147567194263
+        },
+        "L1_PG": {
+          "array_sha256": "a3ad1af7fb7d339ee2f7df0b8dcca63f0a0c3bc5c5e99bcf8902eda5c10f31fa",
+          "source_state_sha256": "c7c6448c3f40c86fcabefd9fb17887f4b5aa2a07862886bb4519c431193370e1",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/tasks/META64_problem_001689/L1_PG/state_0000.npz",
+          "default_C0": 70626.13403424513,
+          "default_C50": 1053.891580863035
+        }
+      }
+    },
+    {
+      "task_id": "META64_problem_001826",
+      "group_id": "cf1f867d4af9e2317d5d66c64657da5c44087d6a49f1b26c759e4b4913dd7981",
+      "vf_bin": 9,
+      "starts": {
+        "PG1": {
+          "array_sha256": "4d75140181266b7ce02be41bb5b7444ce365bbe9b5f6538bfc479716be242f83",
+          "source_state_sha256": "f577b7db680bbcc285cd868cead2e6934871d5a718ccea41dae2175b2258ee48",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/corpus/META64_problem_001826/PG1/state_0000.npz",
+          "default_C0": 105.99303115636744,
+          "default_C50": 19.107233231985177
+        },
+        "L1_PG": {
+          "array_sha256": "be1118669051f256ea6856d95d58ecf16567c50077caa2852293f07b0a04f2d9",
+          "source_state_sha256": "87a08abe5e2c2eadfcbc15e71f2d754dce2e58c8e3122163022d1c775f336c25",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/tasks/META64_problem_001826/L1_PG/state_0000.npz",
+          "default_C0": 58.904252383757225,
+          "default_C50": 19.12735494085156
+        }
+      }
+    },
+    {
+      "task_id": "META64_problem_001828",
+      "group_id": "a98847e049c150d4ac8ffa65e7efc5382cd4776de85f1e3f6c17fa8ae0f3fa0e",
+      "vf_bin": 5,
+      "starts": {
+        "PG1": {
+          "array_sha256": "908e5b150379c5d93012718d25881962ea902d284168d29d3a33e230fc893269",
+          "source_state_sha256": "5b5459e9a95539a9afcfe0c9b4c8bdf4ab91725da018d13f92d9e0911af478ff",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/corpus/META64_problem_001828/PG1/state_0000.npz",
+          "default_C0": 490.983635092067,
+          "default_C50": 34.71788799528002
+        },
+        "L1_PG": {
+          "array_sha256": "c78dfeb0eb5acdc84f681031a4b98184c0c900ce1fbde8e28038890717b66f1f",
+          "source_state_sha256": "ca79a75c096721e9a6967a7b4f777d919a33abb34b777c39942f7c63b7c825fd",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/tasks/META64_problem_001828/L1_PG/state_0000.npz",
+          "default_C0": 265.9338112106859,
+          "default_C50": 34.720837086442856
+        }
+      }
+    },
+    {
+      "task_id": "META64_problem_002385",
+      "group_id": "8750851c6db11716fb1098ddae7db6d52ca20c64162f149a003e0b0d9f388fcc",
+      "vf_bin": 8,
+      "starts": {
+        "PG1": {
+          "array_sha256": "05ad8f03f0f869a5fdc3440ffec21032a0c27bd3d328fe2206a13459d0819440",
+          "source_state_sha256": "b751c4b1e7f19895693802f429dd35918a41f572803efc48552ab06113a1f153",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/corpus/META64_problem_002385/PG1/state_0000.npz",
+          "default_C0": 787.5201485793318,
+          "default_C50": 116.66317030843848
+        },
+        "L1_PG": {
+          "array_sha256": "d75d6143d66978e1534052683e614cc746483bef6b12d11c4ca2972d25545c81",
+          "source_state_sha256": "115333307d45bf8937c0e74475c4923fb60305a50e1aa8fd354467efdd426eb2",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/tasks/META64_problem_002385/L1_PG/state_0000.npz",
+          "default_C0": 712.892333940668,
+          "default_C50": 117.28189608149687
+        }
+      }
+    },
+    {
+      "task_id": "META64_problem_002842",
+      "group_id": "b3489d0fda11cf8d85a5c73be52bfc881bc8d14ab96b19142dde1f051b78edb6",
+      "vf_bin": 7,
+      "starts": {
+        "PG1": {
+          "array_sha256": "b4141d4bc8ec8f8bcc6c8a2ff3f74b16c76fdc77b10145ea8472ec900123482a",
+          "source_state_sha256": "48128d929e156d9616c45753daac6a23fd501987ea9d591ca931a8d0e424040b",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/corpus/META64_problem_002842/PG1/state_0000.npz",
+          "default_C0": 205.64031397756762,
+          "default_C50": 16.426649390345364
+        },
+        "L1_PG": {
+          "array_sha256": "6b3143fd97fa5ef5abd1daa75c67799ea6512ca9b4cbac5424304348d4a68f54",
+          "source_state_sha256": "b681d676f450579f99cf4f32e163b0d19a038ef14c1f869d55a4f4ed3285a1d3",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/tasks/META64_problem_002842/L1_PG/state_0000.npz",
+          "default_C0": 194.4392376476464,
+          "default_C50": 16.49583191699233
+        }
+      }
+    },
+    {
+      "task_id": "META64_problem_002901",
+      "group_id": "f4f6b023018075828186f579dfcb4d2735eda1c3db0a1c7fd07f90ae1645a358",
+      "vf_bin": 4,
+      "starts": {
+        "PG1": {
+          "array_sha256": "5d86ddd1a78f4ee63947cb4e9e3de17cf999661cabfded327ec99eac5746cbd8",
+          "source_state_sha256": "5885f96f64923b16cd89ede41bcfc028ec66db9359f71a44aab075ad55749763",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/corpus/META64_problem_002901/PG1/state_0000.npz",
+          "default_C0": 362.9935091002388,
+          "default_C50": 16.58376986010195
+        },
+        "L1_PG": {
+          "array_sha256": "65b7652743e61a735bbe1253e2b2af695e43bc400c4a62bc8b142e3b97de2746",
+          "source_state_sha256": "c301fcddd1e258e4a642de676117dfc2bbc83b6c7a17f484b33146e1be86393a",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/tasks/META64_problem_002901/L1_PG/state_0000.npz",
+          "default_C0": 256.51201058542836,
+          "default_C50": 16.622187959498564
+        }
+      }
+    },
+    {
+      "task_id": "META64_problem_002922",
+      "group_id": "996ce98871828a1c3287cfc850d6857f959d1ec6892f74c75c2c9d7d5b3038ca",
+      "vf_bin": 4,
+      "starts": {
+        "PG1": {
+          "array_sha256": "a21698f15d7d84e3ea5c8bda13210a9c4237af4cf6f7aa2d2b645bde328f443b",
+          "source_state_sha256": "f5e7c35172707323f0d4b567dcd3189222bf102fc03c6fbe6264f99683d32029",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/corpus/META64_problem_002922/PG1/state_0000.npz",
+          "default_C0": 951.9404486396754,
+          "default_C50": 78.98454324504172
+        },
+        "L1_PG": {
+          "array_sha256": "61da604cb3b7aa47c0a088ca9e8476f8041cc03cfddc3aa7e8fb366c41a08a5b",
+          "source_state_sha256": "2704ed1f17d50e60557749204e9048174bd2c5dd9df05ee38da2d5f15bc5beb1",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/tasks/META64_problem_002922/L1_PG/state_0000.npz",
+          "default_C0": 926.8838250229878,
+          "default_C50": 78.60290113935335
+        }
+      }
+    },
+    {
+      "task_id": "META64_problem_003894",
+      "group_id": "3f0a0c03eef1bfbaddfba0af993ef0633854177891542cd2591cbe8c63d1af99",
+      "vf_bin": 3,
+      "starts": {
+        "PG1": {
+          "array_sha256": "389a2430b7d1a6c02fe075d5da6681ed7de168526005c76556027832375edc2c",
+          "source_state_sha256": "53fe16900b8f3acbbf90d35fbe97c6d5439674300d0d0e32ab179777184cf725",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/corpus/META64_problem_003894/PG1/state_0000.npz",
+          "default_C0": 182.41892582726427,
+          "default_C50": 8.292657397171077
+        },
+        "L1_PG": {
+          "array_sha256": "c21115ef6df863ad88c8641a41466c3ad9efa825e44434ddd8c77c74655b2ae2",
+          "source_state_sha256": "3cba05c7d1a4bf4d36c2d55131281231adca11d0d294b8044efadbab51421501",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/tasks/META64_problem_003894/L1_PG/state_0000.npz",
+          "default_C0": 76.7803235280286,
+          "default_C50": 8.23484653838547
+        }
+      }
+    },
+    {
+      "task_id": "META64_problem_004789",
+      "group_id": "3661e5ab4425ef1179a88ba1c7ba3c99fc93847d6556804c723a089215522887",
+      "vf_bin": 6,
+      "starts": {
+        "PG1": {
+          "array_sha256": "20beb2359a06d3f244a810717f621f2ce5e23ed3f569e2a0b5297c087da9f77b",
+          "source_state_sha256": "70e78968ce0d3f06b912db348a6cd3e319632bbf8a6a978e7b2a0e5ebff2855c",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/corpus/META64_problem_004789/PG1/state_0000.npz",
+          "default_C0": 49.571660164858706,
+          "default_C50": 4.8301468902733715
+        },
+        "L1_PG": {
+          "array_sha256": "389507e64b131388b96479763238ba47b546e884c882ff68ca8a6f5880063f85",
+          "source_state_sha256": "e6f0aa0b0e1e6d81be61f5fbf149e1e731990f948511a8c85f292c19f91be917",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/tasks/META64_problem_004789/L1_PG/state_0000.npz",
+          "default_C0": 17.82461128076166,
+          "default_C50": 4.83985448785868
+        }
+      }
+    },
+    {
+      "task_id": "META64_problem_005623",
+      "group_id": "94650047b4848917d3d3b029c6534923b7e59302dcf4069902b84d937c6e8fc6",
+      "vf_bin": 1,
+      "starts": {
+        "PG1": {
+          "array_sha256": "f39deaeeb4e820f1e16b2b5e987f408a6d93841ac558c84e778fc912d925889e",
+          "source_state_sha256": "cfbc1fe59cb8d1b4c9f36edbd36b222f07f546527044d378f68cf61126dc52ee",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/corpus/META64_problem_005623/PG1/state_0000.npz",
+          "default_C0": 981.098227848368,
+          "default_C50": 21.933871529339697
+        },
+        "L1_PG": {
+          "array_sha256": "8a16edac9d68dbdd17520a9c70e57fca98ce63bf67561fc8b9159152c09f6ed1",
+          "source_state_sha256": "10a51f4117c1e261ecb991eecb47abdd6258a9053dbf221e23c5d6e7fd997049",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/tasks/META64_problem_005623/L1_PG/state_0000.npz",
+          "default_C0": 896.7069181389452,
+          "default_C50": 21.79969752409581
+        }
+      }
+    },
+    {
+      "task_id": "META64_problem_005810",
+      "group_id": "7cf1be349f39809c32cf9d2bcaf0ba84448a78a6baa364d9c03b8c560d3fb2e1",
+      "vf_bin": 1,
+      "starts": {
+        "PG1": {
+          "array_sha256": "6e1d312559e4e4461a19d8ea5f74a1b62c0217452f693ddc0d4411641a130d9a",
+          "source_state_sha256": "4f1ed26a93e13dd35b7dce1747d1ac557fd3bcd382c632572a6f2d85c98fdbc7",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/corpus/META64_problem_005810/PG1/state_0000.npz",
+          "default_C0": 845.5173651333753,
+          "default_C50": 24.332324648859945
+        },
+        "L1_PG": {
+          "array_sha256": "9521acb2a514c7e730929bf1e85a37a18642f0a6957badb7de83e0011f69505d",
+          "source_state_sha256": "fee49b7a9bff5e0a823cf2d5dee7a459941cb1813431296f1a938d40c1a2cd7b",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/tasks/META64_problem_005810/L1_PG/state_0000.npz",
+          "default_C0": 386.61641028072154,
+          "default_C50": 21.71722866885785
+        }
+      }
+    },
+    {
+      "task_id": "META64_problem_007919",
+      "group_id": "49b54c115915de8e3441b2b6d9857cb55c15f9c7e7779b538446e05e221b7cc0",
+      "vf_bin": 6,
+      "starts": {
+        "PG1": {
+          "array_sha256": "afe335654a9872c62e8a6d2f57e44cf6c5f2b1af311b4ad34b49cb5d3f10904f",
+          "source_state_sha256": "0daf4f65dcfada67dd721a94a4235037005b83cf3205daf670b5708893e36160",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/corpus/META64_problem_007919/PG1/state_0000.npz",
+          "default_C0": 371.9084588902297,
+          "default_C50": 39.40342045605844
+        },
+        "L1_PG": {
+          "array_sha256": "3c55f4446d7f01284084174a765fc80d99a1a42b6b15c39772f00b58ff8daa10",
+          "source_state_sha256": "f03456af5f114c84976e4ca388c3fb07338afdad8ade083b2cd00a77593e2175",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/tasks/META64_problem_007919/L1_PG/state_0000.npz",
+          "default_C0": 302.767937166199,
+          "default_C50": 39.34720623162973
+        }
+      }
+    },
+    {
+      "task_id": "META64_problem_010621",
+      "group_id": "318702da7d63b9ca9d7c8b37100e53e083a6cf004ad3af9b91036295b1fc722c",
+      "vf_bin": 9,
+      "starts": {
+        "PG1": {
+          "array_sha256": "bcdc54489af53a201106ade3dc37fb0e099c2ba1f08165cf6b92281dad34b1aa",
+          "source_state_sha256": "cd18adbd715b5dbceb84ece6bb9512c887b87a242810f963c26ea1a47c666ee1",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/corpus/META64_problem_010621/PG1/state_0000.npz",
+          "default_C0": 284.86433000516274,
+          "default_C50": 54.39123083156568
+        },
+        "L1_PG": {
+          "array_sha256": "47753a0631ba56d16326ef16c16f500a32ca7bc8eac111afefcfdb6555f70ad2",
+          "source_state_sha256": "786ae947fab4bb30b12d78367abea0e96a3b81be5643312b187c93762e3087bf",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/tasks/META64_problem_010621/L1_PG/state_0000.npz",
+          "default_C0": 220.98183563034144,
+          "default_C50": 54.71308215340565
+        }
+      }
+    },
+    {
+      "task_id": "META64_problem_018648",
+      "group_id": "6ea5be4896c9c215400353b630b397b63f008a22c2a8a8ed4d6c0a7aae9d2c63",
+      "vf_bin": 8,
+      "starts": {
+        "PG1": {
+          "array_sha256": "cbbe498a5ba7f221693ca76e3219946a3ead75f12edaa33e308a78a5beb5f0b7",
+          "source_state_sha256": "ae338d72df0482267f7d931682a2031c89c5b8efbb7b73e59e2345900ad41530",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/corpus/META64_problem_018648/PG1/state_0000.npz",
+          "default_C0": 62.039388795914185,
+          "default_C50": 10.570902456739644
+        },
+        "L1_PG": {
+          "array_sha256": "b300a9b00ffc335f47ac6505c7b69abbc1a0dd4db06d3dfc5356afe3465e6f27",
+          "source_state_sha256": "ee6bba5ac5e162bf053b5f86f9b14b53b90ae1217d0f194eff39d86ef79e8692",
+          "source_state_relative": "outputs/meta64_train100_initializers_v1/run01/tasks/META64_problem_018648/L1_PG/state_0000.npz",
+          "default_C0": 41.70733387459572,
+          "default_C50": 10.617919807990852
+        }
+      }
+    }
+  ],
+  "reference_cells": 120,
+  "new_trajectories": 120,
+  "source_references_sha256": "21eaf19b0102bab45a980bddf936f3b053134358653dd3256835782b873865f1",
+  "source_parameter60_package_sha256": "df35ce97ff0bc7270e4baf291238b8d5ce3f790207109e21c65eae05742e30de",
+  "local_parameter60_package_sha256": "cd69d5ce5b3cde86059aa952d5f9d1a66fa66d9bd93371f606f83a0b566f0f13",
+  "source_package_hash_mismatch_disclosed": true,
+  "reference_numerical_audit_relative": "reports/parameter60_vs_initializers_train100_20261123/AUDIT.json"
+}

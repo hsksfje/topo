@@ -1,0 +1,22 @@
+{
+  "progress": {
+    "status": "complete",
+    "tasks": 1,
+    "new_planned": 6,
+    "new_settled": 6,
+    "new_converged": 0,
+    "new_max_steps": 6,
+    "new_failed": 0,
+    "references": 6,
+    "comparison_planned": 12,
+    "planned": 6,
+    "settled": 6,
+    "converged": 0,
+    "max_steps": 6,
+    "failed": 0,
+    "new_API_calls": 0,
+    "updated_unix": 1795415465.0210497
+  },
+  "source_snapshot_files": 11,
+  "return_ready": true
+}

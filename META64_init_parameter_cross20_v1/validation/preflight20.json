@@ -1,0 +1,1948 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "task_id": "META64_problem_000008",
+      "initializer": "U",
+      "relative_C0_error": 0.0,
+      "volume_error": 0.0
+    },
+    {
+      "task_id": "META64_problem_000008",
+      "initializer": "PG1",
+      "relative_C0_error": 0.0,
+      "volume_error": 7.116529587847253e-13
+    },
+    {
+      "task_id": "META64_problem_000008",
+      "initializer": "L1_PG",
+      "relative_C0_error": 0.0,
+      "volume_error": 4.4024228706973645e-12
+    },
+    {
+      "task_id": "META64_problem_000436",
+      "initializer": "U",
+      "relative_C0_error": 0.0,
+      "volume_error": 0.0
+    },
+    {
+      "task_id": "META64_problem_000436",
+      "initializer": "PG1",
+      "relative_C0_error": 0.0,
+      "volume_error": 7.736311591344247e-13
+    },
+    {
+      "task_id": "META64_problem_000436",
+      "initializer": "L1_PG",
+      "relative_C0_error": 0.0,
+      "volume_error": 2.984182345677766e-12
+    },
+    {
+      "task_id": "META64_problem_000822",
+      "initializer": "U",
+      "relative_C0_error": 0.0,
+      "volume_error": 8.326672684688674e-17
+    },
+    {
+      "task_id": "META64_problem_000822",
+      "initializer": "PG1",
+      "relative_C0_error": 0.0,
+      "volume_error": 3.270439474789555e-13
+    },
+    {
+      "task_id": "META64_problem_000822",
+      "initializer": "L1_PG",
+      "relative_C0_error": 0.0,
+      "volume_error": 2.8719526756759706e-12
+    },
+    {
+      "task_id": "META64_problem_001216",
+      "initializer": "U",
+      "relative_C0_error": 0.0,
+      "volume_error": 1.1102230246251565e-16
+    },
+    {
+      "task_id": "META64_problem_001216",
+      "initializer": "PG1",
+      "relative_C0_error": 0.0,
+      "volume_error": 1.1892709039784677e-12
+    },
+    {
+      "task_id": "META64_problem_001216",
+      "initializer": "L1_PG",
+      "relative_C0_error": 0.0,
+      "volume_error": 7.663758516684993e-12
+    },
+    {
+      "task_id": "META64_problem_001336",
+      "initializer": "U",
+      "relative_C0_error": 0.0,
+      "volume_error": 0.0
+    },
+    {
+      "task_id": "META64_problem_001336",
+      "initializer": "PG1",
+      "relative_C0_error": 0.0,
+      "volume_error": 1.1400602684119576e-12
+    },
+    {
+      "task_id": "META64_problem_001336",
+      "initializer": "L1_PG",
+      "relative_C0_error": 0.0,
+      "volume_error": 7.179257188738575e-12
+    },
+    {
+      "task_id": "META64_problem_001611",
+      "initializer": "U",
+      "relative_C0_error": 0.0,
+      "volume_error": 5.551115123125783e-17
+    },
+    {
+      "task_id": "META64_problem_001611",
+      "initializer": "PG1",
+      "relative_C0_error": 0.0,
+      "volume_error": 9.89097692638552e-13
+    },
+    {
+      "task_id": "META64_problem_001611",
+      "initializer": "L1_PG",
+      "relative_C0_error": 0.0,
+      "volume_error": 9.07368624680771e-12
+    },
+    {
+      "task_id": "META64_problem_001689",
+      "initializer": "U",
+      "relative_C0_error": 0.0,
+      "volume_error": 0.0
+    },
+    {
+      "task_id": "META64_problem_001689",
+      "initializer": "PG1",
+      "relative_C0_error": 0.0,
+      "volume_error": 9.250100685420648e-13
+    },
+    {
+      "task_id": "META64_problem_001689",
+      "initializer": "L1_PG",
+      "relative_C0_error": 0.0,
+      "volume_error": 6.612432823516201e-12
+    },
+    {
+      "task_id": "META64_problem_001826",
+      "initializer": "U",
+      "relative_C0_error": 0.0,
+      "volume_error": 1.1102230246251565e-16
+    },
+    {
+      "task_id": "META64_problem_001826",
+      "initializer": "PG1",
+      "relative_C0_error": 0.0,
+      "volume_error": 6.319389456166391e-13
+    },
+    {
+      "task_id": "META64_problem_001826",
+      "initializer": "L1_PG",
+      "relative_C0_error": 0.0,
+      "volume_error": 8.076539437240626e-12
+    },
+    {
+      "task_id": "META64_problem_001828",
+      "initializer": "U",
+      "relative_C0_error": 0.0,
+      "volume_error": 0.0
+    },
+    {
+      "task_id": "META64_problem_001828",
+      "initializer": "PG1",
+      "relative_C0_error": 0.0,
+      "volume_error": 4.199973702156967e-13
+    },
+    {
+      "task_id": "META64_problem_001828",
+      "initializer": "L1_PG",
+      "relative_C0_error": 0.0,
+      "volume_error": 3.0042079934844423e-12
+    },
+    {
+      "task_id": "META64_problem_002385",
+      "initializer": "U",
+      "relative_C0_error": 0.0,
+      "volume_error": 1.1102230246251565e-16
+    },
+    {
+      "task_id": "META64_problem_002385",
+      "initializer": "PG1",
+      "relative_C0_error": 0.0,
+      "volume_error": 1.137867577938323e-12
+    },
+    {
+      "task_id": "META64_problem_002385",
+      "initializer": "L1_PG",
+      "relative_C0_error": 0.0,
+      "volume_error": 7.256528711252486e-12
+    },
+    {
+      "task_id": "META64_problem_002842",
+      "initializer": "U",
+      "relative_C0_error": 0.0,
+      "volume_error": 1.1102230246251565e-16
+    },
+    {
+      "task_id": "META64_problem_002842",
+      "initializer": "PG1",
+      "relative_C0_error": 0.0,
+      "volume_error": 7.785994071696223e-13
+    },
+    {
+      "task_id": "META64_problem_002842",
+      "initializer": "L1_PG",
+      "relative_C0_error": 0.0,
+      "volume_error": 4.894085137152615e-12
+    },
+    {
+      "task_id": "META64_problem_002901",
+      "initializer": "U",
+      "relative_C0_error": 0.0,
+      "volume_error": 5.551115123125783e-17
+    },
+    {
+      "task_id": "META64_problem_002901",
+      "initializer": "PG1",
+      "relative_C0_error": 0.0,
+      "volume_error": 2.5590640717609858e-14
+    },
+    {
+      "task_id": "META64_problem_002901",
+      "initializer": "L1_PG",
+      "relative_C0_error": 0.0,
+      "volume_error": 6.476263969545926e-12
+    },
+    {
+      "task_id": "META64_problem_002922",
+      "initializer": "U",
+      "relative_C0_error": 0.0,
+      "volume_error": 1.1102230246251565e-16
+    },
+    {
+      "task_id": "META64_problem_002922",
+      "initializer": "PG1",
+      "relative_C0_error": 0.0,
+      "volume_error": 1.1646239528317892e-12
+    },
+    {
+      "task_id": "META64_problem_002922",
+      "initializer": "L1_PG",
+      "relative_C0_error": 0.0,
+      "volume_error": 6.3552496598617836e-12
+    },
+    {
+      "task_id": "META64_problem_003894",
+      "initializer": "U",
+      "relative_C0_error": 0.0,
+      "volume_error": 0.0
+    },
+    {
+      "task_id": "META64_problem_003894",
+      "initializer": "PG1",
+      "relative_C0_error": 0.0,
+      "volume_error": 2.8227420401094605e-13
+    },
+    {
+      "task_id": "META64_problem_003894",
+      "initializer": "L1_PG",
+      "relative_C0_error": 0.0,
+      "volume_error": 8.48754400095686e-12
+    },
+    {
+      "task_id": "META64_problem_004789",
+      "initializer": "U",
+      "relative_C0_error": 0.0,
+      "volume_error": 1.1102230246251565e-16
+    },
+    {
+      "task_id": "META64_problem_004789",
+      "initializer": "PG1",
+      "relative_C0_error": 0.0,
+      "volume_error": 7.440714711037799e-13
+    },
+    {
+      "task_id": "META64_problem_004789",
+      "initializer": "L1_PG",
+      "relative_C0_error": 0.0,
+      "volume_error": 7.438882843047168e-12
+    },
+    {
+      "task_id": "META64_problem_005623",
+      "initializer": "U",
+      "relative_C0_error": 0.0,
+      "volume_error": 5.551115123125783e-17
+    },
+    {
+      "task_id": "META64_problem_005623",
+      "initializer": "PG1",
+      "relative_C0_error": 0.0,
+      "volume_error": 1.05013220341732e-12
+    },
+    {
+      "task_id": "META64_problem_005623",
+      "initializer": "L1_PG",
+      "relative_C0_error": 0.0,
+      "volume_error": 4.784728169227037e-12
+    },
+    {
+      "task_id": "META64_problem_005810",
+      "initializer": "U",
+      "relative_C0_error": 0.0,
+      "volume_error": 5.551115123125783e-17
+    },
+    {
+      "task_id": "META64_problem_005810",
+      "initializer": "PG1",
+      "relative_C0_error": 0.0,
+      "volume_error": 8.681944052568724e-14
+    },
+    {
+      "task_id": "META64_problem_005810",
+      "initializer": "L1_PG",
+      "relative_C0_error": 0.0,
+      "volume_error": 4.784228568865956e-12
+    },
+    {
+      "task_id": "META64_problem_007919",
+      "initializer": "U",
+      "relative_C0_error": 0.0,
+      "volume_error": 0.0
+    },
+    {
+      "task_id": "META64_problem_007919",
+      "initializer": "PG1",
+      "relative_C0_error": 0.0,
+      "volume_error": 4.847233725513433e-13
+    },
+    {
+      "task_id": "META64_problem_007919",
+      "initializer": "L1_PG",
+      "relative_C0_error": 0.0,
+      "volume_error": 2.417621658423741e-12
+    },
+    {
+      "task_id": "META64_problem_010621",
+      "initializer": "U",
+      "relative_C0_error": 0.0,
+      "volume_error": 2.220446049250313e-16
+    },
+    {
+      "task_id": "META64_problem_010621",
+      "initializer": "PG1",
+      "relative_C0_error": 0.0,
+      "volume_error": 2.1438406605511773e-13
+    },
+    {
+      "task_id": "META64_problem_010621",
+      "initializer": "L1_PG",
+      "relative_C0_error": 0.0,
+      "volume_error": 9.530709554894656e-12
+    },
+    {
+      "task_id": "META64_problem_018648",
+      "initializer": "U",
+      "relative_C0_error": 0.0,
+      "volume_error": 1.1102230246251565e-16
+    },
+    {
+      "task_id": "META64_problem_018648",
+      "initializer": "PG1",
+      "relative_C0_error": 0.0,
+      "volume_error": 1.3081202787645907e-12
+    },
+    {
+      "task_id": "META64_problem_018648",
+      "initializer": "L1_PG",
+      "relative_C0_error": 0.0,
+      "volume_error": 1.655897641228421e-13
+    }
+  ],
+  "OC50_checks": [
+    {
+      "task_id": "META64_problem_000008",
+      "initializer": "U",
+      "relative_C50_error": 0.0
+    },
+    {
+      "task_id": "META64_problem_000008",
+      "initializer": "PG1",
+      "relative_C50_error": 0.0
+    },
+    {
+      "task_id": "META64_problem_000008",
+      "initializer": "L1_PG",
+      "relative_C50_error": 0.0
+    }
+  ],
+  "launch_volume_checks": [
+    {
+      "task_id": "META64_problem_000008",
+      "job": "PG1__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.21396256210077388,
+        "new_volume": 0.21393619775567035,
+        "max_design_change": 2.6364345103502274e-05,
+        "shift": -2.6364345103502274e-05
+      },
+      "original_array_sha256": "19dc6bf8333ffd7713d92c32326fe258ec86c8c52b65062f5a7c4e805dd5b7b0",
+      "launch_array_sha256": "7c048fd144df27abd29c2eb6ff702abc0bb5eb9c8598ea1c9e29a7a362c9fb2c"
+    },
+    {
+      "task_id": "META64_problem_000008",
+      "job": "PG1__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.21396256210077388,
+        "new_volume": 0.21393619775567035,
+        "max_design_change": 2.6364345103502274e-05,
+        "shift": -2.6364345103502274e-05
+      },
+      "original_array_sha256": "19dc6bf8333ffd7713d92c32326fe258ec86c8c52b65062f5a7c4e805dd5b7b0",
+      "launch_array_sha256": "7c048fd144df27abd29c2eb6ff702abc0bb5eb9c8598ea1c9e29a7a362c9fb2c"
+    },
+    {
+      "task_id": "META64_problem_000008",
+      "job": "PG1__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.21396256210077388,
+        "new_volume": 0.21393619775567035,
+        "max_design_change": 2.6364345103502274e-05,
+        "shift": -2.6364345103502274e-05
+      },
+      "original_array_sha256": "19dc6bf8333ffd7713d92c32326fe258ec86c8c52b65062f5a7c4e805dd5b7b0",
+      "launch_array_sha256": "7c048fd144df27abd29c2eb6ff702abc0bb5eb9c8598ea1c9e29a7a362c9fb2c"
+    },
+    {
+      "task_id": "META64_problem_000008",
+      "job": "L1_PG__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.21398734301532024,
+        "new_volume": 0.21393619774811307,
+        "max_design_change": 5.114526720717549e-05,
+        "shift": -5.114526720717549e-05
+      },
+      "original_array_sha256": "ea9bd421309274930debf9cbcdbdb80d19d5b717a7d32f1aeed1ff7596806b57",
+      "launch_array_sha256": "ef1026d6255d97da4dcdff9018d3f415e230ef69d35a2e0817a6bd2b6a5c44e3"
+    },
+    {
+      "task_id": "META64_problem_000008",
+      "job": "L1_PG__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.21398734301532024,
+        "new_volume": 0.21393619774811307,
+        "max_design_change": 5.114526720717549e-05,
+        "shift": -5.114526720717549e-05
+      },
+      "original_array_sha256": "ea9bd421309274930debf9cbcdbdb80d19d5b717a7d32f1aeed1ff7596806b57",
+      "launch_array_sha256": "ef1026d6255d97da4dcdff9018d3f415e230ef69d35a2e0817a6bd2b6a5c44e3"
+    },
+    {
+      "task_id": "META64_problem_000008",
+      "job": "L1_PG__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.21398734301532024,
+        "new_volume": 0.21393619774811307,
+        "max_design_change": 5.114526720717549e-05,
+        "shift": -5.114526720717549e-05
+      },
+      "original_array_sha256": "ea9bd421309274930debf9cbcdbdb80d19d5b717a7d32f1aeed1ff7596806b57",
+      "launch_array_sha256": "ef1026d6255d97da4dcdff9018d3f415e230ef69d35a2e0817a6bd2b6a5c44e3"
+    },
+    {
+      "task_id": "META64_problem_000436",
+      "job": "PG1__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.11502169419408276,
+        "new_volume": 0.11502092802119407,
+        "max_design_change": 7.661728886887431e-07,
+        "shift": -7.661728886887431e-07
+      },
+      "original_array_sha256": "436502b77f2a5811977d1c9f1ee7d8b0281022eb58cceeae1a40d0a7e70c9370",
+      "launch_array_sha256": "95b76b5e10d9d3b4e11ae40eeaa0e800d19d4739b5c0e61496d95ae256651d32"
+    },
+    {
+      "task_id": "META64_problem_000436",
+      "job": "PG1__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.11502169419408276,
+        "new_volume": 0.11502092802119407,
+        "max_design_change": 7.661728886887431e-07,
+        "shift": -7.661728886887431e-07
+      },
+      "original_array_sha256": "436502b77f2a5811977d1c9f1ee7d8b0281022eb58cceeae1a40d0a7e70c9370",
+      "launch_array_sha256": "95b76b5e10d9d3b4e11ae40eeaa0e800d19d4739b5c0e61496d95ae256651d32"
+    },
+    {
+      "task_id": "META64_problem_000436",
+      "job": "PG1__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.11502169419408276,
+        "new_volume": 0.11502092802119407,
+        "max_design_change": 7.661728886887431e-07,
+        "shift": -7.661728886887431e-07
+      },
+      "original_array_sha256": "436502b77f2a5811977d1c9f1ee7d8b0281022eb58cceeae1a40d0a7e70c9370",
+      "launch_array_sha256": "95b76b5e10d9d3b4e11ae40eeaa0e800d19d4739b5c0e61496d95ae256651d32"
+    },
+    {
+      "task_id": "META64_problem_000436",
+      "job": "L1_PG__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.11502504388592732,
+        "new_volume": 0.11502092802222413,
+        "max_design_change": 4.11586370319128e-06,
+        "shift": -4.11586370319128e-06
+      },
+      "original_array_sha256": "10dabde452a08f76ddb54a242432cde6f709e31a075165d265508ecebeddb14b",
+      "launch_array_sha256": "a3819ba99d688f11addd186bf89296d5b52c56ebf79982ba288b3350dc168a40"
+    },
+    {
+      "task_id": "META64_problem_000436",
+      "job": "L1_PG__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.11502504388592732,
+        "new_volume": 0.11502092802222413,
+        "max_design_change": 4.11586370319128e-06,
+        "shift": -4.11586370319128e-06
+      },
+      "original_array_sha256": "10dabde452a08f76ddb54a242432cde6f709e31a075165d265508ecebeddb14b",
+      "launch_array_sha256": "a3819ba99d688f11addd186bf89296d5b52c56ebf79982ba288b3350dc168a40"
+    },
+    {
+      "task_id": "META64_problem_000436",
+      "job": "L1_PG__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.11502504388592732,
+        "new_volume": 0.11502092802222413,
+        "max_design_change": 4.11586370319128e-06,
+        "shift": -4.11586370319128e-06
+      },
+      "original_array_sha256": "10dabde452a08f76ddb54a242432cde6f709e31a075165d265508ecebeddb14b",
+      "launch_array_sha256": "a3819ba99d688f11addd186bf89296d5b52c56ebf79982ba288b3350dc168a40"
+    },
+    {
+      "task_id": "META64_problem_000822",
+      "job": "PG1__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.21677319986564647,
+        "new_volume": 0.21677198843325562,
+        "max_design_change": 1.211432390846312e-06,
+        "shift": -1.211432390846312e-06
+      },
+      "original_array_sha256": "cafbe05c509ed50037dd0a45e9fa5423d3b9b165b7e58d8a42d9e67fc4007094",
+      "launch_array_sha256": "16bcdfeadeb36202824cf7c8f8670f2051ad5a60ffa78399dfea3a6b746dd3bb"
+    },
+    {
+      "task_id": "META64_problem_000822",
+      "job": "PG1__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.21677319986564647,
+        "new_volume": 0.21677198843325562,
+        "max_design_change": 1.211432390846312e-06,
+        "shift": -1.211432390846312e-06
+      },
+      "original_array_sha256": "cafbe05c509ed50037dd0a45e9fa5423d3b9b165b7e58d8a42d9e67fc4007094",
+      "launch_array_sha256": "16bcdfeadeb36202824cf7c8f8670f2051ad5a60ffa78399dfea3a6b746dd3bb"
+    },
+    {
+      "task_id": "META64_problem_000822",
+      "job": "PG1__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.21677319986564647,
+        "new_volume": 0.21677198843325562,
+        "max_design_change": 1.211432390846312e-06,
+        "shift": -1.211432390846312e-06
+      },
+      "original_array_sha256": "cafbe05c509ed50037dd0a45e9fa5423d3b9b165b7e58d8a42d9e67fc4007094",
+      "launch_array_sha256": "16bcdfeadeb36202824cf7c8f8670f2051ad5a60ffa78399dfea3a6b746dd3bb"
+    },
+    {
+      "task_id": "META64_problem_000822",
+      "job": "L1_PG__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.21679161839730043,
+        "new_volume": 0.21677198843118206,
+        "max_design_change": 1.9629966118372977e-05,
+        "shift": -1.9629966118372977e-05
+      },
+      "original_array_sha256": "98ade59e68971a5a8df0e933fd94724f9f971a337737771f54b2afa4203e7fa0",
+      "launch_array_sha256": "08a619df1c6aadac08e42738bffb7960560eb9990204ecaa77dd0457ceafd34b"
+    },
+    {
+      "task_id": "META64_problem_000822",
+      "job": "L1_PG__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.21679161839730043,
+        "new_volume": 0.21677198843118206,
+        "max_design_change": 1.9629966118372977e-05,
+        "shift": -1.9629966118372977e-05
+      },
+      "original_array_sha256": "98ade59e68971a5a8df0e933fd94724f9f971a337737771f54b2afa4203e7fa0",
+      "launch_array_sha256": "08a619df1c6aadac08e42738bffb7960560eb9990204ecaa77dd0457ceafd34b"
+    },
+    {
+      "task_id": "META64_problem_000822",
+      "job": "L1_PG__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.21679161839730043,
+        "new_volume": 0.21677198843118206,
+        "max_design_change": 1.9629966118372977e-05,
+        "shift": -1.9629966118372977e-05
+      },
+      "original_array_sha256": "98ade59e68971a5a8df0e933fd94724f9f971a337737771f54b2afa4203e7fa0",
+      "launch_array_sha256": "08a619df1c6aadac08e42738bffb7960560eb9990204ecaa77dd0457ceafd34b"
+    },
+    {
+      "task_id": "META64_problem_001216",
+      "job": "PG1__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.33873716906922213,
+        "new_volume": 0.3387312885529669,
+        "max_design_change": 5.880516255274415e-06,
+        "shift": -5.880516255274415e-06
+      },
+      "original_array_sha256": "0bd351b58d2c351a7826d32aeb7d09adc91c638b5e61a3b48b077bd813055f26",
+      "launch_array_sha256": "e28543d62d80b8570910494259e23d48021a82797957d1fecc129c3b1d0ae9c4"
+    },
+    {
+      "task_id": "META64_problem_001216",
+      "job": "PG1__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.33873716906922213,
+        "new_volume": 0.3387312885529669,
+        "max_design_change": 5.880516255274415e-06,
+        "shift": -5.880516255274415e-06
+      },
+      "original_array_sha256": "0bd351b58d2c351a7826d32aeb7d09adc91c638b5e61a3b48b077bd813055f26",
+      "launch_array_sha256": "e28543d62d80b8570910494259e23d48021a82797957d1fecc129c3b1d0ae9c4"
+    },
+    {
+      "task_id": "META64_problem_001216",
+      "job": "PG1__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.33873716906922213,
+        "new_volume": 0.3387312885529669,
+        "max_design_change": 5.880516255274415e-06,
+        "shift": -5.880516255274415e-06
+      },
+      "original_array_sha256": "0bd351b58d2c351a7826d32aeb7d09adc91c638b5e61a3b48b077bd813055f26",
+      "launch_array_sha256": "e28543d62d80b8570910494259e23d48021a82797957d1fecc129c3b1d0ae9c4"
+    },
+    {
+      "task_id": "META64_problem_001216",
+      "job": "L1_PG__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.3387505596122818,
+        "new_volume": 0.33873128854004864,
+        "max_design_change": 1.9271072233095765e-05,
+        "shift": -1.9271072233095765e-05
+      },
+      "original_array_sha256": "51b666b472ec74a4fa3043074c06795093c12cc8317a1331a33f50d0958c2c5a",
+      "launch_array_sha256": "bd7c31dcc8e6b134d424eaa2cc004ced37d41e8a4950a9ea69ab7dd3a6967a17"
+    },
+    {
+      "task_id": "META64_problem_001216",
+      "job": "L1_PG__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.3387505596122818,
+        "new_volume": 0.33873128854004864,
+        "max_design_change": 1.9271072233095765e-05,
+        "shift": -1.9271072233095765e-05
+      },
+      "original_array_sha256": "51b666b472ec74a4fa3043074c06795093c12cc8317a1331a33f50d0958c2c5a",
+      "launch_array_sha256": "bd7c31dcc8e6b134d424eaa2cc004ced37d41e8a4950a9ea69ab7dd3a6967a17"
+    },
+    {
+      "task_id": "META64_problem_001216",
+      "job": "L1_PG__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.3387505596122818,
+        "new_volume": 0.33873128854004864,
+        "max_design_change": 1.9271072233095765e-05,
+        "shift": -1.9271072233095765e-05
+      },
+      "original_array_sha256": "51b666b472ec74a4fa3043074c06795093c12cc8317a1331a33f50d0958c2c5a",
+      "launch_array_sha256": "bd7c31dcc8e6b134d424eaa2cc004ced37d41e8a4950a9ea69ab7dd3a6967a17"
+    },
+    {
+      "task_id": "META64_problem_001336",
+      "job": "PG1__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.2279020303410725,
+        "new_volume": 0.22789936048663362,
+        "max_design_change": 2.6698544388636947e-06,
+        "shift": -2.6698544388636947e-06
+      },
+      "original_array_sha256": "47b6757a9cea18b89ad38c4f3fb900ffa00aac77d54fb8b1c10b057cf8bb4035",
+      "launch_array_sha256": "f732b33f92bad6298cd19b5eb00aa50ba9983a6a9945f9fb7113f1c7138b8a95"
+    },
+    {
+      "task_id": "META64_problem_001336",
+      "job": "PG1__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.2279020303410725,
+        "new_volume": 0.22789936048663362,
+        "max_design_change": 2.6698544388636947e-06,
+        "shift": -2.6698544388636947e-06
+      },
+      "original_array_sha256": "47b6757a9cea18b89ad38c4f3fb900ffa00aac77d54fb8b1c10b057cf8bb4035",
+      "launch_array_sha256": "f732b33f92bad6298cd19b5eb00aa50ba9983a6a9945f9fb7113f1c7138b8a95"
+    },
+    {
+      "task_id": "META64_problem_001336",
+      "job": "PG1__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.2279020303410725,
+        "new_volume": 0.22789936048663362,
+        "max_design_change": 2.6698544388636947e-06,
+        "shift": -2.6698544388636947e-06
+      },
+      "original_array_sha256": "47b6757a9cea18b89ad38c4f3fb900ffa00aac77d54fb8b1c10b057cf8bb4035",
+      "launch_array_sha256": "f732b33f92bad6298cd19b5eb00aa50ba9983a6a9945f9fb7113f1c7138b8a95"
+    },
+    {
+      "task_id": "META64_problem_001336",
+      "job": "L1_PG__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.22791293233536924,
+        "new_volume": 0.2278993604916315,
+        "max_design_change": 1.3571843737736344e-05,
+        "shift": -1.3571843737736344e-05
+      },
+      "original_array_sha256": "068a202c56adba5ebb9d76a8b442bd9802736224da15736891f120d6eb70a5fb",
+      "launch_array_sha256": "5b73824919c452155a425eab98b9f44349867d9fc6ea01ff3d4b85ddbc0cbcdc"
+    },
+    {
+      "task_id": "META64_problem_001336",
+      "job": "L1_PG__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.22791293233536924,
+        "new_volume": 0.2278993604916315,
+        "max_design_change": 1.3571843737736344e-05,
+        "shift": -1.3571843737736344e-05
+      },
+      "original_array_sha256": "068a202c56adba5ebb9d76a8b442bd9802736224da15736891f120d6eb70a5fb",
+      "launch_array_sha256": "5b73824919c452155a425eab98b9f44349867d9fc6ea01ff3d4b85ddbc0cbcdc"
+    },
+    {
+      "task_id": "META64_problem_001336",
+      "job": "L1_PG__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.22791293233536924,
+        "new_volume": 0.2278993604916315,
+        "max_design_change": 1.3571843737736344e-05,
+        "shift": -1.3571843737736344e-05
+      },
+      "original_array_sha256": "068a202c56adba5ebb9d76a8b442bd9802736224da15736891f120d6eb70a5fb",
+      "launch_array_sha256": "5b73824919c452155a425eab98b9f44349867d9fc6ea01ff3d4b85ddbc0cbcdc"
+    },
+    {
+      "task_id": "META64_problem_001611",
+      "job": "PG1__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.3805702242934518,
+        "new_volume": 0.3805571065131249,
+        "max_design_change": 1.3117780326865613e-05,
+        "shift": -1.3117780326865613e-05
+      },
+      "original_array_sha256": "546c5ba17858276460c06e5042d149ad7dd349e0c1a635623754681a8d217bac",
+      "launch_array_sha256": "d4bd098d7756c2337617564007ed74304a9454a889e32e8c3b448dc76ddc2922"
+    },
+    {
+      "task_id": "META64_problem_001611",
+      "job": "PG1__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.3805702242934518,
+        "new_volume": 0.3805571065131249,
+        "max_design_change": 1.3117780326865613e-05,
+        "shift": -1.3117780326865613e-05
+      },
+      "original_array_sha256": "546c5ba17858276460c06e5042d149ad7dd349e0c1a635623754681a8d217bac",
+      "launch_array_sha256": "d4bd098d7756c2337617564007ed74304a9454a889e32e8c3b448dc76ddc2922"
+    },
+    {
+      "task_id": "META64_problem_001611",
+      "job": "PG1__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.3805702242934518,
+        "new_volume": 0.3805571065131249,
+        "max_design_change": 1.3117780326865613e-05,
+        "shift": -1.3117780326865613e-05
+      },
+      "original_array_sha256": "546c5ba17858276460c06e5042d149ad7dd349e0c1a635623754681a8d217bac",
+      "launch_array_sha256": "d4bd098d7756c2337617564007ed74304a9454a889e32e8c3b448dc76ddc2922"
+    },
+    {
+      "task_id": "META64_problem_001611",
+      "job": "L1_PG__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.3805909137505449,
+        "new_volume": 0.38055710650825575,
+        "max_design_change": 3.3807242289185524e-05,
+        "shift": -3.3807242289185524e-05
+      },
+      "original_array_sha256": "97c01157844b83bc74b84ce832118abdbc40aa0a995648ff865766785154f050",
+      "launch_array_sha256": "c260709749b443585e5c8548d7e5f6c40e5e2348036a743d8916498020bd938a"
+    },
+    {
+      "task_id": "META64_problem_001611",
+      "job": "L1_PG__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.3805909137505449,
+        "new_volume": 0.38055710650825575,
+        "max_design_change": 3.3807242289185524e-05,
+        "shift": -3.3807242289185524e-05
+      },
+      "original_array_sha256": "97c01157844b83bc74b84ce832118abdbc40aa0a995648ff865766785154f050",
+      "launch_array_sha256": "c260709749b443585e5c8548d7e5f6c40e5e2348036a743d8916498020bd938a"
+    },
+    {
+      "task_id": "META64_problem_001611",
+      "job": "L1_PG__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.3805909137505449,
+        "new_volume": 0.38055710650825575,
+        "max_design_change": 3.3807242289185524e-05,
+        "shift": -3.3807242289185524e-05
+      },
+      "original_array_sha256": "97c01157844b83bc74b84ce832118abdbc40aa0a995648ff865766785154f050",
+      "launch_array_sha256": "c260709749b443585e5c8548d7e5f6c40e5e2348036a743d8916498020bd938a"
+    },
+    {
+      "task_id": "META64_problem_001689",
+      "job": "PG1__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.13158706905680495,
+        "new_volume": 0.1315648124990917,
+        "max_design_change": 2.2256557713262737e-05,
+        "shift": -2.2256557713262737e-05
+      },
+      "original_array_sha256": "cd16eb5f4b82950ed7e5fe45e4c5840d1e9f8c001949147250a5c803342d2645",
+      "launch_array_sha256": "ebd29773fcaf0142880e1a021a2d6501e19982b5a92e0153c37e9dd7a0067557"
+    },
+    {
+      "task_id": "META64_problem_001689",
+      "job": "PG1__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.13158706905680495,
+        "new_volume": 0.1315648124990917,
+        "max_design_change": 2.2256557713262737e-05,
+        "shift": -2.2256557713262737e-05
+      },
+      "original_array_sha256": "cd16eb5f4b82950ed7e5fe45e4c5840d1e9f8c001949147250a5c803342d2645",
+      "launch_array_sha256": "ebd29773fcaf0142880e1a021a2d6501e19982b5a92e0153c37e9dd7a0067557"
+    },
+    {
+      "task_id": "META64_problem_001689",
+      "job": "PG1__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.13158706905680495,
+        "new_volume": 0.1315648124990917,
+        "max_design_change": 2.2256557713262737e-05,
+        "shift": -2.2256557713262737e-05
+      },
+      "original_array_sha256": "cd16eb5f4b82950ed7e5fe45e4c5840d1e9f8c001949147250a5c803342d2645",
+      "launch_array_sha256": "ebd29773fcaf0142880e1a021a2d6501e19982b5a92e0153c37e9dd7a0067557"
+    },
+    {
+      "task_id": "META64_problem_001689",
+      "job": "L1_PG__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.13160765920848097,
+        "new_volume": 0.1315648124910749,
+        "max_design_change": 4.284671740606427e-05,
+        "shift": -4.284671740606427e-05
+      },
+      "original_array_sha256": "a3ad1af7fb7d339ee2f7df0b8dcca63f0a0c3bc5c5e99bcf8902eda5c10f31fa",
+      "launch_array_sha256": "b60219cfbfb270400636653c7e471506023d57ebceab9ee0e110592d0b142427"
+    },
+    {
+      "task_id": "META64_problem_001689",
+      "job": "L1_PG__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.13160765920848097,
+        "new_volume": 0.1315648124910749,
+        "max_design_change": 4.284671740606427e-05,
+        "shift": -4.284671740606427e-05
+      },
+      "original_array_sha256": "a3ad1af7fb7d339ee2f7df0b8dcca63f0a0c3bc5c5e99bcf8902eda5c10f31fa",
+      "launch_array_sha256": "b60219cfbfb270400636653c7e471506023d57ebceab9ee0e110592d0b142427"
+    },
+    {
+      "task_id": "META64_problem_001689",
+      "job": "L1_PG__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.13160765920848097,
+        "new_volume": 0.1315648124910749,
+        "max_design_change": 4.284671740606427e-05,
+        "shift": -4.284671740606427e-05
+      },
+      "original_array_sha256": "a3ad1af7fb7d339ee2f7df0b8dcca63f0a0c3bc5c5e99bcf8902eda5c10f31fa",
+      "launch_array_sha256": "b60219cfbfb270400636653c7e471506023d57ebceab9ee0e110592d0b142427"
+    },
+    {
+      "task_id": "META64_problem_001826",
+      "job": "PG1__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.4813835906272299,
+        "new_volume": 0.48138491188292504,
+        "max_design_change": 1.3212556950747967e-06,
+        "shift": 1.3212556950747967e-06
+      },
+      "original_array_sha256": "4d75140181266b7ce02be41bb5b7444ce365bbe9b5f6538bfc479716be242f83",
+      "launch_array_sha256": "9933f10eb29b4f6b6af4f81f5cd72be3246df6658beb547b4ef8bec50fcc3693"
+    },
+    {
+      "task_id": "META64_problem_001826",
+      "job": "PG1__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.4813835906272299,
+        "new_volume": 0.48138491188292504,
+        "max_design_change": 1.3212556950747967e-06,
+        "shift": 1.3212556950747967e-06
+      },
+      "original_array_sha256": "4d75140181266b7ce02be41bb5b7444ce365bbe9b5f6538bfc479716be242f83",
+      "launch_array_sha256": "9933f10eb29b4f6b6af4f81f5cd72be3246df6658beb547b4ef8bec50fcc3693"
+    },
+    {
+      "task_id": "META64_problem_001826",
+      "job": "PG1__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.4813835906272299,
+        "new_volume": 0.48138491188292504,
+        "max_design_change": 1.3212556950747967e-06,
+        "shift": 1.3212556950747967e-06
+      },
+      "original_array_sha256": "4d75140181266b7ce02be41bb5b7444ce365bbe9b5f6538bfc479716be242f83",
+      "launch_array_sha256": "9933f10eb29b4f6b6af4f81f5cd72be3246df6658beb547b4ef8bec50fcc3693"
+    },
+    {
+      "task_id": "META64_problem_001826",
+      "job": "L1_PG__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.4813930351968446,
+        "new_volume": 0.4813849118957586,
+        "max_design_change": 8.123301086016e-06,
+        "shift": -8.123301086016e-06
+      },
+      "original_array_sha256": "be1118669051f256ea6856d95d58ecf16567c50077caa2852293f07b0a04f2d9",
+      "launch_array_sha256": "d3ecfaeb4b0dec946bc4cb5c15f5b2a2f3d459cf07b18fe2134e15acca290bad"
+    },
+    {
+      "task_id": "META64_problem_001826",
+      "job": "L1_PG__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.4813930351968446,
+        "new_volume": 0.4813849118957586,
+        "max_design_change": 8.123301086016e-06,
+        "shift": -8.123301086016e-06
+      },
+      "original_array_sha256": "be1118669051f256ea6856d95d58ecf16567c50077caa2852293f07b0a04f2d9",
+      "launch_array_sha256": "d3ecfaeb4b0dec946bc4cb5c15f5b2a2f3d459cf07b18fe2134e15acca290bad"
+    },
+    {
+      "task_id": "META64_problem_001826",
+      "job": "L1_PG__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.4813930351968446,
+        "new_volume": 0.4813849118957586,
+        "max_design_change": 8.123301086016e-06,
+        "shift": -8.123301086016e-06
+      },
+      "original_array_sha256": "be1118669051f256ea6856d95d58ecf16567c50077caa2852293f07b0a04f2d9",
+      "launch_array_sha256": "d3ecfaeb4b0dec946bc4cb5c15f5b2a2f3d459cf07b18fe2134e15acca290bad"
+    },
+    {
+      "task_id": "META64_problem_001828",
+      "job": "PG1__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.3225853008638696,
+        "new_volume": 0.3225937465626374,
+        "max_design_change": 8.445698767900467e-06,
+        "shift": 8.445698767900467e-06
+      },
+      "original_array_sha256": "908e5b150379c5d93012718d25881962ea902d284168d29d3a33e230fc893269",
+      "launch_array_sha256": "77945ae301bdbd886968b46aee4eaf07cc35bd93bf561a785cb064ba08078bfd"
+    },
+    {
+      "task_id": "META64_problem_001828",
+      "job": "PG1__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.3225853008638696,
+        "new_volume": 0.3225937465626374,
+        "max_design_change": 8.445698767900467e-06,
+        "shift": 8.445698767900467e-06
+      },
+      "original_array_sha256": "908e5b150379c5d93012718d25881962ea902d284168d29d3a33e230fc893269",
+      "launch_array_sha256": "77945ae301bdbd886968b46aee4eaf07cc35bd93bf561a785cb064ba08078bfd"
+    },
+    {
+      "task_id": "META64_problem_001828",
+      "job": "PG1__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.3225853008638696,
+        "new_volume": 0.3225937465626374,
+        "max_design_change": 8.445698767900467e-06,
+        "shift": 8.445698767900467e-06
+      },
+      "original_array_sha256": "908e5b150379c5d93012718d25881962ea902d284168d29d3a33e230fc893269",
+      "launch_array_sha256": "77945ae301bdbd886968b46aee4eaf07cc35bd93bf561a785cb064ba08078bfd"
+    },
+    {
+      "task_id": "META64_problem_001828",
+      "job": "L1_PG__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.32258767026092205,
+        "new_volume": 0.3225937465586448,
+        "max_design_change": 6.076297722756863e-06,
+        "shift": 6.076297722756863e-06
+      },
+      "original_array_sha256": "c78dfeb0eb5acdc84f681031a4b98184c0c900ce1fbde8e28038890717b66f1f",
+      "launch_array_sha256": "bfde2d728683665c4c77d8e70d63029599988c0447d6c97507d9e54699deb322"
+    },
+    {
+      "task_id": "META64_problem_001828",
+      "job": "L1_PG__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.32258767026092205,
+        "new_volume": 0.3225937465586448,
+        "max_design_change": 6.076297722756863e-06,
+        "shift": 6.076297722756863e-06
+      },
+      "original_array_sha256": "c78dfeb0eb5acdc84f681031a4b98184c0c900ce1fbde8e28038890717b66f1f",
+      "launch_array_sha256": "bfde2d728683665c4c77d8e70d63029599988c0447d6c97507d9e54699deb322"
+    },
+    {
+      "task_id": "META64_problem_001828",
+      "job": "L1_PG__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.32258767026092205,
+        "new_volume": 0.3225937465586448,
+        "max_design_change": 6.076297722756863e-06,
+        "shift": 6.076297722756863e-06
+      },
+      "original_array_sha256": "c78dfeb0eb5acdc84f681031a4b98184c0c900ce1fbde8e28038890717b66f1f",
+      "launch_array_sha256": "bfde2d728683665c4c77d8e70d63029599988c0447d6c97507d9e54699deb322"
+    },
+    {
+      "task_id": "META64_problem_002385",
+      "job": "PG1__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.44191419932656395,
+        "new_volume": 0.4418909224322106,
+        "max_design_change": 2.3276894353330135e-05,
+        "shift": -2.3276894353330135e-05
+      },
+      "original_array_sha256": "05ad8f03f0f869a5fdc3440ffec21032a0c27bd3d328fe2206a13459d0819440",
+      "launch_array_sha256": "9f1b53887ee726f978f322bd3dd70226438367cc9e710a94c78cc5be1772311f"
+    },
+    {
+      "task_id": "META64_problem_002385",
+      "job": "PG1__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.44191419932656395,
+        "new_volume": 0.4418909224322106,
+        "max_design_change": 2.3276894353330135e-05,
+        "shift": -2.3276894353330135e-05
+      },
+      "original_array_sha256": "05ad8f03f0f869a5fdc3440ffec21032a0c27bd3d328fe2206a13459d0819440",
+      "launch_array_sha256": "9f1b53887ee726f978f322bd3dd70226438367cc9e710a94c78cc5be1772311f"
+    },
+    {
+      "task_id": "META64_problem_002385",
+      "job": "PG1__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.44191419932656395,
+        "new_volume": 0.4418909224322106,
+        "max_design_change": 2.3276894353330135e-05,
+        "shift": -2.3276894353330135e-05
+      },
+      "original_array_sha256": "05ad8f03f0f869a5fdc3440ffec21032a0c27bd3d328fe2206a13459d0819440",
+      "launch_array_sha256": "9f1b53887ee726f978f322bd3dd70226438367cc9e710a94c78cc5be1772311f"
+    },
+    {
+      "task_id": "META64_problem_002385",
+      "job": "L1_PG__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.44194125169145915,
+        "new_volume": 0.4418909224374503,
+        "max_design_change": 5.0329254008829594e-05,
+        "shift": -5.0329254008829594e-05
+      },
+      "original_array_sha256": "d75d6143d66978e1534052683e614cc746483bef6b12d11c4ca2972d25545c81",
+      "launch_array_sha256": "e8cf04eab8f232b79490e3153b29f7093c3122b4cb28ae638f4a0b0f71465b0a"
+    },
+    {
+      "task_id": "META64_problem_002385",
+      "job": "L1_PG__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.44194125169145915,
+        "new_volume": 0.4418909224374503,
+        "max_design_change": 5.0329254008829594e-05,
+        "shift": -5.0329254008829594e-05
+      },
+      "original_array_sha256": "d75d6143d66978e1534052683e614cc746483bef6b12d11c4ca2972d25545c81",
+      "launch_array_sha256": "e8cf04eab8f232b79490e3153b29f7093c3122b4cb28ae638f4a0b0f71465b0a"
+    },
+    {
+      "task_id": "META64_problem_002385",
+      "job": "L1_PG__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.44194125169145915,
+        "new_volume": 0.4418909224374503,
+        "max_design_change": 5.0329254008829594e-05,
+        "shift": -5.0329254008829594e-05
+      },
+      "original_array_sha256": "d75d6143d66978e1534052683e614cc746483bef6b12d11c4ca2972d25545c81",
+      "launch_array_sha256": "e8cf04eab8f232b79490e3153b29f7093c3122b4cb28ae638f4a0b0f71465b0a"
+    },
+    {
+      "task_id": "META64_problem_002842",
+      "job": "PG1__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.38397734929634963,
+        "new_volume": 0.3839725517772814,
+        "max_design_change": 4.797519068233669e-06,
+        "shift": -4.797519068233669e-06
+      },
+      "original_array_sha256": "b4141d4bc8ec8f8bcc6c8a2ff3f74b16c76fdc77b10145ea8472ec900123482a",
+      "launch_array_sha256": "7fa58d3c1a083894d6a6296bc59ee429cfb6b837cabe266fa3e101dd4bbee1b4"
+    },
+    {
+      "task_id": "META64_problem_002842",
+      "job": "PG1__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.38397734929634963,
+        "new_volume": 0.3839725517772814,
+        "max_design_change": 4.797519068233669e-06,
+        "shift": -4.797519068233669e-06
+      },
+      "original_array_sha256": "b4141d4bc8ec8f8bcc6c8a2ff3f74b16c76fdc77b10145ea8472ec900123482a",
+      "launch_array_sha256": "7fa58d3c1a083894d6a6296bc59ee429cfb6b837cabe266fa3e101dd4bbee1b4"
+    },
+    {
+      "task_id": "META64_problem_002842",
+      "job": "PG1__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.38397734929634963,
+        "new_volume": 0.3839725517772814,
+        "max_design_change": 4.797519068233669e-06,
+        "shift": -4.797519068233669e-06
+      },
+      "original_array_sha256": "b4141d4bc8ec8f8bcc6c8a2ff3f74b16c76fdc77b10145ea8472ec900123482a",
+      "launch_array_sha256": "7fa58d3c1a083894d6a6296bc59ee429cfb6b837cabe266fa3e101dd4bbee1b4"
+    },
+    {
+      "task_id": "META64_problem_002842",
+      "job": "L1_PG__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.3839893662270502,
+        "new_volume": 0.38397255178004214,
+        "max_design_change": 1.681444700807333e-05,
+        "shift": -1.681444700807333e-05
+      },
+      "original_array_sha256": "6b3143fd97fa5ef5abd1daa75c67799ea6512ca9b4cbac5424304348d4a68f54",
+      "launch_array_sha256": "558a1031e8c1a59692a946cfc98e02f46eb21204c6f326588c45234e29a88d5d"
+    },
+    {
+      "task_id": "META64_problem_002842",
+      "job": "L1_PG__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.3839893662270502,
+        "new_volume": 0.38397255178004214,
+        "max_design_change": 1.681444700807333e-05,
+        "shift": -1.681444700807333e-05
+      },
+      "original_array_sha256": "6b3143fd97fa5ef5abd1daa75c67799ea6512ca9b4cbac5424304348d4a68f54",
+      "launch_array_sha256": "558a1031e8c1a59692a946cfc98e02f46eb21204c6f326588c45234e29a88d5d"
+    },
+    {
+      "task_id": "META64_problem_002842",
+      "job": "L1_PG__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.3839893662270502,
+        "new_volume": 0.38397255178004214,
+        "max_design_change": 1.681444700807333e-05,
+        "shift": -1.681444700807333e-05
+      },
+      "original_array_sha256": "6b3143fd97fa5ef5abd1daa75c67799ea6512ca9b4cbac5424304348d4a68f54",
+      "launch_array_sha256": "558a1031e8c1a59692a946cfc98e02f46eb21204c6f326588c45234e29a88d5d"
+    },
+    {
+      "task_id": "META64_problem_002901",
+      "job": "PG1__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.28376129287622687,
+        "new_volume": 0.28376067709738206,
+        "max_design_change": 6.157788448035717e-07,
+        "shift": -6.157788448035717e-07
+      },
+      "original_array_sha256": "5d86ddd1a78f4ee63947cb4e9e3de17cf999661cabfded327ec99eac5746cbd8",
+      "launch_array_sha256": "42feb1c8a10f72282a368884eed487a79a9317c56addf702be7bea6deaf03c29"
+    },
+    {
+      "task_id": "META64_problem_002901",
+      "job": "PG1__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.28376129287622687,
+        "new_volume": 0.28376067709738206,
+        "max_design_change": 6.157788448035717e-07,
+        "shift": -6.157788448035717e-07
+      },
+      "original_array_sha256": "5d86ddd1a78f4ee63947cb4e9e3de17cf999661cabfded327ec99eac5746cbd8",
+      "launch_array_sha256": "42feb1c8a10f72282a368884eed487a79a9317c56addf702be7bea6deaf03c29"
+    },
+    {
+      "task_id": "META64_problem_002901",
+      "job": "PG1__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.28376129287622687,
+        "new_volume": 0.28376067709738206,
+        "max_design_change": 6.157788448035717e-07,
+        "shift": -6.157788448035717e-07
+      },
+      "original_array_sha256": "5d86ddd1a78f4ee63947cb4e9e3de17cf999661cabfded327ec99eac5746cbd8",
+      "launch_array_sha256": "42feb1c8a10f72282a368884eed487a79a9317c56addf702be7bea6deaf03c29"
+    },
+    {
+      "task_id": "META64_problem_002901",
+      "job": "L1_PG__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.28377093532067277,
+        "new_volume": 0.2837606770935517,
+        "max_design_change": 1.0258227121084929e-05,
+        "shift": -1.0258227121084929e-05
+      },
+      "original_array_sha256": "65b7652743e61a735bbe1253e2b2af695e43bc400c4a62bc8b142e3b97de2746",
+      "launch_array_sha256": "c2e199e85ab8c938dfac1ea63cf1a7660caeb307df36824e06a7857459dc785d"
+    },
+    {
+      "task_id": "META64_problem_002901",
+      "job": "L1_PG__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.28377093532067277,
+        "new_volume": 0.2837606770935517,
+        "max_design_change": 1.0258227121084929e-05,
+        "shift": -1.0258227121084929e-05
+      },
+      "original_array_sha256": "65b7652743e61a735bbe1253e2b2af695e43bc400c4a62bc8b142e3b97de2746",
+      "launch_array_sha256": "c2e199e85ab8c938dfac1ea63cf1a7660caeb307df36824e06a7857459dc785d"
+    },
+    {
+      "task_id": "META64_problem_002901",
+      "job": "L1_PG__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.28377093532067277,
+        "new_volume": 0.2837606770935517,
+        "max_design_change": 1.0258227121084929e-05,
+        "shift": -1.0258227121084929e-05
+      },
+      "original_array_sha256": "65b7652743e61a735bbe1253e2b2af695e43bc400c4a62bc8b142e3b97de2746",
+      "launch_array_sha256": "c2e199e85ab8c938dfac1ea63cf1a7660caeb307df36824e06a7857459dc785d"
+    },
+    {
+      "task_id": "META64_problem_002922",
+      "job": "PG1__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.2831717473112091,
+        "new_volume": 0.2831837961369471,
+        "max_design_change": 1.2048825738020241e-05,
+        "shift": 1.2048825738020241e-05
+      },
+      "original_array_sha256": "a21698f15d7d84e3ea5c8bda13210a9c4237af4cf6f7aa2d2b645bde328f443b",
+      "launch_array_sha256": "0d7842fb399c0384959ce85c7da07b57ec2130183af4b433a2f26c6ac7d5842a"
+    },
+    {
+      "task_id": "META64_problem_002922",
+      "job": "PG1__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.2831717473112091,
+        "new_volume": 0.2831837961369471,
+        "max_design_change": 1.2048825738020241e-05,
+        "shift": 1.2048825738020241e-05
+      },
+      "original_array_sha256": "a21698f15d7d84e3ea5c8bda13210a9c4237af4cf6f7aa2d2b645bde328f443b",
+      "launch_array_sha256": "0d7842fb399c0384959ce85c7da07b57ec2130183af4b433a2f26c6ac7d5842a"
+    },
+    {
+      "task_id": "META64_problem_002922",
+      "job": "PG1__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.2831717473112091,
+        "new_volume": 0.2831837961369471,
+        "max_design_change": 1.2048825738020241e-05,
+        "shift": 1.2048825738020241e-05
+      },
+      "original_array_sha256": "a21698f15d7d84e3ea5c8bda13210a9c4237af4cf6f7aa2d2b645bde328f443b",
+      "launch_array_sha256": "0d7842fb399c0384959ce85c7da07b57ec2130183af4b433a2f26c6ac7d5842a"
+    },
+    {
+      "task_id": "META64_problem_002922",
+      "job": "L1_PG__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.2831637118697561,
+        "new_volume": 0.283183796132116,
+        "max_design_change": 2.008426235988736e-05,
+        "shift": 2.008426235988736e-05
+      },
+      "original_array_sha256": "61da604cb3b7aa47c0a088ca9e8476f8041cc03cfddc3aa7e8fb366c41a08a5b",
+      "launch_array_sha256": "c49d15d1873acd8df71047f47fa3f0baea0697727f6109b5e45bcb3347ae4805"
+    },
+    {
+      "task_id": "META64_problem_002922",
+      "job": "L1_PG__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.2831637118697561,
+        "new_volume": 0.283183796132116,
+        "max_design_change": 2.008426235988736e-05,
+        "shift": 2.008426235988736e-05
+      },
+      "original_array_sha256": "61da604cb3b7aa47c0a088ca9e8476f8041cc03cfddc3aa7e8fb366c41a08a5b",
+      "launch_array_sha256": "c49d15d1873acd8df71047f47fa3f0baea0697727f6109b5e45bcb3347ae4805"
+    },
+    {
+      "task_id": "META64_problem_002922",
+      "job": "L1_PG__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.2831637118697561,
+        "new_volume": 0.283183796132116,
+        "max_design_change": 2.008426235988736e-05,
+        "shift": 2.008426235988736e-05
+      },
+      "original_array_sha256": "61da604cb3b7aa47c0a088ca9e8476f8041cc03cfddc3aa7e8fb366c41a08a5b",
+      "launch_array_sha256": "c49d15d1873acd8df71047f47fa3f0baea0697727f6109b5e45bcb3347ae4805"
+    },
+    {
+      "task_id": "META64_problem_003894",
+      "job": "PG1__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.25378435277304107,
+        "new_volume": 0.25379188792936924,
+        "max_design_change": 7.535156328231096e-06,
+        "shift": 7.535156328231096e-06
+      },
+      "original_array_sha256": "389a2430b7d1a6c02fe075d5da6681ed7de168526005c76556027832375edc2c",
+      "launch_array_sha256": "b4ca516003f2173fce59317ad22e4c538a6f3628729d92d34155ce379241f596"
+    },
+    {
+      "task_id": "META64_problem_003894",
+      "job": "PG1__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.25378435277304107,
+        "new_volume": 0.25379188792936924,
+        "max_design_change": 7.535156328231096e-06,
+        "shift": 7.535156328231096e-06
+      },
+      "original_array_sha256": "389a2430b7d1a6c02fe075d5da6681ed7de168526005c76556027832375edc2c",
+      "launch_array_sha256": "b4ca516003f2173fce59317ad22e4c538a6f3628729d92d34155ce379241f596"
+    },
+    {
+      "task_id": "META64_problem_003894",
+      "job": "PG1__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.25378435277304107,
+        "new_volume": 0.25379188792936924,
+        "max_design_change": 7.535156328231096e-06,
+        "shift": 7.535156328231096e-06
+      },
+      "original_array_sha256": "389a2430b7d1a6c02fe075d5da6681ed7de168526005c76556027832375edc2c",
+      "launch_array_sha256": "b4ca516003f2173fce59317ad22e4c538a6f3628729d92d34155ce379241f596"
+    },
+    {
+      "task_id": "META64_problem_003894",
+      "job": "L1_PG__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.25378838962253064,
+        "new_volume": 0.25379188793205537,
+        "max_design_change": 3.498309524729848e-06,
+        "shift": 3.498309524729848e-06
+      },
+      "original_array_sha256": "c21115ef6df863ad88c8641a41466c3ad9efa825e44434ddd8c77c74655b2ae2",
+      "launch_array_sha256": "0bd75b486125990dddea9c1870fbe31625512f720c5443488ebe56d03909d111"
+    },
+    {
+      "task_id": "META64_problem_003894",
+      "job": "L1_PG__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.25378838962253064,
+        "new_volume": 0.25379188793205537,
+        "max_design_change": 3.498309524729848e-06,
+        "shift": 3.498309524729848e-06
+      },
+      "original_array_sha256": "c21115ef6df863ad88c8641a41466c3ad9efa825e44434ddd8c77c74655b2ae2",
+      "launch_array_sha256": "0bd75b486125990dddea9c1870fbe31625512f720c5443488ebe56d03909d111"
+    },
+    {
+      "task_id": "META64_problem_003894",
+      "job": "L1_PG__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.25378838962253064,
+        "new_volume": 0.25379188793205537,
+        "max_design_change": 3.498309524729848e-06,
+        "shift": 3.498309524729848e-06
+      },
+      "original_array_sha256": "c21115ef6df863ad88c8641a41466c3ad9efa825e44434ddd8c77c74655b2ae2",
+      "launch_array_sha256": "0bd75b486125990dddea9c1870fbe31625512f720c5443488ebe56d03909d111"
+    },
+    {
+      "task_id": "META64_problem_004789",
+      "job": "PG1__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.3527752069697621,
+        "new_volume": 0.3527824227988625,
+        "max_design_change": 7.215829100459814e-06,
+        "shift": 7.215829100459814e-06
+      },
+      "original_array_sha256": "20beb2359a06d3f244a810717f621f2ce5e23ed3f569e2a0b5297c087da9f77b",
+      "launch_array_sha256": "9d4f8a8b83532f43f2a8572d451ae22c160b1fdafc842888db57335fc72885d5"
+    },
+    {
+      "task_id": "META64_problem_004789",
+      "job": "PG1__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.3527752069697621,
+        "new_volume": 0.3527824227988625,
+        "max_design_change": 7.215829100459814e-06,
+        "shift": 7.215829100459814e-06
+      },
+      "original_array_sha256": "20beb2359a06d3f244a810717f621f2ce5e23ed3f569e2a0b5297c087da9f77b",
+      "launch_array_sha256": "9d4f8a8b83532f43f2a8572d451ae22c160b1fdafc842888db57335fc72885d5"
+    },
+    {
+      "task_id": "META64_problem_004789",
+      "job": "PG1__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.3527752069697621,
+        "new_volume": 0.3527824227988625,
+        "max_design_change": 7.215829100459814e-06,
+        "shift": 7.215829100459814e-06
+      },
+      "original_array_sha256": "20beb2359a06d3f244a810717f621f2ce5e23ed3f569e2a0b5297c087da9f77b",
+      "launch_array_sha256": "9d4f8a8b83532f43f2a8572d451ae22c160b1fdafc842888db57335fc72885d5"
+    },
+    {
+      "task_id": "META64_problem_004789",
+      "job": "L1_PG__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.35277853359001876,
+        "new_volume": 0.35278242279309036,
+        "max_design_change": 3.889203071594238e-06,
+        "shift": 3.889203071594238e-06
+      },
+      "original_array_sha256": "389507e64b131388b96479763238ba47b546e884c882ff68ca8a6f5880063f85",
+      "launch_array_sha256": "3fc2d443f00f6875660c6477e8e387a1e5778950419ca3f453d1671bd28dd14e"
+    },
+    {
+      "task_id": "META64_problem_004789",
+      "job": "L1_PG__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.35277853359001876,
+        "new_volume": 0.35278242279309036,
+        "max_design_change": 3.889203071594238e-06,
+        "shift": 3.889203071594238e-06
+      },
+      "original_array_sha256": "389507e64b131388b96479763238ba47b546e884c882ff68ca8a6f5880063f85",
+      "launch_array_sha256": "3fc2d443f00f6875660c6477e8e387a1e5778950419ca3f453d1671bd28dd14e"
+    },
+    {
+      "task_id": "META64_problem_004789",
+      "job": "L1_PG__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.35277853359001876,
+        "new_volume": 0.35278242279309036,
+        "max_design_change": 3.889203071594238e-06,
+        "shift": 3.889203071594238e-06
+      },
+      "original_array_sha256": "389507e64b131388b96479763238ba47b546e884c882ff68ca8a6f5880063f85",
+      "launch_array_sha256": "3fc2d443f00f6875660c6477e8e387a1e5778950419ca3f453d1671bd28dd14e"
+    },
+    {
+      "task_id": "META64_problem_005623",
+      "job": "PG1__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.15015829727935354,
+        "new_volume": 0.1501549343608481,
+        "max_design_change": 3.3629185054451227e-06,
+        "shift": -3.3629185054451227e-06
+      },
+      "original_array_sha256": "f39deaeeb4e820f1e16b2b5e987f408a6d93841ac558c84e778fc912d925889e",
+      "launch_array_sha256": "8c04956881dc0dca418d7a35949f1bbb5e5e31fcf2c73df75e219c0b4fecc40e"
+    },
+    {
+      "task_id": "META64_problem_005623",
+      "job": "PG1__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.15015829727935354,
+        "new_volume": 0.1501549343608481,
+        "max_design_change": 3.3629185054451227e-06,
+        "shift": -3.3629185054451227e-06
+      },
+      "original_array_sha256": "f39deaeeb4e820f1e16b2b5e987f408a6d93841ac558c84e778fc912d925889e",
+      "launch_array_sha256": "8c04956881dc0dca418d7a35949f1bbb5e5e31fcf2c73df75e219c0b4fecc40e"
+    },
+    {
+      "task_id": "META64_problem_005623",
+      "job": "PG1__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.15015829727935354,
+        "new_volume": 0.1501549343608481,
+        "max_design_change": 3.3629185054451227e-06,
+        "shift": -3.3629185054451227e-06
+      },
+      "original_array_sha256": "f39deaeeb4e820f1e16b2b5e987f408a6d93841ac558c84e778fc912d925889e",
+      "launch_array_sha256": "8c04956881dc0dca418d7a35949f1bbb5e5e31fcf2c73df75e219c0b4fecc40e"
+    },
+    {
+      "task_id": "META64_problem_005623",
+      "job": "L1_PG__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.150164032067502,
+        "new_volume": 0.15015493435562038,
+        "max_design_change": 9.097711881622672e-06,
+        "shift": -9.097711881622672e-06
+      },
+      "original_array_sha256": "8a16edac9d68dbdd17520a9c70e57fca98ce63bf67561fc8b9159152c09f6ed1",
+      "launch_array_sha256": "9d2a7be37d447308119a66a0b12f9500a8a4540531791ba9070789ad103b5cb3"
+    },
+    {
+      "task_id": "META64_problem_005623",
+      "job": "L1_PG__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.150164032067502,
+        "new_volume": 0.15015493435562038,
+        "max_design_change": 9.097711881622672e-06,
+        "shift": -9.097711881622672e-06
+      },
+      "original_array_sha256": "8a16edac9d68dbdd17520a9c70e57fca98ce63bf67561fc8b9159152c09f6ed1",
+      "launch_array_sha256": "9d2a7be37d447308119a66a0b12f9500a8a4540531791ba9070789ad103b5cb3"
+    },
+    {
+      "task_id": "META64_problem_005623",
+      "job": "L1_PG__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.150164032067502,
+        "new_volume": 0.15015493435562038,
+        "max_design_change": 9.097711881622672e-06,
+        "shift": -9.097711881622672e-06
+      },
+      "original_array_sha256": "8a16edac9d68dbdd17520a9c70e57fca98ce63bf67561fc8b9159152c09f6ed1",
+      "launch_array_sha256": "9d2a7be37d447308119a66a0b12f9500a8a4540531791ba9070789ad103b5cb3"
+    },
+    {
+      "task_id": "META64_problem_005810",
+      "job": "PG1__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.1755082928090649,
+        "new_volume": 0.17549683279747277,
+        "max_design_change": 1.1460011592134833e-05,
+        "shift": -1.1460011592134833e-05
+      },
+      "original_array_sha256": "6e1d312559e4e4461a19d8ea5f74a1b62c0217452f693ddc0d4411641a130d9a",
+      "launch_array_sha256": "2a87532d80ef7a9538f2755d18b0741f92c761aebc9b5356fab29dfd8a338d90"
+    },
+    {
+      "task_id": "META64_problem_005810",
+      "job": "PG1__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.1755082928090649,
+        "new_volume": 0.17549683279747277,
+        "max_design_change": 1.1460011592134833e-05,
+        "shift": -1.1460011592134833e-05
+      },
+      "original_array_sha256": "6e1d312559e4e4461a19d8ea5f74a1b62c0217452f693ddc0d4411641a130d9a",
+      "launch_array_sha256": "2a87532d80ef7a9538f2755d18b0741f92c761aebc9b5356fab29dfd8a338d90"
+    },
+    {
+      "task_id": "META64_problem_005810",
+      "job": "PG1__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.1755082928090649,
+        "new_volume": 0.17549683279747277,
+        "max_design_change": 1.1460011592134833e-05,
+        "shift": -1.1460011592134833e-05
+      },
+      "original_array_sha256": "6e1d312559e4e4461a19d8ea5f74a1b62c0217452f693ddc0d4411641a130d9a",
+      "launch_array_sha256": "2a87532d80ef7a9538f2755d18b0741f92c761aebc9b5356fab29dfd8a338d90"
+    },
+    {
+      "task_id": "META64_problem_005810",
+      "job": "L1_PG__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.1755201545293736,
+        "new_volume": 0.17549683280056946,
+        "max_design_change": 2.3321728804148734e-05,
+        "shift": -2.3321728804148734e-05
+      },
+      "original_array_sha256": "9521acb2a514c7e730929bf1e85a37a18642f0a6957badb7de83e0011f69505d",
+      "launch_array_sha256": "42a892408fc148f491c90d8e374f6250cb76fd5b15267f162ed895e9fdf42227"
+    },
+    {
+      "task_id": "META64_problem_005810",
+      "job": "L1_PG__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.1755201545293736,
+        "new_volume": 0.17549683280056946,
+        "max_design_change": 2.3321728804148734e-05,
+        "shift": -2.3321728804148734e-05
+      },
+      "original_array_sha256": "9521acb2a514c7e730929bf1e85a37a18642f0a6957badb7de83e0011f69505d",
+      "launch_array_sha256": "42a892408fc148f491c90d8e374f6250cb76fd5b15267f162ed895e9fdf42227"
+    },
+    {
+      "task_id": "META64_problem_005810",
+      "job": "L1_PG__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.1755201545293736,
+        "new_volume": 0.17549683280056946,
+        "max_design_change": 2.3321728804148734e-05,
+        "shift": -2.3321728804148734e-05
+      },
+      "original_array_sha256": "9521acb2a514c7e730929bf1e85a37a18642f0a6957badb7de83e0011f69505d",
+      "launch_array_sha256": "42a892408fc148f491c90d8e374f6250cb76fd5b15267f162ed895e9fdf42227"
+    },
+    {
+      "task_id": "META64_problem_007919",
+      "job": "PG1__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.3715596490297468,
+        "new_volume": 0.37154071857419346,
+        "max_design_change": 1.8930455553345382e-05,
+        "shift": -1.8930455553345382e-05
+      },
+      "original_array_sha256": "afe335654a9872c62e8a6d2f57e44cf6c5f2b1af311b4ad34b49cb5d3f10904f",
+      "launch_array_sha256": "18363158be8ad076e515d9c4b0c6afb1b0f4aa807d2655b6047b98bdbdf1a33d"
+    },
+    {
+      "task_id": "META64_problem_007919",
+      "job": "PG1__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.3715596490297468,
+        "new_volume": 0.37154071857419346,
+        "max_design_change": 1.8930455553345382e-05,
+        "shift": -1.8930455553345382e-05
+      },
+      "original_array_sha256": "afe335654a9872c62e8a6d2f57e44cf6c5f2b1af311b4ad34b49cb5d3f10904f",
+      "launch_array_sha256": "18363158be8ad076e515d9c4b0c6afb1b0f4aa807d2655b6047b98bdbdf1a33d"
+    },
+    {
+      "task_id": "META64_problem_007919",
+      "job": "PG1__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.3715596490297468,
+        "new_volume": 0.37154071857419346,
+        "max_design_change": 1.8930455553345382e-05,
+        "shift": -1.8930455553345382e-05
+      },
+      "original_array_sha256": "afe335654a9872c62e8a6d2f57e44cf6c5f2b1af311b4ad34b49cb5d3f10904f",
+      "launch_array_sha256": "18363158be8ad076e515d9c4b0c6afb1b0f4aa807d2655b6047b98bdbdf1a33d"
+    },
+    {
+      "task_id": "META64_problem_007919",
+      "job": "L1_PG__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.37158304687930344,
+        "new_volume": 0.3715407185738774,
+        "max_design_change": 4.23283054260537e-05,
+        "shift": -4.23283054260537e-05
+      },
+      "original_array_sha256": "3c55f4446d7f01284084174a765fc80d99a1a42b6b15c39772f00b58ff8daa10",
+      "launch_array_sha256": "a5c066c15955de412c7f26eed8a0497d0f51ee1efc70eebc04a4404f8528510f"
+    },
+    {
+      "task_id": "META64_problem_007919",
+      "job": "L1_PG__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.37158304687930344,
+        "new_volume": 0.3715407185738774,
+        "max_design_change": 4.23283054260537e-05,
+        "shift": -4.23283054260537e-05
+      },
+      "original_array_sha256": "3c55f4446d7f01284084174a765fc80d99a1a42b6b15c39772f00b58ff8daa10",
+      "launch_array_sha256": "a5c066c15955de412c7f26eed8a0497d0f51ee1efc70eebc04a4404f8528510f"
+    },
+    {
+      "task_id": "META64_problem_007919",
+      "job": "L1_PG__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.37158304687930344,
+        "new_volume": 0.3715407185738774,
+        "max_design_change": 4.23283054260537e-05,
+        "shift": -4.23283054260537e-05
+      },
+      "original_array_sha256": "3c55f4446d7f01284084174a765fc80d99a1a42b6b15c39772f00b58ff8daa10",
+      "launch_array_sha256": "a5c066c15955de412c7f26eed8a0497d0f51ee1efc70eebc04a4404f8528510f"
+    },
+    {
+      "task_id": "META64_problem_010621",
+      "job": "PG1__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.46427745714059576,
+        "new_volume": 0.46426398628714977,
+        "max_design_change": 1.3470853446051478e-05,
+        "shift": -1.3470853446051478e-05
+      },
+      "original_array_sha256": "bcdc54489af53a201106ade3dc37fb0e099c2ba1f08165cf6b92281dad34b1aa",
+      "launch_array_sha256": "e1aabcb044bd3f548b5700aa03b92c7d9e413088d4e9d1e544a7769768951162"
+    },
+    {
+      "task_id": "META64_problem_010621",
+      "job": "PG1__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.46427745714059576,
+        "new_volume": 0.46426398628714977,
+        "max_design_change": 1.3470853446051478e-05,
+        "shift": -1.3470853446051478e-05
+      },
+      "original_array_sha256": "bcdc54489af53a201106ade3dc37fb0e099c2ba1f08165cf6b92281dad34b1aa",
+      "launch_array_sha256": "e1aabcb044bd3f548b5700aa03b92c7d9e413088d4e9d1e544a7769768951162"
+    },
+    {
+      "task_id": "META64_problem_010621",
+      "job": "PG1__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.46427745714059576,
+        "new_volume": 0.46426398628714977,
+        "max_design_change": 1.3470853446051478e-05,
+        "shift": -1.3470853446051478e-05
+      },
+      "original_array_sha256": "bcdc54489af53a201106ade3dc37fb0e099c2ba1f08165cf6b92281dad34b1aa",
+      "launch_array_sha256": "e1aabcb044bd3f548b5700aa03b92c7d9e413088d4e9d1e544a7769768951162"
+    },
+    {
+      "task_id": "META64_problem_010621",
+      "job": "L1_PG__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.4643082917330601,
+        "new_volume": 0.4642639862880158,
+        "max_design_change": 4.430544504430145e-05,
+        "shift": -4.430544504430145e-05
+      },
+      "original_array_sha256": "47753a0631ba56d16326ef16c16f500a32ca7bc8eac111afefcfdb6555f70ad2",
+      "launch_array_sha256": "7256e3a3b4a3e978786689c5889ab359c0fcc4dce34136d290b765331448560b"
+    },
+    {
+      "task_id": "META64_problem_010621",
+      "job": "L1_PG__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.4643082917330601,
+        "new_volume": 0.4642639862880158,
+        "max_design_change": 4.430544504430145e-05,
+        "shift": -4.430544504430145e-05
+      },
+      "original_array_sha256": "47753a0631ba56d16326ef16c16f500a32ca7bc8eac111afefcfdb6555f70ad2",
+      "launch_array_sha256": "7256e3a3b4a3e978786689c5889ab359c0fcc4dce34136d290b765331448560b"
+    },
+    {
+      "task_id": "META64_problem_010621",
+      "job": "L1_PG__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.4643082917330601,
+        "new_volume": 0.4642639862880158,
+        "max_design_change": 4.430544504430145e-05,
+        "shift": -4.430544504430145e-05
+      },
+      "original_array_sha256": "47753a0631ba56d16326ef16c16f500a32ca7bc8eac111afefcfdb6555f70ad2",
+      "launch_array_sha256": "7256e3a3b4a3e978786689c5889ab359c0fcc4dce34136d290b765331448560b"
+    },
+    {
+      "task_id": "META64_problem_018648",
+      "job": "PG1__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.4405806246730207,
+        "new_volume": 0.4405677696275233,
+        "max_design_change": 1.285504549741745e-05,
+        "shift": -1.285504549741745e-05
+      },
+      "original_array_sha256": "cbbe498a5ba7f221693ca76e3219946a3ead75f12edaa33e308a78a5beb5f0b7",
+      "launch_array_sha256": "8ce47f171f69d8429442511c9bd6c7ebbc15cef8b0d71fa40e94e9f8eac7fca8"
+    },
+    {
+      "task_id": "META64_problem_018648",
+      "job": "PG1__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.4405806246730207,
+        "new_volume": 0.4405677696275233,
+        "max_design_change": 1.285504549741745e-05,
+        "shift": -1.285504549741745e-05
+      },
+      "original_array_sha256": "cbbe498a5ba7f221693ca76e3219946a3ead75f12edaa33e308a78a5beb5f0b7",
+      "launch_array_sha256": "8ce47f171f69d8429442511c9bd6c7ebbc15cef8b0d71fa40e94e9f8eac7fca8"
+    },
+    {
+      "task_id": "META64_problem_018648",
+      "job": "PG1__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.4405806246730207,
+        "new_volume": 0.4405677696275233,
+        "max_design_change": 1.285504549741745e-05,
+        "shift": -1.285504549741745e-05
+      },
+      "original_array_sha256": "cbbe498a5ba7f221693ca76e3219946a3ead75f12edaa33e308a78a5beb5f0b7",
+      "launch_array_sha256": "8ce47f171f69d8429442511c9bd6c7ebbc15cef8b0d71fa40e94e9f8eac7fca8"
+    },
+    {
+      "task_id": "META64_problem_018648",
+      "job": "L1_PG__P39",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.4406105462999169,
+        "new_volume": 0.44056776963543076,
+        "max_design_change": 4.2776664486154914e-05,
+        "shift": -4.2776664486154914e-05
+      },
+      "original_array_sha256": "b300a9b00ffc335f47ac6505c7b69abbc1a0dd4db06d3dfc5356afe3465e6f27",
+      "launch_array_sha256": "3a89b62ca477b9c058a93ca58e79d39e37b3ee2359c38adc0e5e12ecc9aaa1eb"
+    },
+    {
+      "task_id": "META64_problem_018648",
+      "job": "L1_PG__P38",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.4406105462999169,
+        "new_volume": 0.44056776963543076,
+        "max_design_change": 4.2776664486154914e-05,
+        "shift": -4.2776664486154914e-05
+      },
+      "original_array_sha256": "b300a9b00ffc335f47ac6505c7b69abbc1a0dd4db06d3dfc5356afe3465e6f27",
+      "launch_array_sha256": "3a89b62ca477b9c058a93ca58e79d39e37b3ee2359c38adc0e5e12ecc9aaa1eb"
+    },
+    {
+      "task_id": "META64_problem_018648",
+      "job": "L1_PG__P20",
+      "repair": {
+        "applied": true,
+        "old_volume": 0.4406105462999169,
+        "new_volume": 0.44056776963543076,
+        "max_design_change": 4.2776664486154914e-05,
+        "shift": -4.2776664486154914e-05
+      },
+      "original_array_sha256": "b300a9b00ffc335f47ac6505c7b69abbc1a0dd4db06d3dfc5356afe3465e6f27",
+      "launch_array_sha256": "3a89b62ca477b9c058a93ca58e79d39e37b3ee2359c38adc0e5e12ecc9aaa1eb"
+    }
+  ],
+  "attempted_FE": 213,
+  "cost_scope": "Preflight only; separate from120 new trajectory costs",
+  "new_API_calls": 0,
+  "note": "Numerical validation of the same code/data; package identity excluded because release adds this evidence."
+}

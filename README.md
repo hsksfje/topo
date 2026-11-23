@@ -1,5 +1,22 @@
 # META64 数据与拓扑优化初始化实验
 
+## 原Train20交叉实验：初始化在不同启动参数下是否仍有效
+
+[独立运行包与完整说明](META64_init_parameter_cross20_v1/README.md)。原100任务按体积分数十档各取前2条；PG1、L1_PG的实际初态分别与P39/P38/P20启动策略交叉，只新增120条轨迹。Uniform四策略及两种非Uniform初态的默认策略共120条历史对照随包提供，完整矩阵为20×3×4=240格。
+
+不重新生成LLM初态，无API调用，无需下载完整数据集。启动及第50步滤波切换时必要的体积修正均保留；统一跑至收敛或总2000步。报告按相同策略的Uniform逐任务配对，含初始化收益与策略的交互。返回包附实际执行源码快照、初态身份及结果哈希。
+
+```bash
+cd META64_init_parameter_cross20_v1
+conda env create -f environment.yml
+conda activate meta64-cross20
+python run.py --stage verify
+python run.py --stage preflight
+python -u run.py
+```
+
+已有Python3.11/NumPy1.26.4/SciPy1.12.0的meta64-parameter60环境可直接使用。输出为outputs/train20_init_parameter_cross_run01/；运行完用`python run.py --stage export`生成回传ZIP。完整下载、暂停恢复和回传路径见包内README。
+
 ## 原Train100新增：Uniform启动参数60组合收敛实验
 
 [独立运行包、环境和完整说明](META64_parameter60_train100_v1/README.md)。使用已完成38种初始化收敛比较的最早100个任务，不是新增100或local200。Uniform起点，p={2,3,4}、rmin={1.5,2,2.5,3}、move={0.05,0.10,0.15,0.20,0.30}全组合，共6000条轨迹；前50步使用该组参数，再回到p3/rmin2.5/move0.2至共同收敛或总2000步。

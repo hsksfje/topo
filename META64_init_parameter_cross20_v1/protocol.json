@@ -1,0 +1,118 @@
+{
+  "solver": {
+    "rmin": 2.5,
+    "penal": 3.0,
+    "move": 0.2,
+    "xmin": 1e-06,
+    "emin": 1e-09,
+    "emax": 1.0,
+    "nu": 0.3,
+    "residual_tolerance": 1e-06
+  },
+  "launch_updates": 50,
+  "max_step": 2000,
+  "earliest_certifiable_step": 60,
+  "convergence": {
+    "window": 10,
+    "max_design_change": 0.01,
+    "max_relative_compliance_change": 0.0001,
+    "relative_compliance_span": 0.0005,
+    "volume_tolerance": 1e-08,
+    "residual_tolerance": 1e-06
+  },
+  "switch_volume_repair": {
+    "method": "uniform additive shift with clipping; skip if already within1e-8",
+    "repair_tolerance": 1e-11
+  },
+  "schema": "META64-init-parameter-cross20-v1",
+  "name": "train20_init_parameter_cross_run01",
+  "strategies": [
+    {
+      "id": "P34",
+      "penal": 3.0,
+      "rmin": 2.5,
+      "move": 0.2
+    },
+    {
+      "id": "P39",
+      "penal": 3.0,
+      "rmin": 3.0,
+      "move": 0.2
+    },
+    {
+      "id": "P38",
+      "penal": 3.0,
+      "rmin": 3.0,
+      "move": 0.15
+    },
+    {
+      "id": "P20",
+      "penal": 2.0,
+      "rmin": 3.0,
+      "move": 0.3
+    }
+  ],
+  "profiles": [
+    {
+      "id": "PG1__P39",
+      "penal": 3.0,
+      "rmin": 3.0,
+      "move": 0.2,
+      "initializer": "PG1",
+      "strategy": "P39"
+    },
+    {
+      "id": "PG1__P38",
+      "penal": 3.0,
+      "rmin": 3.0,
+      "move": 0.15,
+      "initializer": "PG1",
+      "strategy": "P38"
+    },
+    {
+      "id": "PG1__P20",
+      "penal": 2.0,
+      "rmin": 3.0,
+      "move": 0.3,
+      "initializer": "PG1",
+      "strategy": "P20"
+    },
+    {
+      "id": "L1_PG__P39",
+      "penal": 3.0,
+      "rmin": 3.0,
+      "move": 0.2,
+      "initializer": "L1_PG",
+      "strategy": "P39"
+    },
+    {
+      "id": "L1_PG__P38",
+      "penal": 3.0,
+      "rmin": 3.0,
+      "move": 0.15,
+      "initializer": "L1_PG",
+      "strategy": "P38"
+    },
+    {
+      "id": "L1_PG__P20",
+      "penal": 2.0,
+      "rmin": 3.0,
+      "move": 0.3,
+      "initializer": "L1_PG",
+      "strategy": "P20"
+    }
+  ],
+  "initializers": [
+    "U",
+    "PG1",
+    "L1_PG"
+  ],
+  "default_strategy": "P34",
+  "trajectory_count": 120,
+  "reference_cell_count": 120,
+  "comparison_cell_count": 240,
+  "new_API_calls": 0,
+  "selection": "First two tasks in each VF bin of original frozen train100 manifest order; no performance filtering",
+  "initial_volume_repair": "Same additive-clipped shift as step50; applied before initial FE if launch filter changes physical volume. Original source field is preserved and hashed.",
+  "design": "Frozen original PG1/L1_PG fields crossed with P39/P38/P20;Uniform four strategies and nonUniform default strategy are audited historical references. After50 updates common default solver until convergence or total2000."
+}

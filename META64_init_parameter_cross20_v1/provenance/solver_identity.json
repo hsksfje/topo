@@ -1,0 +1,11 @@
+{
+  "parent_package": "META64_parameter60_train100_v1",
+  "physics_sha256": "3b2d643b2098cdbe5832aefb579b3cc7414df39c9f44ab63fd86f35b6b709ee2",
+  "OC_solver_sha256": "51c0f3797508076c07c1ecd06f382e003902232006817e27feae6ca9e1da9d2a",
+  "equations_changed": false,
+  "new_features": [
+    "frozen initial fields",
+    "initial filter volume repair",
+    "same-strategy comparisons"
+  ]
+}

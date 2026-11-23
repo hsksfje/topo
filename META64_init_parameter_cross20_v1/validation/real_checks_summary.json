@@ -1,0 +1,79 @@
+{
+  "task_id": "META64_problem_000436",
+  "checks": [
+    {
+      "initializer": "U",
+      "strategy": "P39",
+      "status": "converged",
+      "N": 122,
+      "Cend": 206.87355825029474,
+      "initial_repair": {
+        "applied": false,
+        "old_volume": 0.11502092802401825,
+        "new_volume": 0.11502092802401825,
+        "max_design_change": 0.0,
+        "shift": 0.0
+      },
+      "switch_repair": {
+        "applied": true,
+        "old_volume": 0.11526274686420562,
+        "new_volume": 0.11502092803249249,
+        "max_design_change": 0.001302853925153613,
+        "shift": -0.001302853925153613
+      },
+      "actual_FE": 124,
+      "elapsed_seconds": 11.813319779932499,
+      "relative_Cend_error_vs_reference": 1.7160993193062163e-12,
+      "stop_step_matches_reference": true
+    },
+    {
+      "initializer": "PG1",
+      "strategy": "P34",
+      "status": "converged",
+      "N": 184,
+      "Cend": 215.15717193514996,
+      "initial_repair": {
+        "applied": false,
+        "old_volume": 0.11502092802479189,
+        "new_volume": 0.11502092802479189,
+        "max_design_change": 0.0,
+        "shift": 0.0
+      },
+      "switch_repair": {
+        "applied": false,
+        "old_volume": 0.11502092801793727,
+        "new_volume": 0.11502092801793727,
+        "max_design_change": 0.0,
+        "shift": 0.0
+      },
+      "actual_FE": 185,
+      "elapsed_seconds": 17.470333691686392,
+      "relative_Cend_error_vs_reference": 0.0,
+      "stop_step_matches_reference": true
+    },
+    {
+      "initializer": "PG1",
+      "strategy": "P39",
+      "status": "converged",
+      "N": 122,
+      "Cend": 214.07773119964867,
+      "initial_repair": {
+        "applied": true,
+        "old_volume": 0.11502169419408276,
+        "new_volume": 0.11502092802119407,
+        "max_design_change": 7.661728886887431e-07,
+        "shift": -7.661728886887431e-07
+      },
+      "switch_repair": {
+        "applied": true,
+        "old_volume": 0.11525708661380603,
+        "new_volume": 0.1150209280148207,
+        "max_design_change": 0.0011885701678693295,
+        "shift": -0.0011885701678693295
+      },
+      "actual_FE": 124,
+      "elapsed_seconds": 11.939208077266812,
+      "resumed_from49": true
+    }
+  ]
+}
