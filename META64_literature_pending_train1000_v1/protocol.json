@@ -1,0 +1,32 @@
+{
+  "name": "META64_literature_pending_train1000_v1",
+  "methods": [
+    "U",
+    "HC1_B020",
+    "RAND_IID_S01",
+    "RAND_IID_S02",
+    "RAND_IID_S03"
+  ],
+  "solver": {
+    "rmin": 2.5,
+    "penal": 3.0,
+    "move": 0.2,
+    "xmin": 1e-06,
+    "emin": 1e-09,
+    "emax": 1.0,
+    "nu": 0.3,
+    "residual_tolerance": 1e-06
+  },
+  "max_step": 2000,
+  "earliest_certifiable_step": 60,
+  "convergence": {
+    "window": 10,
+    "max_design_change": 0.01,
+    "max_relative_compliance_change": 0.0001,
+    "relative_compliance_span": 0.0005,
+    "volume_tolerance": 1e-08,
+    "residual_tolerance": 1e-06
+  },
+  "API_calls": 0,
+  "random_replicates_aggregation": "within-task arithmetic mean, never best of three"
+}

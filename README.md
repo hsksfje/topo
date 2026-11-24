@@ -1,5 +1,19 @@
 # META64 数据与拓扑优化初始化实验
 
+## 新增有文献类别来源的初始化：原Train1000，50步及收敛
+
+[独立运行包与完整使用指南](META64_literature_pending_train1000_v1/README.md)。新增中心孔HC1_B020和独立随机密度3次冻结重复，另重算Uniform，1000任务×5配置=5000条轨迹。包内自带约14 MB物理输入，不需其他数据、GPU或API。注意是Alvarez2019初始化类别的本地适配，不是原周期胞元实验逐项复现。
+
+```bash
+cd META64_literature_pending_train1000_v1
+conda env create -f environment.yml
+conda activate meta64-lit-init
+python run.py --stage verify
+python -u run.py
+```
+
+默认可用逻辑CPU减一并发、BLAS单线程；先全部50步，再续跑到收敛或累计2000步。另开终端 `python monitor.py --watch` 实时查看；`python run.py --stage export` 导出可校验回传ZIP。完整环境、暂停恢复、输出报告与回传路径见包内README。
+
 ## 已确认Pro任务：Flash 4.1 low重新生成并跑到收敛
 
 [独立运行包、环境、运行与回传说明](META64_Pro_to_Flash_low_v1/README.md)。按成功模型回执确认559个META64任务（最早100＋本机166＋设备B293），不靠默认配置猜测。自带约9 MB物理输入；10种LLM全部以Flash 4.1 low重新生成，另新算Uniform/PG2/四孔，先50步再到共同收敛或2000步。默认CPU逻辑核减一、4路API，支持等待重试、断点恢复及自动回传打包。

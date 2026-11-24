@@ -1,0 +1,7 @@
+name: meta64-lit-init
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=1.26.4
+  - scipy=1.12.0

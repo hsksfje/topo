@@ -1,0 +1,26 @@
+{
+  "schema": "meta64-literature-pending-package-v1",
+  "files": {
+    ".gitignore": "24ac4abe43641b2f43ab7cccb3e3e9b9a26e0a50055d945a37cb229107f25d69",
+    "README.md": "61f52bdf0a77334e1e42b91de4182abf7563e666340291e833d9896d60a65542",
+    "code/experiment.py": "923a7b5f2e8e83175240ec61e274966813ab492e8b325ab043bf463aba4cd2e3",
+    "code/initializers.py": "2d8249d7dc0c72459e895277d3405a8be9793b5681db9a2d9fe61842d093b524",
+    "code/physics.py": "3b2d643b2098cdbe5832aefb579b3cc7414df39c9f44ab63fd86f35b6b709ee2",
+    "code/report.py": "eb5cf9606384d274c66cba58cfc871ceaf823b500c9833458c89979bcaabc3b9",
+    "code/run.py": "538a3a451fa262acf588e269cce49d80f60ece0b5b93c4df652f43dcfd03b687",
+    "code/solver.py": "51c0f3797508076c07c1ecd06f382e003902232006817e27feae6ca9e1da9d2a",
+    "code/storage.py": "346aed72f001d108a8773773d6f70889f039996831e9668bb62d7c10b4d23d4e",
+    "data_identity.json": "39c28c09ad79c5f7ed04e35998d0bc09fd75193e17c474e11121050bd50f99a6",
+    "environment.yml": "16ab3b565cf2ed346c942ada9feb54b42b1af5b79ac589cee68cb7aae6b171a2",
+    "monitor.py": "c9fbb6925a4b53e4401f5bb6abff9573f4541dbf43dfdacba4883438e80be590",
+    "physical_inputs.zip": "475faaa86e4d38465ce21dc71700b64428a397bf2acc014c34d7b808f28495f8",
+    "protocol.json": "f9283bd9bc84a4bfebb31e24cf123ce7944e51dc5d695554564ccd8e71ee0ce8",
+    "provenance/solver_identity.json": "761871b9e58f673785887f60b1b50125f7fd0440f2c1dab53d29d2ed511a90aa",
+    "provenance/train1000.jsonl": "72aa34a62b85a78a6f6f602275288fd58d3726a213606a5357ab70e4cca55e18",
+    "requirements.txt": "e0b6511997d726600913903bc01caa6d3f81623568f910b39e16b37de229f2db",
+    "run.py": "d62561276e53f65ef82de34785031d900c2d54e5b4eace3992d9cced5ff66129",
+    "tests/test_experiment.py": "b829101fd515f2b4e254f0a3a4821ccb0dc38fa9fe4bf325dfc77ae8ac4597e6",
+    "validation/VALIDATION_zh.md": "02eb3d3a9de80f46ff00598a2d1b8417c13543e0528f4fee017789f1e739bd6d",
+    "validation/smoke_results.json": "45758102e30e4768a4a1cde7c6327f1a2da1f16efc14487543fb114dc607966f"
+  }
+}

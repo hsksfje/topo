@@ -1,0 +1,86 @@
+{
+  "validation_only": true,
+  "source_package_sha256": "27e3b0ff135f678a985e93d47b8e769f69d2c6f5aeeaea83df82d23f7fe9139a",
+  "rows": [
+    {
+      "method": "U",
+      "status": "max_steps",
+      "step": 70,
+      "C0": 1792.8443495857668,
+      "C50": 80.17467347023177,
+      "Cend": 79.75034924014156,
+      "cost": {
+        "attempted_FE": 72,
+        "recovery_FE": 1,
+        "initialization_FE": 1,
+        "update_FE": 70,
+        "seconds": 20.31555824354291,
+        "pending": false
+      }
+    },
+    {
+      "method": "HC1_B020",
+      "status": "max_steps",
+      "step": 70,
+      "C0": 1519.6657663484843,
+      "C50": 83.108989117468,
+      "Cend": 82.69218320484073,
+      "cost": {
+        "attempted_FE": 72,
+        "recovery_FE": 1,
+        "initialization_FE": 1,
+        "update_FE": 70,
+        "seconds": 20.316373474895954,
+        "pending": false
+      }
+    },
+    {
+      "method": "RAND_IID_S01",
+      "status": "max_steps",
+      "step": 70,
+      "C0": 2382.370176436844,
+      "C50": 85.25410432805691,
+      "Cend": 84.78862316261676,
+      "cost": {
+        "attempted_FE": 72,
+        "recovery_FE": 1,
+        "initialization_FE": 1,
+        "update_FE": 70,
+        "seconds": 20.09730194695294,
+        "pending": false
+      }
+    },
+    {
+      "method": "RAND_IID_S02",
+      "status": "max_steps",
+      "step": 70,
+      "C0": 3691.13289286145,
+      "C50": 86.28704042634766,
+      "Cend": 85.9290545590644,
+      "cost": {
+        "attempted_FE": 72,
+        "recovery_FE": 1,
+        "initialization_FE": 1,
+        "update_FE": 70,
+        "seconds": 20.059359051287174,
+        "pending": false
+      }
+    },
+    {
+      "method": "RAND_IID_S03",
+      "status": "max_steps",
+      "step": 70,
+      "C0": 2039.7248549376359,
+      "C50": 86.81397542234703,
+      "Cend": 86.55167120395527,
+      "cost": {
+        "attempted_FE": 72,
+        "recovery_FE": 1,
+        "initialization_FE": 1,
+        "update_FE": 70,
+        "seconds": 16.910274235531688,
+        "pending": false
+      }
+    }
+  ]
+}
