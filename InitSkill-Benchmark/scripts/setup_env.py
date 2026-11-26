@@ -17,6 +17,8 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--profile',choices=['cpu','cuda'],default='cpu')
     parser.add_argument('--use-current-main',action='store_true',help='Use current meta64-fresh environment for NumPy/SciPy/Torch')
+    parser.add_argument('--cpus',type=int,help='Optional total CPU budget, e.g.28')
+    parser.add_argument('--ram-gb',type=float,help='Installed RAM in GiB for CPU allocation, e.g.64')
     args=parser.parse_args()
     if sys.version_info[:2]!=(3,11):raise SystemExit('Please run setup with Python3.11 (your meta64-fresh environment).')
     if args.profile=='cuda' and os.name=='nt':raise SystemExit('Native Windows: use --profile cpu. Linux/WSL2 supports --profile cuda.')
@@ -47,7 +49,16 @@ def main():
         main_prefix=str(Path(sys.prefix).absolute() if args.use_current_main else main_folder.absolute()),
         pca_prefix=str(Path(sys.prefix).absolute() if args.use_current_main else main_folder.absolute()),
         jax_prefix=str(jax_folder.absolute()),native_windows=os.name=='nt')
-    (runtime/'profile.json').write_text(json.dumps(config,indent=2)+'\n')
+    path=runtime/'profile.json'
+    if args.cpus is not None:
+        if args.profile!='cpu' or args.ram_gb is None:raise SystemExit('--cpus requires CPU profile and --ram-gb')
+        sys.path.insert(0,str(ROOT))
+        from scripts.runtime_parallel import cpu_allocation
+        config['concurrency']=cpu_allocation(args.cpus,args.ram_gb)
+    elif path.exists() and args.profile=='cpu':
+        previous=json.loads(path.read_text())
+        if previous.get('concurrency'):config['concurrency']=previous['concurrency']
+    path.write_text(json.dumps(config,indent=2)+'\n')
     for name,python in [('main',main_python),('jax',jax_python)]:
         packages=json.loads(subprocess.check_output([str(python),'-m','pip','list','--format=json'],text=True))
         (runtime/(name+'_environment.json')).write_text(json.dumps(packages,indent=2)+'\n')

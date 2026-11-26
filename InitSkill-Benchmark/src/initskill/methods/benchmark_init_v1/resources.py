@@ -1,18 +1,23 @@
-"""Share two baseline slots and an optional third across formal OC pipelines.
+"""Share large-job slots across formal OC pipelines; allow an explicit CPU budget.
 
 This is scheduling only: no task, model, convergence rule or budget changes.
 After the factor-lifetime fix, observed workers use about0.9-1.2GiB RSS.
-The extra slot requires anonymous/shared RSS below70% of the host limit.
+By default the extra slot requires anonymous/shared RSS below70% of the host
+limit. An explicit CPU profile registers a fixed shared slot budget.
 """
 from contextlib import contextmanager
 import ctypes
 from initskill import locking as fcntl
 import gc
+import os
 from pathlib import Path
 import time
 
-BASE_HIGH_RESOLUTION_SLOTS=2
-HIGH_RESOLUTION_SLOTS=3
+_requested=os.environ.get('INITSKILL_HIGH_RES_SLOTS')
+BASE_HIGH_RESOLUTION_SLOTS=int(_requested) if _requested else 2
+HIGH_RESOLUTION_SLOTS=int(_requested) if _requested else 3
+if not 1<=BASE_HIGH_RESOLUTION_SLOTS<=HIGH_RESOLUTION_SLOTS<=128:
+    raise ValueError('Invalid shared high-resolution worker budget')
 
 
 def extra_slot_allowed():
@@ -48,10 +53,14 @@ def high_resolution_slot(out,nx,ny):
         # The caller's task-local solver has left scope before this cleanup.
         # Release Python cycles and unused libc arenas before another large
         # task enters, rather than retaining peak allocations in idle workers.
-        if held is not None:
-            gc.collect()
-            libc=ctypes.CDLL(None)
-            trim=getattr(libc,'malloc_trim',None)
-            if trim is not None:trim(0)
-            fcntl.flock(held,fcntl.LOCK_UN)
-        for stream in streams:stream.close()
+        try:
+            if held is not None:
+                try:
+                    gc.collect()
+                    if os.name!='nt':
+                        libc=ctypes.CDLL(None)
+                        trim=getattr(libc,'malloc_trim',None)
+                        if trim is not None:trim(0)
+                finally:fcntl.flock(held,fcntl.LOCK_UN)
+        finally:
+            for stream in streams:stream.close()

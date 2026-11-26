@@ -42,6 +42,17 @@ python benchmark.py start
 
 **OC上限按用户最新要求统一为500步，达到上限仍未满足条件即记为未收敛。** 全部任务的OC上限500步，保留C50/C100/C200；Meta/Early各6000次外层训练，cGAN需要1000＋100份同任务高分辨率教师，新生成教师也以500步为上限。已有训练/验证标签保留其历史来源，不重新定义为500步优化结果。`verify` 使用训练任务做工程检查，不把少量检查结果冒充正式Benchmark。
 
+## 28核 / 64GB设备
+
+默认仍为小网格2任务、大网格约2个共享名额。你的设备可执行：
+
+```powershell
+python benchmark.py configure --cpus 28 --ram-gb 64
+python benchmark.py start
+```
+
+此配置为2个小网格任务＋24个共享大网格任务，另预留约2核训练/调度。若已开始运行，先停止、`git pull`再配置。详见[28核配置与续跑说明](docs/CPU28_64GB.md)。
+
 ## 进度、停止、续跑
 
 ```powershell

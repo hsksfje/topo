@@ -18,8 +18,8 @@
       "sha256": "832146b82aa29161d8d22b870c23ce695318451d20ee1bfa8e81784ca7094bae"
     },
     "README.md": {
-      "bytes": 6327,
-      "sha256": "ea028533f7847e155628edb2e1ffc36c6124c9a20f6727846089cee874f10510"
+      "bytes": 6744,
+      "sha256": "67856055f639a47d07448044804d7b0ff0770a9b42e770bbbebdb0ddfefb2ea3"
     },
     "RUN_WINDOWS.ps1": {
       "bytes": 645,
@@ -30,8 +30,12 @@
       "sha256": "29c7a2675fdf6a08eaa3e76df7f143a54ec80ebf0b56baa11e0381bb1a7824f8"
     },
     "benchmark.py": {
-      "bytes": 11540,
-      "sha256": "22b918135ea161d608add8fc2126c12f766d1769301ad29a485de10196cfd687"
+      "bytes": 12985,
+      "sha256": "ee8367fffe5956db38301ce6d5a07cf9657a84ecd4c7209984a0d9fa8f465ad7"
+    },
+    "scripts/__init__.py": {
+      "bytes": 63,
+      "sha256": "51b8068a51f67fb45c40a2167951740b3844484ce295634d4fb3e74056d23a2f"
     },
     "scripts/analyze.py": {
       "bytes": 50317,
@@ -49,6 +53,10 @@
       "bytes": 4149,
       "sha256": "2eb705e2fef8be0ec1460e8872297f52221f9d3c3b1cefdd75cfd4e3ac238164"
     },
+    "scripts/runtime_parallel.py": {
+      "bytes": 6000,
+      "sha256": "4d23fbbfafa00ef5b0248fef1cd9bf6f8fe54d7e139740e1b11bcb553a07b336"
+    },
     "scripts/import_return.py": {
       "bytes": 2488,
       "sha256": "e3d073eb4b6948decf1b4f6798cd7682502974b00c866b965f3fdd0862cac5d7"
@@ -58,8 +66,8 @@
       "sha256": "5ad28eaa109f075f7581d1d57e0c2d6ad61f93d381f51e77bae1347c51fa846a"
     },
     "scripts/setup_env.py": {
-      "bytes": 3552,
-      "sha256": "9dd65f6d49e687c3fcdb42e8a3cb6782096cdc17fe14aaa9a0c5ae0943c70eb3"
+      "bytes": 4239,
+      "sha256": "1c9511cddb354d031da3676266f1de60c3410be8134b40a7c05b5efe62c2c868"
     },
     "scripts/fetch_references.py": {
       "bytes": 815,
@@ -101,9 +109,17 @@
       "bytes": 1919,
       "sha256": "758a59951333f24e942296a0e9ad499db0d1d82aa65de210788e0c512953637d"
     },
+    "docs/CPU256_MEMORY_PROBE.json": {
+      "bytes": 700,
+      "sha256": "7ff4d8703d6b16114f82fcfec8e27b030dd45d956c4975b85cae99c754e2582b"
+    },
     "docs/METHOD_REVIEW_zh.md": {
       "bytes": 38688,
       "sha256": "5c912b5bddeca4b59a267933b49f516fd7daa16279db766826bbb35b26a32bf4"
+    },
+    "docs/CPU28_64GB.md": {
+      "bytes": 1380,
+      "sha256": "19fbf5707015bc4bc0b7722383c139ce9884bca4e74380bb0dae00d6af2bdc64"
     },
     "docs/LOCAL_VERIFICATION.json": {
       "bytes": 1929,
@@ -124,6 +140,14 @@
     "requirements/main.txt": {
       "bytes": 133,
       "sha256": "e5af157fc2e4a109055d59a901459bcdd87b24f4bfb59cae4632035326514f36"
+    },
+    "tests/test_parallel_budget.py": {
+      "bytes": 2060,
+      "sha256": "1a664d8f5f170d1c083ccaaa34601492a9fdd3a8e86287b65f95c8a5e53b27e1"
+    },
+    "tests/test_resource_upgrade.py": {
+      "bytes": 3223,
+      "sha256": "9949ec84d59c47bb3bfefd8439cad0fb5e88f7cbf7c84ebbd4e3f06d3530eea8"
     },
     "tests/test_requested_scope.py": {
       "bytes": 1253,
@@ -1138,8 +1162,8 @@
       "sha256": "b378e8bcc9e6a7c2cc9d9d0ca545acee39495b89f62adf5e2734eb8f5284a1fc"
     },
     "src/initskill/methods/benchmark_init_v1/resources.py": {
-      "bytes": 2241,
-      "sha256": "dc8c9f6a6ed17a04a301d8f68e8795f7343cc44963ed186478dad684f92f4164"
+      "bytes": 2741,
+      "sha256": "574af485eff6101fbcbf91f9bc506bd57605fefe63599002da73f560528396c1"
     },
     "src/initskill/methods/benchmark_init_v1/pca_common.py": {
       "bytes": 596,
@@ -1291,5 +1315,12 @@
     }
   },
   "manifest_excludes_itself": true,
-  "omitted": "Virtualenvs, local runtime paths, extracted caches, pretrained neural models, historical test outcomes and API credentials."
+  "omitted": "Virtualenvs, local runtime paths, extracted caches, pretrained neural models, historical test outcomes and API credentials.",
+  "recommended_cpu_profile": {
+    "cpu_budget": 28,
+    "ram_gb": 64,
+    "small_workers": 2,
+    "shared_large_slots": 24,
+    "reserved_training_cpus": 2
+  }
 }
