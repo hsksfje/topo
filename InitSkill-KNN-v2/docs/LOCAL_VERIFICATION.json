@@ -1,0 +1,123 @@
+{
+  "platform": "Linux x86_64",
+  "python": "3.11",
+  "numpy": "1.26.4",
+  "scipy": "1.12.0",
+  "unit_tests_passed": 10,
+  "full_new_benchmark_run": false,
+  "windows_failure_regression": {
+    "passed": true,
+    "FE_attempts": 8,
+    "decimal_digits": 40,
+    "cases": [
+      {
+        "task": "test_id/problem_030006",
+        "residual": 1.0877683400539737e-08,
+        "compliance": 688246657.257677,
+        "energy_balance": 1.5418184382238676e-07,
+        "refinements": 1
+      },
+      {
+        "task": "test_id/problem_030028",
+        "residual": 2.9561162583949907e-09,
+        "compliance": 6538070979.380179,
+        "energy_balance": 4.36491177123575e-09,
+        "refinements": 1
+      },
+      {
+        "task": "test_id/problem_030032",
+        "residual": 5.548125405604387e-10,
+        "compliance": 4956108462.060906,
+        "energy_balance": 2.1860199955129375e-09,
+        "refinements": 1
+      },
+      {
+        "task": "test_id/problem_030033",
+        "residual": 3.3363068091024996e-09,
+        "compliance": 5690561987.282972,
+        "energy_balance": 5.354776213562559e-08,
+        "refinements": 2
+      },
+      {
+        "task": "test_ood/problem_000012",
+        "residual": 2.746825847639899e-10,
+        "compliance": 673326319334.7189,
+        "energy_balance": 1.8588770752033175e-10,
+        "refinements": 1
+      },
+      {
+        "task": "test_ood/problem_000022",
+        "residual": 2.2253519877770215e-10,
+        "compliance": 658805398823.5619,
+        "energy_balance": 3.244790570931357e-10,
+        "refinements": 1
+      },
+      {
+        "task": "test_ood/problem_000037",
+        "residual": 3.594450761924171e-09,
+        "compliance": 225283667.14442286,
+        "energy_balance": 8.963600685394732e-08,
+        "refinements": 1
+      },
+      {
+        "task": "test_ood/problem_000040",
+        "residual": 3.4552427705351096e-09,
+        "compliance": 44722123308.83672,
+        "energy_balance": 1.3105340199141633e-08,
+        "refinements": 1
+      }
+    ]
+  },
+  "train256_engineering": {
+    "passed": true,
+    "training_task": "train/problem_000008",
+    "FE_attempts": 3,
+    "formal_test_tasks_used": 0,
+    "cases": [
+      {
+        "method": "uniform",
+        "compliance": 2086.0602098608324,
+        "residual": 1.884329837786743e-12,
+        "precision": null
+      },
+      {
+        "method": "knn_legacy",
+        "compliance": 82.0679165531181,
+        "residual": 2.3622739474050933e-12,
+        "precision": null
+      },
+      {
+        "method": "knn_v2",
+        "compliance": 102.69293416522547,
+        "residual": 2.299469422056382e-12,
+        "precision": null
+      }
+    ]
+  },
+  "train_bank_engineering": {
+    "passed": true,
+    "training_count": 1000,
+    "task": "train/problem_000008",
+    "formal_test_tasks_used": 0,
+    "trajectories": [
+      {
+        "method": "uniform",
+        "FE": 31,
+        "C0": 1792.8443495857668,
+        "C30": 81.38738086085607
+      },
+      {
+        "method": "knn_legacy",
+        "FE": 31,
+        "C0": 76.00346389806165,
+        "C30": 75.98843114010455
+      },
+      {
+        "method": "knn_v2",
+        "FE": 31,
+        "C0": 95.23333990484917,
+        "C30": 75.96844093927854
+      }
+    ]
+  }
+}

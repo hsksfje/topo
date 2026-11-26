@@ -1,0 +1,50 @@
+name: Independent KNN v2 checks
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'InitSkill-KNN-v2/**'
+      - '.github/workflows/init-skill-knn-v2.yml'
+permissions:
+  contents: read
+jobs:
+  numerical-and-portability:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    env:
+      PYTHONUTF8: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          sparse-checkout: InitSkill-KNN-v2
+      - uses: conda-incubator/setup-miniconda@v4
+        with:
+          miniforge-version: latest
+          python-version: '3.11.18'
+          activate-environment: meta64-fresh
+          auto-activate: false
+          channels: conda-forge
+          channel-priority: strict
+      - name: Install isolated NumPy and SciPy environment
+        working-directory: InitSkill-KNN-v2
+        run: conda run -n meta64-fresh --no-capture-output python setup.py
+      - name: Verify actual Windows failures, train bank, spawn, OC resume and256 grid
+        working-directory: InitSkill-KNN-v2
+        run: conda run -n meta64-fresh --no-capture-output python run.py verify
+      - name: Inspect CLI and hardware allocation
+        working-directory: InitSkill-KNN-v2
+        run: conda run -n meta64-fresh --no-capture-output python run.py status --cpus 28 --ram-gb 64
+      - uses: actions/upload-artifact@v6
+        if: always()
+        with:
+          name: knn-v2-${{ matrix.os }}
+          path: InitSkill-KNN-v2/verification/*.json
+          if-no-files-found: ignore

@@ -1,0 +1,21 @@
+{
+  "base_benchmark_commit": "c3d63f7ec882ef641208afc3a6d1deca45337907",
+  "original_return_archive_sha256": "ce453805c087d3a35228b3facd40d79175d164e4b8d2526d1560a6ac26d4e51a",
+  "numerical_fixture_sha256": "ba31bed7ea40d68ef6ee0a90d6e186032aeec29549565b135075f5224a6b6b7e",
+  "fixture_policy": "Eight v1 initial design fields for numerical regression only. They are not final test topologies and are not read by model construction or prediction.",
+  "algorithms": [
+    "uniform",
+    "knn_legacy",
+    "knn_v2"
+  ],
+  "scope": {
+    "train1000": 1000,
+    "valid100": 100,
+    "test_id300": 300,
+    "test_ood300": 300,
+    "test_cr300": 300
+  },
+  "OC_max_steps": 500,
+  "full_new_benchmark_run": false,
+  "design_status": "exploratory repair after v1 test audit; no blind confirmation claim"
+}

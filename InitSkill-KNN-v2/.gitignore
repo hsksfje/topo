@@ -1,0 +1,9 @@
+.runtime/
+results/
+returns/
+__pycache__/
+*.pyc
+data/labels/
+data/META64_uniform_1000_100_300_v3/raw/
+data/PREPARED.json
+verification/*.json
