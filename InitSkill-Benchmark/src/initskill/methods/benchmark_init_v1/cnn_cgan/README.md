@@ -1,6 +1,6 @@
 # Yu CNN + cGAN
 
-先完成全部Train1000/Valid300同任务64→256配对教师。当前全量教师生成中，尚未完成cGAN正式训练。引用的Keras-GAN是通用源码，不是完整作者拓扑优化仓库。
+先完成全部Train1000/Valid100同任务64→256配对教师。当前全量教师生成中，尚未完成cGAN正式训练。引用的Keras-GAN是通用源码，不是完整作者拓扑优化仓库。
 
 本目录仅包含此方法；共享物理求解、数据清单、约束校准及完整优化停止规则位于上级目录。
 
@@ -13,4 +13,4 @@ python -m initskill.methods.benchmark_init_v1.run train-cgan --epochs 20 --batch
 python -m initskill.methods.benchmark_init_v1.campaign --stage evaluate --method cgan --out "$OUT" --workers 4
 ```
 
-`campaign --stage evaluate`执行ID/OOD/CR各1000例、最多2000步及共同停止准则；它与旧的固定50步诊断入口不同。Meta训练/导出用独立JAX环境（训练注册cuda,cpu，导出CPU），公共OC评测用CUDA环境；其余依赖、论文下载及实现差异详见根目录 `references/init_benchmark_v1/REPRODUCTION_AUDIT.md`。该模板说明实现入口，不表示当前各阶段均已完成。
+`campaign --stage evaluate`执行ID/OOD/CR各300例、最多500步及共同停止准则；它与旧的固定50步诊断入口不同。Meta训练/导出用独立JAX环境（训练注册cuda,cpu，导出CPU），公共OC评测用CUDA环境；其余依赖、论文下载及实现差异详见根目录 `references/init_benchmark_v1/REPRODUCTION_AUDIT.md`。该模板说明实现入口，不表示当前各阶段均已完成。

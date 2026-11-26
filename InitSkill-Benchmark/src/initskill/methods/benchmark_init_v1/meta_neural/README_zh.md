@@ -6,6 +6,6 @@ Python实现：`core.py`。
 
 从随机参数开始；1/32原生滤波与平台2.5/64不同。零步密度以rho-as-x明确交接，不隐藏二次滤波。
 
-所有方法接续相同的可行侧OC求解器；完整评测ID/OOD/CR各1000项，最多2000步，至少保留C50/C100/C200。两项目标与账本统一由`../campaign.py`汇总。
+所有方法接续相同的可行侧OC求解器；完整评测ID/OOD/CR各300项，最多500步，至少保留C50/C100/C200。两项目标与账本统一由`../campaign.py`汇总。
 
-[论文与源码审计](../../../../../references/init_benchmark_v1/REPRODUCTION_AUDIT.md)
+[论文与源码审计](../../../../../docs/METHODS.md)

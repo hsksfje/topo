@@ -1,6 +1,6 @@
 # Wang PCA + LM前馈网络
 
-Train1000/Valid300，tansig用tanh实现。独立Python LM以矩阵自由AD和CG解法避免显式巨型Jacobian；稠密方程数学验证已通过，没有MATLAB引擎逐位对照。
+Train1000/Valid100，tansig用tanh实现。独立Python LM以矩阵自由AD和CG解法避免显式巨型Jacobian；稠密方程数学验证已通过，没有MATLAB引擎逐位对照。
 
 本目录仅包含此方法；共享物理求解、数据清单、约束校准及完整优化停止规则位于上级目录。
 
@@ -13,4 +13,4 @@ python -m initskill.methods.benchmark_init_v1.run train-pca --method wang --epoc
 python -m initskill.methods.benchmark_init_v1.campaign --stage evaluate --method wang --out "$OUT" --workers 4
 ```
 
-`campaign --stage evaluate`执行ID/OOD/CR各1000例、最多2000步及共同停止准则；它与旧的固定50步诊断入口不同。Meta训练/导出用独立JAX环境（训练注册cuda,cpu，导出CPU），公共OC评测用CUDA环境；其余依赖、论文下载及实现差异详见根目录 `references/init_benchmark_v1/REPRODUCTION_AUDIT.md`。该模板说明实现入口，不表示当前各阶段均已完成。
+`campaign --stage evaluate`执行ID/OOD/CR各300例、最多500步及共同停止准则；它与旧的固定50步诊断入口不同。Meta训练/导出用独立JAX环境（训练注册cuda,cpu，导出CPU），公共OC评测用CUDA环境；其余依赖、论文下载及实现差异详见根目录 `references/init_benchmark_v1/REPRODUCTION_AUDIT.md`。该模板说明实现入口，不表示当前各阶段均已完成。

@@ -1,6 +1,6 @@
 # Yu CNN Encoder–Decoder
 
-Train1000/Valid300，训练与完整预测诊断已完成。保留已冻结模型的输出饱和负面结果，不按测试表现重新调参。论文图与正文的解码层数差异及未知设置见审计。
+Train1000/Valid100，训练与完整预测诊断已完成。保留已冻结模型的输出饱和负面结果，不按测试表现重新调参。论文图与正文的解码层数差异及未知设置见审计。
 
 本目录仅包含此方法；共享物理求解、数据清单、约束校准及完整优化停止规则位于上级目录。
 
@@ -13,4 +13,4 @@ python -m initskill.methods.benchmark_init_v1.run train-cnn --epochs 500 --batch
 python -m initskill.methods.benchmark_init_v1.campaign --stage evaluate --method cnn --out "$OUT" --workers 4
 ```
 
-`campaign --stage evaluate`执行ID/OOD/CR各1000例、最多2000步及共同停止准则；它与旧的固定50步诊断入口不同。Meta训练/导出用独立JAX环境（训练注册cuda,cpu，导出CPU），公共OC评测用CUDA环境；其余依赖、论文下载及实现差异详见根目录 `references/init_benchmark_v1/REPRODUCTION_AUDIT.md`。该模板说明实现入口，不表示当前各阶段均已完成。
+`campaign --stage evaluate`执行ID/OOD/CR各300例、最多500步及共同停止准则；它与旧的固定50步诊断入口不同。Meta训练/导出用独立JAX环境（训练注册cuda,cpu，导出CPU），公共OC评测用CUDA环境；其余依赖、论文下载及实现差异详见根目录 `references/init_benchmark_v1/REPRODUCTION_AUDIT.md`。该模板说明实现入口，不表示当前各阶段均已完成。
