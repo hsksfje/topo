@@ -1,0 +1,49 @@
+# @package _global_
+
+defaults:
+- hydra: default
+- top_opt: default
+- base_model: modulated_siren
+- dataset: train
+- _self_
+
+model_key: 
+  _target_: jax.random.key
+  seed: 0
+
+
+resume_from_checkpoint: # Provide a path here
+single_task: False # Used for verificaiton
+
+meta_learner:
+  _target_: metatopia.learners.MAML
+  _partial_: True
+  outer_opt:
+    _target_: optax.sgd
+    learning_rate: 1e-6
+
+  inner_opt:
+    _target_: optax.adam
+    learning_rate: 1e-2
+    eps_root: 1e-8
+
+
+  
+filter_name: film # Used to split the model
+ 
+meta_train:
+  outer_steps: 100
+  inner_steps: 10
+  log_every_n: 1
+  batch_size: 5
+
+# Specifies the save folder
+experiment_name: ModulatedCAVIA
+
+hydra:
+  sweeper:
+    params:
+      meta_learner.outer_opt.learning_rate: 1e-5, 1e-6
+      meta_learner.inner_opt.learning_rate: 1e-4, 1e-5
+      base_model: siren_conditioned, residual_siren_conditioned, latent_modulated_siren_conditioned
+      base_model.omega_0: 30.0, 60.0

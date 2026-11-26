@@ -1,0 +1,13 @@
+_target_: metatopia.models.LatentModulatedSiren
+in_features: 2
+hidden_features: 256
+hidden_layers: 4
+out_features: 1
+outermost_linear: True
+omega_0: 60.0
+modulate_scale: False
+modulate_shift: True
+latent_dim: 64
+key:
+  _target_: jax.random.key
+  seed: 42

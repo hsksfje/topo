@@ -1,0 +1,10 @@
+_target_: metatopia.models.ModulatedSiren
+_partial_: true
+in_features: 2
+hidden_features: 256
+hidden_layers: 4
+out_features: 1
+outermost_linear: True
+omega_0: 30.0
+modulate_scale: True
+modulate_shift: True

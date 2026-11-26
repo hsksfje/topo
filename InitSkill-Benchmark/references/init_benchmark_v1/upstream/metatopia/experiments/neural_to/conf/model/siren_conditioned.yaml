@@ -1,0 +1,10 @@
+_target_: metatopia.models.Siren
+in_features: 3
+out_features: 1
+hidden_features: 256
+hidden_layers: 4
+outermost_linear: True
+omega_0: 30.0
+key:
+  _target_: jax.random.key
+  seed: 420

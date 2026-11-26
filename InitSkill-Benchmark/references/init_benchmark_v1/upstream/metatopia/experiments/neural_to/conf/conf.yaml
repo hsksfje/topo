@@ -1,0 +1,67 @@
+# @package _global_
+
+defaults: 
+  - model: modulated_siren_conditioned
+  - _self_
+
+experiment_name: Exploration
+two_stage: False
+
+filter_1:
+  _target_: metatopia.learners.get_filters
+  _partial_: true
+  name: default
+filter_2:
+  _target_: metatopia.learners.get_filters
+  _partial_: true
+  name: latent
+
+opt_1:
+  _target_: optax.adam
+  learning_rate: 1e-4
+
+opt_2:
+  _target_: optax.sgd
+  learning_rate: 0.1
+
+n_steps_1: 100
+n_steps_2: 0
+
+top_opt: 
+  Nx: 128 # Number of elements in x direction
+  Ny: 64 # Number of elements in y direction
+
+  Lx: 2.0
+  Ly: 1.0
+
+  young: 1.0
+  poisson: 0.3
+  young_min: 1e-9
+  penalty: 3.0
+  filter_radius: 2
+
+
+problem:
+  _target_: metatopia.dataset.to.mbb_beam
+  width: ${top_opt.Nx}
+  height: ${top_opt.Ny}
+  target_vf: 0.2
+
+# Hydra grid sweeper configuration
+
+# Hydra setting
+
+
+hydra:
+  run:
+    dir: runs/${experiment_name}/${now:%d-%m_%H-%M}
+    
+  sweep:
+    dir: multiruns/${experiment_name}/${now:%d-%m_%H-%M}
+    subdir: ${hydra.job.num}
+
+  sweeper:
+      params:
+        opt_1.learning_rate: 1e-5, 5e-5, 1e-4, 5e-4, 1e-3
+
+

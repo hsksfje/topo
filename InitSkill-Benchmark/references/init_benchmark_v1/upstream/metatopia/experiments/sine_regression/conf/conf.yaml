@@ -1,0 +1,47 @@
+# Main configuration file for the meta_to experiment
+
+base_model:
+  _target_: metatopia.models.ContextMLP
+  in_features: 1
+  hidden_features: 40
+  hidden_layers: 2
+  out_features: 1
+  context_features: 2
+  key: 
+    _target_: jax.random.key
+    seed: 0
+
+meta_learner:
+  _target_: metatopia.learners.MAML
+  _partial_: True
+  outer_opt:
+    _target_: optax.adam
+    learning_rate: 1e-3
+
+  inner_opt:
+    _target_: optax.sgd
+    learning_rate: 1e-2
+
+
+filters: CAVIA
+
+meta_train:
+  seed: 42
+  num_points: 10
+  batch_size: 25
+  outer_steps: 10_000
+  inner_steps: 1
+  log_every_n: 1_000
+
+meta_test:
+  seed: 0
+  num_points: 10
+  batch_size: 1_000
+  inner_steps: 1
+
+# Output directory settings
+hydra:
+  job:
+    name: "sine_regression"  
+  run:
+    dir: "outputs/${hydra.job.name}/${now:%d-%m_%H-%M}"

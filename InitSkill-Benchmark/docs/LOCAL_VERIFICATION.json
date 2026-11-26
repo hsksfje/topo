@@ -1,0 +1,51 @@
+{
+  "platform": "Linux CPU, Python3.11, NumPy1.26.4/SciPy1.12, Torch2.5.1; Windows native CI is a separate check",
+  "formal_test_optimizations_run": 0,
+  "proofs": {
+    "math": {
+      "SCG_quadratic_solution_error": 2.941717469574782e-13,
+      "LM_first_step_vs_explicit_J_error": 5.665776324800671e-12,
+      "LM_linear_least_squares_solution_error": 4.983851637252438e-13,
+      "LM_nonlinear_AD_vs_dense_step_error": 1.1102230246251565e-15,
+      "port_status": "Python mathematical equivalence checked; no MATLAB binary available for bitwise cross-language test",
+      "filtered_FE_gradient_relative_error": 2.7540287267239815e-06,
+      "uniform_reference_relative_error": 5.651479284551897e-12,
+      "CNN_input33_output32": true,
+      "CNN_backward_step": true,
+      "cGAN_8_to32_shape": true,
+      "conditional_discriminator": true,
+      "CNN_conv_count": 15,
+      "status": "PASS",
+      "training_task": "train/problem_000008"
+    },
+    "oc_resume": {
+      "passed": true,
+      "training_task": "train/problem_000008",
+      "test_tasks_used": 0,
+      "final_arrays_byte_equal": true,
+      "all_history_records_equal": true,
+      "corrupt_state_rejected": true,
+      "continuous_attempts": 31,
+      "resume_including_failed_attempt_and_replay": 35,
+      "total_engineering_attempts": 66,
+      "checkpoint_paths_POSIX": true,
+      "artifact_folder": "verification/oc_resume_ew04nz8m"
+    },
+    "native_resume": {
+      "passed": true,
+      "training_tasks": 5,
+      "test_tasks_used": 0,
+      "batch_size": 5,
+      "inner_steps": 10,
+      "formal_model_saved": false,
+      "serialized_parameter_error": 0.0,
+      "serialized_Adam_error": 0.0,
+      "resumed_update_parameter_max_error": 0.0,
+      "resumed_update_Adam_max_error": 0.0,
+      "resumed_update_loss_error": 0.0,
+      "epoch_boundary_permutation_equal": true,
+      "changed_budget_rejected": true,
+      "FE": 170
+    }
+  }
+}

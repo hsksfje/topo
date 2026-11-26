@@ -1,0 +1,5 @@
+numpy==1.26.4
+scipy==1.12.0
+matplotlib==3.8.4
+psutil==7.0.0
+# PyTorch2.5.1 is installed separately from its official CPU/CUDA index.

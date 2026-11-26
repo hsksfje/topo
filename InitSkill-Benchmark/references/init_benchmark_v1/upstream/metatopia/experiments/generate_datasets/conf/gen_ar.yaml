@@ -1,0 +1,19 @@
+name: test_ar
+data_subdir: to
+# Domain parameters
+Nx: 128
+Ny: 64
+Lx: 128
+Ly: 64
+# Material properties
+young: 1.0
+poisson: 0.3
+young_min: 1e-9
+penalty: 3.0
+# Task parameters
+seed: 3
+n_problems: 1000
+distributed: False
+vf_min: 0.1
+vf_max: 0.5
+p_edge: 100.0

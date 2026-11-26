@@ -1,0 +1,9 @@
+name: validation
+Nx: 64
+Ny: 64
+Lx: 64
+Ly: 64
+young: 1.0
+poisson: 0.3
+young_min: 1.0e-09
+penalty: 3.0

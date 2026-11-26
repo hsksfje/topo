@@ -1,0 +1,2 @@
+penalty: 3.0
+relative_r_min: 0.03125 # Expressed as fraction (1/32) of width (Nx)

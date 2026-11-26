@@ -1,0 +1,53 @@
+# @package _global_
+#
+# Meta-testing configuration reproducing the evaluation reported in the paper.
+#
+# Checkpoints are not stored in the repository. Point METATOPIA_RUNS at the
+# directory holding the downloaded run directories, e.g.
+#
+#   export METATOPIA_RUNS=/path/to/metatopia-runs
+#   python meta_test.py
+#
+# or override on the command line with `runs_root=/path/to/runs`.
+defaults:
+- top_opt: default
+- dataset: test_id
+- _self_
+
+single_task: False
+
+# Root directory containing the meta-trained run directories. This is only
+# ever read from, so the downloaded checkpoint bundle can stay read-only.
+runs_root: ${oc.env:METATOPIA_RUNS}
+
+# Where meta-testing results are written. Kept separate from runs_root so that
+# evaluation never writes back into the downloaded checkpoints.
+results_root: ${oc.env:METATOPIA_RESULTS,${hydra:runtime.cwd}/results}
+
+model_path: ${runs_root}/meta_learned
+
+meta_test:
+  # Paper protocol: minimum 10 and maximum 200 iterations, subject to the
+  # relative-change stopping criterion below.
+  steps: 200
+  min_steps: 10
+  batch_size: 100
+  sample_size:  # null = evaluate every task in the dataset
+  tol: 1e-5
+
+std_model:
+  test: True
+  path: ${runs_root}/baseline
+  n_inits: 3
+
+
+hydra:
+  sweeper:
+    params:
+      # The three datasets evaluated in the main text, all published on Zenodo.
+      #
+      # The appendix additionally reports `test_ar` (cross-aspect) and
+      # `test_cr_ood` (compound-shift). Those are NOT distributed on Zenodo and
+      # must be regenerated with experiments/generate_datasets before they can
+      # be swept over; see data/to/README.md.
+      dataset: test_id, test_ood, test_cr
