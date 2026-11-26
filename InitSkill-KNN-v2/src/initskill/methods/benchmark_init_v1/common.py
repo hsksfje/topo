@@ -45,8 +45,8 @@ class BenchmarkSIMP(SIMP):
         raise RuntimeError('Feasible-side OC bisection failed')
 
     def evaluate(self,x):
-        # Identical float64 path to the platform evaluator, retaining the LU
-        # factor for refinement only when the original acceptance check fails.
+        # Original float64 assembly/solve, with equilibrium and energy-work
+        # guards. Reuse LU as the Decimal refinement preconditioner if needed.
         x=np.asarray(x,dtype=float);c=self.config
         if x.shape!=(len(self.cells),) or not np.isfinite(x).all() or np.any(x<c.xmin-1e-12) or np.any(x>1+1e-12):
             raise ValueError('Invalid design density')
@@ -71,7 +71,10 @@ class BenchmarkSIMP(SIMP):
         ue=u[self.edof];energy=np.einsum('ei,ij,ej->e',ue,self.ke,ue)
         compliance=float(w@energy)
         residual=float(np.linalg.norm((K@u-self.force)[self.free])/np.linalg.norm(self.force[self.free]))
-        if not (np.isfinite(compliance) and compliance>0 and residual<c.residual_tolerance):
+        work=float(self.force[self.free]@u[self.free])
+        balance=abs(compliance-work)/max(abs(work),1e-30)
+        nonnegative_energy=bool(np.isfinite(energy).all() and energy.min()>=-1e-12*max(1.,float(np.max(np.abs(energy)))))
+        if not (np.isfinite(compliance) and compliance>0 and np.isfinite(work) and work>0 and residual<c.residual_tolerance and balance<=1e-6 and nonnegative_energy):
             from .precision_fem import refined_evaluation
             result=refined_evaluation(self,x,rho,factor,u,residual)
             if fe_backend()=='cudss':result['linear_solver']='cudss-float64'
@@ -80,7 +83,7 @@ class BenchmarkSIMP(SIMP):
         physical_gradient=-c.penal*(c.emax-c.emin)*rho**(c.penal-1)*energy
         gradient=np.asarray(self.H.T@(physical_gradient/self.Hs)).ravel()
         result=dict(compliance=compliance,volume=float(rho.mean()),grayness=float(np.mean(4*rho*(1-rho))),
-                    residual=residual,density=rho,gradient=gradient,energy=energy,u=u)
+                    residual=residual,density=rho,gradient=gradient,energy=energy,u=u,external_work=work,energy_balance_relative=balance)
         result['linear_solver']='cudss-float64' if fe_backend()=='cudss' else 'superlu-float64'
         return result
 

@@ -28,8 +28,8 @@
       "sha256": "35776a1fd9b40db278d541d0befa00856ea9c99b013c1dae5f6fb6915a99d071"
     },
     "README_zh.md": {
-      "bytes": 7528,
-      "sha256": "68dcc8c59aee7ae35f042a2ca12ec745637217fd940407057a56c8d3cfcb45bd"
+      "bytes": 7670,
+      "sha256": "a8a7d66e9c8a6a26a43685961c2ee541774881e1199bb49a84a1b1f41527fa46"
     },
     "SOURCE_IDENTITY.json": {
       "bytes": 798,
@@ -72,24 +72,24 @@
       "sha256": "2bcbb07c470907aa45e5b5bc2bb19942d29ec453fb80dc694b563bf477880fa1"
     },
     "docs/LOCAL_VERIFICATION.json": {
-      "bytes": 3249,
-      "sha256": "60268f077fc31995f4fcbfeac6e10dbc5b613c92f85fd965cd2e5ef6316346f3"
+      "bytes": 3301,
+      "sha256": "706bfa0d006b58fa7adb76f227cb82ecd9e12e62b20d006275ccb76027595324"
     },
     "requirements.txt": {
       "bytes": 42,
       "sha256": "35b9eb17fbe4c6c7477b6a21018e3d53d2f0c71ae3c898b6d3b150332d535aa6"
     },
     "run.py": {
-      "bytes": 2331,
-      "sha256": "d82a3fa4ff61f3e50009c94af6f6d5fab338a0aaa4f72a33010099920e4fc33d"
+      "bytes": 2466,
+      "sha256": "4ac9a5a5a960150767d755e1fe278b1e7bfe32ef2273d0c3f3ee6e6833854d84"
     },
     "scripts/__init__.py": {
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "scripts/experiment.py": {
-      "bytes": 14449,
-      "sha256": "730c371337441dcf77f2d93248ada71ea823291ccd7b896d93e2b43c2ee057c2"
+      "bytes": 14759,
+      "sha256": "370c059d2942b1faa880d413e3dd1191ba37e61ecb5792fa5311227fcd8167ee"
     },
     "scripts/export.py": {
       "bytes": 2362,
@@ -128,8 +128,8 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "src/initskill/methods/benchmark_init_v1/common.py": {
-      "bytes": 12169,
-      "sha256": "32bed3f3736526cc4ebc2884b9df4c485c30dff920b34a6fa75eb5a1049d1d92"
+      "bytes": 12528,
+      "sha256": "087027aadf0936897d8b9ea880f90c7fcdefe345896e79f5835d57e05930ab71"
     },
     "src/initskill/methods/benchmark_init_v1/convergence.py": {
       "bytes": 5516,
@@ -148,8 +148,8 @@
       "sha256": "ba31bed7ea40d68ef6ee0a90d6e186032aeec29549565b135075f5224a6b6b7e"
     },
     "tests/test_knn.py": {
-      "bytes": 8432,
-      "sha256": "d2e6ddbe8268f64976d7b1cea9aea76757dfc4144e902a8430f3dd14abf6a5a5"
+      "bytes": 9128,
+      "sha256": "23c5725575d98e3d8cfa67323478a1eb08808eac61779dfa73d69fa25f0fc1ba"
     }
   }
 }

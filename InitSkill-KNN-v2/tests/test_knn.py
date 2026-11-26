@@ -46,6 +46,18 @@ class KNNTest(unittest.TestCase):
             self.assertLess(abs(dec['compliance']/ev['compliance']-1),1e-8)
             self.assertLess(np.linalg.norm(dec['gradient']-ev['gradient'])/np.linalg.norm(ev['gradient']),1e-7)
             self.assertLess(dec['energy_balance_relative'],1e-8)
+            # A small equilibrium residual alone must not accept corrupted
+            # cancellation-prone strain energy or its resulting gradients.
+            from unittest.mock import patch
+            original=np.einsum
+            def wrong_energy(expression,*args,**kwargs):
+                answer=original(expression,*args,**kwargs)
+                return answer*2 if expression=='ei,ij,ej->e' else answer
+            with patch.object(common.np,'einsum',side_effect=wrong_energy):
+                guarded=m.evaluate(x)
+            self.assertEqual(guarded['precision'],'decimal40-Q4-iterative-refinement')
+            self.assertLess(abs(guarded['compliance']/ev['compliance']-1),1e-8)
+
 
     def test_eight_windows_failed_initial_states(self):
         with np.load(ROOT/'tests/fixtures/windows_initial_failures.npz') as z:fields={k:z[k].copy() for k in z.files}

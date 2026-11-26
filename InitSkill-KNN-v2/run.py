@@ -28,6 +28,7 @@ def main():
         execution=OUT/'campaign/execution.json'
         print(json.dumps(dict(execution=json.loads(execution.read_text()) if execution.exists() else None,
             requested_concurrency=allocation(args.cpus,args.ram_gb),complete=(OUT/'campaign/COMPLETE.json').exists(),
+            last_progress=json.loads((OUT/'campaign/progress.json').read_text()) if (OUT/'campaign/progress.json').exists() else None,
             progress=json.loads((OUT/'reports/coverage.json').read_text()) if (OUT/'reports/coverage.json').exists() else {}),indent=2))
     elif args.action=='report':summarize(strict=not args.allow_partial)
     elif args.action=='export':

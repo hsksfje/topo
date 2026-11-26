@@ -119,5 +119,6 @@
         "C30": 75.96844093927854
       }
     ]
-  }
+  },
+  "energy_work_guard_fault_injection_passed": true
 }

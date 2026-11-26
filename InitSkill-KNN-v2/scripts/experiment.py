@@ -171,10 +171,12 @@ def start(cpus,ram):
                             futures.append((large if row['nx']>64 else small).submit(worker,(str(OUT),subset,row,500)))
                     for i,future in enumerate(as_completed(futures),1):
                         print(json.dumps(dict(task_finished=i,**future.result())),flush=True)
-                        if i%10==0:summarize()
+                        common.dump(control/'progress.json',dict(task_finished_in_stage=i,pending_jobs_at_stage_start=len(futures),updated_unix=time.time()))
+                        if i%25==0:summarize()
                 summarize()
             summarize(strict=True);common.dump(control/'COMPLETE.json',dict(finished_unix=time.time(),all_planned_runs_settled=True,methods=METHODS,expected_runs=3000,numerical_failures_not_disguised_as_success=True))
-        except BaseException:
+        except BaseException as exc:
+            common.dump(control/'LAST_STOP.json',dict(error=str(exc),kind=type(exc).__name__,unix=time.time(),traceback=traceback.format_exc()))
             for child in psutil.Process().children(recursive=True):
                 try:child.terminate()
                 except psutil.NoSuchProcess:pass
