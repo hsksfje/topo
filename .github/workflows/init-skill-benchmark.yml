@@ -24,22 +24,27 @@ jobs:
       JAX_PLATFORMS: cpu
       XLA_PYTHON_CLIENT_PREALLOCATE: 'false'
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           sparse-checkout: InitSkill-Benchmark
-      - uses: actions/setup-python@v5
+      - uses: conda-incubator/setup-miniconda@v4
         with:
+          miniforge-version: latest
           python-version: '3.11.18'
+          activate-environment: meta64-fresh
+          auto-activate: false
+          channels: conda-forge
+          channel-priority: strict
       - name: Install Windows-compatible CPU environments
         working-directory: InitSkill-Benchmark
-        run: python scripts/setup_env.py --profile cpu --use-current-main
+        run: conda run -n meta64-fresh --no-capture-output python scripts/setup_env.py --profile cpu --use-current-main
       - name: Verify data, mathematical ports, FEM and native continuation
         working-directory: InitSkill-Benchmark
-        run: python benchmark.py verify
+        run: conda run -n meta64-fresh --no-capture-output python benchmark.py verify
       - name: Verify process locks and cross-OS protocol transport
         working-directory: InitSkill-Benchmark
-        run: python -m unittest discover -s tests -v
-      - uses: actions/upload-artifact@v4
+        run: conda run -n meta64-fresh --no-capture-output python -m unittest discover -s tests -v
+      - uses: actions/upload-artifact@v6
         if: always()
         with:
           name: verification-${{ matrix.os }}
