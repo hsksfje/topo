@@ -134,4 +134,4 @@ python -u code/run.py --stage run
 
 ## 已有Pro结果、尚未完成Flash覆盖的三种LLM方法
 
-[META64_Pro_remaining_to_Flash_low_v1](META64_Pro_remaining_to_Flash_low_v1/README.md)：358个训练任务中的A1/A3/B1共1065个组合，独立Flash4.1 low生成、CPU并行至500或2000步，并与纯Pro配对比较；与686缺口包无组合重复。
+[META64_Pro_remaining_to_Flash_low_v1](META64_Pro_remaining_to_Flash_low_v1/README.md)：358个训练任务中的A1/A3/B1共1065个组合，独立Flash4.1 low生成、CPU并行且总OC硬上限500步，并与纯Pro配对比较；与686缺口包无组合重复。

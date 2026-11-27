@@ -9605,7 +9605,7 @@
     "volume_tolerance": 1e-08,
     "residual_tolerance": 1e-06
   },
-  "max_step": 2000,
+  "max_step": 500,
   "earliest_certifiable_step": 60,
   "expected_gaps": 1065,
   "no_API_default": true,
@@ -60169,5 +60169,6 @@
       "source": "deviceB300",
       "Pro_result50_sha256": "4bf0375788df3ca055d706dc011a60ad00d0bea3f426eebd5546a09e8e02b22f"
     }
-  }
+  },
+  "production_hard_max_step": 500
 }

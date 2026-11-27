@@ -60,7 +60,7 @@ python -u start_all.py --execute-api --env-file /home/yourname/private/ark.env
 
 先以4并发完成Flash提案，再自动启动CPU并行优化。默认进程数=可用逻辑CPU减1，每进程的BLAS/OpenMP为1线程；i7-10700的16个可用逻辑处理器通常用15个进程。Linux考虑亲和性及标准cgroup v2配额，Windows按进程可用CPU掩码计算。可以追加`--workers 15`减少并发。请不要同时在同一设备用两个包各开满全部CPU；按顺序运行或手动分配进程数。
 
-默认沿用历史总上限2000步，提前收敛即停，同时保存第50步和500步统计。只跑500步：
+本包已固定为**总细网格OC上限500步**，提前满足收敛条件即停。达到500步仍未收敛则记为`max_steps`，不再继续到2000步。以上原启动命令无需额外参数；也可显式写出：
 
 ```bat
 python -u start_all.py --execute-api --env-file C:/private/ark.env --max-step 500
@@ -96,7 +96,7 @@ python monitor.py --output outputs/flash_remaining_500_run01
 数值运行安全暂停：
 
 ```bash
-python -c "from pathlib import Path; Path('outputs/flash_remaining_2000_run01/PAUSE_REQUESTED').touch()"
+python -c "from pathlib import Path; Path('outputs/flash_remaining_500_run01/PAUSE_REQUESTED').touch()"
 ```
 
 恢复数值计算：
@@ -105,7 +105,7 @@ python -c "from pathlib import Path; Path('outputs/flash_remaining_2000_run01/PA
 python -u run.py --resume --retry-failed
 ```
 
-500步运行需相应修改暂停路径并给恢复命令加`--max-step 500`。API阶段使用`generated/PAUSE_REQUESTED`暂停；恢复前删除该标记，再重跑原生成命令。不要删除请求回执。每10步保存数值检查点，已有成功结果不重跑。
+恢复命令默认仍为500步。API阶段使用`generated/PAUSE_REQUESTED`暂停；恢复前删除该标记，再重跑原生成命令。不要删除请求回执。每10步保存数值检查点，已有成功结果不重跑。
 
 ## 输出、比较与回传
 
@@ -113,7 +113,7 @@ python -u run.py --resume --retry-failed
 
 ```text
 generated/                         # Flash提案、请求回执、模型与用量
-outputs/flash_remaining_2000_run01/
+outputs/flash_remaining_500_run01/
   config.json
   progress.json
   tasks/<任务ID>/<方法>/history.json
@@ -126,7 +126,7 @@ outputs/flash_remaining_2000_run01/
   reports/REPORT_zh.md
 ```
 
-500步选项使用`outputs/flash_remaining_500_run01/`。500与2000步使用不同输出，不能改同一个输出的冻结上限。运行保留原SIMP/OC、惩罚3、滤波半径2.5、move=0.2、64×64网格；连续10次密度变化≤0.01、柔度相对变化≤1e-4、11个柔度状态相对极差≤5e-4、体积误差≤1e-8、FE残差<1e-6，最早60步认证。达到上限不称为收敛。
+默认输出为`outputs/flash_remaining_500_run01/`，监控、恢复和导出均默认使用这个目录。本包生产入口不接受2000步参数。此前已经按旧版2000步启动的进程不会因git pull自动改变，请先停止旧进程；旧输出保留，新500步运行使用新输出目录，已收到的Flash提案和API回执可继续复用。运行保留原SIMP/OC、惩罚3、滤波半径2.5、move=0.2、64×64网格；连续10次密度变化≤0.01、柔度相对变化≤1e-4、11个柔度状态相对极差≤5e-4、体积误差≤1e-8、FE残差<1e-6，最早60步认证。达到上限不称为收敛。
 
 报告分别列出对Uniform、对同任务纯Pro的500步表现，并保留I50。只有双方500步内真正收敛，才计“更快且改善>1%”或“更快且柔度差异绝对值<1%”。运行中是部分配对样本，不代表全1000任务效果。Pro参考C50已与主归档逐条核对一致；Pro输入和结果不提供给Flash。
 

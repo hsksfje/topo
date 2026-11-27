@@ -20,5 +20,6 @@
   "payload_bytes": 5815861,
   "scope_limit": "Only verified per-method pure_Pro lineage from 559 tasks; other tasks not labelled as Pro without receipts; reference scalar values never sent to LLM",
   "new_FE": 0,
-  "new_API": 0
+  "new_API": 0,
+  "production_hard_max_step": 500
 }

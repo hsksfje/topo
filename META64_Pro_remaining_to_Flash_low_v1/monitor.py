@@ -5,7 +5,7 @@ import time
 from pathlib import Path
 
 p=argparse.ArgumentParser()
-p.add_argument('--output',type=Path,default=Path(__file__).resolve().parent/'outputs/flash_remaining_2000_run01')
+p.add_argument('--output',type=Path,default=Path(__file__).resolve().parent/'outputs/flash_remaining_500_run01')
 p.add_argument('--interval',type=int,default=10)
 p.add_argument('--once',action='store_true')
 a=p.parse_args()

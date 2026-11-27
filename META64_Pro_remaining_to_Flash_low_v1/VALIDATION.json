@@ -12,5 +12,17 @@
   "new_FE": 0,
   "new_API": 0,
   "full_run_started": false,
-  "Pro_identity_reference_metric_test": "archived Pro trajectory used only as an offline fixture: 0% vs itself, no false speed/quality win"
+  "Pro_identity_reference_metric_test": "archived Pro trajectory used only as an offline fixture: 0% vs itself, no false speed/quality win",
+  "hard500_boundary_check": {
+    "status": "passed",
+    "stop_step": 500,
+    "classification": "max_steps",
+    "new_OC_updates": 0,
+    "new_FE_recovery": 1,
+    "worker_rejects_2000": true,
+    "fixture": "archived Pro state500; engineering validation only, not new Flash result"
+  },
+  "production_hard_max_step": 500,
+  "default_launcher_forwards_500_verified_without_subprocess_execution": true,
+  "launcher_rejects_2000_before_API": true
 }

@@ -69,6 +69,8 @@ def scalar_row(step, ev):
 
 
 def worker(job, out_s, plan, max_step):
+    if not 50 <= max_step <= min(500, plan['max_step']):
+        raise ValueError('This package has a hard 500-step OC limit')
     out = Path(out_s)
     tid, method = job['task_id'], job['method']
     folder = out / 'tasks' / tid / method
@@ -167,7 +169,7 @@ def worker(job, out_s, plan, max_step):
             history.append(dict(scalar_row(history[-1]['step'] + 1, ev), max_design_change=float(np.max(np.abs(x-oldx))), relative_compliance_change=abs(ev['compliance']-oldc)/max(abs(oldc),1e-30)))
             if history[-1]['step'] % 10 == 0:
                 save()
-            if history[-1]['step'] in (50,100,200,500,1000,2000):
+            if history[-1]['step'] in (50,100,200,500):
                 save_npz(folder / f'state_{history[-1]["step"]:04d}.npz', x=x, density=ev['density'])
         save()
         save_npz(folder / 'state_final.npz', x=x, density=ev['density'], u=ev['u'])
@@ -233,7 +235,7 @@ def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--stage', choices=['prepare','run','status','export'], default='run')
     p.add_argument('--workers', type=int, help='default: available logical CPUs minus one')
-    p.add_argument('--max-step', type=int, choices=[52,500,2000], default=2000, help='52 is validation only; production: 500 or original 2000')
+    p.add_argument('--max-step', type=int, choices=[52,500], default=500, help='Production hard limit: 500; 52 is validation only')
     p.add_argument('--limit', type=int)
     p.add_argument('--methods', help='comma separated method names')
     p.add_argument('--output', type=Path)
