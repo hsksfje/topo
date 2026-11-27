@@ -125,3 +125,8 @@ python -u code/run.py --stage run
 ```
 
 已有meta64-fresh且核心数值包版本一致也可使用。不调用LLM，无需API密钥；默认保留一个逻辑CPU，其余并行。输出固定outputs/delegated6600_run01/，运行结束后用code/export_results.py打ZIP回传，详细路径见运行包README。
+
+
+## Train1000：保留23种初始化缺口补跑
+
+[META64_retained23_backfill_v1](META64_retained23_backfill_v1/README.md)：686个任务—方法缺口，272个工况；默认CPU进程数为可用逻辑CPU减1，支持500/2000步、断点续跑与结果回传。637个组合无需API，49个缺初态的LLM组合提供独立Flash4.1 low生成入口。

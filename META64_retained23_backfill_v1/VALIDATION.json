@@ -1,0 +1,32 @@
+{
+  "created_CST": "2026-11-27T20:14:20.364435+08:00",
+  "checks": [
+    {
+      "name": "cached50_smoke",
+      "parallel_workers": 2,
+      "max_step": 52,
+      "results": {
+        "max_steps": 2
+      },
+      "max_step_is_engineering_only": true
+    },
+    {
+      "name": "fixed_smoke",
+      "parallel_workers": 2,
+      "max_step": 52,
+      "results": {
+        "max_steps": 2
+      },
+      "max_step_is_engineering_only": true
+    }
+  ],
+  "old_state_C50_recomputed_and_matched": true,
+  "resume_skips_successful_jobs": true,
+  "offline_Flash_low_payload_checked": true,
+  "simulated_429_retry_and_receipt_budget_checked": true,
+  "export_sha256_roundtrip": true,
+  "python_compilation_passed": true,
+  "actual_paid_API_calls": 0,
+  "full_backfill_started": false,
+  "platform": "Linux; Windows code paths present but not natively tested"
+}

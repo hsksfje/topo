@@ -1,0 +1,455 @@
+{
+  "jobs": 686,
+  "tasks": 272,
+  "initialization_counts": {
+    "cached0": 33,
+    "fixed_regenerate": 495,
+    "cached50": 109,
+    "requires_new_LLM": 49
+  },
+  "payload_bytes": 5355264,
+  "labels_included": false,
+  "missing_llm": [
+    {
+      "task_id": "META64_problem_008106",
+      "method": "A1",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_008106",
+      "volume_fraction": 0.18063721725423823,
+      "group_id": "b519322c60956cda852b180c9a77a871b8b803b2a3ed12e10c5744e559410680"
+    },
+    {
+      "task_id": "META64_problem_009431",
+      "method": "A1",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_009431",
+      "volume_fraction": 0.377295787156518,
+      "group_id": "79b781e06e9a026ac1bd4a373a337e6f43f2dbf51afbed185ddf4e3e593d1316"
+    },
+    {
+      "task_id": "META64_problem_009995",
+      "method": "A1",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_009995",
+      "volume_fraction": 0.22410021087068566,
+      "group_id": "a3d16ba7e28bd30be1bff85cbc575cae52f93905f3fd1bf1b9cfe71a9c2a2d0f"
+    },
+    {
+      "task_id": "META64_problem_010859",
+      "method": "A1",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_010859",
+      "volume_fraction": 0.12202197908641588,
+      "group_id": "4c6ea43c7eb8c1a32635bf5d65fcf3f20aaf8bfe75222784a929d1544f64d100"
+    },
+    {
+      "task_id": "META64_problem_011082",
+      "method": "A1",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_011082",
+      "volume_fraction": 0.47931787057591535,
+      "group_id": "f6ed8032fbd5c9d6982be9a9cbe45ac357b1fb911563e084eee97d3ba68210db"
+    },
+    {
+      "task_id": "META64_problem_011144",
+      "method": "A1",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_011144",
+      "volume_fraction": 0.2704107607691514,
+      "group_id": "2f12724ee72e550e4a0cec617707e3faf5d67cf9ed382575feefe606b28a54da"
+    },
+    {
+      "task_id": "META64_problem_012118",
+      "method": "A1",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_012118",
+      "volume_fraction": 0.21364817015076987,
+      "group_id": "2e283ec0fac201ee91ba460e4103a0b27c150233592367c74df2868c3c047ca7"
+    },
+    {
+      "task_id": "META64_problem_012484",
+      "method": "A1",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_012484",
+      "volume_fraction": 0.4099527652607159,
+      "group_id": "af4ac0c3c2f0e0b8f821dd7b4eacda65cf8780d0e14cfa3badf899962ecf21a3"
+    },
+    {
+      "task_id": "META64_problem_013345",
+      "method": "A1",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_013345",
+      "volume_fraction": 0.1777582479760402,
+      "group_id": "171935fcf5ab0ef20e651e3ded6a41f4149d64a17d0737473721a6626708c387"
+    },
+    {
+      "task_id": "META64_problem_013448",
+      "method": "A1",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_013448",
+      "volume_fraction": 0.39497364479065855,
+      "group_id": "fe8c0bf0f07f777647ec16e0ab962ab000568f7b019b84f7a1de0618cfd79454"
+    },
+    {
+      "task_id": "META64_problem_013581",
+      "method": "A1",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_013581",
+      "volume_fraction": 0.46883982219416775,
+      "group_id": "cff61c2424170792612cd28e0f90c3f72f463f385b6eb69bf6eb74194909355c"
+    },
+    {
+      "task_id": "META64_problem_020266",
+      "method": "A1",
+      "original_reason": "source_unavailable",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_020266",
+      "volume_fraction": 0.291016191034715,
+      "group_id": "1c326c0148f35bd54b04960774742731c1bb60abf735dc1fbf852078bf731ff5"
+    },
+    {
+      "task_id": "META64_problem_028538",
+      "method": "A1",
+      "original_reason": "source_unavailable",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_028538",
+      "volume_fraction": 0.10553054006538054,
+      "group_id": "753639bd84c3aa0a146c342264d207ccedba6001bc247bce7095dfa210045fc0"
+    },
+    {
+      "task_id": "META64_problem_009307",
+      "method": "A3",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_009307",
+      "volume_fraction": 0.30932428643456533,
+      "group_id": "447864354b018a8e0421c9c7591e980b15ff4e0590b603ddf564c948aa45e55b"
+    },
+    {
+      "task_id": "META64_problem_009431",
+      "method": "A3",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_009431",
+      "volume_fraction": 0.377295787156518,
+      "group_id": "79b781e06e9a026ac1bd4a373a337e6f43f2dbf51afbed185ddf4e3e593d1316"
+    },
+    {
+      "task_id": "META64_problem_012293",
+      "method": "A3",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_012293",
+      "volume_fraction": 0.27684120570686255,
+      "group_id": "672883669b15a507bc9c2fe5d46a5ee476d869b3b06c884bfd6b316a0106cfad"
+    },
+    {
+      "task_id": "META64_problem_012320",
+      "method": "A3",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_012320",
+      "volume_fraction": 0.10513457112621834,
+      "group_id": "053816baea64d47e312664f727b6580b628f028f89ef44afd0c8980c3656dcc6"
+    },
+    {
+      "task_id": "META64_problem_012334",
+      "method": "A3",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_012334",
+      "volume_fraction": 0.39046375297958424,
+      "group_id": "2970049272b4a45733698d710602bdff3a954743cbe17252581713fe3d3aa804"
+    },
+    {
+      "task_id": "META64_problem_012703",
+      "method": "A3",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_012703",
+      "volume_fraction": 0.22257405010122755,
+      "group_id": "9a8c97794d7a348a5a94951a36bd523981602800ed2b32f821b744be3a6b4755"
+    },
+    {
+      "task_id": "META64_problem_013015",
+      "method": "A3",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_013015",
+      "volume_fraction": 0.39343314911584637,
+      "group_id": "b063a282d6d095c25fc22bab087eb77919a2bcb3f9c49c854841e2e37e619a40"
+    },
+    {
+      "task_id": "META64_problem_013018",
+      "method": "A3",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_013018",
+      "volume_fraction": 0.2376134439673846,
+      "group_id": "cd51b67dfe66e0e1452574726e4966f58296e02bfc700fbf1e33d92c830e0a29"
+    },
+    {
+      "task_id": "META64_problem_013041",
+      "method": "A3",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_013041",
+      "volume_fraction": 0.46142026549142334,
+      "group_id": "178a6f72054a7c185f4c1ebc235cdfad022ccfdb6f4cdf22f4fff9b25ecda096"
+    },
+    {
+      "task_id": "META64_problem_013448",
+      "method": "A3",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_013448",
+      "volume_fraction": 0.39497364479065855,
+      "group_id": "fe8c0bf0f07f777647ec16e0ab962ab000568f7b019b84f7a1de0618cfd79454"
+    },
+    {
+      "task_id": "META64_problem_013668",
+      "method": "A3",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_013668",
+      "volume_fraction": 0.1513758509418569,
+      "group_id": "a11423b478083e1c7082acc56e8ea530f9cef892c509f08205847f32036ceb89"
+    },
+    {
+      "task_id": "META64_problem_013947",
+      "method": "A3",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_013947",
+      "volume_fraction": 0.26623489696955877,
+      "group_id": "f94e6439f5d64a3f3dc8bedd80fed02a6e6d5f1cd9b370e075fec6bcb23b453a"
+    },
+    {
+      "task_id": "META64_problem_014003",
+      "method": "A3",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_014003",
+      "volume_fraction": 0.463207688187509,
+      "group_id": "37dbbb1c59fd71dd6ba0ca4c45bfbf250c9aab5d4811048c96a2900d9fd84d9b"
+    },
+    {
+      "task_id": "META64_problem_014077",
+      "method": "A3",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_014077",
+      "volume_fraction": 0.37750183613220767,
+      "group_id": "2b31365dd7635a03a6ae6631be135088b4ce603eec82b85531971e93708ee919"
+    },
+    {
+      "task_id": "META64_problem_020266",
+      "method": "A3",
+      "original_reason": "source_unavailable",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_020266",
+      "volume_fraction": 0.291016191034715,
+      "group_id": "1c326c0148f35bd54b04960774742731c1bb60abf735dc1fbf852078bf731ff5"
+    },
+    {
+      "task_id": "META64_problem_022880",
+      "method": "A3",
+      "original_reason": "source_unavailable",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_022880",
+      "volume_fraction": 0.1593785495222314,
+      "group_id": "5ea9f4890827f830e308b69eb57cab39ce26504476510d02eaafe21cf05e5740"
+    },
+    {
+      "task_id": "META64_problem_028538",
+      "method": "A3",
+      "original_reason": "source_unavailable",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_028538",
+      "volume_fraction": 0.10553054006538054,
+      "group_id": "753639bd84c3aa0a146c342264d207ccedba6001bc247bce7095dfa210045fc0"
+    },
+    {
+      "task_id": "META64_problem_029670",
+      "method": "A3",
+      "original_reason": "source_unavailable",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_029670",
+      "volume_fraction": 0.14070562187072141,
+      "group_id": "4f6a23dfebcf15b4bf32d88b1800bd13c9621e73651c4d1a503437edcb1c7fa0"
+    },
+    {
+      "task_id": "META64_problem_029676",
+      "method": "A3",
+      "original_reason": "source_unavailable",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_029676",
+      "volume_fraction": 0.2473285334703011,
+      "group_id": "944f487c64d02de646141479464cd307a859f1dcb1343a83b685ed901e81e172"
+    },
+    {
+      "task_id": "META64_problem_009307",
+      "method": "B1",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_009307",
+      "volume_fraction": 0.30932428643456533,
+      "group_id": "447864354b018a8e0421c9c7591e980b15ff4e0590b603ddf564c948aa45e55b"
+    },
+    {
+      "task_id": "META64_problem_009431",
+      "method": "B1",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_009431",
+      "volume_fraction": 0.377295787156518,
+      "group_id": "79b781e06e9a026ac1bd4a373a337e6f43f2dbf51afbed185ddf4e3e593d1316"
+    },
+    {
+      "task_id": "META64_problem_011144",
+      "method": "B1",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_011144",
+      "volume_fraction": 0.2704107607691514,
+      "group_id": "2f12724ee72e550e4a0cec617707e3faf5d67cf9ed382575feefe606b28a54da"
+    },
+    {
+      "task_id": "META64_problem_011204",
+      "method": "B1",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_011204",
+      "volume_fraction": 0.3292165183421413,
+      "group_id": "d24f5e8b5367c2265e58243d54887e906c15669151e26bb03692a051263d1f75"
+    },
+    {
+      "task_id": "META64_problem_012145",
+      "method": "B1",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_012145",
+      "volume_fraction": 0.4403731013261507,
+      "group_id": "34909d3130bd1567f634a68903454bbc2253da36b4ad8b5e8d0dbb7f9d0d30ac"
+    },
+    {
+      "task_id": "META64_problem_012868",
+      "method": "B1",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_012868",
+      "volume_fraction": 0.3116705942127054,
+      "group_id": "fc1d3c8c3ab506536c566b8bdbeb3904484094847bce65c1919e372ccc3dad8a"
+    },
+    {
+      "task_id": "META64_problem_013947",
+      "method": "B1",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_013947",
+      "volume_fraction": 0.26623489696955877,
+      "group_id": "f94e6439f5d64a3f3dc8bedd80fed02a6e6d5f1cd9b370e075fec6bcb23b453a"
+    },
+    {
+      "task_id": "META64_problem_014003",
+      "method": "B1",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_014003",
+      "volume_fraction": 0.463207688187509,
+      "group_id": "37dbbb1c59fd71dd6ba0ca4c45bfbf250c9aab5d4811048c96a2900d9fd84d9b"
+    },
+    {
+      "task_id": "META64_problem_014077",
+      "method": "B1",
+      "original_reason": "no_final_record",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_014077",
+      "volume_fraction": 0.37750183613220767,
+      "group_id": "2b31365dd7635a03a6ae6631be135088b4ce603eec82b85531971e93708ee919"
+    },
+    {
+      "task_id": "META64_problem_020204",
+      "method": "B1",
+      "original_reason": "source_unavailable",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_020204",
+      "volume_fraction": 0.38834763239896264,
+      "group_id": "291056f58d6201b4116b994f278d4d09e1ba3d2aeccfc01b68f51a52cf3af562"
+    },
+    {
+      "task_id": "META64_problem_020252",
+      "method": "B1",
+      "original_reason": "source_unavailable",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_020252",
+      "volume_fraction": 0.41433935198013694,
+      "group_id": "302ccd8e3d9082005ce35d292eed7911b754cb73255ce98b843c1d5c35f085be"
+    },
+    {
+      "task_id": "META64_problem_020266",
+      "method": "B1",
+      "original_reason": "source_unavailable",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_020266",
+      "volume_fraction": 0.291016191034715,
+      "group_id": "1c326c0148f35bd54b04960774742731c1bb60abf735dc1fbf852078bf731ff5"
+    },
+    {
+      "task_id": "META64_problem_022880",
+      "method": "B1",
+      "original_reason": "source_unavailable",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_022880",
+      "volume_fraction": 0.1593785495222314,
+      "group_id": "5ea9f4890827f830e308b69eb57cab39ce26504476510d02eaafe21cf05e5740"
+    },
+    {
+      "task_id": "META64_problem_028413",
+      "method": "B1",
+      "original_reason": "source_unavailable",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_028413",
+      "volume_fraction": 0.34987217114264046,
+      "group_id": "adf4f0829f781e58d59e3491961f5feae89fc039d85d9acfb00a8d8111a123e0"
+    },
+    {
+      "task_id": "META64_problem_028538",
+      "method": "B1",
+      "original_reason": "source_unavailable",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_028538",
+      "volume_fraction": 0.10553054006538054,
+      "group_id": "753639bd84c3aa0a146c342264d207ccedba6001bc247bce7095dfa210045fc0"
+    },
+    {
+      "task_id": "META64_problem_029670",
+      "method": "B1",
+      "original_reason": "source_unavailable",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_029670",
+      "volume_fraction": 0.14070562187072141,
+      "group_id": "4f6a23dfebcf15b4bf32d88b1800bd13c9621e73651c4d1a503437edcb1c7fa0"
+    },
+    {
+      "task_id": "META64_problem_029676",
+      "method": "B1",
+      "original_reason": "source_unavailable",
+      "initialization": "requires_new_LLM",
+      "path": "inputs/META64_problem_029676",
+      "volume_fraction": 0.2473285334703011,
+      "group_id": "944f487c64d02de646141479464cd307a859f1dcb1343a83b685ed901e81e172"
+    }
+  ]
+}
