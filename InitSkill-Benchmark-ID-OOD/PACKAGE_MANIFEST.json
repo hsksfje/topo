@@ -1,0 +1,1341 @@
+{
+  "schema": "independent-id-ood-v1",
+  "scope": {
+    "train1000": 1000,
+    "valid100": 100,
+    "test_id300": 300,
+    "test_ood300": 300
+  },
+  "cross_resolution_default": false,
+  "oc_max_steps": 500,
+  "files": {
+    ".gitattributes": {
+      "bytes": 89,
+      "sha256": "832146b82aa29161d8d22b870c23ce695318451d20ee1bfa8e81784ca7094bae"
+    },
+    ".gitignore": {
+      "bytes": 215,
+      "sha256": "2c04513940210bf3c3a0677452358228b0c5f6c8337888f17cde83b7139fed26"
+    },
+    "METHODS_STATUS_zh.md": {
+      "bytes": 2713,
+      "sha256": "7528e93d5c9579f545ad6842b277e076358b19b729099c7dd061374c3f683095"
+    },
+    "README.md": {
+      "bytes": 9493,
+      "sha256": "42c8c844536c1ec76df2b9c8e3cdd49c7bafcfe5dd74d4e14ecd8409c84f76ee"
+    },
+    "RUN_WINDOWS.ps1": {
+      "bytes": 337,
+      "sha256": "9399c65825034e380729944fea6b0c01cb9a34243ff6053b8dad30c6e7f73381"
+    },
+    "SOURCE_IDENTITY.json": {
+      "bytes": 485,
+      "sha256": "7abe2ffbb78bba5a4237c00dfb4f30cb18d337c1a7ce70b10061a8da0794e48a"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "bytes": 995,
+      "sha256": "29c7a2675fdf6a08eaa3e76df7f143a54ec80ebf0b56baa11e0381bb1a7824f8"
+    },
+    "benchmark.py": {
+      "bytes": 14847,
+      "sha256": "0b4e99059f7a4275a146d146f290d5196d3f608507fddaaa9110da538467ca34"
+    },
+    "data/BUNDLE_MANIFEST.json": {
+      "bytes": 1731149,
+      "sha256": "6fb075be80a9437eec077e945672dd4721aaf4e60fc1bfd2a581888a188b63f8"
+    },
+    "data/META64_uniform_1000_100_300_v3/SAMPLING.json": {
+      "bytes": 50173,
+      "sha256": "c258c52ffdde568cdda5197dabdf7fb12f169be85a07aa59adb24deb79c80f7f"
+    },
+    "data/META64_uniform_1000_100_300_v3/manifests/test_cr300.jsonl": {
+      "bytes": 272858,
+      "sha256": "df659a95b13a849d95315f935da9c8d867ed035b2f1cfaad5ff6aef96488f957"
+    },
+    "data/META64_uniform_1000_100_300_v3/manifests/test_id300.jsonl": {
+      "bytes": 271047,
+      "sha256": "7e54dd24d84ca1a9f92aea412cc2bcf4f76c96a30c7a25ad31a3cc1df45cf1e4"
+    },
+    "data/META64_uniform_1000_100_300_v3/manifests/test_ood300.jsonl": {
+      "bytes": 273891,
+      "sha256": "fff9db225ada0e190a064a595096ae8a7beb9fa5a9b4623e751c0d38618aa430"
+    },
+    "data/META64_uniform_1000_100_300_v3/manifests/train1000.jsonl": {
+      "bytes": 1066493,
+      "sha256": "c35be4016eb36b779fd019bb81767e85d70a8ad4d5c4377e02e0924b6169cf41"
+    },
+    "data/META64_uniform_1000_100_300_v3/manifests/valid100.jsonl": {
+      "bytes": 91753,
+      "sha256": "4e5e35348c34ebc90235b8dcc62dac25a7cb41a6e8670fb601897db2c847449c"
+    },
+    "data/META64_uniform_1000_100_300_v3/source_manifests/test_cr1000.jsonl": {
+      "bytes": 1405508,
+      "sha256": "596cb41b67254830c7f2a0948cf8a9c83d641b9abeb2546fcd846f324fdaf995"
+    },
+    "data/META64_uniform_1000_100_300_v3/source_manifests/test_id1000.jsonl": {
+      "bytes": 1398490,
+      "sha256": "1dacf5ddfd66c1ca07b65c4a91c592dac7080e6bf3a54d3993912bc3fad59a52"
+    },
+    "data/META64_uniform_1000_100_300_v3/source_manifests/test_ood1000.jsonl": {
+      "bytes": 1410975,
+      "sha256": "87a261f480db677e2b634fd3a54d6198f361eec0e6e5cb18d0023757dc3559c7"
+    },
+    "data/META64_uniform_1000_100_300_v3/source_manifests/valid300.jsonl": {
+      "bytes": 426442,
+      "sha256": "6f755e4631ec070b1174689025fa0fe4e425ce3865ecb21b61ad2821a15b8988"
+    },
+    "data/bundle.zip": {
+      "bytes": 16329243,
+      "sha256": "cf24f887b42896eac5cb8ac26fbe9c3a258b86033be573950ccf1557e963ed9f"
+    },
+    "data/historical_teacher_costs.json": {
+      "bytes": 650966,
+      "sha256": "2bcbb07c470907aa45e5b5bc2bb19942d29ec453fb80dc694b563bf477880fa1"
+    },
+    "docs/CPU256_MEMORY_PROBE.json": {
+      "bytes": 700,
+      "sha256": "7ff4d8703d6b16114f82fcfec8e27b030dd45d956c4975b85cae99c754e2582b"
+    },
+    "docs/CPU28_64GB.md": {
+      "bytes": 1528,
+      "sha256": "9b80a76a652b4ce006edcf4805c4487888fe6ecf385ad3b3ccb8ae9bc6be2107"
+    },
+    "docs/ENVIRONMENT.md": {
+      "bytes": 2067,
+      "sha256": "132f76c7a2258e40a850ae89eab1022f436a5d707abcd51cc798fc04786b564b"
+    },
+    "docs/HISTORICAL_REPRODUCTION_AUDIT.md": {
+      "bytes": 59575,
+      "sha256": "8cf3d0f7ab145288c02bd640d3fd57a4b557d4d7ca68a43256403c7a2f2ad1e6"
+    },
+    "docs/LOCAL_VALIDATION.json": {
+      "bytes": 5674,
+      "sha256": "030010e127295fdbe80d27fb41ad3477b49a22da98bc855c03a1a8b92260f1de"
+    },
+    "docs/LOCAL_VERIFICATION.json": {
+      "bytes": 1929,
+      "sha256": "39f512975c4890a8eaf161dc7f249f1a282236357b87c2dd66df6181251697b5"
+    },
+    "docs/METHODS.md": {
+      "bytes": 4066,
+      "sha256": "efd820a1bc846b5fd1776b8c099b372304524a10f879525cc981bbf9d0032e7e"
+    },
+    "docs/METHOD_REVIEW_zh.md": {
+      "bytes": 38688,
+      "sha256": "5c912b5bddeca4b59a267933b49f516fd7daa16279db766826bbb35b26a32bf4"
+    },
+    "docs/WINDOWS_DEPENDENCY_RESOLUTION.json": {
+      "bytes": 6032,
+      "sha256": "720777ec93b289a919605b3f35d152bbf52f00608ffd0dfe63d23a139ceaa788"
+    },
+    "references/init_benchmark_v1/SOURCES.json": {
+      "bytes": 48429,
+      "sha256": "a9c19c4aa6ffaccca650242928138ce0810f7a8d9135a29d792d1aa44c792d6d"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/.gitignore": {
+      "bytes": 99,
+      "sha256": "85b887888e625f93193636ff33056a13ae465b555593840d63ea97a460c81297"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/LICENSE": {
+      "bytes": 1075,
+      "sha256": "5c22be3a1adc90961ee877119ee0a0ca1559f3db33ada48a31884f30ca462112"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/README.md": {
+      "bytes": 8889,
+      "sha256": "41e99ad5c2ee3cec8291e2cc427560783a07feb16b7a0dba19479082f365f6f7"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/aae/aae.py": {
+      "bytes": 6548,
+      "sha256": "162a6bcab407a58508c3f68e6e8b75923f0c78756ec0fde774e86deedeef3acd"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/aae/images/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/aae/saved_model/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/acgan/acgan.py": {
+      "bytes": 7937,
+      "sha256": "8d74ba0fff8f70b191b8b852551f9476a5ceabdb0e75304247baab5de6263a61"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/acgan/images/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/acgan/saved_model/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/assets/keras_gan.png": {
+      "bytes": 10276,
+      "sha256": "b493e2dbd6cf6474e939843ce9c4a507aa5183f592a3136bdc5cd153250480b2"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/bgan/bgan.py": {
+      "bytes": 5406,
+      "sha256": "6fda51c746dfa88d0165b5c2cd6a3d43a8cdc281f5be5f968ddb83c906a67566"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/bgan/images/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/bgan/saved_model/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/bigan/bigan.py": {
+      "bytes": 6374,
+      "sha256": "31481bfcc65715d823437cafa0468213fc2ddae7682c19b61eda1f9958478230"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/bigan/images/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/bigan/saved_model/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/ccgan/ccgan.py": {
+      "bytes": 9041,
+      "sha256": "eac967398c7eee3f065c3bcdc03731f6f5f688c926c733ad041246ca9a24a17c"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/ccgan/images/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/ccgan/saved_model/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/cgan/cgan.py": {
+      "bytes": 6521,
+      "sha256": "c479773627ff85b4ab7a3c093f20eab1d1369f53ccd96b16cb136de96191a500"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/cgan/images/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/cgan/saved_model/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/cogan/cogan.py": {
+      "bytes": 6686,
+      "sha256": "8e6d50f8c792d9e4827d1aeb1d1e1f9262c8f3e6fec4ec799c8136b4c6e183f1"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/cogan/images/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/cogan/saved_model/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/context_encoder/context_encoder.py": {
+      "bytes": 8762,
+      "sha256": "517edf0fd5534cb14dfb6a0bd7cc9ef28c361d01fd457ff6db44d0bfd505c8ed"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/context_encoder/images/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/context_encoder/saved_model/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/cyclegan/cyclegan.py": {
+      "bytes": 10119,
+      "sha256": "57d29505fceaa91210ccf3b7e4ae78a9731e9956dd437a50116ed1b2917eb846"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/cyclegan/data_loader.py": {
+      "bytes": 2723,
+      "sha256": "d0190e3240db1ce65907fd33e385d006b1c7ffbd1c4802318ce126a67fccaf82"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/cyclegan/download_dataset.sh": {
+      "bytes": 824,
+      "sha256": "b6e515d78c5cde76e67e0b4b9280bf702d19d5e57e0306d65059a5c3499f530c"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/cyclegan/images/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/cyclegan/saved_model/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/dcgan/dcgan.py": {
+      "bytes": 5958,
+      "sha256": "32c50b7977ce6bca8c94fdb8f6e22b36870376e2d435c187a539adb066861349"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/dcgan/images/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/dcgan/saved_model/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/discogan/data_loader.py": {
+      "bytes": 2538,
+      "sha256": "4ad304ee26a266ff467c7f6be779142c260f2d5a0a2ba39ee99915fc42c59474"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/discogan/discogan.py": {
+      "bytes": 9242,
+      "sha256": "6f78b704e36471ad123bee1d853dedc7bb65477bb9f4ce9008b188398a72dd25"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/discogan/download_dataset.sh": {
+      "bytes": 263,
+      "sha256": "352231c99e5bb69321b7632249ace87e6fcb3ca1c9506c68b7c5e3d6d3aeb6ef"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/discogan/images/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/discogan/saved_model/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/dualgan/dualgan.py": {
+      "bytes": 7579,
+      "sha256": "53d2f40f895e90f1d9726b7b86a53668f581f7cb426d176e871a5ef50f82700b"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/dualgan/images/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/dualgan/saved_model/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/gan/gan.py": {
+      "bytes": 5203,
+      "sha256": "1451a9a8f192ef511e719987f8cd15948fe2042ed36061ccbce1005b051eefb5"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/gan/images/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/gan/saved_model/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/infogan/images/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/infogan/infogan.py": {
+      "bytes": 8640,
+      "sha256": "a73602b8447590d73fa34b1808bbefea42771be24c354f4fa76ff41e6d725255"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/infogan/saved_model/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/lsgan/images/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/lsgan/lsgan.py": {
+      "bytes": 5139,
+      "sha256": "4232e8a0ad9eef2bbbc6e95fba6c2142b11ba65cf2cc42de0bcf5e88c42a7b87"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/lsgan/saved_model/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/pix2pix/data_loader.py": {
+      "bytes": 2432,
+      "sha256": "50b67fd4255b5a3462d13be113c74c87b92da0ae7199e949f49d6ebb389b0a45"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/pix2pix/download_dataset.sh": {
+      "bytes": 263,
+      "sha256": "352231c99e5bb69321b7632249ace87e6fcb3ca1c9506c68b7c5e3d6d3aeb6ef"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/pix2pix/images/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/pix2pix/pix2pix.py": {
+      "bytes": 7997,
+      "sha256": "075491bb8061f07aad323766eafb5b21b5be3eea8a692d5ee684ed9b23b8a894"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/pix2pix/saved_model/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/pixelda/data_loader.py": {
+      "bytes": 3259,
+      "sha256": "0458a6e07c57820ff8f32e0c6a95788e56b7b3b383d884d0f97fd07f08717ab4"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/pixelda/images/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/pixelda/pixelda.py": {
+      "bytes": 8503,
+      "sha256": "d3103b66b1d19f42cbe44701396774e71b5d0bf739239b00c9aeeddb46e6e88d"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/pixelda/saved_model/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/pixelda/test.py": {
+      "bytes": 782,
+      "sha256": "dde497504c68e929b2f7b402f9778c1085b7301946a89de64df9168c6ef804c5"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/requirements.txt": {
+      "bytes": 136,
+      "sha256": "432ead2b71bc4e43c09fdb1c9e61fcd227a22c6a223621571370e94bd543d9c7"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/sgan/images/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/sgan/saved_model/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/sgan/sgan.py": {
+      "bytes": 7576,
+      "sha256": "abd91211ad29da5a5293c4fa71651354f2a450d126022444e4a0c31cf9b8ce77"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/srgan/data_loader.py": {
+      "bytes": 1306,
+      "sha256": "4c2f676370a1ddac9be33621f77af79f4d3f2a72400b649d362a9b516cda9967"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/srgan/images/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/srgan/saved_model/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/srgan/srgan.py": {
+      "bytes": 9955,
+      "sha256": "0d6796587ee1bfb72cd5d8dbd08541e49631bdec4f648608be9303230c5c6b3f"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/wgan/images/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/wgan/saved_model/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/wgan/wgan.py": {
+      "bytes": 6368,
+      "sha256": "99b4d58bf2101bd8e0ad9cc632dbef2e559d5965540b2b8695cbb119e7b66914"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/wgan_gp/images/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/wgan_gp/saved_model/.gitignore": {
+      "bytes": 13,
+      "sha256": "5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452"
+    },
+    "references/init_benchmark_v1/upstream/Keras-GAN/wgan_gp/wgan_gp.py": {
+      "bytes": 8958,
+      "sha256": "36ab263a1fb5fad7cf257d17d5fb5e4d1265821a427b16fee3d4118789e408e3"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/.github/workflows/run_ruff.yml": {
+      "bytes": 603,
+      "sha256": "5482894c4e2384243be828a39f157a46978eb73a3a8becb23446923d8891b7f8"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/.github/workflows/run_tests.yml": {
+      "bytes": 854,
+      "sha256": "a3b1f8c6b5024af20b008bfc24b3079fce5cbfb974db667d263b009abf56420d"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/.gitignore": {
+      "bytes": 3465,
+      "sha256": "b353c3d4438b44e02edb3fa4a7a61312d5d20083019081505e1a2cd740ca450f"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/CITATION.cff": {
+      "bytes": 2280,
+      "sha256": "c6d59c4f5d43fe6cd9a1ec6c0c78af8af873c5bdcebde4418dc2cfd8f73165df"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/CODE_OF_CONDUCT.md": {
+      "bytes": 5490,
+      "sha256": "45844b2a01074dc6a04c27155cc4b4b8ce681b1286a2a5c47ba67165ee8b866e"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/CONTRIBUTING.md": {
+      "bytes": 1805,
+      "sha256": "e7b8342821a7d22daba6b8e44310bcc6dd4e00c12884000e7af9e742c4d1e4ac"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/LICENSE": {
+      "bytes": 1507,
+      "sha256": "b23ac29c5c377dcf16cf0f9cb8d476e0c1c94ad29ded1b246ff32baff9dea6dd"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/MANIFEST.in": {
+      "bytes": 127,
+      "sha256": "1078eefaba91d296bc1fd897b355a9c2ab6eb55531b6f4be4b438f7fa95cd8dd"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/README.md": {
+      "bytes": 7970,
+      "sha256": "1320884ad49a4d2c6a03bca9b1024a7bd4c96e5d5f4417b00b5c1ab15713a119"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/VERSION": {
+      "bytes": 5,
+      "sha256": "92521fc3cbd964bdc9f584a991b89fddaa5754ed1cc96d6d42445338669c1305"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/data/download_data.py": {
+      "bytes": 3949,
+      "sha256": "9082fa5b75cdcff737ea4e7a4ceff04a744a484756d436f128f60c44c5445600"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/data/to/README.md": {
+      "bytes": 2257,
+      "sha256": "611ff0b9302b8ea6f9d378e89edb2c958d143e1b364945d9ccea6145277e85e1"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/data/to/test_ar.yaml": {
+      "bytes": 100,
+      "sha256": "b445e626473db5bf1309cb6eb32680c63d3b43811180a084f8a69f1c9d290085"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/data/to/test_cr.yaml": {
+      "bytes": 100,
+      "sha256": "8360cc4f92be99f2bee1699172bf9d18d68514184b5ce853b52462b05f03f768"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/data/to/test_cr_ood.yaml": {
+      "bytes": 104,
+      "sha256": "976e050a91f2284005fbdf164c5c956c2c95db0e4d08eca275e012ca13c83bce"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/data/to/test_id.yaml": {
+      "bytes": 98,
+      "sha256": "ab57d8c44deac705a75fb87d1f077f9cb5f24c71d00d27b669e779aef2363c3d"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/data/to/test_ood.yaml": {
+      "bytes": 99,
+      "sha256": "e3b8a305d394a7e07e1336409d289eb68c38aab461be66e60e873c0028ffddf7"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/data/to/test_single.yaml": {
+      "bytes": 101,
+      "sha256": "341c4289324cda5f4fb4e050481b22c0e2ac5302f3c54ce4aa9c4e376b760fe5"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/data/to/train.yaml": {
+      "bytes": 96,
+      "sha256": "c811ce9804d356bc9e114f123cc446ca0a68b69b4bd3a1eb9679437d2a17b987"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/data/to/train_low_vf.yaml": {
+      "bytes": 103,
+      "sha256": "428a4e25dabfd21e9def08fb5b0f68cf0971bfc35e8aa208351f840309550e60"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/data/to/valid.yaml": {
+      "bytes": 101,
+      "sha256": "266bf084128de8a783733d2281da372d8ae8be176abe41aef97e43534b435a0f"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/data/to_zenodo/unpack_all.sh": {
+      "bytes": 766,
+      "sha256": "34fdc8d2351054c97465e510f3f75041d6534ee7927bf0a795bab3fc1de64838"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/docs/Makefile": {
+      "bytes": 898,
+      "sha256": "c70d33b50ed09a65a9da83d6dc8c946fdc038500001606cb9dc559bbaa5b5085"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/docs/source/_static/metatopia_logo.svg": {
+      "bytes": 4822,
+      "sha256": "1a28aa030f9ce36c5772417a54eee66850c1b9d644120a1ff66d8d8c8b92cd2f"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/docs/source/api/dataset.rst": {
+      "bytes": 151,
+      "sha256": "0038376432e9e0cc6da1ac391162304ff4be41cb8b88887cef0ab2589b9611d7"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/docs/source/api/filters.rst": {
+      "bytes": 156,
+      "sha256": "0bbbb8f8373e152c234581af6ed0509ca9b695bcf04c639540cdc98852e1f550"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/docs/source/api/learners.rst": {
+      "bytes": 159,
+      "sha256": "8c853d21f8e06bc8d85beab54894f15ac1bd8aa935385e55cb09e31abde0b842"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/docs/source/api/models.rst": {
+      "bytes": 174,
+      "sha256": "a3f61c7e99e4217e0eeb11c6ccae83e30946c923fbb5137ca6dd64bede50d3d3"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/docs/source/api/solver.rst": {
+      "bytes": 167,
+      "sha256": "d33b95199b844f103b9ac912d61641c2ed7365d57b677b33f5bfee7512150b4c"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/docs/source/api/utils.rst": {
+      "bytes": 149,
+      "sha256": "836639d0baabd56426f21d067adf2bbe95497b40cd1e717459593c39c56864c5"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/docs/source/conf.py": {
+      "bytes": 2086,
+      "sha256": "7266197b463cf682a746d0f118b9d88bf7beeb8fcc2161ca7928d0529474d6ad"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/docs/source/home.md": {
+      "bytes": 3575,
+      "sha256": "f52323140e7e6e032aa67acf3f05e77429f34b1ec0eef9647ed50c0ccfa31523"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/docs/source/index.rst": {
+      "bytes": 440,
+      "sha256": "b5f878cc9c3e96b93b2a7a496ef296291a025e661366ad072260deb1c8d8e5ae"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/docs/source/tutorials/meta_learning.ipynb": {
+      "bytes": 78508,
+      "sha256": "64d2ad8eca9d288eac123cc9624f8c7a13defeb3718d28889ffcf2a811b4cae6"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/docs/source/tutorials/neural_topology_optimization.ipynb": {
+      "bytes": 85623,
+      "sha256": "25a7293f779af1369a5b583176996c07ce43552afc9ff1e685839ba561345648"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/README.MD": {
+      "bytes": 868,
+      "sha256": "82387d5f01f4d4dc579e248b9e65d6dd7af0167e7a4d27bc3c2ac5c0c30cef82"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/generate_datasets/README.MD": {
+      "bytes": 317,
+      "sha256": "3b3cfaf27b4ab92157311f8ff47b72d5e81ea5ef6ed3d6f6f88293ccde9dd45b"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/generate_datasets/conf/conf.yaml": {
+      "bytes": 263,
+      "sha256": "17bda176d56f54bda0a720065a66760d1487c3f7bfcde743bc0101e0df2eca6a"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/generate_datasets/conf/gen_ar.yaml": {
+      "bytes": 255,
+      "sha256": "9c175b0e674ac5c1a5807bf6f58eaf18c7cb5fec45ab9fa9312f828d16b67c8d"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/generate_datasets/conf/gen_cr_ood.yaml": {
+      "bytes": 258,
+      "sha256": "65c871040012e206e228ad9cbbbdc026e8b4edaa118804f95d6662c11c7b5b24"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/generate_datasets/generate_dataset.py": {
+      "bytes": 4255,
+      "sha256": "db97460179f3d5080043b9b9ee12ecbdd05710301f42bcd30d5743e9c9f911a0"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/generate_datasets/rsync_datasets.sh": {
+      "bytes": 441,
+      "sha256": "9caaf9a996847316e82208e49be3c6ffdb2f8f3d724229582ea4a0479effba74"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/generate_datasets/slurm/generate.slurm": {
+      "bytes": 683,
+      "sha256": "5b44927ea0c6e2e354c9765bf69d462a1f2f57174af6770cff2f486ab6b7bccf"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/generate_datasets/utils.py": {
+      "bytes": 10613,
+      "sha256": "ebcb25fccc6513826007669e6be96aec45521e9be5f6f35eb75f03f247cb6e8e"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/benchmark_timing.py": {
+      "bytes": 11167,
+      "sha256": "6e30689185e5bf230fa7dbdef6f4bdc34103d16c06bc276de4e8e83c268e5cc1"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/common.py": {
+      "bytes": 7127,
+      "sha256": "b933980aef96c420571c350b86a9d0813127a6e0c186ecf94b2b298d3d3dacfc"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/conf/base_model/cnn.yaml": {
+      "bytes": 112,
+      "sha256": "12697c69294d8ad76b7d1b48f20dc2697122dac2a8c847254a4307434905f29a"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/conf/base_model/latent_modulated_siren.yaml": {
+      "bytes": 228,
+      "sha256": "82ba0b4d52de996e558ca0d81057898b99ee431de9a8696ef8e18658c7134364"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/conf/base_model/latent_modulated_siren_conditioned.yaml": {
+      "bytes": 227,
+      "sha256": "2a88c522c903a6443df54c1ed12aa053055c1474b75b2471db0da5e661959465"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/conf/base_model/modulated_siren.yaml": {
+      "bytes": 205,
+      "sha256": "9bc2c3a6d4551319230540a6c7a6bb57a392c14a048b6c7401d9a179c56c1226"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/conf/base_model/modulated_siren_conditioned.yaml": {
+      "bytes": 205,
+      "sha256": "1aa8389e219e04045ce0ccf19da59f60ec4114631bf4beb39d67bdae96d83fae"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/conf/base_model/residual_siren.yaml": {
+      "bytes": 190,
+      "sha256": "88092802dae26ea12fe516f8a62f3464aaa967ed1f7e54e912e108fba5de776c"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/conf/base_model/residual_siren_conditioned.yaml": {
+      "bytes": 190,
+      "sha256": "f06e74541249f3283ff94dc4770663423f0de82cd67d040eb813ae19c74a8c5f"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/conf/base_model/siren.yaml": {
+      "bytes": 154,
+      "sha256": "745cc39b3cb8d09f90cdf115fe8ebeadcef48cedbea9b4d0c647858c3ced5805"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/conf/base_model/siren_conditioned.yaml": {
+      "bytes": 154,
+      "sha256": "ba8bf099223adcf23cb7e255b2f28018ca0e33815b34511ee8a553e78af8b2e9"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/conf/dataset/test_ar.yaml": {
+      "bytes": 22,
+      "sha256": "0be870aaa4a53089f6445c73d38d195a5f2ff399dd2a85919b0567bc54888680"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/conf/dataset/test_cr.yaml": {
+      "bytes": 21,
+      "sha256": "293b4be3ce3ac657a32713bb1ff513f20ea9530464c9627c90e01f674eb3b99d"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/conf/dataset/test_cr_ood.yaml": {
+      "bytes": 26,
+      "sha256": "909423809a34d89cacb5ba64a8e101ae2e005f000d302b07042168cc392a754a"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/conf/dataset/test_id.yaml": {
+      "bytes": 21,
+      "sha256": "650a39c64372391f3bac37e021104c0cb2e276b43b744a39c9cf0bb3c577a6ca"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/conf/dataset/test_ood.yaml": {
+      "bytes": 22,
+      "sha256": "6ca7eec677cf62d2ffe72bc6cddd52e8ef4b12678ebe103864b4bdf4b7dd97d0"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/conf/dataset/test_single.yaml": {
+      "bytes": 25,
+      "sha256": "7917de7edc0a6c83eacdfefb691201df4d7406099064149dff745f36e1b0d06f"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/conf/dataset/train.yaml": {
+      "bytes": 19,
+      "sha256": "10ac9175a357ae85104a2c6c5556cdb845fca6b6c383b34460a9d5076da5271d"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/conf/dataset/valid.yaml": {
+      "bytes": 19,
+      "sha256": "06ff5652c1cb56b7be8843dbba80b36e9ea023dc5fb036732c5da44762d54ee7"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/conf/hydra/default.yaml": {
+      "bytes": 146,
+      "sha256": "be12d976c723ee7a16c02ff184dd398db4caf5fc3062c268afc3cd47cea39326"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/conf/meta_test.yaml": {
+      "bytes": 1654,
+      "sha256": "8a2a2e60d1087ee2825532745160739f0f50345c467f0b3d07f9477378211fd5"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/conf/meta_train.yaml": {
+      "bytes": 947,
+      "sha256": "64b43cca453d19dc97a060a2e1cb97a47a65ee8e7095a9e592cf7d83865e144c"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/conf/top_opt/default.yaml": {
+      "bytes": 81,
+      "sha256": "36075122caf3bdc19dc5e4736c99da35fac9629efc2370fc60bb3bdd1982a64e"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/loss_landscape.py": {
+      "bytes": 16433,
+      "sha256": "0cfe4565e4446d66426325abfd60a7e365a80e085aa87781dd6e00b9c2394405"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/meta_test.py": {
+      "bytes": 11390,
+      "sha256": "bd66532784f94a103272d6754075bc7c5435978d87995a9cf5629dc530c3b2a4"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/meta_train.py": {
+      "bytes": 6050,
+      "sha256": "873843b7e51d39a98f683144bc9d2bb4cd4ab9048e36e7d5bb474e2bab704d76"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/mma.py": {
+      "bytes": 7430,
+      "sha256": "f032c52bc233d2e1d26e4913ab22da013b30e5570685986c44f31bc2e1ae564f"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/optimize_random_tasks.py": {
+      "bytes": 7787,
+      "sha256": "47e43c729aa7c274e7ecad5ee67269991feab6faa927a9de54f653c19ccb0be5"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/post_process.ipynb": {
+      "bytes": 192590,
+      "sha256": "b237fb021d151ce15bc8fefaf953e6ec2f6ef352667840bc108ef51500f8f3f4"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/post_process_utils.py": {
+      "bytes": 10314,
+      "sha256": "dc3a02c1b48af3df6637876da7d7be02e7469817dab4a3e093b6e22b7e38c74c"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/pretrain.py": {
+      "bytes": 2902,
+      "sha256": "078f32fd60dc40bfc7f24c493e8d0214a0625360512c3b55329ee7f8765ae2bf"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/slurm/benchmark.slurm": {
+      "bytes": 584,
+      "sha256": "b0fc386ce65b8af843d233d232ffcc913073a7e526ddcdf9a5660f4b90c93a80"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/slurm/mma.slurm": {
+      "bytes": 563,
+      "sha256": "f020365741ba4b704fa4f4baa6b6c11caff4250e68bfc2cd45b21cc96f73bf85"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/slurm/multi_mma.slurm": {
+      "bytes": 1475,
+      "sha256": "33da0bde3ecaa2303b7fe5d04da6852028ffbd8d36796dcb8f2ff5b9ee9a05ae"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/slurm/multi_test.slurm": {
+      "bytes": 1482,
+      "sha256": "1b6709bc8c8a280dc39f8d4c941b98fa1ac0ca11c9480e3b8f14451a23322697"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/slurm/multi_train.slurm": {
+      "bytes": 589,
+      "sha256": "9c3aaac0b5498cf6739f2c16891a2cc038672d24ba28984ee1c43e44674e6361"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/slurm/test.slurm": {
+      "bytes": 570,
+      "sha256": "220053c7237abe0f74bb1dd4e9f04e2fe9694eb94adc1102ceb468dbb383a9e9"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/meta_neural_to/slurm/train.slurm": {
+      "bytes": 572,
+      "sha256": "4433bd22acca8997778fe2cc01118299a83c6638c4d0f9e6457e8b437e8c84b7"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/neural_to/animations/optimization_trajectory.gif": {
+      "bytes": 917102,
+      "sha256": "a9286048b2641fb82df5b49825440999ea1befe50095d64bcb91aa048eaf8c60"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/neural_to/conf/conf.yaml": {
+      "bytes": 1064,
+      "sha256": "76f6ccd432738ac346ef52167372dab0f9ac357a500581b9ff3e1f1168772715"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/neural_to/conf/model/cnn.yaml": {
+      "bytes": 150,
+      "sha256": "7de75ac94cf5827502816342d739c81423ebb3fe799bdf1131f83431b9c73608"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/neural_to/conf/model/fourier_mlp.yaml": {
+      "bytes": 194,
+      "sha256": "98ca66d21cee35ac59a2845e8a35acd6de2cfe328d54b2f4513c8ed3aa220dc2"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/neural_to/conf/model/latent_modulated_siren.yaml": {
+      "bytes": 254,
+      "sha256": "8a61b094f644dc2f05f06e0d1425c79c115410ded07e9f33844a62706bb10be2"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/neural_to/conf/model/modulated_siren.yaml": {
+      "bytes": 234,
+      "sha256": "4804b28b474acec6f2b2d8a451907d66564a03e9dc8a705ac9f2dff5a737a0cb"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/neural_to/conf/model/modulated_siren_conditioned.yaml": {
+      "bytes": 234,
+      "sha256": "0575a84a94eb91fbcd42f3a271b296b92e75d820215456a3b7039e4dbb9bf323"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/neural_to/conf/model/residual_siren.yaml": {
+      "bytes": 218,
+      "sha256": "54140efd2054fb64a35499db864edcfcac2b24aab52c63704b7874a0120ca874"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/neural_to/conf/model/residual_siren_conditioned.yaml": {
+      "bytes": 218,
+      "sha256": "c1cbae5d6c351e548bfdcc8ff6c74edfdfe8c271895650a35a240631e463ed1c"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/neural_to/conf/model/siren.yaml": {
+      "bytes": 182,
+      "sha256": "dc85d6f3da13179e702e5ce0e0afe280e47ceb131942175675b39b40ad845bd2"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/neural_to/conf/model/siren_conditioned.yaml": {
+      "bytes": 182,
+      "sha256": "1128c35fca5bbe29b120915d516ed5da946fee74745729f31b638e2f4895d5a1"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/neural_to/run.py": {
+      "bytes": 7294,
+      "sha256": "ff9fcdb700b72f50ceb9036a19c41a0fbc180786449624911df02e2fbaafaf13"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/neural_to/visualize_loss.py": {
+      "bytes": 4921,
+      "sha256": "63bf77cdd147ced5b3f2fe3586b22254c99462f7954371ffad994c5076c46878"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/sine_regression/conf/conf.yaml": {
+      "bytes": 793,
+      "sha256": "a23a28593695cdafbc1c765e6b7e367ddaf6b42cd42a98083c6c2b2e900ed4d7"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/sine_regression/plot.py": {
+      "bytes": 2260,
+      "sha256": "b4425c1ae0cfc89f97b0320e2fd69bc1065c2a8c6740756fc824c885dd3370d6"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/experiments/sine_regression/run.py": {
+      "bytes": 6362,
+      "sha256": "0dff199cf1dfaf1dd20d605148ed13ca387d6123ed0937d920f54a42cf963e83"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/__init__.py": {
+      "bytes": 538,
+      "sha256": "147c7899b9a0da1d1a88bf1b0daf6e80573e15767eebf3974525ebb3827dd497"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/__version__.py": {
+      "bytes": 22,
+      "sha256": "27e8febb48ada44153ea2add9969a2c50a9831a74d9755fdd53c549a888b1cc2"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/_custom_types.py": {
+      "bytes": 407,
+      "sha256": "625fb2e3569b2cc60cce58eadaefdf86874760867ad46c48ebdf140efdaf5a51"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/_src/__init__.py": {
+      "bytes": 68,
+      "sha256": "e6546508be0b57975bbc2572a7bf31638fff90300bbf4adbd39fe976a2b6c189"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/_src/logger.py": {
+      "bytes": 797,
+      "sha256": "78b58627bc2fe2b730810b09b04b9aef5564afbc7fc7cd99b820c429ec752613"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/dataset/__init__.py": {
+      "bytes": 228,
+      "sha256": "10da29a0c859100919d1f7f4128bd4860f2826e33027e8662d483dd3bc21b3f3"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/dataset/common.py": {
+      "bytes": 2170,
+      "sha256": "5cd053374da8846ddfa96872796c44f2444f5a5f82e9f572549d30e05803a216"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/dataset/sine/__init__.py": {
+      "bytes": 73,
+      "sha256": "16ba25f1b6027902f19f4304aee1536ec154ad81afee5e69fc06bd37ab817e71"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/dataset/sine/dataset.py": {
+      "bytes": 2556,
+      "sha256": "21c6edd2d39a812759526d5c137b60db246ec482bcc0dc5c6b1fa9807db70bab"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/dataset/to/__init__.py": {
+      "bytes": 335,
+      "sha256": "16dd54dc34b9352b5e0a9c98ac2a45817d9f91a6d9b6016a8d3c5b32602dff41"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/dataset/to/dataset.py": {
+      "bytes": 2263,
+      "sha256": "276fa2d1fc58a28b3820b916b8aeeba03360048151ede5bee61da84491130869"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/dataset/to/validation_problems.py": {
+      "bytes": 2521,
+      "sha256": "3db285ff7d81febe34750ff6ac8708957691d5f6bd0065057f8aaf2eee21051f"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/filters/__init__.py": {
+      "bytes": 484,
+      "sha256": "3d39d16b9127f01041709f1b06a82f49e8a0dd2dac2132b4b9bef84a60253578"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/filters/filters.py": {
+      "bytes": 6715,
+      "sha256": "1e45da8ffe908146b2a791f76db3e3149e67f87bab1407ca7ea7c166a17dd3ad"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/learners/__init__.py": {
+      "bytes": 354,
+      "sha256": "41f0b2c38ec9c029f07b2a5cc76e0a5f76063fa41a9fc77f32fe465857206ff9"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/learners/base_learner.py": {
+      "bytes": 15534,
+      "sha256": "bf48bbb31d7c9657bf6a9684f43580942e8968fb4862fcd83cd2a33ad25b279f"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/learners/maml.py": {
+      "bytes": 8208,
+      "sha256": "1817a1c4d36a4e6a8a91a00d1f9c228a6635432ff113700f53d5317c2e5a303b"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/learners/reptile.py": {
+      "bytes": 7554,
+      "sha256": "3d1714db32d53736a7aea6f90f384cccd4cc9c3d044b3cb515a2fa9e80a4aff0"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/learners/utils.py": {
+      "bytes": 4766,
+      "sha256": "cc596e0d8131d48a29c5617e21c8078cd04dad72a2b6bec0480cd72eb06e9c42"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/models/__init__.py": {
+      "bytes": 587,
+      "sha256": "289dbf33d0f749862b5830ae8022cae5c2d6feedc47e57f704d5eb8c677d5c7d"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/models/cnn.py": {
+      "bytes": 8773,
+      "sha256": "88572d5b9d814748950ef09b9aa1e7ebe8feed52d62abc6ddb05f0005393e44b"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/models/context_mlp.py": {
+      "bytes": 1862,
+      "sha256": "64f490c49b80c76bff7576488ea74849e115fa268bbeee34db690b236897b9fc"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/models/fourier_mlp.py": {
+      "bytes": 3207,
+      "sha256": "bdd928d265d43d811431bb802061c0f804136ec5fc32dce518eeee3d1ff3831e"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/models/siren.py": {
+      "bytes": 22347,
+      "sha256": "203ff9ff2ef1e30a70d38340d5551616c5357ad611a17f89c6757f0d8f4bc854"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/solver/__init__.py": {
+      "bytes": 234,
+      "sha256": "6ef9595b671b9f265ba7d78a5f23b5449668cf40c3604a7c23f6052a0168ee5f"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/solver/fem_cvxopt.py": {
+      "bytes": 12433,
+      "sha256": "9e8e533a9f23089018e46cba894000a87223dcd039fad02b136691ae4b110919"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/utils/__init__.py": {
+      "bytes": 946,
+      "sha256": "e5a739895baea1289affa75c2045ad26759b72a924dda67c5959689f0880d74c"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/utils/misc.py": {
+      "bytes": 3196,
+      "sha256": "a88e3af0abd2192879bb6ee45a1fa1b613dd30c8dd18747f0b7194b922f496cb"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/utils/plot_utils.py": {
+      "bytes": 14945,
+      "sha256": "3b2e8401bdcc034c0956067bd21f1a157d5d3806f2709d1e5014c99d93b6a579"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/metatopia/utils/tree_utils.py": {
+      "bytes": 3026,
+      "sha256": "9434688e93daf6c5a854deb8a47adf765b836d643ee4a4a78b8fe84216b039d5"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/pyproject.toml": {
+      "bytes": 440,
+      "sha256": "01aa175edba4bf3c3c39c69b5b7331512bb4313f4d8e3fdcdc4e59c730fccb54"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/requirements-paper.txt": {
+      "bytes": 693,
+      "sha256": "9a3430f757f73aff0d2080f6d92eb9e80601c9e718aa8b110a9525ad0311c208"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/requirements.txt": {
+      "bytes": 644,
+      "sha256": "be95206eef54ceca61d892d6ffa600ccfaa0f7d64af46f7f14fd9aeb01e2750e"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/setup.cfg": {
+      "bytes": 2286,
+      "sha256": "dba36abbe491d0a70fff720a25b32e713d5cb65606cdb641ad976a95beab49a2"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/tests/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/tests/filters/test_to_filters.py": {
+      "bytes": 3860,
+      "sha256": "7133e89f08914b9493b28e8e1fbe5ea877686058ce7234116f23d180ff5b4ae0"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/tests/learners/conftest.py": {
+      "bytes": 1505,
+      "sha256": "db7afdbab27387999297cee74ff2a7e5f5a64ba68d10ce8a8be781d7363c1be7"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/tests/learners/test_maml.py": {
+      "bytes": 8037,
+      "sha256": "540b0ba46f3913ca4f8e5ce2106d91889e793aaa6c107c3c8475bf90c324076b"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/tests/learners/test_model_filters.py": {
+      "bytes": 3251,
+      "sha256": "789b6c9fce2ac07c4050d797856dddb8b2f0904c91f49fe9ba7574e4685a36c9"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/tests/learners/test_reptile.py": {
+      "bytes": 6741,
+      "sha256": "0de2bb86b5c53ab4b9bbdc22107f28bb41cfeaa683245922ce0c91bc7aaf91c8"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/tests/models/test_fourier_mlp.py": {
+      "bytes": 3786,
+      "sha256": "ec93558d1b0a8d4df9aaa44a88394822218eb8388e081e2bdef11cd72428b882"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/tests/models/test_sirens.py": {
+      "bytes": 9007,
+      "sha256": "f71b72538c66cdf3084794f694ef659526ca99579f21aa56bee76fe1d25f0a13"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/tests/requirements.txt": {
+      "bytes": 18,
+      "sha256": "7166dc7f01bdc96a24be0db2dfb9e91241d0b3eaf3eef2bf65294be3ccdf2235"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/tests/solver/test_solver.py": {
+      "bytes": 2487,
+      "sha256": "fab128e06baa5e76975f4f97ea4542b5031392bba05c255639d2d4e96cfa866f"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/tutorials/meta_learning.ipynb": {
+      "bytes": 76871,
+      "sha256": "9e54cd766928361815cd0bdcb4c5987448d2e8a4252842cfcdba3f9feceaff3a"
+    },
+    "references/init_benchmark_v1/upstream/metatopia/tutorials/neural_topology_optimization.ipynb": {
+      "bytes": 162669,
+      "sha256": "5a9f50c399ff60aaa5f80712e4d640c91f277552361448dcc2eef9f28270ab5a"
+    },
+    "requirements/cudss.txt": {
+      "bytes": 149,
+      "sha256": "5a026e28cbd4aa3c89c792880e89f43d240f4abdf6331088d691fc8c698881a5"
+    },
+    "requirements/jax.txt": {
+      "bytes": 196,
+      "sha256": "23874820a75b5633a0ce515705d300cff8970b3446e140827558dc93cc2d0994"
+    },
+    "requirements/main.txt": {
+      "bytes": 133,
+      "sha256": "e5af157fc2e4a109055d59a901459bcdd87b24f4bfb59cae4632035326514f36"
+    },
+    "scripts/__init__.py": {
+      "bytes": 63,
+      "sha256": "51b8068a51f67fb45c40a2167951740b3844484ce295634d4fb3e74056d23a2f"
+    },
+    "scripts/analyze.py": {
+      "bytes": 52254,
+      "sha256": "0837ff60f80c3ff5bdf4ce2148d173e6749ea37fd33b5672f20fc6e02c5365ec"
+    },
+    "scripts/export_results.py": {
+      "bytes": 4817,
+      "sha256": "60deb0931ceb5fb54477e32e20432a80cbb83ece50735eee957129a9d217ab0f"
+    },
+    "scripts/fetch_references.py": {
+      "bytes": 815,
+      "sha256": "fb46cbb97b7fa2280802ee96fb774c612eb525cde2b3a4ba5118f3dfef9b609e"
+    },
+    "scripts/import_return.py": {
+      "bytes": 2488,
+      "sha256": "e3d073eb4b6948decf1b4f6798cd7682502974b00c866b965f3fdd0862cac5d7"
+    },
+    "scripts/preflight.py": {
+      "bytes": 3032,
+      "sha256": "7ac52821670ec28bb14c30f8fdba69c5279497b41bb0da753dc002d3f7ee912e"
+    },
+    "scripts/prepare_data.py": {
+      "bytes": 2753,
+      "sha256": "5ad28eaa109f075f7581d1d57e0c2d6ad61f93d381f51e77bae1347c51fa846a"
+    },
+    "scripts/runtime_parallel.py": {
+      "bytes": 1185,
+      "sha256": "bb7c99774fe8c6b8bce080633dd7df84e659e87e0ed231f242365324195da3ef"
+    },
+    "scripts/setup_env.py": {
+      "bytes": 4551,
+      "sha256": "6e2217b783f4183c400540a5dfff4d64174b36ff6d1580cd0083b279ab90d0b0"
+    },
+    "scripts/stop_run.py": {
+      "bytes": 1390,
+      "sha256": "a74f5e3d07069af852e292b5d281547a2a9bf380b8dbc0c388afbd97d15d9c35"
+    },
+    "scripts/verify_native.py": {
+      "bytes": 4072,
+      "sha256": "6acd564e360018f275d136619b68f7306a6b988eac3b10fa72fec2ea5755a402"
+    },
+    "scripts/verify_oc_resume.py": {
+      "bytes": 3166,
+      "sha256": "c829a5df665db02d9de980cafb82bce02cb12e26a81a01ada507a56d52ca3704"
+    },
+    "src/initskill/__init__.py": {
+      "bytes": 80,
+      "sha256": "95149b7f95c68e248385a4d1f3fd20e2fc230b650c17c331f8ad488a6247f27e"
+    },
+    "src/initskill/locking.py": {
+      "bytes": 1219,
+      "sha256": "7acc55ac07278efe6e06d64ec279a58b0352a642559eed3e5744c2be021cc5e9"
+    },
+    "src/initskill/methods/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "src/initskill/methods/benchmark_init_v1/__init__.py": {
+      "bytes": 211,
+      "sha256": "3fb87ff7d863850be2fc2e76903fda405428f1bbd08f9b8eb3b1dbcb51356112"
+    },
+    "src/initskill/methods/benchmark_init_v1/assembly.py": {
+      "bytes": 1763,
+      "sha256": "dd7cebdf32a5ec317e310dc8cc5cf5cf49babbd7ecb52a1b8a412ed6f796bef1"
+    },
+    "src/initskill/methods/benchmark_init_v1/campaign.py": {
+      "bytes": 15709,
+      "sha256": "6749012d9530f34b6c0114e2d61e36a9ac2d1186f372e744ad0bd64079a14b6d"
+    },
+    "src/initskill/methods/benchmark_init_v1/cnn_cgan/README.md": {
+      "bytes": 499,
+      "sha256": "c1c38bfd78f8672f0cf14b7933e2c00a6a83178ecfd6bcb367b73ebb761239d5"
+    },
+    "src/initskill/methods/benchmark_init_v1/cnn_cgan/README_zh.md": {
+      "bytes": 549,
+      "sha256": "4aa6d2992714359392296264b974befecdb05830b63af0b8b734776db38ac374"
+    },
+    "src/initskill/methods/benchmark_init_v1/cnn_cgan/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "src/initskill/methods/benchmark_init_v1/cnn_cgan/core.py": {
+      "bytes": 8432,
+      "sha256": "3ce3d45495528427e840a3d2927acefaeab69c7839d5347c4c5e5aaa810c3087"
+    },
+    "src/initskill/methods/benchmark_init_v1/cnn_cgan/pairs.py": {
+      "bytes": 3160,
+      "sha256": "73ff3d0f0ac2d734a944d43808c8ad2a7de82821d57d749cfaed2da1ae75f774"
+    },
+    "src/initskill/methods/benchmark_init_v1/cnn_encoder_decoder/README.md": {
+      "bytes": 612,
+      "sha256": "bca9ea4d5a3c247a73fa4e3763662578310ea791a9d2a236806698e83dee85bd"
+    },
+    "src/initskill/methods/benchmark_init_v1/cnn_encoder_decoder/README_zh.md": {
+      "bytes": 518,
+      "sha256": "4b7c1b10f2e37a54e78627d7398c1bafbf5d8c825b3c3c1a42ee11497e681821"
+    },
+    "src/initskill/methods/benchmark_init_v1/cnn_encoder_decoder/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "src/initskill/methods/benchmark_init_v1/cnn_encoder_decoder/core.py": {
+      "bytes": 7316,
+      "sha256": "cba3742b150605b7b14359cb123d22799cec2fdf4084e31773b18810121d8c65"
+    },
+    "src/initskill/methods/benchmark_init_v1/common.py": {
+      "bytes": 15839,
+      "sha256": "cecfbeb787334fc976d10a9eca5de839abb587e7b6a986e31874eafa6a2bb8dd"
+    },
+    "src/initskill/methods/benchmark_init_v1/convergence.py": {
+      "bytes": 5516,
+      "sha256": "3e0efd6f568e11bacdb0c6b52910895dc32ca1dbfb8ab786edfbef3cfb40151e"
+    },
+    "src/initskill/methods/benchmark_init_v1/early_trajectories/README.md": {
+      "bytes": 607,
+      "sha256": "0d503b0d56c2a6680c74f30c8a34d72bea58727a8fb540ed9556c6951aca6249"
+    },
+    "src/initskill/methods/benchmark_init_v1/early_trajectories/README_zh.md": {
+      "bytes": 491,
+      "sha256": "38b9e771c82a8e78c464a3c2f17d2e05b60518e4f16b1a879a6d8da34f0f5580"
+    },
+    "src/initskill/methods/benchmark_init_v1/early_trajectories/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "src/initskill/methods/benchmark_init_v1/early_trajectories/core.py": {
+      "bytes": 519,
+      "sha256": "3d130b08677ac7bf21b1838c0f351306c6032015104c748ffe2107648aaf655a"
+    },
+    "src/initskill/methods/benchmark_init_v1/early_trajectories/run.py": {
+      "bytes": 200,
+      "sha256": "a692127ddd7f8ad3c67b701807d5b98061dc12869e25b3b69a8dbb9143e75af8"
+    },
+    "src/initskill/methods/benchmark_init_v1/filter_cache.py": {
+      "bytes": 2429,
+      "sha256": "e9d079553295931bc844e9a7b5ed3b7c511619d42134876ad1ceee90f5ca1d37"
+    },
+    "src/initskill/methods/benchmark_init_v1/gpu_filter.py": {
+      "bytes": 3269,
+      "sha256": "b378e8bcc9e6a7c2cc9d9d0ca545acee39495b89f62adf5e2734eb8f5284a1fc"
+    },
+    "src/initskill/methods/benchmark_init_v1/gpu_sparse.py": {
+      "bytes": 2733,
+      "sha256": "476893ee630f62afc00dc611968ef07632ac93867d19045e4215d16d6b8d97f3"
+    },
+    "src/initskill/methods/benchmark_init_v1/knn/README.md": {
+      "bytes": 1378,
+      "sha256": "a053628e28fc813dbd1cff31d0adf91b7cedf64c06b744591f96bb4b18c7bcc7"
+    },
+    "src/initskill/methods/benchmark_init_v1/knn/README_zh.md": {
+      "bytes": 437,
+      "sha256": "db4484d6dd8e992334860ed18e7427f77c9b039750519d448a8b900293b5ceba"
+    },
+    "src/initskill/methods/benchmark_init_v1/knn/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "src/initskill/methods/benchmark_init_v1/knn/core.py": {
+      "bytes": 1796,
+      "sha256": "6bf90018dccd5132c9b7b70529510acbae72d332e065efcd082b76678ada9a2c"
+    },
+    "src/initskill/methods/benchmark_init_v1/meta_neural/README.md": {
+      "bytes": 600,
+      "sha256": "e880b3dfdba05881e1026932fe95dd336dc82ec38dae579bc00d65f1eaa79c5e"
+    },
+    "src/initskill/methods/benchmark_init_v1/meta_neural/README_zh.md": {
+      "bytes": 524,
+      "sha256": "ac4233951287a39c101f2c0126e0cb59a8683baff32c93415a51d9b96da380e4"
+    },
+    "src/initskill/methods/benchmark_init_v1/meta_neural/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "src/initskill/methods/benchmark_init_v1/meta_neural/adapter.py": {
+      "bytes": 969,
+      "sha256": "85396d6454830aaa858504e33b3a470f2ee0ba2e73b20cfe5db3812e1b58fe4d"
+    },
+    "src/initskill/methods/benchmark_init_v1/meta_neural/checkpointing.py": {
+      "bytes": 4643,
+      "sha256": "e2e45fd2773bb626fb916d489fed69d72d2d97257c5cc9b0416daf48fef36dc8"
+    },
+    "src/initskill/methods/benchmark_init_v1/meta_neural/core.py": {
+      "bytes": 13016,
+      "sha256": "d26613eb5a01ff75b30d72987dba81f39e77299b01456ef837be415a6dbd5746"
+    },
+    "src/initskill/methods/benchmark_init_v1/meta_neural/export.py": {
+      "bytes": 2854,
+      "sha256": "5e2f73dba20fd04b6459b9c87e830c0fb256358a843b98b466734cc26d550369"
+    },
+    "src/initskill/methods/benchmark_init_v1/meta_neural/verify.py": {
+      "bytes": 2858,
+      "sha256": "3429be1c5a0f05ac38f6cb24cc38af29eaf53b4b1c1e7ff887d0465b6995582c"
+    },
+    "src/initskill/methods/benchmark_init_v1/pca_common.py": {
+      "bytes": 596,
+      "sha256": "c1b9637ee31392df73b9edf2c058c31eeb394c4ef81ef400432e6cc766e01fe8"
+    },
+    "src/initskill/methods/benchmark_init_v1/pca_python.py": {
+      "bytes": 531,
+      "sha256": "83ca4efbc8b60675c54c916314fa84c25afdb3a9165f9d1fd9b7533fc15cb587"
+    },
+    "src/initskill/methods/benchmark_init_v1/precision_fem.py": {
+      "bytes": 4928,
+      "sha256": "84da4ba79a844211be6ae641d03b94f401b70b8f89ad89bdf13f97c847c2df81"
+    },
+    "src/initskill/methods/benchmark_init_v1/resources.py": {
+      "bytes": 2741,
+      "sha256": "574af485eff6101fbcbf91f9bc506bd57605fefe63599002da73f560528396c1"
+    },
+    "src/initskill/methods/benchmark_init_v1/run.py": {
+      "bytes": 6640,
+      "sha256": "a76502a907d388b518f1c32f7e8950048f94ad09575d01f37642975c6b64dc9e"
+    },
+    "src/initskill/methods/benchmark_init_v1/scope.py": {
+      "bytes": 1241,
+      "sha256": "44a08260883f20e28d3623b4614b9764b1c9db1b1e5bb0ae106ea2b7e6207fe9"
+    },
+    "src/initskill/methods/benchmark_init_v1/supervised.py": {
+      "bytes": 3751,
+      "sha256": "03aef4c6bdb2dd3012bccb88c85e69a01f4628f8ac6cf239e255fac4b18ccc59"
+    },
+    "src/initskill/methods/benchmark_init_v1/training_device.py": {
+      "bytes": 1189,
+      "sha256": "cc15ac702d6d1e0f28b320ab2199dcfaa4fa9fd0a92b0b73782df8ba68aabba6"
+    },
+    "src/initskill/methods/benchmark_init_v1/ulu_pca/README.md": {
+      "bytes": 597,
+      "sha256": "eea07e711a6eda3fd9658ab5cd57fa8427732e5110e114c43c881115cf276b7b"
+    },
+    "src/initskill/methods/benchmark_init_v1/ulu_pca/README_zh.md": {
+      "bytes": 490,
+      "sha256": "3af605ffc25120ac9bbe939fab76374b8cc88eef04db9be1f60bbbb5f7a64115"
+    },
+    "src/initskill/methods/benchmark_init_v1/ulu_pca/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "src/initskill/methods/benchmark_init_v1/ulu_pca/core.py": {
+      "bytes": 5025,
+      "sha256": "a7c202b7dd6472a3156e8a654457bdf95f89d3cbee3a60eb5831f886e534d618"
+    },
+    "src/initskill/methods/benchmark_init_v1/ulu_pca/optimizer.py": {
+      "bytes": 1554,
+      "sha256": "f8f9884a9e623a3ffd8d4beeb68dcfc230bec9aef4b2a874a1438f02bea582bb"
+    },
+    "src/initskill/methods/benchmark_init_v1/verification.py": {
+      "bytes": 4842,
+      "sha256": "f790708932101b3be6a951b0dafab2e85cae306fc631cc66fc82ca02c37889d6"
+    },
+    "src/initskill/methods/benchmark_init_v1/wang_pca/README.md": {
+      "bytes": 609,
+      "sha256": "9b9a74cd0087e828b2e33c8713ddbcbd8659512ceca7b775aa326ef9c7f0a314"
+    },
+    "src/initskill/methods/benchmark_init_v1/wang_pca/README_zh.md": {
+      "bytes": 511,
+      "sha256": "a195246d13f09d8e57e7b96bc2f3708b505ee93762c556071708c20592e30503"
+    },
+    "src/initskill/methods/benchmark_init_v1/wang_pca/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "src/initskill/methods/benchmark_init_v1/wang_pca/core.py": {
+      "bytes": 5088,
+      "sha256": "31cbb29f3c6f1a6954ae1e27636ea88633477bb7158af336a3d6bc4e0f5efbc9"
+    },
+    "src/initskill/methods/benchmark_init_v1/wang_pca/optimizer.py": {
+      "bytes": 1722,
+      "sha256": "95a57b767fdbe7d9f34297402514514a8d70fc13d7c11a5b6af8a5240f4add1d"
+    },
+    "src/initskill/physics.py": {
+      "bytes": 7640,
+      "sha256": "cb51661381f65c164ee5a6dcf8ee6081c49d071cf91807263a7a897be5caf73e"
+    },
+    "tests/fixtures/windows_initial_failures.npz": {
+      "bytes": 15097,
+      "sha256": "ba31bed7ea40d68ef6ee0a90d6e186032aeec29549565b135075f5224a6b6b7e"
+    },
+    "tests/test_decimal_refinement.py": {
+      "bytes": 1231,
+      "sha256": "1e250c8a684431eb9445191ea4440e98b953a9ae2607e28ad82b61ae7b9a1f6f"
+    },
+    "tests/test_execution_scope.py": {
+      "bytes": 4197,
+      "sha256": "348d80fe45776a42f49f970407e794ecce9cd664506a14fb4c05e4d76b0793f6"
+    },
+    "tests/test_file_locks.py": {
+      "bytes": 1398,
+      "sha256": "367c0375b3ef1a0107c7d5241fa25264529968c42765e3256fa03d6f1a47408f"
+    },
+    "tests/test_model_budget_audit.py": {
+      "bytes": 1433,
+      "sha256": "3d6878805f642e1d2f54d868469d47eece60399040b405c3f00a48ce480804be"
+    },
+    "tests/test_protocol_transport.py": {
+      "bytes": 1137,
+      "sha256": "5ac46fa8325665c3b19b1c1453bdad61a5fc6983caaad8e2337440d6e0f62cd8"
+    },
+    "tests/test_trainer_io.py": {
+      "bytes": 2983,
+      "sha256": "345992e5c9fae0e60d4c23ba29d7cd2cad0b514d729dd01e479b064341e40ed5"
+    },
+    "verification/.gitkeep": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

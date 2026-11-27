@@ -1,0 +1,20 @@
+{
+  "base_benchmark_commit": "c3d63f7ec882ef641208afc3a6d1deca45337907",
+  "numeric_repair_commit": "100fb0c64f130bda6bb2e86557bfa52771b37bb2",
+  "missing_original_methods_found": [],
+  "default_methods": [
+    "uniform",
+    "ulu",
+    "wang",
+    "cnn",
+    "meta",
+    "early"
+  ],
+  "default_test_subsets": [
+    "test_id300",
+    "test_ood300"
+  ],
+  "default_high_resolution_work": false,
+  "original_formal_budgets_preserved": true,
+  "full_new_experiment_run_locally": false
+}

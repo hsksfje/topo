@@ -1,0 +1,9 @@
+_target_: metatopia.models.ResidualSiren
+_partial_: true
+in_features: 2
+out_features: 1
+hidden_features: 256
+num_resnet_blocks: 2
+num_layers_per_block: 2
+outermost_linear: True
+omega_0: 30.0

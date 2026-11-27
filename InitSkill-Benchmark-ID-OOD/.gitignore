@@ -1,0 +1,15 @@
+.runtime/
+results/
+returns/
+data/labels/
+data/META64_uniform_1000_100_300_v3/raw/
+data/PREPARED.json
+verification/*
+!verification/.gitkeep
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.tmp
+
+results_id_ood/
+results_cross/

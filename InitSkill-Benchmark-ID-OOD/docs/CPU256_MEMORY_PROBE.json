@@ -1,0 +1,29 @@
+{
+  "training_task": "train/problem_000008",
+  "grid": [
+    256,
+    256
+  ],
+  "backend": "SciPy1.12 SuperLU-float64",
+  "FE": 3,
+  "seconds": 17.018340047448874,
+  "peak_process_rss_gib": 1.1207313537597656,
+  "scope": "Linux single-process measurement; native Windows process memory can differ. No formal test tasks or training budgets changed.",
+  "states": [
+    {
+      "step": 0,
+      "compliance": 2086.0602098608324,
+      "residual": 1.884329837786743e-12
+    },
+    {
+      "step": 1,
+      "compliance": 774.4409017639086,
+      "residual": 2.4274010295333655e-12
+    },
+    {
+      "step": 2,
+      "compliance": 582.4956163180905,
+      "residual": 2.3538331652553912e-12
+    }
+  ]
+}

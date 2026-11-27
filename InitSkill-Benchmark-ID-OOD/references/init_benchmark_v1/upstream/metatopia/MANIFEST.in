@@ -1,0 +1,6 @@
+include README.md
+include VERSION
+include LICENSE
+include CITATION.cff
+include requirements.txt
+include requirements-paper.txt

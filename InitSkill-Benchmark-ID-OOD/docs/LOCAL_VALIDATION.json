@@ -1,0 +1,168 @@
+{
+  "platform_preflight": {
+    "passed": true,
+    "scope": {
+      "train1000": 1000,
+      "valid100": 100,
+      "test_id300": 300,
+      "test_ood300": 300
+    },
+    "data_roles": {
+      "passed": true,
+      "performance_comparison_subsets": [
+        "test_id300",
+        "test_ood300"
+      ],
+      "roles": {
+        "train1000": "Fit models/retrieval library; no training performance comparison",
+        "valid100": "Validation/model selection; no validation performance comparison",
+        "test_id300": "Held-out ID performance comparison",
+        "test_ood300": "Held-out OOD performance comparison",
+        "test_cr300": "Held-out cross-resolution performance comparison"
+      },
+      "manifests": {
+        "train1000": {
+          "tasks": 1000,
+          "sha256": "c35be4016eb36b779fd019bb81767e85d70a8ad4d5c4377e02e0924b6169cf41",
+          "sample_task_keys": [
+            "train/problem_000008",
+            "train/problem_000035"
+          ]
+        },
+        "valid100": {
+          "tasks": 100,
+          "sha256": "4e5e35348c34ebc90235b8dcc62dac25a7cb41a6e8670fb601897db2c847449c",
+          "sample_task_keys": [
+            "validation/problem_000255",
+            "validation/problem_000264"
+          ]
+        },
+        "test_id300": {
+          "tasks": 300,
+          "sha256": "7e54dd24d84ca1a9f92aea412cc2bcf4f76c96a30c7a25ad31a3cc1df45cf1e4",
+          "sample_task_keys": [
+            "test_id/problem_030005",
+            "test_id/problem_030006"
+          ]
+        },
+        "test_ood300": {
+          "tasks": 300,
+          "sha256": "fff9db225ada0e190a064a595096ae8a7beb9fa5a9b4623e751c0d38618aa430",
+          "sample_task_keys": [
+            "test_ood/problem_000003",
+            "test_ood/problem_000005"
+          ]
+        }
+      },
+      "fitting_test_overlap_checks": [
+        {
+          "fitting_split": "train1000",
+          "test_split": "test_id300",
+          "overlap": {
+            "task_key": 0,
+            "group_id": 0
+          }
+        },
+        {
+          "fitting_split": "train1000",
+          "test_split": "test_ood300",
+          "overlap": {
+            "task_key": 0,
+            "group_id": 0
+          }
+        },
+        {
+          "fitting_split": "valid100",
+          "test_split": "test_id300",
+          "overlap": {
+            "task_key": 0,
+            "group_id": 0
+          }
+        },
+        {
+          "fitting_split": "valid100",
+          "test_split": "test_ood300",
+          "overlap": {
+            "task_key": 0,
+            "group_id": 0
+          }
+        }
+      ],
+      "denominator_note": "The300 denominator in each performance row is that test manifest size. Train1000 is a separate fitting library. Teacher generation is training preparation/cost, not a train-set performance comparison."
+    },
+    "platform": "Linux-4.18.0-553.el8_10.x86_64-x86_64-with-glibc2.39",
+    "python": "3.11.16 (main, Aug 27 2026, 14:44:21) [GCC 14.3.0]",
+    "numpy": "1.26.4",
+    "scipy": "1.12.0",
+    "torch": "2.5.1+cpu",
+    "longdouble_mantissa_bits": 64,
+    "common_backend": "superlu",
+    "neural_train_device": "cpu",
+    "core_preflight_uses_training_tasks_only": true,
+    "heldout_regression_fixture_note": "8 known v1 failed initial fields checked separately by unittest; not used for model fitting",
+    "formal_neural_models_trained_by_preflight": false,
+    "retrieval_bank_fitted_from_train1000": false,
+    "note": "Numerical SCG/LM equivalence, filtered FE gradient, CNN operations and native model/Adam/sampler continuation checked; cGAN operations deferred in default scope. MATLAB binary parity is not claimed."
+  },
+  "control_and_numerical_unittests_passed": 9,
+  "trainer_IO_unittests_passed": 2,
+  "model_budget_unittests_passed": 1,
+  "total_unittests_passed": 12,
+  "full_formal_tests_run": 0,
+  "cross_resolution_optimization_executed": false,
+  "known_v1_64_grid_regression": {
+    "passed": true,
+    "FE_attempts": 8,
+    "scope": "Known v1 numerical regression only, no model selection",
+    "cases": [
+      {
+        "task": "test_id/problem_030006",
+        "residual": 1.0877683400539737e-08,
+        "precision": "decimal40-Q4-iterative-refinement",
+        "compliance": 688246657.257677
+      },
+      {
+        "task": "test_id/problem_030028",
+        "residual": 2.9561162583949907e-09,
+        "precision": "decimal40-Q4-iterative-refinement",
+        "compliance": 6538070979.380179
+      },
+      {
+        "task": "test_id/problem_030032",
+        "residual": 5.548125405604387e-10,
+        "precision": "decimal40-Q4-iterative-refinement",
+        "compliance": 4956108462.060906
+      },
+      {
+        "task": "test_id/problem_030033",
+        "residual": 3.3363068091024996e-09,
+        "precision": "decimal40-Q4-iterative-refinement",
+        "compliance": 5690561987.282972
+      },
+      {
+        "task": "test_ood/problem_000012",
+        "residual": 2.746825847639899e-10,
+        "precision": "decimal40-Q4-iterative-refinement",
+        "compliance": 673326319334.7189
+      },
+      {
+        "task": "test_ood/problem_000022",
+        "residual": 2.2253519877770215e-10,
+        "precision": "decimal40-Q4-iterative-refinement",
+        "compliance": 658805398823.5619
+      },
+      {
+        "task": "test_ood/problem_000037",
+        "residual": 3.594450761924171e-09,
+        "precision": "decimal40-Q4-iterative-refinement",
+        "compliance": 225283667.14442286
+      },
+      {
+        "task": "test_ood/problem_000040",
+        "residual": 3.4552427705351096e-09,
+        "precision": "decimal40-Q4-iterative-refinement",
+        "compliance": 44722123308.83672
+      }
+    ]
+  }
+}

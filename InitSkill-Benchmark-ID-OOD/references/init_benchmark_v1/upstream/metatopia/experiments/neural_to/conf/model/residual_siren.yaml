@@ -1,0 +1,11 @@
+_target_: metatopia.models.ResidualSiren
+in_features: 2
+out_features: 1
+hidden_features: 256
+num_resnet_blocks: 2
+num_layers_per_block: 2
+outermost_linear: True
+omega_0: 60.0
+key:
+  _target_: jax.random.key
+  seed: 420

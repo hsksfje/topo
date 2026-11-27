@@ -1,0 +1,60 @@
+name: Independent ID OOD benchmark checks
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'InitSkill-Benchmark-ID-OOD/**'
+      - '.github/workflows/init-skill-id-ood.yml'
+permissions:
+  contents: read
+jobs:
+  low-resolution-portability:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
+    env:
+      PYTHONUTF8: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      JAX_PLATFORMS: cpu
+      XLA_PYTHON_CLIENT_PREALLOCATE: 'false'
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          sparse-checkout: InitSkill-Benchmark-ID-OOD
+      - uses: conda-incubator/setup-miniconda@v4
+        with:
+          miniforge-version: latest
+          python-version: '3.11.18'
+          activate-environment: meta64-fresh
+          auto-activate: false
+          channels: conda-forge
+          channel-priority: strict
+      - name: Inspect default plan before installation
+        working-directory: InitSkill-Benchmark-ID-OOD
+        run: conda run -n meta64-fresh --no-capture-output python benchmark.py plan
+      - name: Install isolated CPU runtimes
+        working-directory: InitSkill-Benchmark-ID-OOD
+        run: conda run -n meta64-fresh --no-capture-output python scripts/setup_env.py --profile cpu --cpus 28 --ram-gb 64
+      - name: Verify low-grid scope, numerical ports, trainer IO and native continuation
+        working-directory: InitSkill-Benchmark-ID-OOD
+        run: conda run -n meta64-fresh --no-capture-output python benchmark.py verify
+      - name: Check partial analysis without requiring deferred results
+        working-directory: InitSkill-Benchmark-ID-OOD
+        run: conda run -n meta64-fresh --no-capture-output python benchmark.py analyze --allow-partial
+      - name: Check status
+        working-directory: InitSkill-Benchmark-ID-OOD
+        run: conda run -n meta64-fresh --no-capture-output python benchmark.py status
+      - uses: actions/upload-artifact@v6
+        if: always()
+        with:
+          name: id-ood-${{ matrix.os }}
+          path: |
+            InitSkill-Benchmark-ID-OOD/verification/**/*.json
+            InitSkill-Benchmark-ID-OOD/results_id_ood/reports/*.json
+          if-no-files-found: ignore

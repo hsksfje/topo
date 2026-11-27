@@ -1,0 +1,3 @@
+# Keep source and manifest SHA bytes identical on Windows and Linux.
+* -text
+*.zip -diff

@@ -1,0 +1,64 @@
+cff-version: 1.2.0
+title: "metatopia"
+message: >-
+  If you use this software, please cite the accompanying paper listed under
+  `preferred-citation`. The datasets and model checkpoints are archived
+  separately at https://doi.org/10.5281/zenodo.15172933; cite that record only
+  when referencing the data or a specific checkpoint.
+type: software
+authors:
+  - family-names: Kuszczak
+    given-names: Igor
+    affiliation: University College London
+    email: igor.kuszczak.18@ucl.ac.uk
+  - family-names: Bessa
+    given-names: Miguel
+    affiliation: Brown University
+    orcid: "https://orcid.org/0000-0002-6216-0355"
+  - family-names: "Kuś"
+    given-names: "Gaweł"
+    affiliation: Brown University
+    orcid: "https://orcid.org/0009-0000-1486-6399"
+  - family-names: Bosi
+    given-names: Federico
+    affiliation: University College London
+    orcid: "https://orcid.org/0000-0002-3638-5307"
+repository-code: "https://github.com/bessagroup/metatopia"
+url: "https://github.com/bessagroup/metatopia"
+abstract: >-
+  A JAX library for meta-learning research in neural topology optimization.
+  Provides neural field parameterizations of structural designs, a
+  differentiable compliance solver, optimization-based meta-learners (MAML and
+  Reptile), and tooling for generating pseudorandom topology optimization tasks.
+keywords:
+  - topology optimization
+  - meta-learning
+  - neural fields
+  - jax
+  - structural optimization
+  - scientific machine learning
+license: BSD-3-Clause
+version: 1.0.0
+preferred-citation:
+  type: article
+  title: >-
+    Meta-neural Topology Optimization: Knowledge Infusion with Meta-learning
+  authors:
+    - family-names: Kuszczak
+      given-names: Igor
+      affiliation: University College London
+    - family-names: Bessa
+      given-names: Miguel
+      affiliation: Brown University
+      orcid: "https://orcid.org/0000-0002-6216-0355"
+    - family-names: "Kuś"
+      given-names: "Gaweł"
+      affiliation: Brown University
+      orcid: "https://orcid.org/0009-0000-1486-6399"
+    - family-names: Bosi
+      given-names: Federico
+      affiliation: University College London
+      orcid: "https://orcid.org/0000-0002-3638-5307"
+  journal: Engineering Applications of Artificial Intelligence
+  year: 2026
+  doi: 10.1016/j.engappai.2026.115763
