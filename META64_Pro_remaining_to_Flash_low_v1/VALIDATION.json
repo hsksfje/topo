@@ -1,0 +1,16 @@
+{
+  "created_CST": "2026-11-27T21:48:59.349092+08:00",
+  "tasks": 358,
+  "jobs": 1065,
+  "retained3_only": true,
+  "prior_686_job_intersection": 0,
+  "Pro_C50_reference_matched_all_1065": true,
+  "all_A3_fresh_A1_dependencies_in_plan": true,
+  "python_compilation_passed": true,
+  "numerical_core_inherited_from": "META64_retained23_backfill_v1; two-process cached0/cached50 and fixed-regeneration smoke checks passed there",
+  "native_Windows_test": false,
+  "new_FE": 0,
+  "new_API": 0,
+  "full_run_started": false,
+  "Pro_identity_reference_metric_test": "archived Pro trajectory used only as an offline fixture: 0% vs itself, no false speed/quality win"
+}

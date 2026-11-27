@@ -130,3 +130,8 @@ python -u code/run.py --stage run
 ## Train1000：保留23种初始化缺口补跑
 
 [META64_retained23_backfill_v1](META64_retained23_backfill_v1/README.md)：686个任务—方法缺口，272个工况；默认CPU进程数为可用逻辑CPU减1，支持500/2000步、断点续跑与结果回传。637个组合无需API，49个缺初态的LLM组合提供独立Flash4.1 low生成入口。
+
+
+## 已有Pro结果、尚未完成Flash覆盖的三种LLM方法
+
+[META64_Pro_remaining_to_Flash_low_v1](META64_Pro_remaining_to_Flash_low_v1/README.md)：358个训练任务中的A1/A3/B1共1065个组合，独立Flash4.1 low生成、CPU并行至500或2000步，并与纯Pro配对比较；与686缺口包无组合重复。

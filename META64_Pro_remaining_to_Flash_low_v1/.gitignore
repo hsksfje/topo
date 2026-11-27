@@ -1,0 +1,9 @@
+data/
+outputs/
+exports/
+generated/
+validation/
+__pycache__/
+*.pyc
+.env*
+*.log

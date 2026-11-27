@@ -1,0 +1,11 @@
+﻿method,confirmed_Pro,Pro_valid_OC50,Flash_valid,never_observed_Flash,Flash_unsuccessful,remaining,priority
+A1,557,557,199,358,0,358,retained3
+A3,553,553,199,354,0,354,retained3
+B1,550,550,197,353,0,353,retained3
+A2,553,512,165,354,34,388,optional_retired_method
+B2,538,488,154,345,39,384,optional_retired_method
+B3,534,534,192,342,0,342,optional_retired_method
+L1_PG,547,547,200,347,0,347,optional_retired_method
+L1_H4,547,547,200,347,0,347,optional_retired_method
+L2_GEOM,547,547,199,347,1,348,optional_retired_method
+L3_FE,546,546,200,346,0,346,optional_retired_method

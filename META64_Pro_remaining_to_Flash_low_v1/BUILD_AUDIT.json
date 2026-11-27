@@ -1,0 +1,24 @@
+{
+  "created_CST": "2026-11-27T21:46:48.837742+08:00",
+  "pure_Pro_scope_tasks": 559,
+  "retained3_jobs": 1065,
+  "retained3_tasks": 358,
+  "retained3_by_method": {
+    "A1": 358,
+    "A3": 354,
+    "B1": 353
+  },
+  "source_counts": {
+    "local200": 496,
+    "deviceB300": 569
+  },
+  "all10_remaining": 3567,
+  "all10_tasks": 426,
+  "previous_backfill_overlap": 0,
+  "expected_calls_without_retries": 1065,
+  "max_api_attempts": 1500,
+  "payload_bytes": 5815861,
+  "scope_limit": "Only verified per-method pure_Pro lineage from 559 tasks; other tasks not labelled as Pro without receipts; reference scalar values never sent to LLM",
+  "new_FE": 0,
+  "new_API": 0
+}
